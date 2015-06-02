@@ -1,10 +1,10 @@
 
- <!DOCTYPE HTML>
+  <!DOCTYPE HTML>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   
-    <title>categories | saber-kurama妖狐碧落</title>
+    <title>Tag: front | saber-kurama妖狐碧落</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="妖狐碧落">
@@ -60,23 +60,52 @@
 
       </header>
       <div id="container">
-          
+        
+
 <div class="archive-title" >
-<h2 class="category-icon">分类</h2>
-
-<a data-src="/categories/front/" href="#front" title="front">front<sup>2</sup></a>
-
-<a data-src="/categories/hexo/" href="#hexo" title="hexo">hexo<sup>2</sup></a>
-
-<a data-src="/categories/saber/" href="#saber" title="saber">saber<sup>1</sup></a>
-
+  <h2 class="tag-icon">front</h2>
+  
 </div>
-<div id="main" class="archive-part">
-<div class="all-list-box"></div>
-</div>
+<div id="main" class="archive-part clearfix">
+  <div id="archive-page">
 
+  <section class="post" itemscope itemprop="blogPost">
+  
+    <a href="/2015/06/02/关于前端的一些/" title="关于前端的一些" itemprop="url">
+  
+    <h1 itemprop="name">关于前端的一些</h1>
+    
+    <time datetime="2015-06-01T16:00:00.000Z" itemprop="datePublished">2015-06-02</time>
+  </a>
+</section>
+
+
+  </div>
+</div>
 
       </div>
+      <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<div class="social-font clearfix">
+		
+		
+		
+		
+		
+	</div>
+		<p class="copyright">Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="Pacman">Pacman</a> © 2015 
+		
+		<a href="http://saber-kurama.github.io" target="_blank" title="妖狐碧落">妖狐碧落</a>
+		
+		</p>
+</div>
+</footer>
       <script src="/js/jquery-2.1.0.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){ 
@@ -125,24 +154,6 @@ $(document).ready(function(){
 
 
 
-
-<script type="text/javascript">
-$(document).ready(function(){ 
-  var list    = $('.archive-title a'),
-      box     = $('.all-list-box'),
-      first   = $('.archive-title a:first-of-type');
-      box.load(first.attr('data-src').toString()+' #archive-page');
-      first.addClass('current');
-  list.each(function(){
-    $(this).click(function(){
-      var listSrc=$(this).attr('data-src').toString()+' #archive-page';
-      box.load(listSrc);
-      list.removeClass('current');
-      $(this).addClass('current');
-     });  
-    });
-  }); 
-</script>
 
 
 
