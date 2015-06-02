@@ -1,0 +1,321 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>saber-kurama妖狐碧落</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
+    
+    <meta name="author" content="妖狐碧落">
+    
+    <meta name="description" content="关于前端的一些RAP 前后端的接口分离针对前后段的分离，其中一环就是前后端数据的分离。而RAP可帮助WEB工程师高效建立接口文档，并生成Mock数据、校验真实接口。RAP
+CSS 预编译lesssassJavascript为了更好或者更快的开发，我们可以采用一些类似css预编译的一些语言
+ES6/E">
+    
+    
+    
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/pacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/pacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+</head>
+
+  <body>
+    <header>
+      <div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/logo.svg" alt="saber-kurama妖狐碧落" title="saber-kurama妖狐碧落"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="saber-kurama妖狐碧落">saber-kurama妖狐碧落</a></h1>
+				<h2 class="blog-motto">追求卓越，成功就会在不经意间追上你</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					
+						<li><a href="/">首页</a></li>
+					
+						<li><a href="/archives">归档</a></li>
+					
+						<li><a href="/categories">分类</a></li>
+					
+					<li>
+					
+					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+						<label>Search</label>
+						<input type="text" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
+						<input type="hidden" name="q" value="site:saber-kurama.github.io">
+					</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2015/06/02/关于前端的一些/" title="" itemprop="url"></a>
+  </h1>
+  <p class="article-author">By
+    
+      <a href="http://saber-kurama.github.io" title="妖狐碧落">妖狐碧落</a>
+    </p>
+  <p class="article-time">
+    <time datetime="2015-06-01T16:00:00.000Z" itemprop="datePublished">2015-06-02</time>
+    更新日期:<time datetime="2015-06-02T10:14:47.000Z" itemprop="dateModified">2015-06-02</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		
+		<div id="toc" class="toc-article">
+			<strong class="toc-title">文章目录</strong>
+		<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#关于前端的一些"><span class="toc-number">1.</span> <span class="toc-text">关于前端的一些</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#RAP_前后端的接口分离"><span class="toc-number">1.0.1.</span> <span class="toc-text">RAP 前后端的接口分离</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CSS_预编译"><span class="toc-number">1.0.2.</span> <span class="toc-text">CSS 预编译</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#less"><span class="toc-number">1.0.2.1.</span> <span class="toc-text">less</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#sass"><span class="toc-number">1.0.2.2.</span> <span class="toc-text">sass</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Javascript"><span class="toc-number">1.0.3.</span> <span class="toc-text">Javascript</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#ES6/ES7"><span class="toc-number">1.0.3.1.</span> <span class="toc-text">ES6/ES7</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#typescript"><span class="toc-number">1.0.3.2.</span> <span class="toc-text">typescript</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#coffeescript"><span class="toc-number">1.0.3.3.</span> <span class="toc-text">coffeescript</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Dart"><span class="toc-number">1.0.3.4.</span> <span class="toc-text">Dart</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#前段模块化"><span class="toc-number">1.0.4.</span> <span class="toc-text">前段模块化</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#AMD（cmd）方式。"><span class="toc-number">1.0.4.1.</span> <span class="toc-text">AMD（cmd）方式。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#commonjs_方式。"><span class="toc-number">1.0.4.2.</span> <span class="toc-text">commonjs 方式。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ES6模块化"><span class="toc-number">1.0.4.3.</span> <span class="toc-text">ES6模块化</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#MVC，MVVM等一些框架"><span class="toc-number">1.0.5.</span> <span class="toc-text">MVC，MVVM等一些框架</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#backbone"><span class="toc-number">1.0.5.1.</span> <span class="toc-text">backbone</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#angular"><span class="toc-number">1.0.5.2.</span> <span class="toc-text">angular</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#react_和_flux"><span class="toc-number">1.0.5.3.</span> <span class="toc-text">react 和 flux</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#构建工具"><span class="toc-number">1.0.6.</span> <span class="toc-text">构建工具</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#grunt"><span class="toc-number">1.0.6.1.</span> <span class="toc-text">grunt</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#gulp"><span class="toc-number">1.0.6.2.</span> <span class="toc-text">gulp</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#webpack"><span class="toc-number">1.0.6.3.</span> <span class="toc-text">webpack</span></a></li></ol></li></ol></li></ol></li></ol>
+		</div>
+		
+		<h1 id="关于前端的一些">关于前端的一些</h1><h3 id="RAP_前后端的接口分离">RAP 前后端的接口分离</h3><p>针对前后段的分离，其中一环就是前后端数据的分离。<br>而RAP可帮助WEB工程师高效建立接口文档，并生成Mock数据、校验真实接口。<br><a href="http://thx.github.io/RAP/index_zh.html" target="_blank" rel="external">RAP</a></p>
+<h3 id="CSS_预编译">CSS 预编译</h3><h4 id="less">less</h4><h4 id="sass">sass</h4><h3 id="Javascript">Javascript</h3><p>为了更好或者更快的开发，我们可以采用一些类似css预编译的一些语言</p>
+<h4 id="ES6/ES7">ES6/ES7</h4><p>利用ES6/ES7的新特性，来更快完成功能的开发</p>
+<h4 id="typescript">typescript</h4><p>强类型</p>
+<h4 id="coffeescript">coffeescript</h4><p>偏ruby语法，声明式语法。函数式编程</p>
+<h4 id="Dart">Dart</h4><p>不会</p>
+<h3 id="前段模块化">前段模块化</h3><p>关于前端模块化 我们可以采用3中方式</p>
+<h4 id="AMD（cmd）方式。">AMD（cmd）方式。</h4><p>amd可以使用require.js,cmd可以使用sea.js</p>
+<h4 id="commonjs_方式。">commonjs 方式。</h4><p>browserify可以让我们想写nodejs的方式一样写前端代码 </p>
+<h4 id="ES6模块化">ES6模块化</h4><p>使用ES自带的模块化</p>
+<h3 id="MVC，MVVM等一些框架">MVC，MVVM等一些框架</h3><h4 id="backbone">backbone</h4><p>MVC思想，灵活</p>
+<h4 id="angular">angular</h4><p>MVVM，指令，控制器，service，依赖注入 </p>
+<h4 id="react_和_flux">react 和 flux</h4><p>组件化，虚拟DOM。learn once ,write anywhere<br>flux 单向数据流</p>
+<h3 id="构建工具">构建工具</h3><h4 id="grunt">grunt</h4><h4 id="gulp">gulp</h4><h4 id="webpack">webpack</h4>  
+	</div>
+		<footer class="article-footer clearfix">
+
+
+
+
+<div class="article-share" id="share">
+
+  <div data-url="http://saber-kurama.github.io/2015/06/02/关于前端的一些/" data-title="saber-kurama妖狐碧落" data-tsina="null" class="share clearfix">
+  </div>
+
+</div>
+</footer>   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+
+<div class="next">
+<a href="/2015/05/30/rap的安装部署记录/"  title="RAP 的安装部署">
+ <strong>NEXT:</strong><br/> 
+ <span>RAP 的安装部署
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+  <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#关于前端的一些"><span class="toc-number">1.</span> <span class="toc-text">关于前端的一些</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#RAP_前后端的接口分离"><span class="toc-number">1.0.1.</span> <span class="toc-text">RAP 前后端的接口分离</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CSS_预编译"><span class="toc-number">1.0.2.</span> <span class="toc-text">CSS 预编译</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#less"><span class="toc-number">1.0.2.1.</span> <span class="toc-text">less</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#sass"><span class="toc-number">1.0.2.2.</span> <span class="toc-text">sass</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Javascript"><span class="toc-number">1.0.3.</span> <span class="toc-text">Javascript</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#ES6/ES7"><span class="toc-number">1.0.3.1.</span> <span class="toc-text">ES6/ES7</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#typescript"><span class="toc-number">1.0.3.2.</span> <span class="toc-text">typescript</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#coffeescript"><span class="toc-number">1.0.3.3.</span> <span class="toc-text">coffeescript</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#Dart"><span class="toc-number">1.0.3.4.</span> <span class="toc-text">Dart</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#前段模块化"><span class="toc-number">1.0.4.</span> <span class="toc-text">前段模块化</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#AMD（cmd）方式。"><span class="toc-number">1.0.4.1.</span> <span class="toc-text">AMD（cmd）方式。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#commonjs_方式。"><span class="toc-number">1.0.4.2.</span> <span class="toc-text">commonjs 方式。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#ES6模块化"><span class="toc-number">1.0.4.3.</span> <span class="toc-text">ES6模块化</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#MVC，MVVM等一些框架"><span class="toc-number">1.0.5.</span> <span class="toc-text">MVC，MVVM等一些框架</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#backbone"><span class="toc-number">1.0.5.1.</span> <span class="toc-text">backbone</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#angular"><span class="toc-number">1.0.5.2.</span> <span class="toc-text">angular</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#react_和_flux"><span class="toc-number">1.0.5.3.</span> <span class="toc-text">react 和 flux</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#构建工具"><span class="toc-number">1.0.6.</span> <span class="toc-text">构建工具</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#grunt"><span class="toc-number">1.0.6.1.</span> <span class="toc-text">grunt</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#gulp"><span class="toc-number">1.0.6.2.</span> <span class="toc-text">gulp</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#webpack"><span class="toc-number">1.0.6.3.</span> <span class="toc-text">webpack</span></a></li></ol></li></ol></li></ol></li></ol>
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+<div class="categorieslist">
+	<p class="asidetitle">分类</p>
+		<ul>
+		
+			<li><a href="/categories/front/" title="front">front<sup>1</sup></a></li>
+		
+			<li><a href="/categories/hexo/" title="hexo">hexo<sup>2</sup></a></li>
+		
+			<li><a href="/categories/saber/" title="saber">saber<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			<li><a href="/tags/hexo/" title="hexo">hexo<sup>2</sup></a></li>
+		
+			<li><a href="/tags/rap/" title="rap">rap<sup>1</sup></a></li>
+		
+			<li><a href="/tags/ssss/" title="ssss">ssss<sup>1</sup></a></li>
+		
+		</ul>
+</div>
+
+
+  <div class="rsspart">
+	<a href="null" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<div class="social-font clearfix">
+		
+		
+		
+		
+		
+	</div>
+		<p class="copyright">Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/A-limon/pacman" target="_blank" title="Pacman">Pacman</a> © 2015 
+		
+		<a href="http://saber-kurama.github.io" target="_blank" title="妖狐碧落">妖狐碧落</a>
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.1.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else
+    {
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      h  = $('article h2')
+      ah = $('article h2'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  if(ah.length==0){
+    t.css('display','none');
+  }else{
+    c.click(function(){
+      ta.css('display', 'block').addClass('fadeIn');
+    });
+    o.click(function(){
+      ta.css('display', 'none');
+    });
+    $(window).scroll(function(){
+      ta.css("top",Math.max(140,320-$(this).scrollTop()));
+    });
+  };
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina');
+  var html = [
+  '<a href="#" class="overlay" id="qrcode"></a>',
+  '<div class="qrcode clearfix"><span>扫描二维码分享到微信朋友圈</span><a class="qrclose" href="#share"></a><strong>Loading...Please wait</strong><img id="qrcode-pic" data-src="http://s.jiathis.com/qrcode.php?url=' + encodedUrl + '"/></div>',
+  '<a href="#textlogo" class="article-back-to-top" title="Top"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="QRcode"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="Weibo"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+  $('.article-share-qrcode').click(function(){
+    var imgSrc = $('#qrcode-pic').attr('data-src');
+    $('#qrcode-pic').attr('src', imgSrc);
+    $('#qrcode-pic').load(function(){
+        $('.qrcode strong').text(' ');
+    });
+  });
+});     
+</script>
+
+
+
+
+
+
+  </body>
+</html>
