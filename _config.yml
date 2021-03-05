@@ -2,14 +2,14 @@
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
 
-# Site
-title: Hexo
-subtitle: ''
-description: ''
+# Site 网站资料
+title: SABER
+subtitle: 'saber'
+description: '个人的博客'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: 'saber'
+language: zh-CN
+timezone: 
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
@@ -98,12 +98,16 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+- type: git
   repo: git@github.com:Saber-Kurama/blog.git
   branch: gh-pages
   message: build at local, send to gh-pages {{ now("YYYY-MM-DD HH:mm:ss") }}
+- type: git
+  repo: git@e.coding.net:saber-01/blog/blog.git
+  branch: gh-pages
+  message: build at local, send to gh-pages {{ now("YYYY-MM-DD HH:mm:ss") }}  
