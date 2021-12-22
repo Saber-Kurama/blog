@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "变量与数据类型.md",
+            "file": "流程控制.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "变量与数据类型.md",
+                "file": "流程控制.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -83,13 +83,13 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "c3a97040b95108c4",
   "lastOpenFiles": [
-    "变量与数据类型.md",
     "流程控制.md",
-    "Rust初始环境.md"
+    "Rust初始环境.md",
+    "变量与数据类型.md",
+    "conflict-files-obsidian-git.md"
   ]
 }
