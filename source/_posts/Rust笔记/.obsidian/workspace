@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "函数、闭包和迭代器.md",
-            "mode": "source"
+            "file": "模块化编程.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "函数、闭包和迭代器.md",
+                "file": "模块化编程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,10 +88,11 @@
   },
   "active": "c3a97040b95108c4",
   "lastOpenFiles": [
-    "函数、闭包和迭代器.md",
-    "流程控制.md",
+    "模块化编程.md",
     "变量与数据类型.md",
     "Rust初始环境.md",
+    "函数、闭包和迭代器.md",
+    "流程控制.md",
     "conflict-files-obsidian-git.md"
   ]
 }
