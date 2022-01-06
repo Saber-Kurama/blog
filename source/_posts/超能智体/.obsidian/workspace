@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "7e506115226656d2",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf0a00623c75805c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "断墨寻径/寻径01.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dea387c03123c5a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e0e316657369f77",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e6435effa3577572",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0fa0905b9fe0cb1c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "44034a20c633caef",
+    "type": "split",
+    "children": [
+      {
+        "id": "a280e820d5daaa76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f81fd48d8cbf5dad",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "断墨寻径/寻径01.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "cf0a00623c75805c",
+  "lastOpenFiles": [
+    "断墨寻径/寻径01.md"
+  ]
+}
