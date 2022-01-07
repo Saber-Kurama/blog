@@ -11,5 +11,7 @@ tag: webassembly
 
 [通过漫画介绍 WebAssembly](https://zhuanlan.zhihu.com/p/417023337)
 
+[用 Rust 创建高性能 JavaScript API，并在WebAssembly 中运行](https://zhuanlan.zhihu.com/p/420673236)
+
 ## WebAssembly
 一种新的字节码格式，缩写`wasm`
