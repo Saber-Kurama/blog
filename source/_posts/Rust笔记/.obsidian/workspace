@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "模块化编程.md",
+            "file": "RUST的一些资源.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "模块化编程.md",
+                "file": "RUST的一些资源.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "c3a97040b95108c4",
   "lastOpenFiles": [
-    "模块化编程.md",
     "RUST的一些资源.md",
     "Rust初始环境.md",
+    "模块化编程.md",
     "流程控制.md",
     "函数、闭包和迭代器.md",
     "变量与数据类型.md"
