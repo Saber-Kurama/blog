@@ -1,15 +1,15 @@
 {
   "main": {
-    "id": "26da6d6aab8e0d41",
+    "id": "7e506115226656d2",
     "type": "split",
     "children": [
       {
-        "id": "c3a97040b95108c4",
+        "id": "cf0a00623c75805c",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "RUST的一些资源.md",
+            "file": "断墨寻径/寻径01.md",
             "mode": "source",
             "source": false
           }
@@ -19,15 +19,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "08ad4e3c8f617ce9",
+    "id": "dea387c03123c5a2",
     "type": "split",
     "children": [
       {
-        "id": "958efc1b57e388bc",
+        "id": "3e0e316657369f77",
         "type": "tabs",
         "children": [
           {
-            "id": "adb9cb30bf3a9cd3",
+            "id": "e6435effa3577572",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +35,7 @@
             }
           },
           {
-            "id": "902412ec686b2af6",
+            "id": "0fa0905b9fe0cb1c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,27 +56,27 @@
     "width": 300
   },
   "right": {
-    "id": "e2064f354f76428d",
+    "id": "44034a20c633caef",
     "type": "split",
     "children": [
       {
-        "id": "ccebfac709582ff1",
+        "id": "a280e820d5daaa76",
         "type": "tabs",
         "children": [
           {
-            "id": "073f1cba1d376e58",
+            "id": "f81fd48d8cbf5dad",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RUST的一些资源.md",
+                "file": "断墨寻径/寻径01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
@@ -84,16 +84,11 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "c3a97040b95108c4",
+  "active": "cf0a00623c75805c",
   "lastOpenFiles": [
-    "RUST的一些资源.md",
-    "变量与数据类型.md",
-    "Rust初始环境.md",
-    "模块化编程.md",
-    "函数、闭包和迭代器.md",
-    "流程控制.md",
-    "conflict-files-obsidian-git.md"
+    "断墨寻径/寻径01.md"
   ]
 }
