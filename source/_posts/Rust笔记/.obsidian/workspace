@@ -10,8 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "RUST的一些资源.md",
-            "mode": "source",
-            "source": false
+            "mode": "source"
           }
         }
       }
@@ -71,7 +70,7 @@
               "state": {
                 "file": "RUST的一些资源.md",
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -84,16 +83,16 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "c3a97040b95108c4",
   "lastOpenFiles": [
     "RUST的一些资源.md",
-    "变量与数据类型.md",
     "Rust初始环境.md",
+    "流程控制.md",
     "模块化编程.md",
     "函数、闭包和迭代器.md",
-    "流程控制.md",
-    "conflict-files-obsidian-git.md"
+    "变量与数据类型.md"
   ]
 }
