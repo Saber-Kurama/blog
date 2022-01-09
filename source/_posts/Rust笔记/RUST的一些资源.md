@@ -18,3 +18,5 @@ https://github.com/rust-unofficial/awesome-rust
 
 https://zhuanlan.zhihu.com/p/447557470
 
+https://ng-tech.icu/
+
