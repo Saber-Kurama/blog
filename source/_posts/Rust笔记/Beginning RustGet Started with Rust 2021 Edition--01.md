@@ -107,3 +107,30 @@ println!(
 `\n` 字符串换行
 
 ## Naming Objects（命名对象）
+*  值、对象和变量的概念
+*  变量的可变性概念
+*  初始化和重新赋值的区别
+*  如何避免未使用变量的警告
+*  布尔表达式的概念
+*  编译器对赋值执行那种类型的检查
+*  一些运算符如何同时执行算术运算和赋值
+*  如何调用Rust标准库中定义的函数
+
+### Associating Names to Values （将名称和值进行关联）
+
+什么是值，什么是对象。 值是一个抽象的数学概念，可以存储在计算机内存中
+包含值的内存部分被命名为“对象”
+标识符-对象成为变量
+声明并初始化了一个对象
+这些概念和c语言中的概念一致
+
+### Mutable Variables （可变变量）
+``` rust
+let mut a = 1;
+a = 2;
+```
+rust 默认变量不可变
+
+### Not Mutated Mutable Variables
+
+如果对一个变量定义 mutable，但一直都没有修改赋值，就会有一个警告`warning: variable does not need to be mutable`
