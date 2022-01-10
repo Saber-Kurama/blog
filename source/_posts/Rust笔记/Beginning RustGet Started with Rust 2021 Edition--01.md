@@ -134,3 +134,44 @@ rust 默认变量不可变
 ### Not Mutated Mutable Variables
 
 如果对一个变量定义 mutable，但一直都没有修改赋值，就会有一个警告`warning: variable does not need to be mutable`
+
+### Uninitialized Variables(未初始的变量)
+
+### The Leading Underscore（下划线）
+
+``` rust
+let number = 12 ; // 如果后面没有使用该变量就会有一个警告 
+```
+``` rust
+let _number = 12; // 就不会有警告 
+```
+
+使用下划线`_`就不提示 `warning: unused variable: `number`
+
+``` rust
+let _ = 12; //孤立的下划线就会报错或者警告
+```
+
+### Boolean Values 布尔值
+
+ `true` 和 `false`
+ 关系运算法
+ `==`, `!=`, `<`, `<=`, `>`, `>=`
+
+ 字符串的比较 `>`
+
+ ### Boolean Expressions 布尔表达式
+
+`&&` , `||`
+
+### Type Consistency in Assignments 分配中的类型一致性
+
+编译中都有一个类型
+
+### Type Inference 类型推断
+
+``` rust
+let number
+```
+仅仅这一句话是错误的，没有类型
+赋值之后，就可以类型推断
