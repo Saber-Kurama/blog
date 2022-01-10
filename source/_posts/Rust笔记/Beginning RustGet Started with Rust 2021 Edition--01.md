@@ -92,5 +92,18 @@ rust 的的一些风格规范
 * 避免在语句中添加几个连续空格
 * 避免一行超过80，长语句分成多行
 
+### Breaking Literal String （文字字符折行）
 
+``` rust
+println!(
+        "{}",
+        "This \
+        is \
+        just one line"
+    ); // This is just one line
+```
 
+`\`  字符串折行
+`\n` 字符串换行
+
+## Naming Objects（命名对象）
