@@ -174,4 +174,28 @@ let _ = 12; //孤立的下划线就会报错或者警告
 let number
 ```
 仅仅这一句话是错误的，没有类型
+
+```rust
+let _number:i32;
+```
 赋值之后，就可以类型推断
+
+### Change of Type and of Mutability 类型和可变性的变化
+
+变量遮蔽
+
+### Compound Assignment Operators 复合赋值运算符
+
+``` rust
+let mut a = 12;
+a += 1;
+a -= 4;
+a *= 7;
+a /= 6;
+print!("{}", a);
+```
+### 使用标准库的函数
+``` rust
+str::len("abcde");
+```
+
