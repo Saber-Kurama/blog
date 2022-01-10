@@ -35,3 +35,12 @@ print!("{}!", "Hello", "world");
 print!("{}, {}!", "hello");
 ```
 ### Print Several Lines of Text ( 打印多行文本)
+
+``` rust
+print!("“First line\nSecond line\nThird line\n");
+```
+### Printing Interger Numbers
+``` rust
+print!("my number : {}", 140);
+```
+### Comments (注释)
