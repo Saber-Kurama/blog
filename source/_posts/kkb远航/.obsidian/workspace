@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "21baad39ad189230",
+    "type": "split",
+    "children": [
+      {
+        "id": "0abf1197668a4206",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "typescript/类型的重要性.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "db471eb103a7dc9f",
+    "type": "split",
+    "children": [
+      {
+        "id": "94d7e4900012273e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a26301922253b52",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "aaeb3e4c41267639",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "521500c92cfa2f06",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8accdde0cfde1b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "653ad920fe410d92",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "typescript/类型的重要性.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0abf1197668a4206",
+  "lastOpenFiles": [
+    "typescript/类型的重要性.md"
+  ]
+}
