@@ -42,5 +42,22 @@ print!("“First line\nSecond line\nThird line\n");
 ### Printing Interger Numbers
 ``` rust
 print!("my number : {}", 140);
+print!("my number1: {}", 000140);
 ```
 ### Comments (注释)
+``` rust
+// This program
+
+// prints a number.
+
+print!("{}", 34); // thirty-four
+
+/* print!("{}", 80);
+
+*/```
+rust 程序员避免在生产代码中使用多行代码注释，只使用单行注释，多行注释只是为了经一些代码暂时排除在编译之外
+单行注释的优点： 使用搜索工期提取源代码的行的时候，或者在比对的时候不同版本的时候，立即清楚那些是注释，那些不是
+
+rust 的注释是可以嵌套的
+
+## Doing Arithmetic and Writing More Code(做算术)
