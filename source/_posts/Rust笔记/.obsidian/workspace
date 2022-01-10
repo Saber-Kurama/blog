@@ -71,7 +71,7 @@
               "state": {
                 "file": "Beginning RustGet Started with Rust 2021 Edition--01.md",
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -84,18 +84,17 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "c3a97040b95108c4",
   "lastOpenFiles": [
     "Beginning RustGet Started with Rust 2021 Edition--01.md",
-    "Rust初始环境.md",
-    "Untitled.md",
     "RUST的一些资源.md",
     "变量与数据类型.md",
+    "Rust初始环境.md",
+    "模块化编程.md",
     "函数、闭包和迭代器.md",
     "流程控制.md",
-    "模块化编程.md"
+    "conflict-files-obsidian-git.md"
   ]
 }

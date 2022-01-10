@@ -6,5 +6,15 @@
 
 #  rust
 
-## Getting Started （ru'm）
+## Getting Started （入门）
+
+*  How to write and run your first program in the Rust language
+*  How to print text and numbers on 
+*  How to write comments in your code
+
+``` rust
+fn main () {}
+```
+
+####
 
