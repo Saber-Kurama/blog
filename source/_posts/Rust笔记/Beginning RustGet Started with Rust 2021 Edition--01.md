@@ -60,4 +60,9 @@ rust 程序员避免在生产代码中使用多行代码注释，只使用单行
 
 rust 的注释是可以嵌套的
 
-## Doing Arithmetic and Writing More Code(做算术)
+## Doing Arithmetic and Writing More Code(做算术写更多的代码)
+*  How to compute an arithmetic operation between integer numbers or between floating-point numbers
+* How to write a program containing several statements
+* How to print strings in several lines
+
+### 整数相加
