@@ -66,3 +66,13 @@ rust 的注释是可以嵌套的
 * How to print strings in several lines
 
 ### 整数相加
+``` rust
+print!("{} + {} = {}", 34, 80, 80 + 34);
+```
+构建的时候，会将`80 + 34` 这个表达式 ，二进制数和加法指令存储到可执行文件中，但是由于数字是常量，构建优化就会直接变成`114`
+
+### Other Operations Between Integer Numbers（整数的其他运算）
+
+`+ ` , `-`,  `*`, `/`, `%` 
+
+### Floating-Point Arithmetic
