@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "conflict-files-obsidian-git.md",
+            "file": "Beginning RustGet Started with Rust 2021 Edition--01.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "Beginning RustGet Started with Rust 2021 Edition--01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +88,8 @@
   },
   "active": "3f9d1bbf5e221f9a",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
     "Beginning RustGet Started with Rust 2021 Edition--01.md",
+    "conflict-files-obsidian-git.md",
     "Rust初始环境.md",
     "RUST的一些资源.md",
     "变量与数据类型.md",
