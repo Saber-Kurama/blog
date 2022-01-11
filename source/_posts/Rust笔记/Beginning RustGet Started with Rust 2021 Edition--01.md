@@ -200,3 +200,71 @@ str::len("abcde");
 ```
 
 ##  Controlling Execution Flow  控制执行流程
+*  How to use if statements to execute different statements based on a Boolean condition (如何使用 if 语句根据布尔条件执行不同的语句)
+*  How to use if expressions to generate different values based on a Boolean condition (如何使用 if 表达式根据布尔条件生成不同的值)
+*  How to use while statements to repeat some statements as long as a Boolean condition holds ( while  语句)
+*  How to use for statements to repeat some statements for a definite number of times    ( for of )
+*  What is the scope of validity of variables (变量的有效范围)
+
+### Conditional Statements (if) 条件语句(if)
+
+``` rust 
+let n = 4;
+if n > 0 {
+  print!("---")
+}
+```
+
+和其他语言的区别：
+*  表达式笔试是布尔类型，所以不允许 `if 4 {}`
+*  通常不需要将条件用括号括起来，使用括号会有警告
+*  条件之后是一个语句块，不允许 `if 4 > 0 print!(0)` 或者 `if (4 > 0) print!(0)`
+
+if 语句的几种形式
+``` rust
+if 4 > 0 {
+  ...
+}
+else {
+  ...
+}
+
+if 4 > 0 {
+  if 2 > 0 {
+   ...
+  }
+  else {
+   ...
+  }
+}
+
+if 4 > 0 {
+  ... 
+}
+else if {
+  ...
+}
+```
+
+### Conditional Expressions 条件表达式
+针对 `?:` 这种操作其实 if 条件语句 赋值，在c语言中 `if` 只是语句，`?:` 只是表达式，在rust中 `if`既是语句也可以是表达式，作为表达式的特征，就是所有的块没有分号结束
+
+``` rust
+let val = if cond { "abc" }
+```
+如果`cond` 为 `false`  , `val`就没有值
+
+``` rust
+let val = if cond { "abc" } else { 12 };
+```
+`val` 的类型就不唯一了，可能是string或者int
+
+```rust
+let _a = if true { "abc" } else { "xy" };
+let _b = if true { 3456 } else { 12 };
+let _c = if true { 56.9 } else { 12. };
+```
+
+### Conditional Loops (while) 条件循环
+
+rust 只有 `while`  m
