@@ -203,7 +203,7 @@ str::len("abcde");
 *  How to use if statements to execute different statements based on a Boolean condition (如何使用 if 语句根据布尔条件执行不同的语句)
 *  How to use if expressions to generate different values based on a Boolean condition (如何使用 if 表达式根据布尔条件生成不同的值)
 *  How to use while statements to repeat some statements as long as a Boolean condition holds ( while  语句)
-*  How to use for statements to repeat some statements for a definite number of times    ( for of )
+*  How to use for statements to repeat some statements for a definite number of times    ( for in )
 *  What is the scope of validity of variables (变量的有效范围)
 
 ### Conditional Statements (if) 条件语句(if)
@@ -267,4 +267,89 @@ let _c = if true { 56.9 } else { 12. };
 
 ### Conditional Loops (while) 条件循环
 
-rust 只有 `while`  m
+rust 只有 `while`  没有 `do ... while`
+
+```rust
+let mut n = 0;
+while n < 50 {
+    n += 1;
+    if n % 3 == 0 { continue; }
+    if n * n > 400 { break; }
+    print!("{} ", n * n);
+}
+```
+
+### Infinite Loops (loop) 无限循环
+
+
+``` rust
+let mut n = 1;
+loop {
+    let nn = n * n;
+    if nn >= 200 { break; }
+    print!("{} ", nn);
+    n += 1;
+}
+```
+
+### Counting Loops (for) 计数循环
+
+不同c语言，rust的也是for用于迭代一定次数，但和c不一样
+``` rust
+for n in 1..11 {
+    print!("{} ", n * n);
+}
+```
+范围类型： `1..10`, 不包含10. `1..=10`包含10
+
+``` rust
+let mut limit = 4;
+for n in 1..limit + 2 {
+    limit -= 1;
+    print!("{} {}, ", limit, n);
+}
+print!("{}", limit);
+```
+这里会打印 ：`3 1, 2 2, 1 3, 0 4, -1 5, -1`
+
+循环体会循环5次, 因为迭代取决于预先计算的范围
+
+这不同于 c 语言
+``` c
+#include <stdio.h>
+int main() {
+    int limit = 4;
+    for (int n = 1; n < limit + 2; n++) {
+        limit -= 1;
+        printf("%d ", n);
+    }
+    printf(":%d ", limit);
+}
+```
+
+### Variables Scopes 变量范围
+声明变量的块称为该变量的范围
+
+``` rust
+{
+    let n = 10;
+    {
+        let m = 4;
+        {
+            print!("{} ", n);
+        }
+        print!("{}", n + m);
+    } // End of the scope of `m`
+} // End of the scope of `n`
+```
+
+变量作用域和JS是一样。但是rust 没有js所谓的变量提升
+
+``` rust
+let mut _i = 1;
+if true { let _i = 2; }
+print!("{} ", _i);
+while _i > 0 { _i -= 1; let _i = 5; }
+print!("{} ", _i);
+```
+打印 1 0
