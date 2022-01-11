@@ -80,4 +80,104 @@ print!("End");
  数组的修改只能在可变数组上
 
  不允许添加数组和删除数组一项，因为数组的长度是固定的
- 
+
+下面是可以的
+ ``` rust
+let mut x = ["a", "b", "c"];
+print!("{}{}{}. ", x[0], x[1], x[2]);
+x = ["X", "Y", "Z"];
+print!("{}{}{}. ", x[0], x[1], x[2]);
+let  y = ["1", "2", "3"];
+x = y;
+print!("{}{}{}.", x[0], x[1], x[2]);
+
+```
+但是 下面就会报 类型不匹配
+``` rust
+let mut x = ["a", "b", "c"];
+x = ["X", "Y"];
+x = [15, 16, 17];
+```
+
+### Arrays of Explicitly Specified Size  明确指定大小的数组
+
+重复项创建数组
+``` rust
+let mut x = [4.; 5000];
+x[2000] = 3.14;
+print!("{}, {}", x[1000], x[2000]);
+```
+可以用` for ... in ...` 来 扫描数组
+``` rust
+let mut fib = [1; 12];
+for i in 2..fib.len() {
+    fib[i] = fib[i - 2] + fib[i - 1];
+}
+for i in 0..fib.len() {
+    print!("{}, ", fib[i]);
+}
+```
+### Multidimensional Arrays 多维数组
+
+``` rust
+let mut x = [[[23; 4]; 8]; 15];
+x[14][7][3] = 56;
+print!("{}, {}", x[0][0][0], x[14][7][3])
+```
+多维数组只不过是数组的数组
+
+数组的一个很大限制是它们的大小必须在编译时定义, 所以下面语句是不可以
+```rust
+let length = 6;
+let arr = [0; length];
+```
+
+### Vectors
+ 使用 vec宏 创建
+``` rust
+let x = vec!["This", "is"];
+```
+vector 是修改长度
+
+``` rust
+let mut x = vec!["This", "is"]; print!("{}", x.len());
+x.push("a"); print!(" {}", x.len());
+x.push("sentence"); print!(" {}", x.len());
+x[0] = "That";
+for i in 0..x.len() { print!(" {}", x[i]); }
+```
+下面的例子在vector中也是可以的
+```rust
+let length = 5000;
+let mut y = vec![4.; length];
+y[6] = 3.14;
+y.push(4.89);
+print!("{}, {}, {}", y[6], y[4999], y[5000])
+```
+与数组不同，可以创建在运行时定义长度的向量，并且您可以在初始化后在运行时更改它们的长度
+Rust 数组等价于 C++ std::array 对象，而 Rust 向量等价于 C++ std::vector 对象
+
+### Other Operations on Vectors （Vector的其他操作）
+一些操作
+* insert
+* remove
+* push
+* pop
+* ...
+
+### Empty Arrays and Vectors
+怎么声明一个空数组和vector呢
+```rust
+let _a = ["", 0];
+let _b = vec![false, 0];
+```
+
+### Debug Print 打印调试
+打印数组和vector
+``` rust
+print!("{:?} {:?}", [1, 2, 3], vec![4, 5]);
+```
+`{:?}` 
+
+### Copying Arrays and Vectors
+
