@@ -14,6 +14,18 @@
             "source": false
           }
         }
+      },
+      {
+        "id": "f58db75c3d542efa",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "conflict-files-obsidian-git.md",
+            "mode": "source",
+            "source": false
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -89,6 +101,7 @@
   },
   "active": "0abf1197668a4206",
   "lastOpenFiles": [
-    "typescript/类型的重要性.md"
+    "typescript/类型的重要性.md",
+    "conflict-files-obsidian-git.md"
   ]
 }
