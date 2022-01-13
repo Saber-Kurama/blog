@@ -194,3 +194,7 @@ println!("{:?} {:?}", a1, a2);
 vector 复制
 与数组不同的是，当一个向量被分配给另一个向量时，原来的向量就不再存在了
 
+## Using Primitive Types
+
+
+
