@@ -222,6 +222,27 @@ vector 复制
     n = binary;
     print!("{}", n);
 ```
+浮点数只能用十进制表示.请注意，此类表示仅存在于源代码中，因为 Rust 编译器生成的机器代码始终使用二进制表示法，无论是整数数还是浮点数
+用作十六进制数字的字母可以是大写或小写。例如，数字 0xAEf5b 等于数字 0xaeF5B。但是，用于表示数字基数的字母必须是小写的。因此，表达式 0X4、0O4 和 0B4 是非法的
 
+### The Underscore in Numeric Literals (数字文字中的下划线)
 
+```rust
+let hexadecimal = 0x_00FF_F7A3;
+let octal = 0o_777_205_162;
+let decimal = 1_234_567;
+let binary = 0b_0110_1001_1111_0001;
 
+```
+### The Exponential Notation (指数符号)
+浮点数可以达到巨大的值，无论是正数还是负数，比如十亿十亿十亿，也可以是非常小的值，即非常接近零的值，比如十亿分之一的十亿分之一。十亿分之一。如果我们使用目前使用的符号来编写如此大或小的数字的文字，我们将不得不写许多零，并且生成的数字将难以阅读，即使使用下划线也是如此。
+但你也可以用另一种方式编写浮点文字数字：
+
+``` rust
+let one_thousand = 1e3;
+let thirteen_billions_and_half = 13.5e9;
+let twelve_millionths = 12e-6; 
+```
+### The Various Kinds of Signed Integer Numbers (各种有符号整数)
+rust 有十二种不同的整数数字类型和两种浮点数字类型
+`i8`, `i16`, ``
