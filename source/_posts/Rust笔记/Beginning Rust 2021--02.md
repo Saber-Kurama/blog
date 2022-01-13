@@ -320,9 +320,26 @@ let _d = -150i16;
 ### All the Numeric Types  所有数字类型
 ### Booleans and Characters 布尔值和字符
 
-`bool` 和`char`
+`bool`  和 `char`
 
 一个 C 语言字符通常只占用一个字节，而一个孤立的 Rust 字符占用四个字节
 
+这是因为 Rust 字符是 Unicode 字符，而 Unicode 标准定义了超过一百万个可能的值。
+文字字符用单引号括起来，它们也可以是非 ASCII 字符
+```rust
+let e_grave = 'è';
+let japanese_character = 'さ';
+println!("{} {}", e_grave, japanese_character);
+```
+请注意，与 C 语言不同，bool 和 char 都不是数字。因此，以下两种说法都是非法的
+``` rust
+let _a = 'a' + 'b';
+let _b = false + true;
+```
+但是，这两种类型都可以转换为数字
+``` rust
+print!("{} {} {} {} {}", true as u8, false as u8,
+    'A' as u32, 'à' as u32, '€' as u32); // 1 0 65 224 8364
+```
 
 
