@@ -281,3 +281,50 @@ print!("{}", tuple.i);
 
 ### The Structs 结构
 元组只要包含不超过几项，就很有用，但是当它们有很多字段时，很容易弄错它们，并且使用它们的代码很难理解
+``` rust
+struct SomeData {
+    integer: i32,
+    fractional: f32,
+    character: char,
+    five_bytes: [u8; 5],
+}
+let data = SomeData {
+    integer: 10_000_000,
+    fractional: 183.19,
+    character: 'Q',
+    five_bytes: [9, 0, 250, 60, 200],
+};
+print!("{}, {}, {}, {}",
+    data.five_bytes[3], data.integer,
+    data.fractional, data.character);
+```
+
+### The Tuple-Structs 元组结构
+我们已经看到，如果你想定义一个包含不同类型对象的结构，你有两种可能性：
+* 创建一个元组，其类型没有名称，之前没有声明过，并且其字段没有名称。
+* 创建一个结构，它的类型有一个名字，它必须事先声明过，它的字段有一个名字。
+
+So, there are several differences between these two kinds of structures. Yet sometimes something halfway is needed: a kind of structure whose types have names and must be previously declared, like structs, but whose fields have no name, like tuples. Because they are a hybrid between tuples and structs, they are named tuple-structs:
+因此，这两种结构之间存在一些差异。然而有时需要一些一半的东西：一种类型有名称且必须事先声明的结构，如结构，但其字段没有名称，如元组。因为它们是元组和结构的混合体，所以它们被命名为元组结构：
+
+``` rust
+struct SomeData (
+    i32,
+    f32,
+    char,
+    [u8; 5],
+);
+let data = SomeData (
+    10_000_000,
+    183.19,
+    'Q',
+    [9, 0, 250, 60, 200],
+);
+print!("{}, {}, {}, {}",
+    data.2, data.0, data.1, data.3[2]);
+```
+
+### Lexical Conventions 词汇约定
+
+* “Names of constants (for example: MAXIMUM_POWER) contain only uppercase characters, with words separated by underscore. This convention is usually named screaming snake case, or upper snake case, or simply upper case.(常量的名称（例如：MAXIMUM_POWER）仅包含大写字符，单词之间用下划线分隔。这种约定通常被命名为screaming snake ，或upper snake ，或简称为大写。)
+* Type names defined by application code or by the standard library (for example: VehicleKind and VehicleData) and enum variant names (for example: Car) are comprised of words stuck together, where every word has an uppercase initial letter, followed by lowercase letters. This convention is usually named upper camel case or PascalCase. (由应用程序代码或标准库定义的类型名称（例如：VehicleKind 和 VehicleData）和枚举变体名称（例如：Car）由粘在一起的单词组成，其中每个单词都有一个大写首字母，后跟小写字母.这种约定通常被命名为大写驼峰式或 PascalCase)
