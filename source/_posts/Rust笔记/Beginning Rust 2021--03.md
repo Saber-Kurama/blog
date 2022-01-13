@@ -163,3 +163,54 @@ match outcome {
     Result::Uncertainty => {},
 }
 ```
+
+### match Statements with Variables in Patterns  将语句与模式中的变量匹配
+我们看到了如何在匹配语句模式中使用文字。 Rust 还允许在这些模式中使用变量，就像在这个例子中一样
+``` rust
+#[allow(dead_code)]
+enum Result {
+    Success(u8),
+    Failure(u16, char),
+    Uncertainty,
+}
+// let outcome = Result::Success(13);
+let outcome = Result::Failure(20, 'X');
+match outcome {
+    Result::Success(0) => print!("Result: 0"),
+    Result::Success(1) => print!("Result: 1"),
+    Result::Success(n) => print!("Result: {}", n),
+    Result::Failure(10, 'X') => print!("Error: 10 X"),
+    Result::Failure(10, m) => print!("Error: 10 in module {}", m),
+    Result::Failure(code, 'X') => print!("Error: n.{} X", code),
+    Result::Failure(code, module) =>
+        print!("Error: n.{} in module {}", code, module),
+    Result::Uncertainty => {},
+}
+```
+
+### match Expressions 匹配表达式
+``` rust
+#[allow(dead_code)]
+enum CardinalPoint { North, South, West, East }
+let direction = CardinalPoint::South;
+print!("{}", match direction {
+    CardinalPoint::North => 'N',
+    CardinalPoint::South => 'S',
+    _ => '*',
+});
+// 打印 S。因为match也是一个表达式
+```
+
+### Use of Guards in match Constructs 使用守卫在match构造中
+假设我们要将整数分为以下几类：所有负数、零数、一数和所有其他正数。这是执行此类分类的代码
+``` rust
+for n in -2..5 {
+    println!("{} is {}.", n, match n {
+        0 => "zero",
+        1 => "one",
+        _ if n < 0 => "negative", // 只有当布尔条件为真时，这样的子句才会导致该模式匹配。它被命名为守卫
+        _ => "plural",
+    });
+}
+```
+
