@@ -361,7 +361,7 @@ for n in 160..256 {
 
 ``` rust
 let a: () = ();
-let b = { 12; 87; 283 };
+let b = { 12; 87; 283 }; 
 let c = { 12; 87; 283; };
 let d = {};
 let e = if false { };
@@ -370,5 +370,34 @@ print!("{:?} {} {:?} {:?} {:?} {:?}",
     a, b, c, d, e, f);
 // () 283 () () () ()
 ```
+`;` 语句
+块的值被定义为其最后一个表达式的值，如果存在这样的表达式的话；
 
+### Array and Vector Types  数组和向量类型
 
+明确数组和向量的类型
+
+```rust
+let _array1: [char; 3] = ['x', 'y', 'z'];
+let _array2: [f32; 200] = [0f32; 200];
+let _vector1: Vec<char> = vec!['x', 'y', 'z'];
+let _vector2: Vec<i32> = vec![0; 5000];
+```
+
+### Constants 常数
+
+``` rust 
+let n = 20;
+let _ = [0; n]; // 这个是非法的，
+
+const N: usize = 20;
+let _ = [0; N]; // 但是这个常数 就是正确的
+```
+Rust 常量对应于没有参数的 C 语言宏。与前面的 Rust 代码对应的 C 代码是这样的
+``` c
+#define N 20
+int _[N];
+```
+Rust 常量可以被认为是在编译时与值相关联的名称，而不是与对象相关联的名称。编译器会在程序中使用常量名称的每个地方替换这个值
+
+### Discovering the Type of an Expression (发现表达式的类型)
