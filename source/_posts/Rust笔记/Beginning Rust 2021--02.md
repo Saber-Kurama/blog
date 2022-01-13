@@ -245,4 +245,14 @@ let twelve_millionths = 12e-6;
 ```
 ### The Various Kinds of Signed Integer Numbers (各种有符号整数)
 rust 有十二种不同的整数数字类型和两种浮点数字类型
-`i8`, `i16`, ``
+`i8`, `i16`, `i32`, `i64`, `i128`
+
+### Unsigned Integer Number Types (无符号整数类型)
+`u8`, `u16`,`u32`,`u64`,`u128`
+
+### Target-Dependent Integer-Number Types (目标相关整数类型)
+数组和vector的索引的是 无符号类型 `usize`
+`isize`
+
+### Type Inference (类型推断)
+
