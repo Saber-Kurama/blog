@@ -202,7 +202,26 @@ vector 复制
 * How to specify numeric literals of concrete types or of unconstrained types（如何指定具体类型或无约束类型的数字文字）
 * How to convert a numeric value to another numeric type（如何将数值转换为另一种数值类型）
 * The other primitive types: Booleans, characters, and empty tuples （其他原始类型：布尔值、字符和空元组）
-* 
+* How type inference works （类型推断的工作原理）
+* How to express the types of arrays and vectors（如何表达数组和向量的类型）
+* How to assign a name to a compile-time constant（如何为编译时常量分配名称）
+* How to use the compiler to discover the type of an expression （如何使用编译器发现表达式的类型）
+
+### Nondecimal Numeric Bases（非十进制数字基数）
+
+``` Rust
+	let hexadecimal = 0x10;
+    let octal = 0o10;
+    let binary = 0b10;
+    let mut n = 10;
+    print!("{} ", n);
+    n = hexadecimal;
+    print!("{} ", n);
+    n = octal;
+    print!("{} ", n);
+    n = binary;
+    print!("{}", n);
+```
 
 
 
