@@ -346,6 +346,7 @@ print!("{} {} {} {} {}", true as u8, false as u8,
 
 char的情况也差不多，不是每一个数字都对应一个char， 也不能用`as char`. 可以使用`char::from_u32`
 但是，对于 0 到 255 之间的每个数字，都有一个 Unicode 字符与之对应，因此允许将任意数量的 u8 类型转换为字符。
+
 ``` rust
 for n in 32..127 {
 	println!("{}: [{}]", n, n as u8 as char);
@@ -353,6 +354,21 @@ for n in 32..127 {
 for n in 160..256 {
 	println!("{}: [{}]", n, n as u8 as char);
 }
+```
+
+### The Empty Tuple 空元组
+还有另一种原始的、奇怪的类型，它在 Rust 中的名称是“()”，它只是一对括号。这种类型只有一个值，写法和它的类型一样，就是“()”。这种类型在某种程度上对应于 C 语言的“void”类型，或 JavaScript 的“未定义”类型，因为它表示没有类型信息。它被命名为空元组。
+
+``` rust
+let a: () = ();
+let b = { 12; 87; 283 };
+let c = { 12; 87; 283; };
+let d = {};
+let e = if false { };
+let f = while false { };
+print!("{:?} {} {:?} {:?} {:?} {:?}",
+    a, b, c, d, e, f);
+// () 283 () () () ()
 ```
 
 
