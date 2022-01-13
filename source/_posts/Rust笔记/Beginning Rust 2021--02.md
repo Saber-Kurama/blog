@@ -342,4 +342,17 @@ print!("{} {} {} {} {}", true as u8, false as u8,
     'A' as u32, 'à' as u32, '€' as u32); // 1 0 65 224 8364
 ```
 
+但是你不能对数字使用‘as bool’子句
+
+char的情况也差不多，不是每一个数字都对应一个char， 也不能用`as char`. 可以使用`char::from_u32`
+但是，对于 0 到 255 之间的每个数字，都有一个 Unicode 字符与之对应，因此允许将任意数量的 u8 类型转换为字符。
+``` rust
+for n in 32..127 {
+	println!("{}: [{}]", n, n as u8 as char);
+}
+for n in 160..256 {
+	println!("{}: [{}]", n, n as u8 as char);
+}
+```
+
 
