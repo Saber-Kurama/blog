@@ -96,3 +96,70 @@ if direction == CardinalPoint::North { }
 if CardinalPoint::South < CardinalPoint::North { }
 ```
 ### Handling All the Cases 处理所有的case 穷尽
+
+可以使用 `_`, 下划线符号总是匹配任何值，所以它避免了编译错误，因为这样所有的情况都被处理了。当然，这样一个“包罗万象”的case必须是最后一个
+``` rust
+match direction {
+    CardinalPoint::North => print!("NORTH"),
+    CardinalPoint::South => print!("SOUTH"),
+    _ => {},
+}
+```
+`_`模式对应于 C 语言的“默认”情况
+
+###  Using match with Numbers 使用数字匹配
+match 结构除了需要枚举之外，还可以用于其他数据类型
+``` rust
+match "value" {
+    "val" => print!("value "),
+    _ => print!("other "),
+}
+match 3 {
+    3 => print!("three "),
+    4 => print!("four "),
+    5 => print!("five "),
+    _ => print!("other "),
+}
+match '.' {
+    ':' => print!("colon "),
+    '.' => print!("point "),
+    _ => print!("other "),
+}
+```
+
+###  Enumerations with Data 带数据的枚举
+
+Rust 枚举并不总是像以前看到的那样简单。这是一个更复杂的例子
+```rust
+#[allow(dead_code)]
+enum Result {
+    Success(u8),
+    Failure(u16, char),
+    Uncertainty,
+}
+// let outcome = Result::Success(1);
+let outcome = Result::Failure(20, 'X');
+match outcome {
+    Result::Success(0) => print!("Result: 0"),
+    Result::Success(1) => print!("Result: 1"),
+    Result::Success(_) => print!("Result: other"),
+}
+#[allow(dead_code)]
+enum Result {
+    Success(u8),
+    Failure(u16, char),
+    Uncertainty,
+}
+// let outcome = Result::Success(1);
+let outcome = Result::Failure(20, 'X');
+match outcome {
+    Result::Success(0) => print!("Result: 0"),
+    Result::Success(1) => print!("Result: 1"),
+    Result::Success(_) => print!("Result: other"),
+    Result::Failure(10, 'X') => print!("Error: 10 X"),
+    Result::Failure(10, _) => print!("Error: 10"),
+    Result::Failure(_, 'X') => print!("Error: X"),
+    Result::Failure(_, _) => print!("Error: other"),
+    Result::Uncertainty => {},
+}
+```
