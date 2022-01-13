@@ -60,4 +60,39 @@ let _ = 4 > 7;
 let _ = 5.7 + 5. * a;
 ```
 
-但是，请注意，有些语句不是有效表达式。例如，“fn empty（）{}”是一个无效表达式的语句
+可以使用语句做更多分支做更多事情
+```rust
+#[allow(dead_code)]
+enum Continent {
+    Europe,
+    Asia,
+    Africa,
+    America,
+    Oceania,
+}
+let mut contin = Continent::Asia;
+match contin {
+    Continent::Europe => {
+        contin = Continent::Asia;
+        print!("E");
+    },
+    Continent::Asia => { let a = 7; print!("{}", a); }
+    Continent::Africa => print!("Af"),
+    Continent::America => print!("Am"),
+    Continent::Oceania => print!("O"),
+}
+```
+
+### Relational Operators and Enums  关系运算符和枚举
+
+“使用 `==` 运算符无法比较枚举
+对于枚举，不仅禁止使用`==`运算符，还禁止使用其他关系运算符：“!=”、“<”、“<=”、“>”和“>=”
+下面语句出错
+
+``` rust
+enum CardinalPoint { North, South, West, East }
+let direction = CardinalPoint::South;
+if direction == CardinalPoint::North { }
+if CardinalPoint::South < CardinalPoint::North { }
+```
+### Handling All the Cases 处理所有的case 穷尽
