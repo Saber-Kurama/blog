@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "typescript/泛型.md",
+            "file": "typescript/收窄.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typescript/泛型.md",
+                "file": "typescript/收窄.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +89,9 @@
   },
   "active": "0abf1197668a4206",
   "lastOpenFiles": [
+    "typescript/收窄.md",
+    "conflict-files-obsidian-git.md",
     "typescript/泛型.md",
-    "typescript/类型的重要性.md",
-    "conflict-files-obsidian-git.md"
+    "typescript/类型的重要性.md"
   ]
 }
