@@ -194,7 +194,15 @@ println!("{:?} {:?}", a1, a2);
 vector 复制
 与数组不同的是，当一个向量被分配给另一个向量时，原来的向量就不再存在了
 
-## Using Primitive Types
+## Using Primitive Types 使用原始类型
+* How to write numeric literals in hexadecimal, octal, or binary notation（如何以十六进制、八进制或二进制表示法编写数字文字）
+* How to use the underscore character to make numeric literals easier to read （如何使用下划线字符使数字文字更易于阅读）
+* How to use the exponential notation to write huge or tiny numbers in a compact form（如何使用指数符号以紧凑的形式写出巨大或微小的数字）
+* Which are the twelve primitive integer numeric types, and the two primitive floating-point numeric types; what are their ranges; and when it is better to use each of them（分别是 12 种原始整数数值类型和两种原始浮点数值类型；它们的范围是多少；以及何时更好地使用它们中的每一个）
+* How to specify numeric literals of concrete types or of unconstrained types（如何指定具体类型或无约束类型的数字文字）
+* How to convert a numeric value to another numeric type（如何将数值转换为另一种数值类型）
+* The other primitive types: Booleans, characters, and empty tuples （其他原始类型：布尔值、字符和空元组）
+* 
 
 
 
