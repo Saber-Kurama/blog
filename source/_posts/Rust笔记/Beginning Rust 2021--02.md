@@ -317,6 +317,12 @@ let _d = -150i16;
 ```
 当然可以加下划线 `-150_i16`
 
+### All the Numeric Types  所有数字类型
+### Booleans and Characters 布尔值和字符
+
+`bool` 和`char`
+
+一个 C 语言字符通常只占用一个字节，而一个孤立的 Rust 字符占用四个字节
 
 
 
