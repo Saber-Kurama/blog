@@ -213,4 +213,40 @@ for n in -2..5 {
     });
 }
 ```
+### if-let and while-let Constructs  if-let 和 while-let 构造
 
+有时你只需要检查一个枚举值是否是某个变体，在这种情况下你需要提取它的字段。可以通过以下代码实现
+``` rust
+enum E {
+    Case1(u32),
+    Case2(char),
+    Case3(i64, bool),
+}
+let v = E::Case3(1234, true);
+match v {
+    E::Case3(n, b) => if b { print!("{}", n) }
+    _ => {}
+}
+```
+Rust 语言还支持以下语法，它替换了前面的 match 语句：
+```rust
+if let E::Case3(n, b) = v {
+    if b { print!("{}", n) }
+}
+```
+
+while let
+``` rust
+enum E {
+    Case1(u32),
+    Case2(char),
+}
+let mut v = E::Case1(0);
+while let E::Case1(n) = v {
+    print!("{}", n);
+    if n == 6 { break; }
+    v = E::Case1(n + 1);
+}
+```
+
+## Using Heterogeneous Data Structures
