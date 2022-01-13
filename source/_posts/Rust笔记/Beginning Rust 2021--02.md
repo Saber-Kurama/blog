@@ -292,12 +292,30 @@ let c: f32 = 3.7;
 print!("{}", a as i8 + b as i8 + c as i8);
 ```
 
+下面这个会报错
+```rust
+let a = 500 as i8;
+let b = 100_000 as u16;
+let c = 10_000_000_000 as u32;
+print!("{} {} {}", a, b, c);
+```
+第一个有消息：i8 的字面量超出范围。发生这种情况是因为值 500 对于 i8 类型来说太大了。
+第二行和第三行发出类似的消息
+但是，如果您在程序的开头插入以下行：
+``` rust
+#[allow(overflowing_literals)]
 
+```
 
+### Type Suffixes of Numeric Literals  数字文字的类型后缀
 
-
-
-
+``` rust
+let _a: i16 = -150;
+let _b = -150 as i16;
+let _c = -150 + _b - _b;
+let _d = -150i16;
+```
+当然可以加下划线 `-150_i16`
 
 
 
