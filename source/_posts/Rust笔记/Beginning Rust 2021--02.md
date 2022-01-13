@@ -259,5 +259,24 @@ rust 有十二种不同的整数数字类型和两种浮点数字类型
 ``` rust
 let i = 0; // 先推断成 usize
 let _j: u16 =  i; // 因为_j 是 u16，所以 确定了i类型为 u16
-let _k: i16 = i; // 
+let _k: i16 = i; // 错误
+let _k1 = i；// 这个是正确
 ```
+### The Type Inference Algorithm （类型推断算法）
+
+We saw that the compiler always tries to determine a concrete type for each variable and for each expression. For what we saw so far, the algorithm used is the following one:
+我们看到编译器总是试图为每个变量和每个表达式确定一个具体的类型。就我们目前看到的情况而言，使用的算法如下：
+
+If a type is explicitly specified, the type of the variable must be the specified one.
+
+如果明确指定了类型，则变量的类型必须是指定的类型。
+
+If the type of a variable or an expression hasn’t yet been determined at all, and such variable or expression is used in an expression or in a declaration that can be valid only with a specific type, then that type is determined in this way for such variable or expression. Such determination may be of a constrained kind, or it may be of an unconstrained kind. A constrained type is a specific type, like i8 or u64, while an unconstrained type is a category of types, like {integer}. The word constrained is used to mean that the compiler finds that the Rust syntax allows only one specific type in that context. The word unconstrained means that the compiler finds that a family of types, like all the positive integers or all the integers, is allowed in that context.
+
+如果一个变量或表达式的类型还没有被确定，并且这样的变量或表达式被用在一个表达式或声明中，只能对特定类型有效，那么该类型在此确定这种变量或表达式的方式。这种确定可以是受约束的类型，也可以是不受约束的类型。受约束类型是特定类型，例如 i8 或 u64，而不受约束类型是类型的类别，例如 {integer}。 constraint 一词用于表示编译器发现 Rust 语法在该上下文中只允许一种特定类型。无约束一词意味着编译器发现在该上下文中允许使用一系列类型，例如所有正整数或所有整数。
+
+if, at the end of the parsing, the compiler has determined only that a variable is of an unconstrained integer numeric type, that type is defined to be i32. Instead, if the type is completely undetermined, a compilation error is generated.
+
+
+
+
