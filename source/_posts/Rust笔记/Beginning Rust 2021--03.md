@@ -249,4 +249,32 @@ while let E::Case1(n) = v {
 }
 ```
 
-## Using Heterogeneous Data Structures
+## Using Heterogeneous Data Structures 使用异构数据结构
+
+* Tuples 元组
+* Structs 结构
+* Tuple-structs 元组结构
+
+### The Tuples 元组
+```rust
+let data = (10000000, 183.19, 'Q');
+let copy_of_data = data;
+print!("{}, {}, {}",
+    data.0, copy_of_data.1, data.2);
+```
+元组的类型也可以明确:
+
+```rust
+let data: (i32, f64, char) = (10000000, 183.19, 'Q');
+```
+
+元组和数组之间的区别在于元组不能通过变量索引访问。考虑一下这段代码：
+
+``` rust
+let array = [12, 13, 14];
+let tuple = (12, 13, 14);
+let i = 0;
+print!("{}", array[i]);
+print!("{}", tuple.i);
+```
+编译器在最后一行生成错误：没有字段 `i` on type `({integer}, {integer}, {integer})`。无法使用运行时确定的索引来获取元组字段的值。
