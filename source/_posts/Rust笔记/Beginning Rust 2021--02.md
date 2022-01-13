@@ -275,7 +275,28 @@ If the type of a variable or an expression hasn’t yet been determined at all, 
 
 如果一个变量或表达式的类型还没有被确定，并且这样的变量或表达式被用在一个表达式或声明中，只能对特定类型有效，那么该类型在此确定这种变量或表达式的方式。这种确定可以是受约束的类型，也可以是不受约束的类型。受约束类型是特定类型，例如 i8 或 u64，而不受约束类型是类型的类别，例如 {integer}。 constraint 一词用于表示编译器发现 Rust 语法在该上下文中只允许一种特定类型。无约束一词意味着编译器发现在该上下文中允许使用一系列类型，例如所有正整数或所有整数。
 
-if, at the end of the parsing, the compiler has determined only that a variable is of an unconstrained integer numeric type, that type is defined to be i32. Instead, if the type is completely undetermined, a compilation error is generated.
+If, at the end of the parsing, the compiler has determined only that a variable is of an unconstrained integer numeric type, that type is defined to be i32. Instead, if the type is completely undetermined, a compilation error is generated.
+
+如果在解析结束时，编译器仅确定变量是无约束的整数数字类型，则该类型被定义为 i32。相反，如果类型完全不确定，就会产生编译错误。
+
+### Floating-Point Numeric Types 浮点数值类型
+
+Rust 中只有两种浮点类型：`f32` 和`f64`
+
+### Explicit Conversions  显式转换
+
+``` rust
+let a: i16 = 12;
+let b: u32 = 4;
+let c: f32 = 3.7;
+print!("{}", a as i8 + b as i8 + c as i8);
+```
+
+
+
+
+
+
 
 
 
