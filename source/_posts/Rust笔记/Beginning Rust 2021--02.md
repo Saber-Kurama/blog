@@ -256,3 +256,8 @@ rust 有十二种不同的整数数字类型和两种浮点数字类型
 
 ### Type Inference (类型推断)
 
+``` rust
+let i = 0; // 先推断成 usize
+let _j: u16 =  i; // 因为_j 是 u16，所以 确定了i类型为 u16
+let _k: i16 = i; // 
+```
