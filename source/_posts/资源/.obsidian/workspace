@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "2a990c6bb743d1e1",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7271af74a3d0ee9",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "React.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "068dd4393fe11f94",
+    "type": "split",
+    "children": [
+      {
+        "id": "59e52efd59ea3cfd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e9e246650118224",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "348e31cc1a171cf3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3c487a30ce42ba62",
+    "type": "split",
+    "children": [
+      {
+        "id": "1dce2bba61d4a1cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0df92a7693b36789",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "React.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e7271af74a3d0ee9",
+  "lastOpenFiles": [
+    "React.md"
+  ]
+}
