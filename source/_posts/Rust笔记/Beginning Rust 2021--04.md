@@ -155,4 +155,41 @@ print!("{:?} {:?}", x, y);
 编译器可以在单个程序中生成对应于单个函数的多个具体版本的机器代码这一事实会产生以下后果：
 *  就编译非泛型代码而言，这种多阶段编译稍微慢一些。
 * 生成的代码针对每个特定调用进行了高度优化，因为它完全使用调用者使用的类型，而不需要转换或决策。因此，每次调用的运行时性能都得到了优化。
-* 
+* 如果对一个通用函数执行许多具有不同数据类型的调用，则会生成大量机器代码，并且由于代码局部性差，这可能会影响性能。为了减少这种称为代码膨胀的现象，最好减少用于调用泛型函数的不同类型的数量。
+
+本节中关于泛型函数的所有内容也适用于泛型结构和元组结构
+
+### Generic Arrays and Vectors (泛型数组和向量)
+
+关于数组和向量，还没有消息。我们从第 5 章介绍它们的地方看到，它们是泛型类型。
+实际上，虽然数组是 Rust 语言的一部分，但向量是在 Rust 标准库中定义的结构。
+
+### Generic Enums （泛型枚举）
+在 Rust 中，甚至枚举也可以是泛型的。
+
+``` rust
+enum Result1<SuccessCode, FailureCode> {
+    Success(SuccessCode),
+    Failure(FailureCode, char),
+    Uncertainty,
+}
+let mut _res = Result1::Success::<u32, u16>(12u32);
+_res = Result1::Uncertainty;
+_res = Result1::Failure(0u16, 'd');
+```
+前面的程序是有效的，但是下面的程序会在最后一行导致编译：
+
+```rust
+enum Result1<SuccessCode, FailureCode> {
+    Success(SuccessCode),
+    Failure(FailureCode, char),
+    Uncertainty,
+}
+let mut _res = Result1::Success::<u32, u16>(12u32);
+_res = Result1::Uncertainty;
+_res = Result1::Failure(0u32, 'd');
+```
+
+这里，Failure的第一个参数是u32类型，而应该是u16类型，根据_res的初始化，前两行。
+泛型枚举在 Rust 标准库中被大量使用。
+
