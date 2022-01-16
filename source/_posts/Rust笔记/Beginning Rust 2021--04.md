@@ -309,3 +309,34 @@ print!("{} {}", a.is_some(), a.is_none());
 // It will print: true false; false true.
 ```
 
+The unwrap function returns the value of the Ok variant, if it is applied to an Ok variant, and it panics otherwise. The meaning of this function is “I know that this value is a value probably wrapped in an Ok variant, so I just want to get that contained value, getting rid of its wrapping; in the strange case it is not an Ok variant, an irrecoverable error has happened, so I want to immediately terminate the program.
+
+unwrap 函数返回 Ok 变体的值，如果它应用于 Ok 变体，否则它会恐慌。这个函数的意思是“我知道这个值可能是一个包装在 Ok 变体中的值，所以我只想得到那个包含的值，摆脱它的包装；在奇怪的情况下，它不是 Ok 变体，发生了不可恢复的错误，所以我想立即终止程序。
+
+There is also an unwrap function for the Option enum. For example, to print all the values in a Vec, you can write:
+
+Option 枚举还有一个展开功能。例如，要打印 Vec 中的所有值，您可以这样写:
+
+``` rust
+let mut v = vec![11, 22, 33];
+for _ in 0..v.len() {
+    print!("{}, ", v.pop().unwrap())
+}
+// This will print: 33, 22, 11, .%%%%
+```
+
+The invocation of unwrap gets the number inside the Ok enum returned by pop(). We avoided calling pop() on an empty vector; otherwise pop() would have returned a None, and unwrap() would have panicked.
+The unwrap function is much used in quick-and-dirty Rust programs, where it is OK that a possible errors generates a panic. To create a robust application, in which errors are handled in a user-friendly way, any possible None or Err values must be properly handled.
+
+unwrap 的调用获得了由 pop() 返回的 Ok 枚举中的数字。我们避免在空向量上调用 pop()；否则 pop() 会返回一个 None，而 unwrap() 会惊慌失措。
+unwrap 函数在快速而肮脏的 Rust 程序中被广泛使用，在这些程序中，可能的错误产生恐慌是可以的。要创建一个健壮的应用程序，其中以用户友好的方式处理错误，必须正确处理任何可能的 None 或 Err 值。
+
+## Allocating Memory (分配内存)
+
+* The various kinds of memory allocation, their performance characteristics, and their limitations (各种内存分配、它们的性能特征和局限性)
+* How to specify in Rust which memory allocation to use for an object (如何在 Rust 中指定用于对象的内存分配)
+* The difference between a reference and a Box (reference和 Box之间的区别)
+
+
+
+
