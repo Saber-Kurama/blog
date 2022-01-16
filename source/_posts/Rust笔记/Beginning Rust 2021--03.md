@@ -364,5 +364,16 @@ fn f() {}
 
 ### Passing Arguments to a Function （将参数传递给函数）
 
+变量定义和函数参数定义的主要区别在于，在函数参数定义中，需要类型规范，即不能只依赖类型推断
 
+``` rust
+fn print_sum(addend1: f64, addend2: f64) {
+    println!("{} + {} = {}", addend1, addend2,
+        addend1 + addend2);
+}
+print_sum(3., 5.);
+print_sum(3.2, 5.1);
+```
+
+###  Passing Arguments by Value (通过Value传递参数)
 
