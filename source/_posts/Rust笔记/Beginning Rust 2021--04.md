@@ -245,3 +245,67 @@ enum Result<T, E> {
     Err(E),
 }
 ```
+
+外面处理的方案
+
+```rust
+fn divide(numerator: f64, denominator: f64) -> Result<f64, String> {
+    if denominator == 0. {
+        Err(format!("Divide by zero"))
+    } else {
+        Ok(numerator / denominator)
+    }
+}
+fn show_divide(num: f64, den: f64) {
+    match divide(num, den) {
+        Ok(val) => println!("{} / {} = {}", num, den, val),
+        Err(msg) => println!("Cannot divide {} by {}: {}",
+            num, den, msg),
+    }
+}
+show_divide(8., 2.);
+show_divide(8., 0.);
+
+// This will print:
+// 8 / 2 = 4
+// Cannot divide 8 by 0: Divide by zero
+```
+
+### Enum Standard Utility Functions 枚举标准实用函数
+
+Option 和 Result 标准泛型类型允许我们以灵活有效的方式捕获现实世界代码中发生的所有情况；但是，使用 match 语句来获取结果非常不方便。
+因此，标准库包含一些实用函数来简化选项或结果值的解码：
+
+```rust
+fn divide(numerator: f64, denominator: f64) -> Result<f64, String> {
+    if denominator == 0. {
+        Err(format!("Divide by zero"))
+    } else {
+        Ok(numerator / denominator)
+    }
+}
+let r1 = divide(8., 2.);
+let r2 = divide(8., 0.);
+println!("{} {}", r1.is_ok(), r1.is_err());
+println!("{} {}", r2.is_ok(), r2.is_err());
+println!("{}", r1.unwrap());
+println!("{}", r2.unwrap());
+/**
+This program first prints
+true false
+false true
+4
+and then panics with the message: thread 'main' panicked at 'called `Result::unwrap()` on an `Err` value: "Divide by zero"
+*/
+```
+
+Option 泛型类型也有类似的功能：
+
+``` rust
+let mut a = Some(12);
+print!("{} {}; ", a.is_some(), a.is_none());
+a = None;
+print!("{} {}", a.is_some(), a.is_none());
+// It will print: true false; false true.
+```
+
