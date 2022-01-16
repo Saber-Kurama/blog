@@ -395,4 +395,28 @@ print!("{}", double(17.3));
 ```
 ### Early Exit （ 提前退出）
 `return`
+### Returning Several Values (返回多值)
+
+返回 元组
+
+### How to Change a Variable of the Caller （如何更改调用者的变量）
+
+值传递的情况是复制，所以不会修改传递前的变量
+
+可以 通过返回 元组的方案
+
+### Passing Arguments by Reference（通过引用传递参数）
+
+``` rust
+fn double(a: &mut [i32; 10]) {
+    for n in 0..10 {
+        (*a)[n] *= 2;
+    }
+}
+let mut arr = [5, -4, 9, 0, -7, -1, 3, 5, 3, 1];
+double(&mut arr);
+print!("{:?}", arr);
+```
+
+“&”和” * “。它们在 Rust 中的含义与在 C 语言中的含义相同。表达式 &a 中的“&”符号表示对象 a 的（内存）地址，而表达式 * a 中的“ * ”符号表示存在于（内存）地址 a 处的对象
 
