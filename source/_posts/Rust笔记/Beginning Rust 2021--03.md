@@ -439,7 +439,7 @@ print!("{} {} {} {}", ***a, **a, *a, a); // 7 7 7 7
 
 ### Mutability of References （引用的可变性）
 
-## Defining Generic Functions and Types （定义泛型函数和类型）
+
 
 
 
