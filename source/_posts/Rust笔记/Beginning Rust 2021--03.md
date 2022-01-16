@@ -375,5 +375,24 @@ print_sum(3., 5.);
 print_sum(3.2, 5.1);
 ```
 
-###  Passing Arguments by Value (通过Value传递参数)
+###  Passing Arguments by Value (通过Value传递参数) (值传递)
+
+
+``` rust
+fn print_double(mut x: f64) {
+    x *= 2.;
+    print!("{}", x); // 8
+}
+let x = 4.;
+print_double(x);
+print!(" {}", x);  // 4
+```
+
+### Returning a Value from a Function （从函数返回值）
+``` rust
+fn double(x: f64) -> f64 { x * 2. }
+print!("{}", double(17.3));
+```
+### Early Exit （ 提前退出）
+`return`
 
