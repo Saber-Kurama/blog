@@ -40,3 +40,60 @@ print!("{} {}", a, b); // 37  41.1
 这意味着声明的不是具体函数，而是泛型函数，由 T 类型参数参数化。仅当仍在编译时为此类 T 参数指定具体类型时，该函数才会成为具体函数。
 T 参数仅在函数定义的范围内定义。事实上，它被使用了 3 次，不仅在函数的签名中。它也可以用在函数体中，但不能用在其他地方。
 
+### Inferring the Parametric Types （推断参数类型）
+
+```rust
+// Library code
+fn f<T>(ch: char, num1: T, num2: T) -> T {
+    if ch == 'a' { num1 }
+    else { num2 }
+}
+// Application code 
+// 类型推断
+let a: i16 = f('a', 37, 41);
+let b: f64 = f('b', 37.2, 41.1);
+print!("{} {}", a, b);
+```
+
+多个泛型参数
+
+```rust
+fn f<Param1, Param2>(_a: Param1, _b: Param2) {}
+f('a', true);
+f(12.56, "Hello");
+f((3, 'a'), [5, 6, 7]);
+```
+
+### Defining and Using Generic Structs （定义和使用泛型结构）
+
+参数类型对于声明泛型结构和泛型元组结构也很有用：
+
+``` rust
+#[allow(dead_code)]
+struct S<T1, T2> {
+    c: char,
+    n1: T1,
+    n2: T1,
+    n3: T2,
+}
+let _s = S { c: 'a', n1: 34, n2: 782, n3: 0.02 };
+struct SE<T1, T2> (char, T1, T1, T2);
+let _se = SE ('a', 34, 782, 0.02);
+```
+同样对于结构，类型参数的具体化可以明确
+
+```rust
+#[allow(dead_code)]
+struct S<T1, T2> {
+    c: char,
+    n1: T1,
+    n2: T1,
+    n3: T2,
+}
+let _s = S::<u16, f32> { c: 'a', n1: 34, n2: 782, n3: 0.02 };
+struct SE<T1, T2> (char, T1, T1, T2);
+let _se = SE::<u16, f32> ('a', 34, 782, 0.02);
+```
+
+### Genericity Mechanics
+
