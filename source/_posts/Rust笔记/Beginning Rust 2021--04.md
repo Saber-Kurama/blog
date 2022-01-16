@@ -193,3 +193,55 @@ _res = Result1::Failure(0u32, 'd');
 这里，Failure的第一个参数是u32类型，而应该是u16类型，根据_res的初始化，前两行。
 泛型枚举在 Rust 标准库中被大量使用。
 
+### The Option < T >  Standard Enum
+
+Rust 标准库中定义的最常用的枚举之一解决了以下常见问题。如果一个函数可能失败，它应该怎么做，当它失败时？
+例如，函数 pop 从向量中删除最后一项，如果该向量包含一些项，则返回已删除的项。但是表达式 vec![0; 0].pop() 做什么？它正在从一个空向量中删除一个项目！
+某些语言未定义此行为，可能导致不可预知的结果。 Rust 尽可能避免未定义的行为。
+某些语言会引发异常，由封闭块或当前函数的调用者处理，或导致崩溃。 Rust 实现了异常的概念，带有恐慌的概念。但是，通常情况下，只有在非常特殊的情况下才会引发恐慌，并且会尽可能避免这种情况。
+某些语言返回特定的空值。但是一个向量几乎可以包含任何可能的类型，而且很多类型都没有空值。
+这是 Rust 惯用的解决方案
+
+``` rust
+let mut v = vec![11, 22, 33];
+for _ in 0..5 {
+    let item: Option<i32> = v.pop();
+    match item {
+        Some(number) => print!("{}, ", number),
+        None => print!("#, "),
+    }
+}
+// This will print: 33, 22, 11, #, #, .
+```
+Rust 标准库将这样的泛型类型定义为：
+
+```rust
+enum Option<T> {
+    Some(T),
+    None,
+}
+```
+
+### The Result<T, E> Standard Enum 结果<T, E> 标准枚举
+
+Rust 标准库还定义了一个通用枚举来处理由于错误条件而导致函数无法返回预期类型的值的情况：
+
+``` rust
+fn divide(numerator: f64, denominator: f64) -> Result<f64, String> {
+    if denominator == 0. {
+        Err(format!("Divide by zero"))
+    } else {
+        Ok(numerator / denominator)
+    }
+}
+print!("{:?}, {:?}", divide(8., 2.), divide(8., 0.));
+```
+
+标准库中这个通用枚举的定义是:
+
+```rust
+enum Result<T, E> {
+    Ok(T),
+    Err(E),
+}
+```
