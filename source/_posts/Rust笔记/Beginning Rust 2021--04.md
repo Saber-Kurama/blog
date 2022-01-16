@@ -331,11 +331,7 @@ The unwrap function is much used in quick-and-dirty Rust programs, where it is O
 unwrap 的调用获得了由 pop() 返回的 Ok 枚举中的数字。我们避免在空向量上调用 pop()；否则 pop() 会返回一个 None，而 unwrap() 会惊慌失措。
 unwrap 函数在快速而肮脏的 Rust 程序中被广泛使用，在这些程序中，可能的错误产生恐慌是可以的。要创建一个健壮的应用程序，其中以用户友好的方式处理错误，必须正确处理任何可能的 None 或 Err 值。
 
-## Allocating Memory (分配内存)
 
-* The various kinds of memory allocation, their performance characteristics, and their limitations (各种内存分配、它们的性能特征和局限性)
-* How to specify in Rust which memory allocation to use for an object (如何在 Rust 中指定用于对象的内存分配)
-* The difference between a reference and a Box (reference和 Box之间的区别)
 
 
 
