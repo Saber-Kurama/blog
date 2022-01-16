@@ -348,4 +348,21 @@ fn line() {
 line();
 ```
 
-###  Functions Defined After Their Use
+###  Functions Defined After Their Use （使用后定义的功能）
+
+因为你甚至可以在定义函数之前调用它，只要它是在当前作用域或封闭作用域中定义的。
+
+``` rust
+f();
+fn f() {}
+```
+
+### Functions Shadowing Other Functions (功能影响其他功能)
+
+不能多次定义相同名称的函数，函数不能像变量遮蔽
+但是可以在不同的块中定义，相同名称的函数
+
+### Passing Arguments to a Function （将参数传递给函数）
+
+
+
