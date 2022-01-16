@@ -334,4 +334,18 @@ print!("{}, {}, {}, {}",
 
 * How to define your own procedures (better known as “functions”) and how to invoke them（如何定义自己的过程（通常称为“函数”）以及如何调用它们）
 * When and how you can have several functions with the same name（何时以及如何拥有多个同名函数）
-* How to pass arguments to a function, by value or by reference（）
+* How to pass arguments to a function, by value or by reference（如何通过值或引用将参数传递给函数）
+* How to return simple and composite values from a function（如何从函数返回简单和复合值）
+* How to exit prematurely from a function（如何过早退出函数）
+* How references to objects can be manipulated（如何操作对对象的引用）
+
+###  Defining and Invoking a Function （定义和调用函数）
+
+``` rust
+fn line() {
+    println!("----------");
+}
+line();
+```
+
+###  Functions Defined After Their Use
