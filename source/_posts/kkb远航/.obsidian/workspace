@@ -90,9 +90,9 @@
   "active": "0abf1197668a4206",
   "lastOpenFiles": [
     "typescript/TS 模块.md",
-    "typescript/函数.md",
     "typescript/class.md",
     "typescript/类型窄化.md",
+    "typescript/函数.md",
     "typescript/类型的重要性.md",
     "typescript/类型的计算.md",
     "typescript/泛型.md",
