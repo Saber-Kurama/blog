@@ -20,7 +20,40 @@
 因此，例如，给定一个变量，它使用了多少内存位，以及它在内存中的位置都没有定义。编译器甚至可以从内存中删除该变量，因为它从未使用过，或者因为它保存在处理器寄存器中。
 然而，看看 Rust 程序使用的数据排列的可能典型实现是有启发性的。
 为此，可以使用一些 Rust 功能：
+获取字节大小
 ```rust
 print!("{} ", std::mem::size_of::<i32>()); // 4
 print!("{} ", std::mem::size_of_val(&12)); // 4
+```
+
+### The use Directive 使用指令
+如果必须多次指定到达库函数的路径，使用 use 指令将全部或部分路径导入当前范围很方便
+前面的例子可以这样改写
+``` rust
+use std::mem::size_of;
+use std::mem::size_of_val;
+print!("{} ", size_of::<i32>());
+print!("{} ", size_of_val(&12));
+```
+
+### The Sizes of the Primitive Types  (原始类型的大小)
+
+``` rust
+use std::mem::*;
+print!("{} {} {} {} {} {} {} {} {} {} {} {} {} {}",
+    size_of::<i8>(),
+    size_of::<u8>(),
+    size_of::<i16>(),
+	size_of::<u16>(),
+    size_of::<i32>(),
+    size_of::<u32>(),
+    size_of::<i64>(),
+    size_of::<u64>(),
+    size_of::<i128>(),
+    size_of::<u128>(),
+    size_of::<f32>(),
+    size_of::<f64>(),
+    size_of::<bool>(),
+    size_of::<char>());
+// In any computer, this will print: 1 1 2 2 4 4 8 8 16 16 4 8 1 4.
 ```
