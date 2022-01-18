@@ -99,5 +99,43 @@ In an x86_64 system, this could print:
 您还可以发现任何对象的（虚拟）内存位置，即它的地址：
 
 ``` rust
-
+let b1 = true;
+let b2 = true;
+let b3 = false;
+print!("{} {} {}",
+    &b1 as *const bool as usize,
+    &b2 as *const bool as usize,
+    &b3 as *const bool as usize);
 ```
+
+In a 64-bit system, this will print three huge numbers, resembling `140729279188109 ` `140729279188110`  `140729279188111`. 
+
+但是，有一种更简单的方法可以以十六进制表示法打印任何对象的地址:
+
+```rust
+let b1 = true;
+let b2 = true;
+let b3 = false;
+print!("{:p} {:p} {:p}", &b1, &b2, &b3);
+```
+It will print something like:
+`0x7ffe16b20c8d` `0x7ffe16b20c8e` `0x7ffe16b20c8f`
+
+### Sizes of Composite Data Types  复合数据类型的大小
+
+当有一系列复合对象时出现填充的效果
+``` rust
+enum E1 { E1a, E1b }
+enum E2 { E2a, E2b(f64) }
+use std::mem::*;
+print!("{} {} {} {} {} {}",
+    size_of_val(&[0i16; 80]), // 80 * 2 = 160
+    size_of_val(&(0i16, 0i64)),
+    size_of_val(&[(0i16, 0i64); 100]),
+    size_of_val(&E1::E1a),
+    size_of_val(&E2::E2a),
+    size_of_val(&vec![(0i16, 0i64); 100]));
+```
+This will print: 160 16 1600 1 16 24.
+
+
