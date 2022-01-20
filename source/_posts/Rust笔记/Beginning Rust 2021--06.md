@@ -319,3 +319,48 @@ print_double(17.2);
 闭包只是一种更方便的函数，适合定义小的匿名函数，并在它们被定义的地方调用它们。
 其实也可以定义一个闭包；将它分配给一个变量，所以给它一个名字；然后稍后使用它的名称调用它。不过，这不是闭包最典型的用法。甚至类型注释也是可能的。
 
+这是之前的降序排序示例，将 desc 函数替换为闭包，并使代码尽可能与前一个相似
+
+```rust
+let mut arr = [4, 8, 1, 10, 0, 45, 12, 7];
+use std::cmp::Ordering;
+let desc = |a: &i32, b: &i32| -> Ordering {
+    if a < b { Ordering::Greater }
+    else if a > b { Ordering::Less }
+    else { Ordering::Equal }
+};
+arr.sort_by(desc);
+print!("{:?}", arr);
+```
+
+到目前为止，没有任何优势，但我们看到闭包可以在必须使用的地方定义，并且类型和大括号是可选的。因此，之前的代码可以转换成这个：
+
+```rust
+let mut arr = [4, 8, 1, 10, 0, 45, 12, 7];
+use std::cmp::Ordering;
+arr.sort_by(|a, b|
+    if a < b { Ordering::Greater }
+    else if a > b { Ordering::Less }
+    else { Ordering::Equal });
+print!("{:?}", arr);
+```
+
+Rust 闭包非常有效，因为它们不分配堆内存，而且它们通常由编译器内联扩展，从而消除所有临时对象。它们实际上与 C++ lambda 非常相似。
+
+### Closure Invocation Syntax 闭包调用语法
+
+这是另一个例子，展示了调用闭包的六种方法：
+
+``` rust
+let factor = 2;
+let multiply = |a| a * factor;
+print!("{}", multiply(13));
+let multiply_ref = &multiply;
+print!(
+    " {} {} {} {} {}",
+    (*multiply_ref)(13),
+    multiply_ref(13),
+    (|a| a * factor)(13),
+    (|a: i32| a * factor)(13),
+    |a| -> i32 { a * factor }(13));
+```
