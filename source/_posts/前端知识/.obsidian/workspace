@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "b87faf38572f16c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "00a13cc9d73de110",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "开发一个VSCODE 插件.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3360f029ca1370e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "036881df21cf31c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42d03b7013090d6f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "12495da245cbde8b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "19e24e2ffe79f6a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "5274640b7889050f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6a17273348d4dbc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "开发一个VSCODE 插件.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "00a13cc9d73de110",
+  "lastOpenFiles": [
+    "开发一个VSCODE 插件.md"
+  ]
+}
