@@ -31,3 +31,4 @@ npm install -g yo generator-code
 yo code
 ```
 
+## 项目结构
