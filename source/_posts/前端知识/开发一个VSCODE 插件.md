@@ -6,6 +6,7 @@
 [从0到1开发一款自己的vscode插件](https://segmentfault.com/a/1190000040720760)
 [VsCode 插件语言插件开发](https://sunra.top/2021/06/04/lsp/)
 [Vscode 插件开发](https://www.ronpad.com/docs/vscode/)
+[json-go-ts VS Code插件开发](https://segmentfault.com/a/1190000040386930)
 [VSCode插件开发全攻略](http://blog.haoji.me/vscode-plugin-overview.html)
 
 ## VSCODE 插件能做什么
