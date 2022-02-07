@@ -50,5 +50,24 @@ yo code
 
 ## 代码片段  snippets
 
-### 不需要扩展
+### 创建自己的片段
 
+请在**文件**>**首选项**（macOS 上的**代码**>**首选项**）下选择**用户代码片段，然后选择代码片段应该出现的语言（按**[语言标识符](https://code.visualstudio.com/docs/languages/identifiers)），或者如果它们应该出现**新的全局片段文件**选项出现在所有语言中
+
+``` json
+// fe.code-snippets
+
+{
+	// Example:
+	"Print to console": {
+		"scope": "javascript,typescript",
+		"prefix": "log",
+		"body": [
+			"console.log('${1|one,two,three|}');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+}
+
+```
