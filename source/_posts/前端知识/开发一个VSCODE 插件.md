@@ -8,6 +8,7 @@
 [Vscode 插件开发](https://www.ronpad.com/docs/vscode/)
 [json-go-ts VS Code插件开发](https://segmentfault.com/a/1190000040386930)
 [VSCode插件开发全攻略](http://blog.haoji.me/vscode-plugin-overview.html)
+[VS Code 插件开发文档](https://www.bookstack.cn/read/VS-Code-Extension-Doc-ZH/README.md)
 
 ## VSCODE 插件能做什么
 
