@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "开发一个VSCODE 插件.md",
+            "file": "rui.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "开发一个VSCODE 插件.md",
+                "file": "rui.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,10 @@
   },
   "active": "00a13cc9d73de110",
   "lastOpenFiles": [
-    "开发一个VSCODE 插件.md",
-    "前端基建.md",
     "rui.md",
     "未命名.md",
+    "开发一个VSCODE 插件.md",
+    "前端基建.md",
     "未命名v.md"
   ]
 }
