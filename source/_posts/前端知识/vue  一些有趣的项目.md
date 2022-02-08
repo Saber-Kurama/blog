@@ -41,3 +41,8 @@ https://bestofvue.com/repo/vuegg-vuegg-vuejs-projects-using-vuejs
 
 ## 图表类
 https://bestofvue.com/repo/yugasun-x-chart
+
+
+# 缺少UI库类型提示，你可能使用的是阉割版的Volar+Vue3
+
+https://juejin.cn/post/7043723576121229342
