@@ -92,3 +92,30 @@ yo code
 	]
 }
 ```
+
+提供 vscode.TreeDataProvider
+
+``` ts
+export class DevToolsTreeDataProvider
+  implements vscode.TreeDataProvider<vscode.TreeItem>
+{
+  getTreeItem(element: vscode.TreeItem): vscode.TreeItem {
+    return element;
+  }
+
+  getChildren(element?: vscode.TreeItem): Thenable<vscode.TreeItem[]> {
+    ...
+    return Promise.resolve([]);
+  }
+}
+```
+
+``` ts
+vscode.window.createTreeView("tenten-devToolsView", {
+      treeDataProvider: new DevToolsTreeDataProvider(),
+});
+```
+
+## 菜单
+
+## 自定义 WebView 页面
