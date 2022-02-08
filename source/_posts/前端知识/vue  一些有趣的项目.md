@@ -11,6 +11,8 @@ https://github.com/geekhybrid/vue3-tree-vue
 
 https://github.com/ll931217/vue-treeview
 
+https://bestofvue.com/repo/holiber-sl-vue-tree-vuejs-tree
+
 
 
 ## 高级表格
@@ -31,3 +33,11 @@ https://github.com/ncform
 ## 其他
 
 https://github.com/mayashavin/vurian-wizard
+
+## 脚手架
+
+https://github.com/antfu/vitesse-nuxt3
+https://bestofvue.com/repo/vuegg-vuegg-vuejs-projects-using-vuejs
+
+## 图表类
+https://bestofvue.com/repo/yugasun-x-chart
