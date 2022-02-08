@@ -72,3 +72,23 @@ yo code
 }
 
 ```
+
+## activity-bar
+
+``` JSON
+"viewsContainers": {
+			"activitybar": [{
+				"id": "tenten-view-container",
+				"title": "tenten",
+				"icon": "images/xx.svg"
+			}]
+		},
+"views": {
+	"tenten-view-container": [
+		{
+			"id": "tenten-devToolsView",
+			"name": "xxxx"
+		}
+	]
+}
+```
