@@ -128,4 +128,6 @@ https://github.com/ATQQ/ShareSnippet
 https://marketplace.visualstudio.com/items?itemName=liangzr.share-code
 https://marketplace.visualstudio.com/items?itemName=beehive.beehive
 
+https://www.vsblox.com/
+
 https://marketplace.visualstudio.com/items?itemName=zwfed-team.zwfed-material
