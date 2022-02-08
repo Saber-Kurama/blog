@@ -125,3 +125,7 @@ vscode.window.createTreeView("tenten-devToolsView", {
 ## 一些插件
 
 https://github.com/ATQQ/ShareSnippet
+https://marketplace.visualstudio.com/items?itemName=liangzr.share-code
+https://marketplace.visualstudio.com/items?itemName=beehive.beehive
+
+https://marketplace.visualstudio.com/items?itemName=zwfed-team.zwfed-material
