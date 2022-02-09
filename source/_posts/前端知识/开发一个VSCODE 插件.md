@@ -133,8 +133,14 @@ https://www.vsblox.com/
 https://marketplace.visualstudio.com/items?itemName=zwfed-team.zwfed-material
 
 
+https://marketplace.visualstudio.com/items?itemName=sunxen.codefinder
+
 https://marketplace.visualstudio.com/items?itemName=phoenisx.cssvar
 
 https://marketplace.visualstudio.com/items?itemName=ued-team.fe-tools
 
+https://marketplace.visualstudio.com/items?itemName=Thinker.create-app
 
+https://marketplace.visualstudio.com/items?itemName=iceworks-team.iceworks-project-creator
+
+https://marketplace.visualstudio.com/items?itemName=developer-design.vscode-developer-design-helper
