@@ -119,3 +119,15 @@ vscode.window.createTreeView("tenten-devToolsView", {
 ## 菜单
 
 ## 自定义 WebView 页面
+
+
+
+## 一些插件
+
+https://github.com/ATQQ/ShareSnippet
+https://marketplace.visualstudio.com/items?itemName=liangzr.share-code
+https://marketplace.visualstudio.com/items?itemName=beehive.beehive
+
+https://www.vsblox.com/
+
+https://marketplace.visualstudio.com/items?itemName=zwfed-team.zwfed-material

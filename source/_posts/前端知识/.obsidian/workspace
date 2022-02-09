@@ -9,7 +9,11 @@
         "state": {
           "type": "markdown",
           "state": {
+<<<<<<< HEAD
             "file": "开发一个VSCODE 插件.md",
+=======
+            "file": "vue  一些有趣的项目.md",
+>>>>>>> 9556687c5c6198640d93c442384f71fa624352a3
             "mode": "source",
             "source": false
           }
@@ -69,7 +73,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "开发一个VSCODE 插件.md",
+=======
+                "file": "vue  一些有趣的项目.md",
+>>>>>>> 9556687c5c6198640d93c442384f71fa624352a3
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,12 +97,20 @@
   },
   "active": "00a13cc9d73de110",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "开发一个VSCODE 插件.md",
     "使用patch-package修改Node.js依赖包内容.md",
     "前端基建.md",
     "monaco-editor 编辑器.md",
     "rui.md",
     "【前端安全】 csp-nonce.md",
+=======
+    "vue  一些有趣的项目.md",
+    "开发一个VSCODE 插件.md",
+    "前端基建.md",
+    "rui.md",
+    "nfngncggggghg多个Ωb'b'b、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、成.md",
+>>>>>>> 9556687c5c6198640d93c442384f71fa624352a3
     "未命名.md",
     "未命名v.md"
   ]
