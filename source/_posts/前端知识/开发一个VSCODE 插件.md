@@ -131,3 +131,10 @@ https://marketplace.visualstudio.com/items?itemName=beehive.beehive
 https://www.vsblox.com/
 
 https://marketplace.visualstudio.com/items?itemName=zwfed-team.zwfed-material
+
+
+https://marketplace.visualstudio.com/items?itemName=phoenisx.cssvar
+
+https://marketplace.visualstudio.com/items?itemName=ued-team.fe-tools
+
+
