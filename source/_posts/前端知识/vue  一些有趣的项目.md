@@ -13,6 +13,8 @@ https://github.com/ll931217/vue-treeview
 
 https://bestofvue.com/repo/holiber-sl-vue-tree-vuejs-tree
 
+https://github.com/semeniuk/vuetify-file-browser
+
 
 
 ## 高级表格
@@ -49,3 +51,9 @@ https://juejin.cn/post/7043723576121229342
 
 
 https://github.com/Kholid060/snapcode
+
+
+## IDE
+
+https://github.com/haxzie/snipp.in
+
