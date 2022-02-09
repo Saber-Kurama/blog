@@ -8,5 +8,6 @@
 [js代码可视化编辑组件 monaco-editor 上手初体验](https://www.bloghome.com.cn/post/monaco-editorchu-ti-yan-segmentfault-si-fou.html)
 [官方例子](https://microsoft.github.io/monaco-editor/playground.html#creating-the-editor-hello-world)
 [用Monaco Editor打造接近vscode体验的浏览器IDE](https://www.cnblogs.com/FuturexGO/p/12976656.html)
+[Monaco Editor代码提示（sql和java）](https://juejin.cn/post/6986907628937379871)
 
 ## 
