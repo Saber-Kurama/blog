@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "67df0973d224bf47",
+    "type": "split",
+    "children": [
+      {
+        "id": "b189765fe60a82a8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "create-vue的源码阅读/create-vue的源码阅读.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a53f5ef16536a07c",
+    "type": "split",
+    "children": [
+      {
+        "id": "923c521372555ce2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "913f4fb947def9ed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "5faa2cd350547465",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c53120cf0fbeb998",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d4601e847e76ab7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b8576004a9d71afc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "create-vue的源码阅读/create-vue的源码阅读.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b189765fe60a82a8",
+  "lastOpenFiles": [
+    "create-vue的源码阅读/create-vue的源码阅读.md"
+  ]
+}

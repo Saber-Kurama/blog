@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "923afa0641a6b422",
+    "type": "split",
+    "children": [
+      {
+        "id": "afea53a1062e6f4d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "css/pc 端样式.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b554d36fc548f321",
+    "type": "split",
+    "children": [
+      {
+        "id": "d3685556cc8f306c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b39da7c6216277ca",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "780a08d64933c791",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "40a394f5fb70c9c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce3140633d7baf1d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "34fc985d252dd729",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "css/pc 端样式.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "afea53a1062e6f4d",
+  "lastOpenFiles": [
+    "css/pc 端样式.md",
+    "css/换肤方案.md"
+  ]
+}
