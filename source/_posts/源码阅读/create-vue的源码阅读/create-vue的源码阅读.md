@@ -55,7 +55,7 @@ npm init [<@scope>/]<name> (same as `npx [<@scope>/]create-<name>`)
 `run-s` 是 [npm-run-all](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fmysticatea%2Fnpm-run-all%2Fblob%2FHEAD%2Fdocs%2Frun-s.md "https://github.com/mysticatea/npm-run-all/blob/HEAD/docs/run-s.md") 提供的命令。`run-s build snapshot` 命令相当于 `npm run build && npm run snapshot`。
 
 ### zx
-A tool for writing better scripts.
+[zx](https://www.npmjs.com/package/zx)A tool for writing better scripts.
 
 ```js
 #!/usr/bin/env zx
@@ -75,4 +75,11 @@ let name = 'foo bar'
 await $`mkdir /tmp/${name}`
 ```
 
-可以在文件中
+可以在文件中头添加
+``` sh
+#!/usr/bin/env zx
+```
+也可以
+``` sh
+zx ./script.mjs
+```
