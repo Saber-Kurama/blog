@@ -83,3 +83,26 @@ await $`mkdir /tmp/${name}`
 ``` sh
 zx ./script.mjs
 ```
+
+## 阅读 index.js 主流程
+
+### 解析命令参数
+
+#### minimist
+
+``` sh
+$ node example/parse.js -a beep -b boop
+{ _: [], a: 'beep', b: 'boop' }
+
+$ node example/parse.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz
+{ _: [ 'foo', 'bar', 'baz' ],
+  x: 3,
+  y: 4,
+  n: 5,
+  a: true,
+  b: true,
+  c: true,
+  beep: 'boop' }
+
+```
+
