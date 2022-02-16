@@ -11,7 +11,7 @@
           "state": {
             "file": "create-vue的源码阅读/create-vue的源码阅读.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }

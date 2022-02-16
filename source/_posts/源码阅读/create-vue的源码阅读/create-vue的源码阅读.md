@@ -283,3 +283,33 @@ render('base')
 ```
 
 ###  根据使用的 npm / yarn / pnpm 生成README.md 文件，给出运行项目的提示
+
+```ts
+const userAgent = process.env.npm_config_user_agent ?? ''
+  const packageManager = /pnpm/.test(userAgent) ? 'pnpm' : /yarn/.test(userAgent) ? 'yarn' : 'npm'
+
+  // README generation
+  fs.writeFileSync(
+    path.resolve(root, 'README.md'),
+    generateReadme({
+      projectName: result.projectName || defaultProjectName,
+      packageManager,
+      needsTypeScript,
+      needsVitest,
+      needsCypress,
+      needsCypressCT,
+      needsEslint
+    })
+  )
+
+  console.log(`\nDone. Now run:\n`)
+  if (root !== cwd) {
+    console.log(`  ${bold(green(`cd ${path.relative(cwd, root)}`))}`)
+  }
+  console.log(`  ${bold(green(getCommand(packageManager, 'install')))}`)
+  if (needsPrettier) {
+    console.log(`  ${bold(green(getCommand(packageManager, 'lint')))}`)
+  }
+  console.log(`  ${bold(green(getCommand(packageManager, 'dev')))}`)
+  console.log()
+```
