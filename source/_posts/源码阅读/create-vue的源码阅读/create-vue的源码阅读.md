@@ -210,3 +210,14 @@ renderTemplate 文件中
     dest = path.resolve(path.dirname(dest), filename.replace(/^_/, '.'))
   }
 ```
+
+关于 mjs 中 `__dirname`问题
+参考： https://github.com/nodejs/help/issues/2907#issuecomment-757446568
+
+``` ts
+import path from 'path';
+import { fileURLToPath } from 'url';
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+```
+```
