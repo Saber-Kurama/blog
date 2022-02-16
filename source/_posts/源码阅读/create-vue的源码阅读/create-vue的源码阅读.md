@@ -135,3 +135,57 @@ export default banner
 这一段是  ANSI escape code
 
 [ANSI escape code 语法颜色笔记](http://noyobo.com/2015/11/13/ANSI-escape-code.html)
+
+### 如果设置了 feature flags 跳过 prompts 询问
+
+是否使用 --vitest 这种标签
+
+``` ts
+ const isFeatureFlagsUsed =
+    typeof (
+      argv.default ||
+      argv.ts ||
+      argv.jsx ||
+      argv.router ||
+      argv.pinia ||
+      argv.tests ||
+      argv.vitest ||
+      argv.cypress ||
+      argv.eslint
+    ) === 'boolean'
+```
+
+### prompts的询问配置
+
+```
+ // Prompts:
+    // - Project name: 
+    //   - whether to overwrite the existing directory or not?
+    //   - enter a valid package name for package.json
+    // - Project language: JavaScript / TypeScript
+    // - Add JSX Support?
+    // - Install Vue Router for SPA development?
+    // - Install Pinia for state management?
+    // - Add Cypress for testing?
+    // - Add ESLint for code quality?
+    // - Add Prettier for code formatting?
+```
+
+``` ts
+function isValidPackageName(projectName) {
+  return /^(?:@[a-z0-9-*~][a-z0-9-*._~]*\/)?[a-z0-9-~][a-z0-9-._~]*$/.test(projectName)
+}
+
+function toValidPackageName(projectName) {
+  return projectName
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, '-')
+    .replace(/^[._]/, '')
+    .replace(/[^a-z0-9-~]+/g, '-')
+}
+
+function canSafelyOverwrite(dir) {
+  return !fs.existsSync(dir) || fs.readdirSync(dir).length === 0
+}
+```
