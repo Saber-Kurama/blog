@@ -189,3 +189,24 @@ function canSafelyOverwrite(dir) {
   return !fs.existsSync(dir) || fs.readdirSync(dir).length === 0
 }
 ```
+
+### 根据模板文件生成初始化项目所需文件
+
+``` ts
+renderTemplate 文件中
+  // package.json 的处理 依赖
+  if (filename === 'package.json' && fs.existsSync(dest)) {
+    // merge instead of overwriting
+    const existing = JSON.parse(fs.readFileSync(dest))
+    const newPackage = JSON.parse(fs.readFileSync(src))
+    const pkg = sortDependencies(deepMerge(existing, newPackage))
+    fs.writeFileSync(dest, JSON.stringify(pkg, null, 2) + '\n')
+    return
+  }
+
+// `.`文件的处理
+  if (filename.startsWith('_')) {
+    // rename `_file` to `.file`
+    dest = path.resolve(path.dirname(dest), filename.replace(/^_/, '.'))
+  }
+```
