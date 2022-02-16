@@ -220,4 +220,66 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 ```
+
+根据参数下载模板代码
+
+``` ts
+render('base')
+
+  // Add configs.
+  if (needsJsx) {
+    render('config/jsx')
+  }
+  if (needsRouter) {
+    render('config/router')
+  }
+  if (needsPinia) {
+    render('config/pinia')
+  }
+  if (needsVitest) {
+    render('config/vitest')
+  }
+  if (needsCypress) {
+    render('config/cypress')
+  }
+  if (needsCypressCT) {
+    render('config/cypress-ct')
+  }
+  if (needsTypeScript) {
+    render('config/typescript')
+
+    // Render tsconfigs
+    render('tsconfig/base')
+    if (needsCypress) {
+      render('tsconfig/cypress')
+    }
+    if (needsVitest) {
+      render('tsconfig/vitest')
+    }
+  }
+
+  // Render ESLint config
+  if (needsEslint) {
+    renderEslint(root, { needsTypeScript, needsCypress, needsCypressCT, needsPrettier })
+  }
+
+  // Render code template.
+  // prettier-ignore
+  const codeTemplate =
+    (needsTypeScript ? 'typescript-' : '') +
+    (needsRouter ? 'router' : 'default')
+  render(`code/${codeTemplate}`)
+
+  // Render entry file (main.js/ts).
+  if (needsPinia && needsRouter) {
+    render('entry/router-and-pinia')
+  } else if (needsPinia) {
+    render('entry/pinia')
+  } else if (needsRouter) {
+    render('entry/router')
+  } else {
+    render('entry/default')
+  }
 ```
+
+###  根据使用的 npm / yarn / pnpm 生成README.md 文件，给出运行项目的提示
