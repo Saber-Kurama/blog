@@ -84,6 +84,8 @@ await $`mkdir /tmp/${name}`
 zx ./script.mjs
 ```
 
+## 使用 vscode 插件CodeTour 来做阅读代码的
+
 ## 阅读 index.js 主流程
 
 ### 解析命令参数
@@ -106,3 +108,17 @@ $ node example/parse.js -x 3 -y 4 -n5 -abc --beep=boop foo bar baz
 
 ```
 
+### 交互提示
+
+#### prompts
+
+
+### 输入和输出的颜色
+
+#### kolorist
+
+``` ts
+import { red, cyan } from 'kolorist';
+
+console.log(red(`Error: something failed in ${cyan('my-file.js')}.`));
+```
