@@ -34,3 +34,16 @@ npm install --save express
 
 ### 在开发中运行 Express.js
 
+```
+"server": "nodemon --exec babel-node --watch src/server src/
+server/index.js"
+```
+
+##  Express.js 中的路由
+
+了解路由对于扩展我们的后端代码至关重要。在本节中，我们是将通过一些简单的路由示例进行播放。
+
+通常，路由处理应用程序响应特定端点的方式和位置和方法。
+
+在 Express.js 中，一个路径可以响应不同的 HTTP 方法，并且可以有多个处理函数。这些处理函数按照它们的顺序一一执行代码中指定。路径可以是简单的字符串，也可以是复杂的正则表达式或图案。
+
