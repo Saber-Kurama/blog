@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-准备开发环境.md",
+            "file": "02-设置 GraphQL使用 Express.js.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-准备开发环境.md",
+                "file": "02-设置 GraphQL使用 Express.js.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "9dd81fa95975943f",
   "lastOpenFiles": [
+    "02-设置 GraphQL使用 Express.js.md",
     "01-准备开发环境.md",
     "00-前言.md"
   ]
