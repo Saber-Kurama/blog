@@ -28,3 +28,9 @@ Express.js 也是最常用的 Node.js Web 服务器，并将自己描述为Node.
 ```
 npm install --save express
 ```
+
+### 设置 Express.js
+和往常一样，我们需要一个加载了所有主要组件的根文件来组合它们到实际应用中。
+
+### 在开发中运行 Express.js
+
