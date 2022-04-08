@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "开发一个VSCODE 插件.md",
+            "file": "【前端安全】 csp-nonce.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "开发一个VSCODE 插件.md",
+                "file": "【前端安全】 csp-nonce.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "28384cf20ec6e8fa",
   "lastOpenFiles": [
-    "开发一个VSCODE 插件.md",
     "【前端安全】 csp-nonce.md",
-    "vue  一些有趣的项目.md",
-    "monaco-editor 编辑器.md",
-    "conflict-files-obsidian-git.md",
-    "使用patch-package修改Node.js依赖包内容.md",
+    "开发一个VSCODE 插件.md",
     "前端基建.md",
-    "rui.md",
+    "使用patch-package修改Node.js依赖包内容.md",
     "未命名.md",
+    "monaco-editor 编辑器.md",
+    "rui.md",
+    "vue  一些有趣的项目.md",
+    "conflict-files-obsidian-git.md",
     "未命名v.md"
   ]
 }
