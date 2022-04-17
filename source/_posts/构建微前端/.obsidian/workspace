@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "第 4 章发现微前端架构.md",
+            "file": "第 5 章微前端技术实现.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "第 4 章发现微前端架构.md",
+                "file": "第 5 章微前端技术实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,11 +89,11 @@
   },
   "active": "ac5ded98716b3814",
   "lastOpenFiles": [
+    "第 5 章微前端技术实现.md",
     "第 4 章发现微前端架构.md",
     "第 3 章微前端架构和挑战.md",
-    "第 2 章微前端原理.md",
     "第 1 章 前端变化.md",
-    "第 5 章微前端技术实现.md",
+    "第 2 章微前端原理.md",
     "第 10 章在您的组织中引入微前端.md",
     "第 9 章 从单体应用到微前端：案例研究.md",
     "第 8 章微前端的后端模式.md",
