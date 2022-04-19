@@ -57,3 +57,5 @@ https://github.com/Kholid060/snapcode
 
 https://github.com/haxzie/snipp.in
 
+
+https://github.com/MinJieLiu/mac-scrollbar
