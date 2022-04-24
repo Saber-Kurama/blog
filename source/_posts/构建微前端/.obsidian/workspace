@@ -1,33 +1,29 @@
 {
   "main": {
-    "id": "f3a10da257f75850",
+    "id": "1d612b8395bbc403",
     "type": "split",
     "children": [
       {
-        "id": "ac5ded98716b3814",
+        "id": "a31aa4f9f25cbad7",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "第 5 章微前端技术实现.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "fbc8d5d5487b0e9f",
+    "id": "0fde0c4bec67b673",
     "type": "split",
     "children": [
       {
-        "id": "d82371084fbb8b62",
+        "id": "0efba85e2ea5919c",
         "type": "tabs",
         "children": [
           {
-            "id": "91113c2254fc5083",
+            "id": "c2503bd02ad4080e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +31,7 @@
             }
           },
           {
-            "id": "1d7b58cf550a571f",
+            "id": "43f6d43ef9f4a9c9",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,20 +52,19 @@
     "width": 300
   },
   "right": {
-    "id": "d553a8d0ecdf7b2d",
+    "id": "d448985a00d3f007",
     "type": "split",
     "children": [
       {
-        "id": "30ad276d74b41636",
+        "id": "4edc0cd8297bbaa4",
         "type": "tabs",
         "children": [
           {
-            "id": "3e240a83c9147429",
+            "id": "2d7240f6eb24b177",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "第 5 章微前端技术实现.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,27 +82,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ac5ded98716b3814",
-  "lastOpenFiles": [
-    "第 5 章微前端技术实现.md",
-    "conflict-files-obsidian-git.md",
-    "第 4 章发现微前端架构.md",
-    "第 3 章微前端架构和挑战.md",
-<<<<<<< HEAD
-    "第 10 章在您的组织中引入微前端.md",
-    "第 9 章 从单体应用到微前端：案例研究.md",
-    "第 8 章微前端的后端模式.md",
-    "第 7 章微前端的自动化管道：案例研究.md",
-    "第 2 章微前端原理.md",
-    "第 6 章构建和部署微前端.md",
-    "第 1 章 前端变化.md"
-=======
-    "第 1 章 前端变化.md",
-    "第 2 章微前端原理.md",
-    "第 10 章在您的组织中引入微前端.md",
-    "第 9 章 从单体应用到微前端：案例研究.md",
-    "第 8 章微前端的后端模式.md",
-    "第 7 章微前端的自动化管道：案例研究.md"
->>>>>>> baf6caa3c18e2629767c920f15edc09f48d6122d
-  ]
+  "active": "a31aa4f9f25cbad7",
+  "lastOpenFiles": []
 }
