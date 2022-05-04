@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "微前端.md",
+            "file": "前端组件.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "微前端.md",
+                "file": "前端组件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "28384cf20ec6e8fa",
   "lastOpenFiles": [
+    "前端组件.md",
+    "前端基建.md",
+    "使用patch-package修改Node.js依赖包内容.md",
     "微前端.md",
     "未命名 1.md",
     "conflict-files-obsidian-git.md",
     "monaco-editor 编辑器.md",
-    "vue  一些有趣的项目.md",
     "rui.md",
-    "开发一个VSCODE 插件.md",
-    "模块联邦.md",
-    "前端基建.md",
-    "前端组件.md"
+    "vue  一些有趣的项目.md",
+    "模块联邦.md"
   ]
 }
