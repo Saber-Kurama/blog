@@ -7,8 +7,12 @@
         "id": "a31aa4f9f25cbad7",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "第 8 章微前端的后端模式.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "第 8 章微前端的后端模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,5 +88,9 @@
     "collapsed": true
   },
   "active": "a31aa4f9f25cbad7",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "第 8 章微前端的后端模式.md",
+    "第 10 章在您的组织中引入微前端.md",
+    "conflict-files-obsidian-git.md"
+  ]
 }
