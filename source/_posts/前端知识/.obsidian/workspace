@@ -9,11 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-<<<<<<< HEAD
-            "file": "vue  一些有趣的项目.md",
-=======
-            "file": "前端组件.md",
->>>>>>> b8b826cac0bc2f0a10e17fb16a6418282e6f2378
+            "file": "开发一个VSCODE 插件.md",
             "mode": "source",
             "source": false
           }
@@ -73,11 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "vue  一些有趣的项目.md",
-=======
-                "file": "前端组件.md",
->>>>>>> b8b826cac0bc2f0a10e17fb16a6418282e6f2378
+                "file": "开发一个VSCODE 插件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,24 +89,15 @@
   },
   "active": "28384cf20ec6e8fa",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "vue  一些有趣的项目.md",
+    "开发一个VSCODE 插件.md",
     "开发过程中 关于 UI的问题.md",
-    "未命名 1.md",
-=======
->>>>>>> b8b826cac0bc2f0a10e17fb16a6418282e6f2378
-    "前端组件.md",
+    "【前端安全】 csp-nonce.md",
     "前端基建.md",
+    "前端组件.md",
     "使用patch-package修改Node.js依赖包内容.md",
     "微前端.md",
     "未命名 1.md",
     "conflict-files-obsidian-git.md",
-<<<<<<< HEAD
-=======
-    "monaco-editor 编辑器.md",
->>>>>>> b8b826cac0bc2f0a10e17fb16a6418282e6f2378
-    "rui.md",
-    "vue  一些有趣的项目.md",
-    "模块联邦.md"
+    "monaco-editor 编辑器.md"
   ]
 }
