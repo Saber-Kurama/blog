@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Rust cli/00前言.md",
+            "file": "Rust cli/“Chapter 1. Truth Or Consequences”摘录来自Command-Line RustKen Youens-Clark此材料可能受版权保护。.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust cli/00前言.md",
+                "file": "Rust cli/“Chapter 1. Truth Or Consequences”摘录来自Command-Line RustKen Youens-Clark此材料可能受版权保护。.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,6 +88,7 @@
   },
   "active": "3f9d1bbf5e221f9a",
   "lastOpenFiles": [
+    "Rust cli/“Chapter 1. Truth Or Consequences”摘录来自Command-Line RustKen Youens-Clark此材料可能受版权保护。.md",
     "Rust cli/00前言.md",
     "Beginning RustGet Started with Rust 2021 Edition--01.md",
     "变量与数据类型.md",
@@ -96,7 +97,6 @@
     "函数、闭包和迭代器.md",
     "Beginning Rust 2021--06.md",
     "Beginning Rust 2021--05.md",
-    "Beginning Rust 2021--04.md",
-    "Beginning Rust 2021--03.md"
+    "Beginning Rust 2021--04.md"
   ]
 }
