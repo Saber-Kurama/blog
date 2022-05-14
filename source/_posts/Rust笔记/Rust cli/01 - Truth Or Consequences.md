@@ -9,5 +9,8 @@
 * 如何使用crates.io外部Rust板条箱
 * 关于程序的退出状态
 * 如何使用常见的系统命令和选项
-* 如何编写Rust版本的真程序和假程序
+* 如何编写Rust版本的true 和 false程序
 * 如何组织、编写和运行测试
+
+## Getting Started with “Hello, world!”
+
