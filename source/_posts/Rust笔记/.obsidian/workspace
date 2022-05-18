@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Beginning Rust 2021--06.md",
+            "file": "Rust cli/01 - Truth Or Consequences.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Beginning Rust 2021--06.md",
+                "file": "Rust cli/01 - Truth Or Consequences.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "3f9d1bbf5e221f9a",
   "lastOpenFiles": [
+    "Rust cli/01 - Truth Or Consequences.md",
+    "Rust cli/00 - 前言.md",
+    "Beginning RustGet Started with Rust 2021 Edition--01.md",
+    "变量与数据类型.md",
+    "Rust初始环境.md",
+    "Beginning Rust 2021--02.md",
+    "函数、闭包和迭代器.md",
     "Beginning Rust 2021--06.md",
     "Beginning Rust 2021--05.md",
-    "Beginning Rust 2021--04.md",
-    "Beginning Rust 2021--03.md",
-    "Beginning Rust 2021--02.md",
-    "Beginning RustGet Started with Rust 2021 Edition--01.md",
-    "模块化编程.md",
-    "conflict-files-obsidian-git.md",
-    "Rust初始环境.md",
-    "RUST的一些资源.md"
+    "Beginning Rust 2021--04.md"
   ]
 }
