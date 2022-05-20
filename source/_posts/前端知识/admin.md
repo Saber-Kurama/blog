@@ -9,6 +9,12 @@
 https://demos.themeselection.com/materio-vuetify-vuejs-admin-template-free/demo/dashboard
 
 
+https://admin.makeit.vip/theme
+https://github.com/lirongtong/miitvip-vue-admin-manager
+
+
+
+
 
 没有开源的
 
