@@ -13,4 +13,16 @@
 * 如何组织、编写和运行测试
 
 ## Getting Started with “Hello, world!”
+```rs
+fn main () {
+  println!("hello world");
+}
 
+```
+
+ println! 是一个宏
+执行代码之前 需要先编译
+
+```
+$ rustc hello.rs
+```
