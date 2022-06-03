@@ -44,3 +44,5 @@ Hello, world!
 > .\hello.exe
 Hello, world!
 ```
+
+## Organizing a Rust Project Directory 组织一个rustxi
