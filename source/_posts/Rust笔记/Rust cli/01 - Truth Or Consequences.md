@@ -26,3 +26,21 @@ fn main () {
 ```
 $ rustc hello.rs
 ```
+用 `file` 命令查看编译后的文件类型
+
+```
+❯ file hello
+hello: Mach-O 64-bit executable x86_64
+```
+
+mac 上直接执行
+
+```
+$ ./hello 
+Hello, world!
+```
+在windows上
+```
+> .\hello.exe
+Hello, world!
+```
