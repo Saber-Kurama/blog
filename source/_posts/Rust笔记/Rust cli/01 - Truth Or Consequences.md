@@ -45,4 +45,4 @@ Hello, world!
 Hello, world!
 ```
 
-## Organizing a Rust Project Directory 组织一个rustxi
+## Organizing a Rust Project Directory 组织一个rust项目目录
