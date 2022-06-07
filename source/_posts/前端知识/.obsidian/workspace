@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "微前端.md",
+            "file": "一些问题.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "微前端.md",
+                "file": "一些问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "28384cf20ec6e8fa",
   "lastOpenFiles": [
+    "一些问题.md",
     "微前端.md",
     "未命名 1.md",
     "admin.md",
@@ -97,7 +98,6 @@
     "icon.md",
     "monaco-editor 编辑器.md",
     "nestjs.md",
-    "rui.md",
-    "vue  一些有趣的项目.md"
+    "rui.md"
   ]
 }
