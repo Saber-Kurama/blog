@@ -89,6 +89,7 @@
   "active": "3f9d1bbf5e221f9a",
   "lastOpenFiles": [
     "rust程序设计第二版/03-基本类型.md",
+    "未命名.md",
     "rust程序设计第二版/02- Rust 之旅.md",
     "rust程序设计第二版/01-为什么是rust.md",
     "rust程序设计第二版/00-前言.md",
@@ -96,7 +97,6 @@
     "Rust cli/01 - Truth Or Consequences.md",
     "Beginning RustGet Started with Rust 2021 Edition--01.md",
     "变量与数据类型.md",
-    "Rust初始环境.md",
-    "Beginning Rust 2021--02.md"
+    "Rust初始环境.md"
   ]
 }
