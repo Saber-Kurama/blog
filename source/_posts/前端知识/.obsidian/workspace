@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "nestjs.md",
+            "file": "微前端.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nestjs.md",
+                "file": "微前端.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "28384cf20ec6e8fa",
   "lastOpenFiles": [
-    "nestjs.md",
-    "vue  一些有趣的项目.md",
+    "微前端.md",
+    "未命名 1.md",
     "admin.md",
     "conflict-files-obsidian-git.md",
     "Google Chrome 插件开发.md",
-    "前端基建.md",
-    "前端组件.md",
-    "关于 vue3 透传.md",
-    "未命名 1.md",
-    "微前端.md"
+    "icon.md",
+    "monaco-editor 编辑器.md",
+    "nestjs.md",
+    "rui.md",
+    "vue  一些有趣的项目.md"
   ]
 }
