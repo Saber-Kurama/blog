@@ -16,6 +16,12 @@ nginx -t
 ``` shell
 # 启动
 sodo brew services start nginx
+
+# 暂停
+nginx -s stop
+
+# 重启
+nginx -s reload
 ```
 
 
