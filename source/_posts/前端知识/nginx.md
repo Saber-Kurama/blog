@@ -10,3 +10,12 @@ nginx -t
 
 ### 修改端口号
 
+
+### 启动 暂停 重载
+
+``` shell
+# 启动
+sodo brew services start nginx
+```
+
+
