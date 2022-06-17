@@ -8,3 +8,4 @@ https://github.com/antfu/vite-plugin-md
 https://github.com/JasKang/vite-plugin-md-preview
 https://d0whc3r.github.io/vuepress-plugin-demo-block/zh/#%E5%AE%89%E8%A3%85
 
+https://awesomewdb.github.io/vitepress-plugin-demo/
