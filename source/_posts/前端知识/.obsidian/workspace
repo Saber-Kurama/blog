@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "vite 插件.md",
+            "file": "前端组件.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vite 插件.md",
+                "file": "前端组件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "28384cf20ec6e8fa",
   "lastOpenFiles": [
-    "vite 插件.md",
-    "Google Chrome 插件开发.md",
-    "vscode/开发一个VSCODE 插件.md",
-    "vscode/vscode.md",
-    "微前端.md",
-    "组件库的建设.md",
-    "mock 数据接口相关.md",
+    "前端组件.md",
+    "前端基建.md",
+    "模块联邦.md",
+    "开发过程中 关于 UI的问题.md",
+    "关于 vue3 透传.md",
     "vue  一些有趣的项目.md",
-    "admin.md",
-    "未命名 1.md"
+    "vite 插件.md",
+    "nginx.md",
+    "未命名 1.md",
+    "admin.md"
   ]
 }
