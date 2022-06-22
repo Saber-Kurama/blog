@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "nginx.md",
+            "file": "admin.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nginx.md",
+                "file": "admin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,11 +89,11 @@
   },
   "active": "0c1c5fea4e20d407",
   "lastOpenFiles": [
+    "admin.md",
     "nginx.md",
     "Pasted image 20220618180239.png",
     "vite 插件.md",
     "rui.md",
-    "admin.md",
     "组件库的建设.md",
     "前端组件.md",
     "前端基建.md",
