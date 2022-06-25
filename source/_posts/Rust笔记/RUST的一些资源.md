@@ -25,3 +25,6 @@ http://accu.cc/
 https://zhuanlan.zhihu.com/p/411524054
 
 https://zh.ng1lib.org/
+
+[# 【译】24天从 Node 转 Rust](https://zhuanlan.zhihu.com/p/455087919)
+
