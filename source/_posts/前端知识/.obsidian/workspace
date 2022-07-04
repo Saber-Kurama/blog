@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "关于微前端-一次microApp的使用经历.md",
+            "file": "vscode/vscode.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "关于微前端-一次microApp的使用经历.md",
+                "file": "vscode/vscode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "0c1c5fea4e20d407",
   "lastOpenFiles": [
+    "vscode/vscode.md",
+    "vscode/开发一个VSCODE 插件.md",
     "关于微前端-一次microApp的使用经历.md",
     "一些问题.md",
     "我的NPM最佳实践.md",
     "javascript的long类型.md",
     "conflict-files-obsidian-git.md",
     "admin.md",
-    "vscode/vscode.md",
     "一些有趣的博客.md",
-    "未命名 1.md",
-    "微前端.md"
+    "未命名 1.md"
   ]
 }
