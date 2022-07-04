@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "替换icon的组件库.md",
+            "file": "vscode/vscode.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "替换icon的组件库.md",
+                "file": "vscode/vscode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "0c1c5fea4e20d407",
   "lastOpenFiles": [
+    "vscode/vscode.md",
     "替换icon的组件库.md",
     "vue  一些有趣的项目.md",
     "关于微前端-一次microApp的使用经历.md",
@@ -97,7 +98,6 @@
     "javascript的long类型.md",
     "conflict-files-obsidian-git.md",
     "admin.md",
-    "vscode/vscode.md",
     "一些有趣的博客.md"
   ]
 }
