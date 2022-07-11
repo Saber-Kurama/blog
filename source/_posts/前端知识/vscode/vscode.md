@@ -24,3 +24,13 @@ https://marketplace.visualstudio.com/items?itemName=houxueping.feimaAutoComplete
 
 https://marketplace.visualstudio.com/items?itemName=fantasy.vscode-remote-snippets
 
+
+https://marketplace.visualstudio.com/items?itemName=vunguyentuan.vscode-css-variables
+
+https://marketplace.visualstudio.com/items?itemName=yanai101.css-var-hint
+
+https://marketplace.visualstudio.com/items?itemName=datnmqti.css-variable-suggestion
+
+https://marketplace.visualstudio.com/items?itemName=airbender92.css-variables-hints
+
+
