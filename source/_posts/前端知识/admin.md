@@ -68,3 +68,14 @@ https://www.iviewui.com/
 
 https://icrud.iviewui.com/
 
+
+
+1.  [Vite: 下一代前端开发与构建工具](https://link.segmentfault.com/?enc=%2FmLzFc4BjiBALxJaxkGh3g%3D%3D.5dXFvNm8bqFcPRfEGYzS7eIhBRbXOQ7tNUsQ8kPAJJs%3D),极速的热更新开发体验★★★★★
+2.  [Vue3.2: 超多的黑魔法](https://link.segmentfault.com/?enc=%2BvhX8mc52T3JztEEilgfqQ%3D%3D.LI9H60abiit%2F1iDxf9hBC9l%2B7%2FQTVlNFWcY0SJ4Yhpk%3D)
+3.  [Volar: Vue3必备开发神器](https://link.segmentfault.com/?enc=9zv99UYdIZ%2Bf93RPvEfIiw%3D%3D.8wViiNNMV7Mj8R8KqSbPzyZDBLB5D9Hcv%2FeqRc0pde7b1ChxaTnBTtitFU38svDb)
+4.  [Pinia: 新一代的轻量状态管理器](https://link.segmentfault.com/?enc=Q3SRo3bmBdxcP76u8IXbdA%3D%3D.Yg%2FUCZpO6xdrd1RXyGBv51pXjHPzvH%2FsXiFWkxB6jtc%3D)
+5.  [Vue-Router4: Vue3的官方路由](https://link.segmentfault.com/?enc=yEmTeeO0osUmecsAPFKJ8Q%3D%3D.weeqYOBBz5EQNOYU0wcjDN99YySsSUkW%2BC4uI9mMjSI%3D)
+6.  `<Script setup>` 语法糖，更简洁的语法、更好的开发体验
+7.  `Vue3 + TS + JSX`，一个重度`React + TS + JSX`用户的`Vue`项目解决方案
+
+https://segmentfault.com/a/1190000041679137

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "常见问题/TypeScript 的一些问题.md",
+            "file": "admin.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常见问题/TypeScript 的一些问题.md",
+                "file": "admin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,13 +89,13 @@
   },
   "active": "0c1c5fea4e20d407",
   "lastOpenFiles": [
+    "admin.md",
     "常见问题/TypeScript 的一些问题.md",
     "组件库的建设.md",
     "前端组件.md",
     "[.md",
     "高阶组件.md",
     "常见问题/axios 的get 数组问题.md",
-    "admin.md",
     "vscode/vscode.md",
     "vscode/开发一个VSCODE 插件.md",
     "一些有趣的博客.md"
