@@ -21,3 +21,6 @@ vue 中 setup 中组件 添加 name
 
 ## Property 'env' does not exist on type 'ImportMeta'.
 
+```
+{ "compilerOptions": { + "types": ["vite/client"] } }
+```
