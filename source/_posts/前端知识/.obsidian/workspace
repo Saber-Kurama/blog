@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "常见问题/TypeScript 的一些问题.md",
+            "file": "组件库的建设.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常见问题/TypeScript 的一些问题.md",
+                "file": "组件库的建设.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "0c1c5fea4e20d407",
   "lastOpenFiles": [
+    "组件库的建设.md",
+    "前端基建.md",
+    "前端组件.md",
     "常见问题/TypeScript 的一些问题.md",
     "Vite之高效插件推荐.md",
     "未命名 1.md",
     "微前端.md",
     "monorepo.md",
     "关于 vue3 透传.md",
-    "admin.md",
-    "Chrome Devtools-Elements篇.md",
-    "组件库的建设.md",
-    "前端组件.md"
+    "admin.md"
   ]
 }
