@@ -24,3 +24,24 @@ vue 中 setup 中组件 添加 name
 ```
 { "compilerOptions": { + "types": ["vite/client"] } }
 ```
+
+## Fix - Cannot find name '__dirname' Error in TypeScript
+
+https://bobbyhadz.com/blog/typescript-cannot-find-name-dirname
+
+```bash
+npm i -D @types/node
+```
+
+tsconfig.json
+
+``` json
+{  
+	"compilerOptions": 
+	 {     
+		 "types": [       
+		 // ... your other types       
+		 "node"     ],   
+     }, 
+}
+```
