@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Vue3 创建项目遇到的问题汇总.md",
+            "file": "组件库的建设.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vue3 创建项目遇到的问题汇总.md",
+                "file": "组件库的建设.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "0c1c5fea4e20d407",
   "lastOpenFiles": [
-    "【前端安全】 csp-nonce.md",
-    "常见问题/TypeScript 的一些问题.md",
-    "组件库的建设.md",
-    "前端组件.md",
-    "前端基建.md",
-    "Vite之高效插件推荐.md",
-    "未命名 1.md",
+    "一些有趣的博客.md",
+    "一些问题.md",
+    "我的NPM最佳实践.md",
     "微前端.md",
-    "monorepo.md",
-    "关于 vue3 透传.md"
+    "替换icon的组件库.md",
+    "使用patch-package修改Node.js依赖包内容.md",
+    "前端组件.md",
+    "模块联邦.md",
+    "开发过程中 关于 UI的问题.md",
+    "关于微前端-一次microApp的使用经历.md"
   ]
 }
