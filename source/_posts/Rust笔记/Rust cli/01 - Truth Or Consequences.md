@@ -46,3 +46,30 @@ Hello, world!
 ```
 
 ## Organizing a Rust Project Directory 组织一个rust项目目录
+在你的 Rust 项目中，你可能会编写许多源代码文件，并且还会使用来自 crates.io 等来源的代码。最好创建一个目录来包含所有这些。我将创建一个名为 hello 的目录，并在其中为 Rust 源代码文件创建一个 src 目录：
+
+```
+$ tree
+.
+├── hello
+└── src
+    └── hello.rs”
+
+```
+
+## Creating and Running a Project with Cargo 使用 Cargo 创建和运行项目
+创建项目
+``` sh
+$ cargo new hello
+```
+
+目录结构
+``` sh
+$ cd hello
+$ tree
+.
+├── Cargo.toml
+└── src
+    └── main.rs”
+
+```
