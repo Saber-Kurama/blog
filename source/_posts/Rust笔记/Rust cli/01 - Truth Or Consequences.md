@@ -73,3 +73,18 @@ $ tree
     └── main.rs”
 
 ```
+
+运行
+``` sh
+$ cargo run
+```
+安静 运行
+``` sh
+$ cargo run --quiet
+```
+查看 `cargo` 的所有命令
+```sh
+$ cargo 
+```
+## Writing and Running Integration Tests 编写和运行集成测试
+
