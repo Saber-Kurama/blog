@@ -180,7 +180,32 @@ Import assert_cmd::Command.
 
 ### Understanding Program Exit Values 了解程序退出值
 
+程序成功退出意味着什么？系统程序应向操作系统报告最终退出状态。可移植操作系统接口 (POSIX) 标准规定标准退出代码为 0 表示成功（认为零错误），否则为 1 到 255 之间的任何数字。我可以使用 bash shell 和 true 命令向您展示这一点。
+这是 macOS 上存在的版本的 man true 手册页
 
+正如文件显示的那样，这个程序没有成功。如果我运行 true，我什么也看不到，但我可以检查 bash 变量 $? 查看最新程序的退出状态：
 
+```
+$ true
+$ echo $?
+0
+```
 
+错误命令是一个必然结果，因为它“总是以非零退出代码退出”：
+
+```
+$ false
+$ echo $?
+1
+```
+您将在本书中编写的所有程序都将在正常终止时返回值 0，而在出现错误时返回非零值。我可以编写我自己的 true 和 false 版本来向您展示如何做到这一点。首先创建一个 src/bin 目录，然后使用以下内容创建 src/bin/true.rs
+
+```
+$ cat src/bin/true.rs
+fn main() {
+    std::process::exit(0); 
+}
+```
+
+Use the std::process::exit function to exit the program with the value 0.
 
