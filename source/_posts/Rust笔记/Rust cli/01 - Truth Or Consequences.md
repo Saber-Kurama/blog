@@ -174,5 +174,6 @@ fn runs() {
 }
 ```
 
+Import assert_cmd::Command.
 
 
