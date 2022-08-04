@@ -88,3 +88,80 @@ $ cargo
 ```
 ## Writing and Running Integration Tests 编写和运行集成测试
 
+> 不仅仅是测试的行为，设计测试的行为是已知的最好的错误预防措施之一。创建有用的测试必须进行的思考可以在编码之前发现并消除错误——事实上，测试设计思维可以在软件创建的每个阶段发现和消除错误，从概念到规范，再到设计、编码，其余的。
+
+我希望向您展示的很大一部分是测试代码的价值。虽然这个程序很简单，但仍有一些事情需要验证。我使用了几大类测试，我可以将它们描述为由内而外，我为程序内部的函数编写测试，以及由外而内，我编写的测试可以像用户一样运行我的程序。第一种测试通常称为单元测试，因为函数是编程的基本单元。我将在第 2 章中向您展示如何编写这些内容。对于这个程序，我想从后一种测试开始，这种测试通常被称为集成测试，因为它检查程序是否作为一个整体工作.
+
+为集成测试代码创建一个测试目录是很常见的。这可以使您的源代码井井有条，并且还可以使编译器在您不进行测试时轻松忽略此代码
+
+``` sh
+$ mkdir tests
+```
+
+``` sh
+“$ tree -L 2
+.
+├── Cargo.lock
+├── Cargo.toml
+├── src
+│   └── main.rs
+├── target
+│   ├── CACHEDIR.TAG
+│   └── debug
+└── tests
+    └── cli.rs
+```
+
+首先添加这个显示 Rust 测试基本结构的函数：
+
+``` rust
+#[test]
+fn runs() {
+  let mut cmd = Command::new("hello");
+  let res = cmd.output();
+  assert!(res.is_ok())
+}
+
+```
+查看 `PATH`
+
+```shell
+echo $PATH  | tr : '\n'
+```
+
+``` shell
+/opt/homebrew/bin
+/Users/kyclark/.cargo/bin
+/Users/kyclark/.local/bin
+/usr/local/bin
+/usr/bin
+/bin
+/usr/sbin
+/sbin
+```
+即使到那个`target/debug`目录下依然找不到 `hello`
+
+依然使用相对路径
+```
+$ ./hello
+Hello, world!
+```
+
+### Adding a Project Dependency  添加项目依赖
+
+目前，`hello`程序只存在于`target/debug`目录下。如果我将它复制到我的 PATH 中的任何目录（注意我包含私有程序的 `$HOME/.local/bin `目录），我可以执行它并成功运行测试。我不想复制我的程序来测试它； 相反，我想测试当前 crate 中的程序。我可以使用 crate `assert_cmd` 在我的 crate 目录中找到该程序。我首先需要将此作为`开发依赖项`添加到 `Cargo.toml`。这告诉 Cargo 我只需要这个 crate 来进行测试和基准测试：
+
+``` toml
+[package]
+name = "hello"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+
+[dev-dependencies]
+assert_cmd = "1"
+```
+然后我可以使用这个 crate 创建一个查看 Cargo 二进制目录的命令。下面的测试并不能验证程序是否产生了正确的输出，只是它看起来成功了。用这个定义更新你的运行函数：
+
