@@ -209,3 +209,23 @@ fn main() {
 
 Use the std::process::exit function to exit the program with the value 0.
 
+You can run the program and manually check the exit value:
+
+```
+$ cargo run --quiet --bin true 
+$ echo $?
+0
+```
+--bin 选项是“要运行的 bin 目标的名称"
+
+默认情况下，Rust 程序将以代码 0 退出。回想一下 src/main.rs 没有显式调用 std::process::exit。这意味着真正的程序什么都不做
+
+想确定吗？将 src/bin/true.rs 更改为以下内容：
+
+```
+$ cat src/bin/false.rs
+fn main() {
+    std::process::exit(1); 
+}
+```
+
