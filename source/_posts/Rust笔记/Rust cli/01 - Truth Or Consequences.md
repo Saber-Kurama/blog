@@ -164,7 +164,15 @@ edition = "2021"
 assert_cmd = "1"
 ```
 然后我可以使用这个 crate 创建一个查看 Cargo 二进制目录的命令。下面的测试并不能验证程序是否产生了正确的输出，只是它看起来成功了。用这个定义更新你的运行函数：
+``` rust
+use assert_cmd::Command; 
+
+#[test]
+fn runs() {
+  let mut cmd = Command::cargo_bin("hello").unwrap();
+  cmd.assert().success();
+}
 ```
-```
+
 
 
