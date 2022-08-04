@@ -175,5 +175,9 @@ fn runs() {
 ```
 
 Import assert_cmd::Command.
+创建一个命令以在当前 crate 中运行 hello。这将返回一个 Result，我认为它对 Result::unwrap 是安全的，因为找到了二进制文件。
+
+执行程序并使用 Assert::success 来“确保命令成功
+
 
 
