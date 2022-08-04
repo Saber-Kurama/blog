@@ -229,3 +229,33 @@ fn main() {
 }
 ```
 
+Another way to write this program uses `std::process::abort`:
+```
+$ cat src/bin/false.rs
+fn main() {
+    std::process::abort();
+}
+```
+
+再次，运行测试套件以确保程序仍按预期运行。
+
+###  Testing the Program Output 测试程序输出
+
+虽然很高兴知道我的 hello 程序正确退出，但我想确保它实际上将正确的输出打印到 STDOUT（发音为标准输出），这是输出出现的标准位置，通常是控制台。
+将 tests/cli.rs 中的运行函数更新为以下内容：
+
+``` rust
+#[test]
+fn runs() {
+  let mut cmd = Command::cargo_bin("hello").unwrap();
+  cmd.assert().success().stdout("Hello,world!\n");
+}
+```
+
+``` rust
+fn main() {
+    println!("Hello, world!");
+}
+```
+
+### Exit Values Make Programs Composable 退出值使程序可组合
