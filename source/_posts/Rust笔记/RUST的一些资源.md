@@ -28,3 +28,6 @@ https://zh.ng1lib.org/
 
 [# 【译】24天从 Node 转 Rust](https://zhuanlan.zhihu.com/p/455087919)
 
+
+[# Rust语言圣经(Rust Course)](https://course.rs/first-try/editor.html)
+
