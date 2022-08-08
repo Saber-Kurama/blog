@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "前端工程化/changelog.md",
+            "file": "使用 Nx 进行有效的 React 开发.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化/changelog.md",
+                "file": "使用 Nx 进行有效的 React 开发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "0c1c5fea4e20d407",
   "lastOpenFiles": [
-    "前端工程化/Code Review.md",
+    "Vite之高效插件推荐.md",
     "前端工程化/changelog.md",
+    "前端工程化/Code Review.md",
     "开发过程中 关于 UI的问题.md",
     "组件库的建设.md",
     "前端组件.md",
     "Jenkins/一些资源.md",
     "unocss.md",
     "模块联邦.md",
-    "高阶组件.md",
-    "关于 vue3 透传.md"
+    "高阶组件.md"
   ]
 }
