@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "前端工程化/changelog.md",
+            "file": "使用 Nx 进行有效的 React 开发/介绍.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化/changelog.md",
+                "file": "使用 Nx 进行有效的 React 开发/介绍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "0c1c5fea4e20d407",
   "lastOpenFiles": [
+    "前端工程化/changelog.md",
     "vscode/Visual Studio Code 可以做到这一点吗？.md",
     "conflict-files-obsidian-git.md",
     "一些有趣的博客.md",
@@ -97,7 +98,6 @@
     "微前端/模块联邦.md",
     "组件问题/前端组件.md",
     "组件问题/替换icon的组件库.md",
-    "使用 Nx 进行有效的 React 开发111.md",
-    "vue3/关于 vue3 透传.md"
+    "使用 Nx 进行有效的 React 开发111.md"
   ]
 }
