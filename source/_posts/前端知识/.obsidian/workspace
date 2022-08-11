@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "使用 Nx 进行有效的 React 开发/介绍.md",
+            "file": "使用 Nx 进行有效的 React 开发/未命名.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "使用 Nx 进行有效的 React 开发/介绍.md",
+                "file": "使用 Nx 进行有效的 React 开发/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,8 +87,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0c1c5fea4e20d407",
+  "active": "42d03b7013090d6f",
   "lastOpenFiles": [
+    "使用 Nx 进行有效的 React 开发/介绍.md",
     "前端工程化/changelog.md",
     "vscode/Visual Studio Code 可以做到这一点吗？.md",
     "conflict-files-obsidian-git.md",
@@ -97,7 +98,6 @@
     "未命名 1.md",
     "微前端/模块联邦.md",
     "组件问题/前端组件.md",
-    "组件问题/替换icon的组件库.md",
-    "使用 Nx 进行有效的 React 开发111.md"
+    "组件问题/替换icon的组件库.md"
   ]
 }
