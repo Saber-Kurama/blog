@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "patch-package.md",
+            "file": "21短文-手写前端框架.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "patch-package.md",
+                "file": "21短文-手写前端框架.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "0c1c5fea4e20d407",
   "lastOpenFiles": [
+    "patch-package.md",
     "monaco-editor 编辑器.md",
     "nginx.md",
     "常见问题/TypeScript 的一些问题.md",
@@ -97,7 +98,6 @@
     "vue3/关于 vue3 透传.md",
     "vue3/高阶组件.md",
     "babel/babel的插件开发.md",
-    "icon.md",
-    "rui.md"
+    "icon.md"
   ]
 }
