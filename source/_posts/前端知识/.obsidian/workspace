@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "babel/babel的插件开发.md",
+            "file": "nginx.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "babel/babel的插件开发.md",
+                "file": "nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "0c1c5fea4e20d407",
   "lastOpenFiles": [
-    "icon.md",
-    "babel/babel的插件开发.md",
+    "常见问题/TypeScript 的一些问题.md",
     "Vue3 创建项目遇到的问题汇总.md",
+    "vue3/admin.md",
+    "vue3/关于 vue3 透传.md",
+    "vue3/高阶组件.md",
+    "babel/babel的插件开发.md",
+    "icon.md",
     "rui.md",
     "Pasted image 20220726144917.png",
-    "Pasted image 20220618180239.png",
-    "一些有趣的博客.md",
-    "一些问题.md",
-    "未命名 1.md",
-    "微前端/模块联邦.md"
+    "Pasted image 20220618180239.png"
   ]
 }
