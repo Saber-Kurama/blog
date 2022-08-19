@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "21短文-手写前端框架.md",
+            "file": "vscode/vscode.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "21短文-手写前端框架.md",
+                "file": "vscode/vscode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "0c1c5fea4e20d407",
   "lastOpenFiles": [
+    "vscode/开发一个VSCODE 插件.md",
+    "vscode/Visual Studio Code 可以做到这一点吗？.md",
+    "21短文-手写前端框架.md",
     "patch-package.md",
     "monaco-editor 编辑器.md",
     "nginx.md",
     "常见问题/TypeScript 的一些问题.md",
     "Vue3 创建项目遇到的问题汇总.md",
     "vue3/admin.md",
-    "vue3/关于 vue3 透传.md",
-    "vue3/高阶组件.md",
-    "babel/babel的插件开发.md",
-    "icon.md"
+    "vue3/关于 vue3 透传.md"
   ]
 }
