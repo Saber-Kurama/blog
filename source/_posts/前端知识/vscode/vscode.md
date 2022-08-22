@@ -39,6 +39,8 @@ css 变量相关
 https://github.com/kinsliy/zat-design-token-snippets
 https://marketplace.visualstudio.com/items?itemName=shezhangzhang.antd-design-token
 https://marketplace.visualstudio.com/items?itemName=happyHacking.style-token
+https://marketplace.visualstudio.com/items?itemName=phoenisx.cssvar
+https://marketplace.visualstudio.com/items?itemName=vscodeex.color2variable
 
 
 
