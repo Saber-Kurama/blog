@@ -42,5 +42,9 @@ https://marketplace.visualstudio.com/items?itemName=happyHacking.style-token
 https://marketplace.visualstudio.com/items?itemName=phoenisx.cssvar
 https://marketplace.visualstudio.com/items?itemName=vscodeex.color2variable
 
+https://github.com/willofindie/vscode-cssvar
+
+https://github.com/vunguyentuan/vscode-css-variables
+
 
 
