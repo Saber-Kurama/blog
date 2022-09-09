@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "vscode/vscode.md",
+            "file": "lowcode.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vscode/vscode.md",
+                "file": "lowcode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +89,8 @@
   },
   "active": "0c1c5fea4e20d407",
   "lastOpenFiles": [
-    "nginx.md",
     "vscode/vscode.md",
+    "nginx.md",
     "vscode/Visual Studio Code 可以做到这一点吗？.md",
     "vscode/开发一个VSCODE 插件.md",
     "chrome插件/Chrome Devtools-Elements篇.md",
