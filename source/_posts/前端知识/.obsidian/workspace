@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "lowcode.md",
+            "file": "nginx.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lowcode.md",
+                "file": "nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,7 @@
   },
   "active": "0c1c5fea4e20d407",
   "lastOpenFiles": [
+    "lowcode.md",
     "vscode/vscode.md",
     "nginx.md",
     "vscode/Visual Studio Code 可以做到这一点吗？.md",
@@ -97,7 +98,6 @@
     "chrome插件/Google Chrome 插件开发.md",
     "node-npm/一些常用的 node-npm 包.md",
     "icon.md",
-    "babel/babel的插件开发.md",
-    "mock 数据接口相关.md"
+    "babel/babel的插件开发.md"
   ]
 }
