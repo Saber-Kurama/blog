@@ -7,8 +7,6 @@
 ``` ts
 nginx -t
 
-// 检查
-nginx -t nginx.conf
 
 ```
 
