@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "nginx.md",
+            "file": "fromily 的配置.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nginx.md",
+                "file": "fromily 的配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "0c1c5fea4e20d407",
   "lastOpenFiles": [
+    "rui.md",
+    "patch-package.md",
+    "nginx.md",
     "lowcode.md",
     "vscode/vscode.md",
-    "nginx.md",
     "vscode/Visual Studio Code 可以做到这一点吗？.md",
     "vscode/开发一个VSCODE 插件.md",
     "chrome插件/Chrome Devtools-Elements篇.md",
     "chrome插件/Google Chrome 插件开发.md",
-    "node-npm/一些常用的 node-npm 包.md",
-    "icon.md",
-    "babel/babel的插件开发.md"
+    "node-npm/一些常用的 node-npm 包.md"
   ]
 }
