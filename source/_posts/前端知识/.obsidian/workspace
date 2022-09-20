@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "21短文-手写前端框架.md",
+            "file": "monaco-editor 编辑器.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "21短文-手写前端框架.md",
+                "file": "monaco-editor 编辑器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "0c1c5fea4e20d407",
   "lastOpenFiles": [
-    "fromily 的配置.md",
-    "rui.md",
-    "patch-package.md",
+    "monorepo.md",
+    "nestjs.md",
     "nginx.md",
-    "lowcode.md",
-    "vscode/vscode.md",
-    "vscode/Visual Studio Code 可以做到这一点吗？.md",
-    "vscode/开发一个VSCODE 插件.md",
-    "chrome插件/Chrome Devtools-Elements篇.md",
-    "chrome插件/Google Chrome 插件开发.md"
+    "Pasted image 20220618180239.png",
+    "Pasted image 20220726144917.png",
+    "patch-package.md",
+    "rui.md",
+    "Vue3 创建项目遇到的问题汇总.md",
+    "21短文-手写前端框架.md",
+    "fromily 的配置.md"
   ]
 }
