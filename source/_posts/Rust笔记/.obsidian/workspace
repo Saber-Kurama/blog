@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
+            "file": "rust圣经/02rust基础入门/2.2 基本类型.md",
             "mode": "source",
             "source": true
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
+                "file": "rust圣经/02rust基础入门/2.2 基本类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,8 +86,10 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "adb9cb30bf3a9cd3",
+  "active": "cffe08c538d2e675",
   "lastOpenFiles": [
+    "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
+    "rust圣经/02rust基础入门/2.2 基本类型.md",
     "RUST的一些资源.md",
     "Rust cli/01 - Truth Or Consequences.md",
     "Rust cli/02-Test for Echo.md",
@@ -95,8 +97,6 @@
     "rust程序设计第二版/03-基本类型.md",
     "未命名.md",
     "rust程序设计第二版/02- Rust 之旅.md",
-    "rust程序设计第二版/01-为什么是rust.md",
-    "rust程序设计第二版/00-前言.md",
-    "Beginning RustGet Started with Rust 2021 Edition--01.md"
+    "rust程序设计第二版/01-为什么是rust.md"
   ]
 }
