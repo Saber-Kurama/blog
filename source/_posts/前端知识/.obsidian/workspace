@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "组件问题/组件库的建设.md",
+            "file": "vscode/开发一个VSCODE 插件.md",
             "mode": "source",
             "source": false
           }
@@ -49,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "组件问题/组件库的建设.md",
+                "file": "vscode/开发一个VSCODE 插件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,6 +89,8 @@
   },
   "active": "0c1c5fea4e20d407",
   "lastOpenFiles": [
+    "3d.md",
+    "组件问题/组件库的建设.md",
     "vue3/admin.md",
     "组件问题/前端组件.md",
     "组件问题/前端基建.md",
@@ -97,8 +98,6 @@
     "一些有趣的博客.md",
     "文章.md",
     "Vue3 创建项目遇到的问题汇总.md",
-    "未命名 1.md",
-    "lowcode.md",
-    "mock 数据接口相关.md"
+    "未命名 1.md"
   ]
 }
