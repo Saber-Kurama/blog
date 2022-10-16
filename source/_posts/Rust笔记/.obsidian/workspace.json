@@ -1,0 +1,165 @@
+{
+  "main": {
+    "id": "26da6d6aab8e0d41",
+    "type": "split",
+    "children": [
+      {
+        "id": "37c701239d4d0e24",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cffe08c538d2e675",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rust圣经/02rust基础入门/2.2 基本类型.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "71c2a0f499068952",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.0"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "08ad4e3c8f617ce9",
+    "type": "split",
+    "children": [
+      {
+        "id": "958efc1b57e388bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "adb9cb30bf3a9cd3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "902412ec686b2af6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "28347b6a34f0d2f6",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e2064f354f76428d",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccebfac709582ff1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "073f1cba1d376e58",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "rust圣经/02rust基础入门/2.2 基本类型.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "92fd90e5804458f0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "rust圣经/02rust基础入门/2.2 基本类型.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0c30248ec6dda9d5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b491ac094587affa",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "rust圣经/02rust基础入门/2.2 基本类型.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "71c2a0f499068952",
+  "lastOpenFiles": [
+    "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
+    "rust圣经/02rust基础入门/2.2 基本类型.md",
+    "RUST的一些资源.md",
+    "Rust cli/01 - Truth Or Consequences.md",
+    "Rust cli/02-Test for Echo.md",
+    "Rust cli/00 - 前言.md",
+    "rust程序设计第二版/03-基本类型.md",
+    "未命名.md",
+    "rust程序设计第二版/02- Rust 之旅.md",
+    "rust程序设计第二版/01-为什么是rust.md"
+  ]
+}
