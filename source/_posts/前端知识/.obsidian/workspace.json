@@ -1,0 +1,115 @@
+{
+  "main": {
+    "id": "b87faf38572f16c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "65a94f001cf9d693",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c1c5fea4e20d407",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "组件问题/组件库的建设.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3360f029ca1370e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "036881df21cf31c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42d03b7013090d6f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "12495da245cbde8b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "组件",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 384
+  },
+  "right": {
+    "id": "19e24e2ffe79f6a6",
+    "type": "split",
+    "children": [
+      {
+        "id": "5274640b7889050f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f6a17273348d4dbc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "组件问题/组件库的建设.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "0c1c5fea4e20d407",
+  "lastOpenFiles": [
+    "3d.md",
+    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+    "vscode/开发一个VSCODE 插件.md",
+    "组件问题/组件库的建设.md",
+    "vue3/admin.md",
+    "组件问题/前端组件.md",
+    "组件问题/前端基建.md",
+    "nginx.md",
+    "一些有趣的博客.md",
+    "文章.md"
+  ]
+}
