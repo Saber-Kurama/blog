@@ -18,19 +18,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "71c2a0f499068952",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.0.0"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -149,7 +138,7 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "71c2a0f499068952",
+  "active": "cffe08c538d2e675",
   "lastOpenFiles": [
     "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
     "rust圣经/02rust基础入门/2.2 基本类型.md",
