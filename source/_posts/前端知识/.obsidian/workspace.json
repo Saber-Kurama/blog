@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "65a94f001cf9d693",
+        "id": "35d6f8a446852424",
         "type": "tabs",
         "children": [
           {
-            "id": "0c1c5fea4e20d407",
+            "id": "9993c2655f65867a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -57,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,17 +98,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "0c1c5fea4e20d407",
+  "active": "9993c2655f65867a",
   "lastOpenFiles": [
-    "微前端/微前端.md",
-    "vue3/admin.md",
-    "组件问题/前端基建.md",
-    "组件问题/组件库的建设.md",
+    "vue3/关于 vue3 透传.md",
+    "vue3/高阶组件.md",
+    "【前端安全】 csp-nonce.md",
     "3d.md",
+    "21短文-手写前端框架.md",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
-    "vscode/开发一个VSCODE 插件.md",
-    "组件问题/前端组件.md",
-    "nginx.md",
+    "未命名 1.md",
+    "文章.md",
+    "一些问题.md",
     "一些有趣的博客.md"
   ]
 }
