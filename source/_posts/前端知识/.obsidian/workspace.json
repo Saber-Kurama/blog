@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "组件问题/组件库的建设.md",
+                "file": "一些有趣的博客.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,8 +69,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -91,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.md",
+                "file": "一些有趣的博客.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,17 +110,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "15fa296cb5bf593f",
+  "active": "9993c2655f65867a",
   "lastOpenFiles": [
-    "组件问题/组件库的建设.md",
-    "vue3/admin.md",
+    "fromily 的配置.md",
+    "icon.md",
+    "javascript的long类型.md",
+    "lowcode.md",
+    "mock 数据接口相关.md",
     "monaco-editor 编辑器.md",
-    "常见问题/TypeScript 的一些问题.md",
-    "vite/vite 插件.md",
-    "组件问题/前端基建.md",
-    "vue3/关于 vue3 透传.md",
-    "vue3/高阶组件.md",
-    "【前端安全】 csp-nonce.md",
-    "3d.md"
+    "monorepo.md",
+    "nestjs.md",
+    "Pasted image 20220618180239.png",
+    "nginx.md"
   ]
 }
