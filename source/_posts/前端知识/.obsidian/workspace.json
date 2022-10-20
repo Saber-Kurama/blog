@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "一些有趣的博客.md",
+                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "组件",
+                "query": "翻译",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -89,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "一些有趣的博客.md",
+                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +113,7 @@
   },
   "active": "9993c2655f65867a",
   "lastOpenFiles": [
+    "一些有趣的博客.md",
     "fromily 的配置.md",
     "icon.md",
     "javascript的long类型.md",
@@ -120,7 +122,6 @@
     "monaco-editor 编辑器.md",
     "monorepo.md",
     "nestjs.md",
-    "Pasted image 20220618180239.png",
-    "nginx.md"
+    "Pasted image 20220618180239.png"
   ]
 }
