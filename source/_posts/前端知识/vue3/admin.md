@@ -79,3 +79,12 @@ https://icrud.iviewui.com/
 7.  `Vue3 + TS + JSX`，一个重度`React + TS + JSX`用户的`Vue`项目解决方案
 
 https://segmentfault.com/a/1190000041679137
+
+
+
+含有 暗黑主题的 admin
+
+https://lyt-top.gitee.io/vue-next-admin-preview/#/home
+https://vvbin.cn/next/#/dashboard/analysis
+https://demos.themeselection.com/materio-vuetify-vuejs-admin-template-free/demo/
+https://admin.makeit.vip/tools/global
