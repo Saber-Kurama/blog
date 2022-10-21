@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "35d6f8a446852424",
+        "id": "0c7c6101dddb9dd1",
         "type": "tabs",
         "children": [
           {
-            "id": "9993c2655f65867a",
+            "id": "ae12fe6e42dcfb3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue3/admin.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15fa296cb5bf593f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
+                "file": "canvas.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "admin",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "canvas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,8 +98,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "9993c2655f65867a",
+  "active": "ae12fe6e42dcfb3e",
   "lastOpenFiles": [
+    "未命名.md",
+    "vue3/admin.md",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "一些有趣的博客.md",
     "fromily 的配置.md",
@@ -120,8 +109,6 @@
     "javascript的long类型.md",
     "lowcode.md",
     "mock 数据接口相关.md",
-    "monaco-editor 编辑器.md",
-    "monorepo.md",
-    "nestjs.md"
+    "monaco-editor 编辑器.md"
   ]
 }
