@@ -10,6 +10,8 @@
 [VSCode插件开发全攻略](http://blog.haoji.me/vscode-plugin-overview.html)
 [VS Code 插件开发文档](https://www.bookstack.cn/read/VS-Code-Extension-Doc-ZH/README.md)
 
+[# VS Code插件开发教程（1） Overview](https://juejin.cn/post/6969601205735686157)
+
 ## VSCODE 插件能做什么
 
 * 不受限的本地磁盘访问
