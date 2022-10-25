@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.2 基本类型.md",
+                "file": "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.2 基本类型.md",
+                "file": "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.2 基本类型.md",
+                "file": "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.2 基本类型.md"
+                "file": "rust圣经/02rust基础入门/2.1 变量绑定与解构.md"
               }
             }
           }
@@ -140,8 +140,8 @@
   },
   "active": "cffe08c538d2e675",
   "lastOpenFiles": [
-    "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
     "rust圣经/02rust基础入门/2.2 基本类型.md",
+    "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
     "RUST的一些资源.md",
     "Rust cli/01 - Truth Or Consequences.md",
     "Rust cli/02-Test for Echo.md",
