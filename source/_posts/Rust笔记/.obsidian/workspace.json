@@ -18,8 +18,21 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "60f0ac25d7571a3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "面试.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
+                "file": "面试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
+                "file": "面试.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.1 变量绑定与解构.md"
+                "file": "面试.md"
               }
             }
           }
@@ -138,10 +151,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "cffe08c538d2e675",
+  "active": "60f0ac25d7571a3d",
   "lastOpenFiles": [
-    "rust圣经/02rust基础入门/2.2 基本类型.md",
     "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
+    "rust圣经/02rust基础入门/2.2 基本类型.md",
     "RUST的一些资源.md",
     "Rust cli/01 - Truth Or Consequences.md",
     "Rust cli/02-Test for Echo.md",
