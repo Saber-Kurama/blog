@@ -163,9 +163,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "adb9cb30bf3a9cd3",
+  "active": "0c2c29a77f8ce31d",
   "lastOpenFiles": [
     "rust圣经/02rust基础入门/2.3 所有权和借用.md",
+    "rust圣经/02rust基础入门/2.4 复合类型.md",
     "rust圣经/02rust基础入门/2.2 基本类型.md",
     "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
     "面试.md",
@@ -173,7 +174,6 @@
     "Rust cli/01 - Truth Or Consequences.md",
     "Rust cli/02-Test for Echo.md",
     "Rust cli/00 - 前言.md",
-    "rust程序设计第二版/03-基本类型.md",
-    "未命名.md"
+    "rust程序设计第二版/03-基本类型.md"
   ]
 }
