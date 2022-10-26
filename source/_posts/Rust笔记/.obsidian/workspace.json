@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ab497b73e4b770c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rust圣经/02rust基础入门/2.3 所有权和借用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c2c29a77f8ce31d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rust圣经/02rust基础入门/2.4 复合类型.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.2 基本类型.md",
+                "file": "rust圣经/02rust基础入门/2.4 复合类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.2 基本类型.md",
+                "file": "rust圣经/02rust基础入门/2.4 复合类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.2 基本类型.md"
+                "file": "rust圣经/02rust基础入门/2.4 复合类型.md"
               }
             }
           }
@@ -138,17 +163,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "cffe08c538d2e675",
+  "active": "adb9cb30bf3a9cd3",
   "lastOpenFiles": [
+    "rust圣经/02rust基础入门/2.3 所有权和借用.md",
+    "rust圣经/02rust基础入门/2.2 基本类型.md",
     "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
     "面试.md",
-    "rust圣经/02rust基础入门/2.2 基本类型.md",
     "RUST的一些资源.md",
     "Rust cli/01 - Truth Or Consequences.md",
     "Rust cli/02-Test for Echo.md",
     "Rust cli/00 - 前言.md",
     "rust程序设计第二版/03-基本类型.md",
-    "未命名.md",
-    "rust程序设计第二版/02- Rust 之旅.md"
+    "未命名.md"
   ]
 }
