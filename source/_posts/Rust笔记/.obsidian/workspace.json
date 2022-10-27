@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0a3e568d35b51a59",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.4 复合类型.md",
+                "file": "未命名 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.4 复合类型.md",
+                "file": "未命名 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.4 复合类型.md"
+                "file": "未命名 1.md"
               }
             }
           }
@@ -163,10 +175,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "0c2c29a77f8ce31d",
+  "active": "0a3e568d35b51a59",
   "lastOpenFiles": [
-    "rust圣经/02rust基础入门/2.3 所有权和借用.md",
     "rust圣经/02rust基础入门/2.4 复合类型.md",
+    "rust圣经/02rust基础入门/2.3 所有权和借用.md",
     "rust圣经/02rust基础入门/2.2 基本类型.md",
     "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
     "面试.md",
