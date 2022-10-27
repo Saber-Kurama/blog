@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "翻译",
+                "query": "nginx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -57,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "95ca21acb82e8a10",
+  "active": "12495da245cbde8b",
   "lastOpenFiles": [
     "图形学/canvas.md",
     "微前端/微前端.md",
