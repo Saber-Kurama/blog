@@ -11,11 +11,28 @@
             "id": "ee2d0ef6c871c4fc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "mock 数据接口相关.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e2259b049bf3e08d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "编译思想和设计模式/aop和ioc.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nginx",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,8 +70,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -74,6 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "编译思想和设计模式/aop和ioc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,8 +111,9 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "ee2d0ef6c871c4fc",
+  "active": "42d03b7013090d6f",
   "lastOpenFiles": [
+    "mock 数据接口相关.md",
     "图形学/3d.md",
     "图形学/canvas.md",
     "微前端/微前端.md",
@@ -104,7 +122,6 @@
     "vue3/admin.md",
     "monorepo.md",
     "monaco-editor 编辑器.md",
-    "mock 数据接口相关.md",
     "javascript的long类型.md"
   ]
 }
