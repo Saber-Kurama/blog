@@ -9,4 +9,8 @@
 
 [# InversifyJS 中文文档](https://dev.to/jefftian/inversifyjs-2de0)
 
-[]()
+[# 带你学习inversify.js系列 - inversify基础知识学习](https://zhuanlan.zhihu.com/p/137542149)
+
+[# 小话设计模式原则之：依赖倒置原则DIP](https://zhuanlan.zhihu.com/p/24175489)
+
+[# IOC思想在React的应用（依赖注入）](https://juejin.cn/post/7079612337111924772)
