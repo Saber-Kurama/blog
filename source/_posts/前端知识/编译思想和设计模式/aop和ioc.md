@@ -6,3 +6,6 @@
 
 [# 深入浅出前端控制反转和依赖注入实现](https://juejin.cn/post/7046927021028409351)
 
+
+[# InversifyJS 中文文档](https://dev.to/jefftian/inversifyjs-2de0)
+
