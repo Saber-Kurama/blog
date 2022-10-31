@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名 2.md",
+                "file": "rust圣经/02rust基础入门/2.4 复合类型.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 2.md",
+                "file": "rust圣经/02rust基础入门/2.4 复合类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名 2.md",
+                "file": "rust圣经/02rust基础入门/2.4 复合类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 2.md"
+                "file": "rust圣经/02rust基础入门/2.4 复合类型.md"
               }
             }
           }
@@ -189,15 +189,15 @@
   },
   "active": "319fd91d8fa17c49",
   "lastOpenFiles": [
-    "未命名 1.md",
     "未命名.md",
+    "未命名 2.md",
+    "未命名 1.md",
     "rust圣经/02rust基础入门/2.4 复合类型.md",
     "rust圣经/02rust基础入门/2.3 所有权和借用.md",
     "rust圣经/02rust基础入门/2.2 基本类型.md",
     "Beginning Rust 2021--02.md",
     "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
     "面试.md",
-    "RUST的一些资源.md",
-    "Rust cli/01 - Truth Or Consequences.md"
+    "RUST的一些资源.md"
   ]
 }
