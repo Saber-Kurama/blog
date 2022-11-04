@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名 1.md",
+                "file": "rust圣经/02rust基础入门/2.4 复合类型.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 1.md",
+                "file": "rust圣经/02rust基础入门/2.4 复合类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名 1.md",
+                "file": "rust圣经/02rust基础入门/2.4 复合类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 1.md"
+                "file": "rust圣经/02rust基础入门/2.4 复合类型.md"
               }
             }
           }
@@ -198,9 +198,9 @@
   },
   "active": "3b235f464f173fe8",
   "lastOpenFiles": [
+    "未命名 1.md",
     "未命名.md",
     "模块化编程.md",
-    "未命名 1.md",
     "未命名 2.md",
     "rust圣经/02rust基础入门/2.4 复合类型.md",
     "rust圣经/02rust基础入门/2.3 所有权和借用.md",
