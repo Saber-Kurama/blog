@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "babel/babel的插件开发.md",
+                "file": "monorepo.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -103,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "babel/babel的插件开发.md",
+                "file": "monorepo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,6 +122,7 @@
   },
   "active": "f42ede68a0061097",
   "lastOpenFiles": [
+    "babel/babel的插件开发.md",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "文章.md",
     "未命名 1.md",
@@ -131,7 +131,6 @@
     "webIDE.md",
     "微前端/微前端.md",
     "微前端/模块联邦.md",
-    "微前端/关于微前端-一次microApp的使用经历.md",
-    "图形学/canvas.md"
+    "微前端/关于微前端-一次microApp的使用经历.md"
   ]
 }
