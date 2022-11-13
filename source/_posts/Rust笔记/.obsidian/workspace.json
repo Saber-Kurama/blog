@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "37c701239d4d0e24",
+        "id": "6551e82d99aa730f",
         "type": "tabs",
         "children": [
           {
-            "id": "0a3e568d35b51a59",
+            "id": "0fb52abdfa6c97a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名 1.md",
+                "file": "rust圣经/02rust基础入门/2.4 复合类型.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3b235f464f173fe8",
+            "id": "639887428024f4f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Beginning RustGet Started with Rust 2021 Edition--01.md",
+                "file": "rust圣经/02rust基础入门/2.5 流程控制.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Beginning RustGet Started with Rust 2021 Edition--01.md",
+                "file": "rust圣经/02rust基础入门/2.5 流程控制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Beginning RustGet Started with Rust 2021 Edition--01.md",
+                "file": "rust圣经/02rust基础入门/2.5 流程控制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Beginning RustGet Started with Rust 2021 Edition--01.md"
+                "file": "rust圣经/02rust基础入门/2.5 流程控制.md"
               }
             }
           }
@@ -151,14 +151,14 @@
   "active": "adb9cb30bf3a9cd3",
   "lastOpenFiles": [
     "rust圣经/02rust基础入门/2.4 复合类型.md",
+    "Rust cli/00 - 前言.md",
+    "Beginning RustGet Started with Rust 2021 Edition--01.md",
     "未命名.md",
     "未命名 1.md",
     "模块化编程.md",
     "未命名 2.md",
     "rust圣经/02rust基础入门/2.3 所有权和借用.md",
     "rust圣经/02rust基础入门/2.2 基本类型.md",
-    "Beginning Rust 2021--02.md",
-    "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
-    "面试.md"
+    "Beginning Rust 2021--02.md"
   ]
 }
