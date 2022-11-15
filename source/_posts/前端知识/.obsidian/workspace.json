@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "图形学/canvas.md",
+                "file": "vue3/admin.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "拖拽",
+                "query": "admin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "图形学/canvas.md",
+                "file": "vue3/admin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,6 +123,8 @@
   },
   "active": "f42ede68a0061097",
   "lastOpenFiles": [
+    "组件问题/前端基建.md",
+    "图形学/canvas.md",
     "nginx.md",
     "babel/babel的插件开发.md",
     "monorepo.md",
@@ -130,8 +132,6 @@
     "文章.md",
     "未命名 1.md",
     "icon.md",
-    "Vue3 创建项目遇到的问题汇总.md",
-    "webIDE.md",
-    "微前端/微前端.md"
+    "Vue3 创建项目遇到的问题汇总.md"
   ]
 }

@@ -13,7 +13,7 @@ https://admin.makeit.vip/theme
 https://github.com/lirongtong/miitvip-vue-admin-manager
 
 
-
+https://gitee.com/iczer/vue-antd-admin
 
 
 没有开源的
