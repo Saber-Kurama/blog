@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "组件问题/我的NPM最佳实践.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "admin",
+                "query": "npm",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "组件问题/我的NPM最佳实践.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,8 +121,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "f42ede68a0061097",
+  "active": "12495da245cbde8b",
   "lastOpenFiles": [
+    "vue3/admin.md",
     "组件问题/前端基建.md",
     "图形学/canvas.md",
     "nginx.md",
@@ -131,7 +132,6 @@
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "文章.md",
     "未命名 1.md",
-    "icon.md",
-    "Vue3 创建项目遇到的问题汇总.md"
+    "icon.md"
   ]
 }
