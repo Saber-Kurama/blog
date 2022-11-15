@@ -17,6 +17,10 @@ https://gitee.com/iczer/vue-antd-admin
 
 https://github.com/HalseySpicy/Geeker-Admin
 
+https://github.com/xiaoxian521/vue-pure-admin
+
+https://github.com/JiaQi-0827/vue-gc-webSystem
+
 没有开源的
 
 https://www.naiveadmin.com/home
