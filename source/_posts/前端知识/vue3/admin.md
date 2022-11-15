@@ -20,6 +20,11 @@ https://github.com/HalseySpicy/Geeker-Admin
 https://github.com/xiaoxian521/vue-pure-admin
 
 https://github.com/JiaQi-0827/vue-gc-webSystem
+https://github.com/zsw1024/omgVue
+https://github.com/whoiszhangben/eam
+https://github.com/1024-lab/smart-admin/tree/master
+
+
 
 没有开源的
 
