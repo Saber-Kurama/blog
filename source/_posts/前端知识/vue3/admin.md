@@ -15,6 +15,7 @@ https://github.com/lirongtong/miitvip-vue-admin-manager
 
 https://gitee.com/iczer/vue-antd-admin
 
+https://github.com/HalseySpicy/Geeker-Admin
 
 没有开源的
 
