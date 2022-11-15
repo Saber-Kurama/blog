@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nginx.md",
+                "file": "图形学/canvas.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nginx",
+                "query": "拖拽",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nginx.md",
+                "file": "图形学/canvas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,6 +123,7 @@
   },
   "active": "f42ede68a0061097",
   "lastOpenFiles": [
+    "nginx.md",
     "babel/babel的插件开发.md",
     "monorepo.md",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
@@ -131,7 +132,6 @@
     "icon.md",
     "Vue3 创建项目遇到的问题汇总.md",
     "webIDE.md",
-    "微前端/微前端.md",
-    "微前端/模块联邦.md"
+    "微前端/微前端.md"
   ]
 }
