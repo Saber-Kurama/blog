@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "admin",
+                "query": " devtool",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,7 +133,7 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1e3126bd8a0fff58",
+  "active": "12495da245cbde8b",
   "lastOpenFiles": [
     "CSS/CSS网格的隐式网格和自动放置功能研究.md",
     "fromily 的配置.md",
