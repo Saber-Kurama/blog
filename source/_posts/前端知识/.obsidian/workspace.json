@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "vue3/高阶组件.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,8 +94,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "vue3/高阶组件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,12 +132,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "12495da245cbde8b",
+  "active": "1e3126bd8a0fff58",
   "lastOpenFiles": [
+    "vue3/admin.md",
     "CSS/CSS网格的隐式网格和自动放置功能研究.md",
     "fromily 的配置.md",
     "组件问题/我的NPM最佳实践.md",
-    "vue3/admin.md",
     "组件问题/前端基建.md",
     "图形学/canvas.md",
     "nginx.md",
