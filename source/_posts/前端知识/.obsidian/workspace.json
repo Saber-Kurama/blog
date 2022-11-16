@@ -134,6 +134,8 @@
   },
   "active": "1e3126bd8a0fff58",
   "lastOpenFiles": [
+    "fromily 的配置.md",
+    "CSS/CSS网格的隐式网格和自动放置功能研究.md",
     "组件问题/我的NPM最佳实践.md",
     "vue3/admin.md",
     "组件问题/前端基建.md",
@@ -141,8 +143,6 @@
     "nginx.md",
     "babel/babel的插件开发.md",
     "monorepo.md",
-    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
-    "文章.md",
-    "未命名 1.md"
+    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md"
   ]
 }
