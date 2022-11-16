@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/CSS网格的隐式网格和自动放置功能研究.md",
+                "file": "vue3/admin.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "npm",
+                "query": "admin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -114,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/CSS网格的隐式网格和自动放置功能研究.md",
+                "file": "vue3/admin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,8 +135,8 @@
   },
   "active": "1e3126bd8a0fff58",
   "lastOpenFiles": [
-    "fromily 的配置.md",
     "CSS/CSS网格的隐式网格和自动放置功能研究.md",
+    "fromily 的配置.md",
     "组件问题/我的NPM最佳实践.md",
     "vue3/admin.md",
     "组件问题/前端基建.md",
