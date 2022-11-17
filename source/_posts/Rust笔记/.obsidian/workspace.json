@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.6 模式匹配.md",
+                "file": "RUST的一些资源.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a73c872e5acc8343",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rust 学习资源.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.6 模式匹配.md",
+                "file": "Rust 学习资源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.6 模式匹配.md",
+                "file": "Rust 学习资源.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.6 模式匹配.md"
+                "file": "Rust 学习资源.md"
               }
             }
           }
@@ -148,17 +160,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "8c1b8f428c5a8635",
+  "active": "a73c872e5acc8343",
   "lastOpenFiles": [
+    "RUST的一些资源.md",
+    "rust圣经/02rust基础入门/2.6 模式匹配.md",
     "Beginning Rust 2021/Beginning Rust 2021--06.md",
     "Beginning Rust 2021/Beginning Rust 2021--04.md",
     "Beginning Rust 2021/Beginning Rust 2021--03.md",
     "Beginning Rust 2021/Beginning Rust 2021--02.md",
     "Beginning Rust 2021/Beginning RustGet Started with Rust 2021 Edition--01.md",
-    "RUST的一些资源.md",
     "Rust初始环境.md",
     "Pasted image 20221026204959.png",
-    "Pasted image 20221026204213.png",
-    "变量与数据类型.md"
+    "Pasted image 20221026204213.png"
   ]
 }
