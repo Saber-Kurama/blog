@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue3/高阶组件.md",
+                "file": "使用 Nx 进行有效的 React 开发/介绍.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": " devtool",
+                "query": "书",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -114,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/高阶组件.md",
+                "file": "使用 Nx 进行有效的 React 开发/介绍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,6 +135,7 @@
   },
   "active": "1e3126bd8a0fff58",
   "lastOpenFiles": [
+    "vue3/高阶组件.md",
     "vue3/admin.md",
     "CSS/CSS网格的隐式网格和自动放置功能研究.md",
     "fromily 的配置.md",
@@ -142,7 +144,6 @@
     "图形学/canvas.md",
     "nginx.md",
     "babel/babel的插件开发.md",
-    "monorepo.md",
-    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md"
+    "monorepo.md"
   ]
 }
