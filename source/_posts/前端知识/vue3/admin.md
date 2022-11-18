@@ -82,7 +82,7 @@ https://www.iviewui.com/
 
 https://icrud.iviewui.com/
 
-
+https://github.com/cosmoscatts/parfait
 
 1.  [Vite: 下一代前端开发与构建工具](https://link.segmentfault.com/?enc=%2FmLzFc4BjiBALxJaxkGh3g%3D%3D.5dXFvNm8bqFcPRfEGYzS7eIhBRbXOQ7tNUsQ8kPAJJs%3D),极速的热更新开发体验★★★★★
 2.  [Vue3.2: 超多的黑魔法](https://link.segmentfault.com/?enc=%2BvhX8mc52T3JztEEilgfqQ%3D%3D.LI9H60abiit%2F1iDxf9hBC9l%2B7%2FQTVlNFWcY0SJ4Yhpk%3D)
