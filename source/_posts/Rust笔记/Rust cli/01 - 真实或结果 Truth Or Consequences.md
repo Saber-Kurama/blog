@@ -130,6 +130,35 @@ $ mkdir tests
 
 首先添加这个函数，它显示了 Rust 中测试的基本结构：
 
+```rust
+#[test]
+fn works() {
+    assert!(true)
+}
+
+```
+
+本书中的所有测试都将使用 assert！以验证某些期望是否为真或assert_eq！以验证某些内容是否为预期值。
+由于此测试正在评估文本值 true，因此它将始终成功。
+要查看此测试的实际效果，请执行`cargo test`。
+您应该在输出中看到以下行：
+
+``` shell
+     Running tests/cli.rs (target/debug/deps/cli-27c6c9a94ed7c7df)
+
+running 1 test
+test works ... ok
+```
+
+仅仅断言真和假是没有用的，所以删除该函数。
+相反，我将看看是否可以执行hello程序。
+我将使用 `std::process::Command` 来执行命令并检查结果。
+首先，我将演示使用命令ls，我知道它适用于Unix和Windows：
+
+```rust
+
+```
+
 首先添加这个显示 Rust 测试基本结构的函数：
 
 ``` rust
