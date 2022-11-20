@@ -13,6 +13,10 @@
 * 如何组织、编写和运行测试
 
 ## Getting Started with “Hello, world!”
+
+开始的地方是开始，似乎普遍同意这意味着在屏幕上打印“你好，世界！
+你可以切换到一个带有cd /tmp的临时目录来编写第一个程序，然后启动一个文本编辑器并将这个Rust程序键入到一个名为 hello.rs 的文件中：
+
 ```rs
 fn main () {
   println!("hello world");
@@ -20,7 +24,7 @@ fn main () {
 
 ```
 
- println! 是一个宏
+println! 是一个宏
 执行代码之前 需要先编译
 
 ```
