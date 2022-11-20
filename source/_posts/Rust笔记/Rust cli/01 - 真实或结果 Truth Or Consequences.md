@@ -373,6 +373,8 @@ fn runs() {
 }
 ```
 
+验证命令是否成功退出并将给定文本打印到 STDOUT。
+
 ``` rust
 fn main() {
     println!("Hello, world!");
@@ -388,6 +390,9 @@ fn main() {
 $ true && ls
 Cargo.lock  Cargo.toml  src/        target/     tests/
 ```
+
+相反，如果我执行 false &&ls，结果是第一个进程失败，ls 永远不会被执行。
+此外，整个命令的退出状态为非零。
 
 ``` shell
 $ false && ls

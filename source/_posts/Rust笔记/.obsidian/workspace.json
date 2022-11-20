@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
+                "file": "Rust cli/02-Test for Echo.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
+                "file": "Rust cli/02-Test for Echo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
+                "file": "Rust cli/02-Test for Echo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust cli/01 - 真实或结果 Truth Or Consequences.md"
+                "file": "Rust cli/02-Test for Echo.md"
               }
             }
           }
@@ -162,9 +162,9 @@
   },
   "active": "a73c872e5acc8343",
   "lastOpenFiles": [
+    "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
     "Rust 学习资源.md",
     "RUST的一些资源.md",
-    "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
     "Rust cli/00 - 前言.md",
     "Rust cli/02-Test for Echo.md",
     "rust圣经/02rust基础入门/2.6 模式匹配.md",
