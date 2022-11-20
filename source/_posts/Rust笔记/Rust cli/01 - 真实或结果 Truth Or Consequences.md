@@ -156,6 +156,14 @@ test works ... ok
 首先，我将演示使用命令ls，我知道它适用于Unix和Windows：
 
 ```rust
+use std::process::Command;
+
+#[test]
+fn runs() {
+    let mut cmd = Command::new("ls");
+    let res = cmd.output();
+    assert!(res.is_ok());
+}
 
 ```
 
@@ -170,6 +178,13 @@ fn runs() {
 }
 
 ```
+
+```
+running 1 test
+test runs ... FAILED
+```
+
+
 查看 `PATH`
 
 ```shell
@@ -187,6 +202,15 @@ echo $PATH  | tr : '\n'
 /sbin
 ```
 即使到那个`target/debug`目录下依然找不到 `hello`
+
+```shell
+cd target/debug/
+ls hello
+hello*
+hello
+-bash: hello: command not found”
+
+```
 
 依然使用相对路径
 ```
