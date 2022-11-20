@@ -289,6 +289,20 @@ $ echo $?
 ```
 --bin 选项是“要运行的 bin 目标的名称"
 
+将以下测试添加到 tests/cli.rs 以确保其正常工作：
+
+```
+#[test]
+fn true_ok() {
+    let mut cmd = Command::cargo_bin("true").unwrap();
+    cmd.assert().success();
+}
+```
+
+>
+注意
+测试的运行顺序不一定与代码中声明的顺序相同。这是因为 Rust 是一种用于编写并发代码的安全语言，这意味着代码可以跨多个线程运行。测试利用此并发性并行运行许多测试，因此每次运行测试结果时可能会以不同的顺序显示。这是一个功能，而不是一个错误。如果你想按顺序运行测试，你可以通过 `cargo test -- --test-threads=1` 在单个线程上运行它们。
+
 默认情况下，Rust 程序将以代码 0 退出。回想一下 src/main.rs 没有显式调用 std::process::exit。这意味着真正的程序什么都不做
 
 想确定吗？将 src/bin/true.rs 更改为以下内容：
