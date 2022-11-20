@@ -6,7 +6,7 @@
 * 如何将Rust代码编译成可执行文件
 * 如何使用Cargo启动新项目
 * 关于$PATH环境变量
-* 如何使用crates.io外部Rust板条箱
+* 如何使用crates.io外部Rust create
 * 关于程序的退出状态
 * 如何使用常见的系统命令和选项
 * 如何编写Rust版本的true 和 false程序
