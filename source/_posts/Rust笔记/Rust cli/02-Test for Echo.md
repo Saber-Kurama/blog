@@ -83,4 +83,69 @@ Rust has assumed control
 
 没有引号，我提供了四个独立的论点。请注意，我在提供参数时使用了不同数量的空格，但 echo 在每个参数之间使用一个空格打印它们：
 
+``` shell
+> echo Rust  has assumed   control
+Rust has assumed control
+```
+
+如果我想保留空格，我必须用引号将它们括起来：
+
+``` shell
+> echo "Rust  has assumed   control"
+Rust  has assumed   control
+```
+
+命令行程序响应标志 -h 或 --help 以打印有关如何使用该程序的消息，即所谓的用法，因为这通常是输出的第一个词，这是非常常见的。如果我尝试用echo这样做，我就得到了标志的文字：
+
+``` shell
+❯ echo --help
+--help
+```
+
+要了解有关该程序的更多信息，请执行 `man echo` 以阅读手册页。您会看到我使用的是 2003 年的 BSD 版本的程序
+
+默认情况下，打印在命令行上的文本以换行符结束。如前面的手册页所示，echo 有一个选项 -n 将省略换行符。根据您的 echo 版本，这可能似乎不会影响输出。例如，我使用的 BSD 版本显示如下：
+
+```
+❯ echo -n hello
+hello%      
+```
+
+无论哪个版本的 echo，我都可以使用 bash 重定向运算符 > 将 STDOUT 发送到文件：
+
+``` shell
+$ echo Hello > hello
+$ echo -n Hello > hello-n
+```
+
+diff 工具将显示两个文件之间的差异。此输出显示第二个文件 (hello-n) 末尾没有换行符：
+
+```shell
+> diff hello hello-n
+1c1
+< Hello
+---
+> Hello
+\ No newline at end of file
+```
+
+## Getting Command-Line Arguments 获得命令行参数
+
+首要任务是获取打印的命令行参数。在 Rust 中，您可以为此使用 `std::env::args`。std 告诉我这是在标准库中，并且是普遍有用的 Rust 代码它包含在语言中。env 部分告诉我这是为了与环境交互，这是程序将在其中找到参数的地方。如果您查看该函数的文档，您会看到它返回 **Args** 类型的东西:
+
+``` rust
+pub fn args() -> Args
+```
+
+如果你点击 [Args 文档](https://doc.rust-lang.org/stable/std/env/struct.Args.html)的链接，你会发现它是一个结构，这是 Rust 中的一种数据结构。如果你沿着页面的左侧看，你会看到诸如特征实现、其他相关结构、函数等内容。我稍后会探讨这些想法，但现在，只需浏览文档并尝试吸收你所看到的。
+
+Edit src/main.rs to print the arguments.I can call the function by using the full path followed by an empty set of parentheses:
+
+``` rust
+fn main() {
+    println!(std::env::args()); // This will not work
+}
+```
+
+该编译器消息中有很多信息。首先，关于特性 std::fmt::Display 没有为 Args 实现。Rust 中的特性是一种以抽象方式定义对象行为的方法。如果一个对象实现了 Display 特性，那么它可以被格式化为“面向用户的输出”。再次查看 Args 文档的“特性实现”部分，注意那里确实没有提到 Display。
 
