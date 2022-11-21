@@ -149,3 +149,57 @@ fn main() {
 
 该编译器消息中有很多信息。首先，关于特性 std::fmt::Display 没有为 Args 实现。Rust 中的特性是一种以抽象方式定义对象行为的方法。如果一个对象实现了 Display 特性，那么它可以被格式化为“面向用户的输出”。再次查看 Args 文档的“特性实现”部分，注意那里确实没有提到 Display。
 
+编译器建议我应该使用 {:?} 而不是 {} 作为占位符。这是打印结构的调试版本的指令，它将“在面向程序员的调试上下文中格式化输出。”再次参考查看 Args 文档，可以看到 Debug 列在“Trait Implementations”下，因此有效：
+
+``` rust
+fn main() {
+    println!("{:?}", std::env::args());
+}
+
+```
+
+```
+❯ cargo run
+Args { inner: ["target/debug/echor"] }
+```
+
+如果您不熟悉命令行参数，第一个值通常是程序本身的路径。它本身不是一个参数，但它是有用的信息。需要注意的是，这个程序被编译成path target/debug/echor。除非你另有说明，否则 Cargo 将放置可执行文件（也称为二进制文件）的位置。接下来，我将传递一些参数：
+
+```
+> cargo run hello world
+Args { inner: ["target/debug/echor", "hello", "world"] }
+```
+
+万岁！看来我能够为我的程序获取参数。我传递了两个参数，Hello 和 world，它们在二进制名称之后显示为附加值。我知道我需要传递 -n 标志，所以让我试试看：
+
+``` shell
+❯ cargo run hello world -n
+Args { inner: ["target/debug/echor", "hello", "world", "-n"] }
+```
+
+将标志放在值之前也很常见，所以让我试试看：
+
+```
+❯ cargo run -n hello world
+error: Found argument '-n' which wasn't expected, or isn't valid in this context
+
+        If you tried to supply `-n` as a value rather than a flag, use `-- -n`
+
+USAGE:
+    cargo run [OPTIONS] [--] [args]...
+
+For more information try --help
+```
+
+这不起作用，因为 Cargo 认为 -n 参数是针对它自己的，而不是我正在运行的程序。要解决这个问题，我需要使用两个破折号分隔 Cargo 的选项：
+
+```
+❯ cargo run -- -n hello world
+
+Args { inner: ["target/debug/echor", "-n", "hello", "world"] }
+```
+
+在程序参数的说法中，-n 是一个可选参数，因为您可以将其省略。通常程序选项以一个或两个短划线开头。短名称通常带有一个短划线和一个“字符，例如 -h 表示帮助标志和带有两个破折号和一个词的长名称 --help。具体来说，-n 和 -h 是标志，存在时具有一种含义，不存在时具有相反的含义。在这种情况下，-n 表示省略尾随换行符；否则，正常打印
+
+echo 的所有其他参数都是位置参数，因为它们相对于程序名称（参数中的第一个元素）的位置决定了它们的含义。考虑带有两个位置参数的命令 chmod，一个模式如 755 首先是一个文件或目录name second.在 echo 的情况下，所有位置参数都被解释为要打印的文本，并且它们应该按照给定的相同顺序打印。这不是一个糟糕的开始，而是本书中程序的参数将变得更加复杂。
+我需要找到一种更好的方法来解析程序的参数。
