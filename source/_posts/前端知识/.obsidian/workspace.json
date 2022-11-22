@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "cce6c4baa23671cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "typescript/Typescript 类型编程，从入门到念头通达.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "e2259b049bf3e08d",
             "type": "leaf",
             "state": {
@@ -82,8 +94,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -103,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "typescript/Typescript 类型编程，从入门到念头通达.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,14 +132,14 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "e2259b049bf3e08d",
+  "active": "cce6c4baa23671cc",
   "lastOpenFiles": [
+    "mock 数据接口相关.md",
+    "vue3/admin.md",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "编译思想和设计模式/aop和ioc.md",
-    "mock 数据接口相关.md",
     "使用 Nx 进行有效的 React 开发/介绍.md",
     "vue3/高阶组件.md",
-    "vue3/admin.md",
     "CSS/CSS网格的隐式网格和自动放置功能研究.md",
     "fromily 的配置.md",
     "组件问题/我的NPM最佳实践.md",
