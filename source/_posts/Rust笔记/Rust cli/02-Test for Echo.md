@@ -208,4 +208,26 @@ echo 的所有其他参数都是位置参数，因为它们相对于程序名称
 
 尽管有各种方法和 crate 用于解析命令行参数，但我将在本书中专门使用 **clap crate**。开始之前，我需要告诉 Cargo 我想下载这个 crate 并在我的项目中使用它。我可以通过向 Cargo.toml 添加依赖项来执行此操作。编辑您的文件以将 clap 版本 2.33 添加到 [dependencies] 部分：
 
+```
+❯ cat Cargo.toml
+[package]
+name = "echor"
+version = "0.1.0"
+edition = "2021"
 
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33"
+```
+
+
+> 
+版本“2.33”表示我想使用这个版本。我可以只使用“2”来表示我可以使用“2.x”行中的最新版本。还有很多其他方法可以指示版本，我建议您阅读如何指定依赖项。
+> 
+
+下次我尝试构建程序时，Cargo 将下载 clap 源代码（如果需要）及其所有依赖项。例如，我可以运行 cargo build 来构建新的二进制文件而不运行它：
+
+```
+
+```
