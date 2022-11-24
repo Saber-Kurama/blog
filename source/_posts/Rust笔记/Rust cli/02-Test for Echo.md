@@ -243,3 +243,44 @@ Rust 将依赖项放入目标目录的一个结果是它现在非常大。
 
 要学习如何使用 clap 来解析参数，我需要阅读文档。我喜欢使用 [Docs.rs](https://docs.rs/about)，“Rust 编程语言包的开源文档主机”。如何创建一个新的 App 结构。
 将您的 src/main.rs 更改为以下内容：
+
+``` rust
+use clap::App;
+
+fn main() {
+    let _matches = App::new("echor")
+        .version("0.1.0")
+        .author("saber ---- saber")
+        .about("Rust echo")
+        .get_matches();
+}
+```
+
+有了这段代码，我可以使用 -h 或 --help 标志运行程序以获取使用文档。请注意，我不必定义此参数，因为 clap 为我做了这个：
+
+```
+❯ cargo run -- -h
+ 
+echor 0.1.0
+saber ---- saber
+Rust echo
+
+USAGE:
+    echor
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+```
+
+除了帮助标志外，我看到 clap 还自动处理标志 -V 和 --version 以打印程序的版本：
+
+```
+❯ cargo run -- -V
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/echor -V`
+echor 0.1.0
+```
+
+接下来，我需要定义参数，我可以通过将 `Arg` 结构添加到 `App `来完成这些操作。
+
