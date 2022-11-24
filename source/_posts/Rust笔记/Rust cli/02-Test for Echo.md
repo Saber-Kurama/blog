@@ -284,6 +284,33 @@ echor 0.1.0
 
 接下来，我需要定义参数，我可以通过将 `Arg` 结构添加到 `App `来完成这些操作。
 
+``` rust
+use clap::{App, Arg};
+
+fn main() {
+    let _matches = App::new("echor")
+        .version("0.1.0")
+        .author("saber ---- saber")
+        .about("Rust echo")
+        .arg(
+            Arg::with_name("text")
+                .value_name("TEXT")
+                .help("Input text")
+                .required(true)
+                .min_values(1),
+        )
+        .arg(
+            Arg::with_name("omit_newline")
+                .help("Do not print newline")
+                .takes_value(false)
+                .short("n"),
+        )
+        .get_matches();
+
+    println!("{:#?}", matches);
+}
+
+```
 
 
 创建一个名称text的 Arg。这是必需的位置参数，必须至少出现一次并且可以重复。
@@ -293,4 +320,76 @@ echor 0.1.0
 >   
 之前我使用 {:?} 来格式化参数的调试视图。在这里，我使用 {:#?} 来包含换行符和缩进，以帮助我阅读输出。这被称为漂亮打印，因为它更漂亮
 
+```
+❯ cargo run -- -h
 
+echor 0.1.0
+saber ---- saber
+Rust echo
+
+USAGE:
+    echor [FLAGS] <TEXT>...
+
+FLAGS:
+    -h, --help       Prints help information
+    -n               Do not print newline
+    -V, --version    Prints version information
+
+ARGS:
+    <TEXT>...    Input text
+```
+
+-n 标志省略换行 是可选的
+所需的输入文本是一个或多个位置参数
+
+使用一些参数运行程序并检查参数的结构：
+
+```
+❯ cargo run -- -n Hello world
+
+ArgMatches {
+    args: {
+        "text": MatchedArg {
+            occurs: 2,
+            indices: [
+                2,
+                3,
+            ],
+            vals: [
+                "Hello",
+                "world",
+            ],
+        },
+        "omit_newline": MatchedArg {
+            occurs: 1,
+            indices: [
+                1,
+            ],
+            vals: [],
+        },
+    },
+    subcommand: None,
+    usage: Some(
+        "USAGE:\n    echor [FLAGS] <TEXT>...",
+    
+```
+
+如果不带参数运行该程序，您将收到一条错误消息，指出您未能提供所需的参数：
+
+```
+❯ cargo run
+
+error: The following required arguments were not provided:
+    <TEXT>...
+
+USAGE:
+    echor [FLAGS] <TEXT>...
+
+For more information try --help
+```
+
+这是一个错误，因此您可以检查退出值以验证它不是 0：
+
+```
+
+```
