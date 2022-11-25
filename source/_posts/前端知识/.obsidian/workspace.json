@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/tailwindcss.md",
+                "file": "组件问题/前端基建.md",
                 "mode": "source",
                 "source": false
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/tailwindcss.md",
+                "file": "组件问题/前端基建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,8 +144,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "42d03b7013090d6f",
+  "active": "f165957f86fff8cd",
   "lastOpenFiles": [
+    "CSS/tailwindcss.md",
     "微前端/微前端.md",
     "使用 Nx 进行有效的 React 开发/介绍.md",
     "微前端/关于微前端-一次microApp的使用经历.md",
@@ -154,7 +155,6 @@
     "vue3/admin.md",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "编译思想和设计模式/aop和ioc.md",
-    "vue3/高阶组件.md",
-    "CSS/CSS网格的隐式网格和自动放置功能研究.md"
+    "vue3/高阶组件.md"
   ]
 }
