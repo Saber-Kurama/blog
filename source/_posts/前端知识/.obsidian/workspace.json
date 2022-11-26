@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "组件问题/前端基建.md",
+                "file": "lowcode 低代码.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "微前端",
+                "query": "low",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -126,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "组件问题/前端基建.md",
+                "file": "lowcode 低代码.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,6 +147,8 @@
   },
   "active": "f165957f86fff8cd",
   "lastOpenFiles": [
+    "vite/vue  一些有趣的项目.md",
+    "组件问题/前端基建.md",
     "CSS/tailwindcss.md",
     "微前端/微前端.md",
     "使用 Nx 进行有效的 React 开发/介绍.md",
@@ -153,8 +156,6 @@
     "typescript/Typescript 类型编程，从入门到念头通达.md",
     "mock 数据接口相关.md",
     "vue3/admin.md",
-    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
-    "编译思想和设计模式/aop和ioc.md",
-    "vue3/高阶组件.md"
+    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md"
   ]
 }
