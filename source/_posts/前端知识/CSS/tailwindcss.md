@@ -17,3 +17,5 @@ https://github.com/Codpoe
 
 **[twin.arco](https://github.com/bytesfriends/twin.arco)**
 
+[# Tailwind css v3食用指南](https://pincman.com/docs/courses/tailwind-guides/#%E6%8E%A8%E8%8D%90%E6%96%B9%E5%BC%8F)
+
