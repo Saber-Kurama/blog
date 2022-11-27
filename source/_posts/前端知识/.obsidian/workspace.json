@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/tailwindcss.md",
+                "file": "vue3/admin.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tailwind",
+                "query": "admin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/tailwindcss.md",
+                "file": "vue3/admin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,10 +147,10 @@
   },
   "active": "f165957f86fff8cd",
   "lastOpenFiles": [
+    "CSS/tailwindcss.md",
     "lowcode 低代码.md",
     "vite/vue  一些有趣的项目.md",
     "组件问题/前端基建.md",
-    "CSS/tailwindcss.md",
     "微前端/微前端.md",
     "使用 Nx 进行有效的 React 开发/介绍.md",
     "微前端/关于微前端-一次microApp的使用经历.md",

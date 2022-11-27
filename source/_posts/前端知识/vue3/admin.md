@@ -65,6 +65,8 @@ http://admin-vue3-micro-qiankun.liqingsong.cc/
 https://tjcds.chenjianhui.site/
 
 
+https://github.com/justboil/admin-one-vue-tailwind
+
 
 https://vvbin.cn/next/#/dashboard/analysis
 https://110108.top/
