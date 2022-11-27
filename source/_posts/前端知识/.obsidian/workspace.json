@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lowcode 低代码.md",
+                "file": "CSS/tailwindcss.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "low",
+                "query": "tailwind",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lowcode 低代码.md",
+                "file": "CSS/tailwindcss.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,6 +147,7 @@
   },
   "active": "f165957f86fff8cd",
   "lastOpenFiles": [
+    "lowcode 低代码.md",
     "vite/vue  一些有趣的项目.md",
     "组件问题/前端基建.md",
     "CSS/tailwindcss.md",
@@ -155,7 +156,6 @@
     "微前端/关于微前端-一次microApp的使用经历.md",
     "typescript/Typescript 类型编程，从入门到念头通达.md",
     "mock 数据接口相关.md",
-    "vue3/admin.md",
-    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md"
+    "vue3/admin.md"
   ]
 }
