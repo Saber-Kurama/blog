@@ -7,3 +7,7 @@
 
 [# AST实现函数自动包裹try/catch](yancq.cn/2021/04/10/ast/)
 
+[# 新世界的大门 Babel macros](https://zhuanlan.zhihu.com/p/64346538)
+
+[# 精读《用 Babel 创造自定义 JS 语法》](https://juejin.cn/post/6844903958423552013)
+

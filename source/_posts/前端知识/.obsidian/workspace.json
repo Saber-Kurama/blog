@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/tailwindcss.md",
+                "file": "babel/babel的插件开发.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tailwind",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,8 +106,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -127,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/tailwindcss.md",
+                "file": "babel/babel的插件开发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,8 +146,8 @@
   },
   "active": "f165957f86fff8cd",
   "lastOpenFiles": [
-    "vue3/admin.md",
     "CSS/tailwindcss.md",
+    "vue3/admin.md",
     "lowcode 低代码.md",
     "vite/vue  一些有趣的项目.md",
     "组件问题/前端基建.md",
