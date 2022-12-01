@@ -16,3 +16,6 @@
 [通过编译器插件实现代码注入](https://segmentfault.com/a/1190000037521833)
 
 [# 【Web技术】780- AST 实现函数错误自动上报](https://cloud.tencent.com/developer/article/1749334)
+
+[# 用Babel提效——从入门到业务实战](https://juejin.cn/post/7144381162662674462#heading-3)
+
