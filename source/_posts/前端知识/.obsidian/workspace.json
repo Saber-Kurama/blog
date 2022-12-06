@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编译思想和设计模式/深度工作.md",
+                "file": "vue3/关于 vue3 透传.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "透传",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +118,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -138,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编译思想和设计模式/深度工作.md",
+                "file": "vue3/关于 vue3 透传.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,6 +159,7 @@
   },
   "active": "f9bd521e64de3037",
   "lastOpenFiles": [
+    "编译思想和设计模式/深度工作.md",
     "babel/babel的插件开发.md",
     "CSS/tailwindcss.md",
     "vue3/admin.md",
@@ -166,7 +168,6 @@
     "组件问题/前端基建.md",
     "微前端/微前端.md",
     "使用 Nx 进行有效的 React 开发/介绍.md",
-    "微前端/关于微前端-一次microApp的使用经历.md",
-    "typescript/Typescript 类型编程，从入门到念头通达.md"
+    "微前端/关于微前端-一次microApp的使用经历.md"
   ]
 }
