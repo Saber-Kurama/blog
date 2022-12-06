@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue3/关于 vue3 透传.md",
+                "file": "nginx.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "透传",
+                "query": "nginx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/关于 vue3 透传.md",
+                "file": "nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,6 +159,7 @@
   },
   "active": "f9bd521e64de3037",
   "lastOpenFiles": [
+    "vue3/关于 vue3 透传.md",
     "编译思想和设计模式/深度工作.md",
     "babel/babel的插件开发.md",
     "CSS/tailwindcss.md",
@@ -167,7 +168,6 @@
     "vite/vue  一些有趣的项目.md",
     "组件问题/前端基建.md",
     "微前端/微前端.md",
-    "使用 Nx 进行有效的 React 开发/介绍.md",
-    "微前端/关于微前端-一次microApp的使用经历.md"
+    "使用 Nx 进行有效的 React 开发/介绍.md"
   ]
 }
