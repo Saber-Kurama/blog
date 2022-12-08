@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue3/关于 vue3 透传.md",
+                "file": "21短文-手写前端框架.md",
                 "mode": "source",
                 "source": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/关于 vue3 透传.md",
+                "file": "21短文-手写前端框架.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,8 +158,8 @@
   },
   "active": "f9bd521e64de3037",
   "lastOpenFiles": [
-    "vue3/高阶组件.md",
     "vue3/关于 vue3 透传.md",
+    "vue3/高阶组件.md",
     "nginx.md",
     "编译思想和设计模式/深度工作.md",
     "babel/babel的插件开发.md",
