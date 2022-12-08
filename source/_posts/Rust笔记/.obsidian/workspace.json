@@ -174,15 +174,15 @@
   },
   "active": "dc889f2ec3337644",
   "lastOpenFiles": [
-    "rust圣经/02rust基础入门/2.5 流程控制.md",
     "rust圣经/02rust基础入门/2.6 模式匹配.md",
+    "rust圣经/02rust基础入门/2.5 流程控制.md",
+    "rust圣经/02rust基础入门/2.3 所有权和借用.md",
     "rust圣经/02rust基础入门/2.2 基本类型.md",
+    "rust圣经/02rust基础入门/2.4 复合类型.md",
+    "rust圣经/02rust基础入门/2.7 方法 Method.md",
     "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
     "Rust cli/02-Test for Echo.md",
     "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
-    "Rust 学习资源.md",
-    "RUST的一些资源.md",
-    "Rust cli/00 - 前言.md",
-    "Beginning Rust 2021/Beginning Rust 2021--06.md"
+    "Rust 学习资源.md"
   ]
 }
