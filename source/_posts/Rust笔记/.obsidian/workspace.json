@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.5 流程控制.md",
+                "file": "rust圣经/02rust基础入门/2.7 方法 Method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.5 流程控制.md",
+                "file": "rust圣经/02rust基础入门/2.7 方法 Method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.5 流程控制.md"
+                "file": "rust圣经/02rust基础入门/2.7 方法 Method.md"
               }
             }
           }
@@ -172,8 +172,9 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "adb9cb30bf3a9cd3",
+  "active": "dc889f2ec3337644",
   "lastOpenFiles": [
+    "rust圣经/02rust基础入门/2.5 流程控制.md",
     "rust圣经/02rust基础入门/2.6 模式匹配.md",
     "rust圣经/02rust基础入门/2.2 基本类型.md",
     "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
@@ -182,7 +183,6 @@
     "Rust 学习资源.md",
     "RUST的一些资源.md",
     "Rust cli/00 - 前言.md",
-    "Beginning Rust 2021/Beginning Rust 2021--06.md",
-    "Beginning Rust 2021/Beginning Rust 2021--04.md"
+    "Beginning Rust 2021/Beginning Rust 2021--06.md"
   ]
 }
