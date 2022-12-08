@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.7 方法 Method.md",
+                "file": "rust圣经/02rust基础入门/2.5 流程控制.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.7 方法 Method.md",
+                "file": "rust圣经/02rust基础入门/2.5 流程控制.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.7 方法 Method.md"
+                "file": "rust圣经/02rust基础入门/2.5 流程控制.md"
               }
             }
           }
