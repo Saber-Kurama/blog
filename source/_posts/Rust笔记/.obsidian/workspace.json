@@ -178,13 +178,14 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "9fc9261b02269f35",
+  "active": "b491ac094587affa",
   "lastOpenFiles": [
     "rust圣经/02rust基础入门/2.5 流程控制.md",
     "rust圣经/02rust基础入门/2.6 模式匹配.md",
