@@ -68,16 +68,6 @@
             }
           },
           {
-            "id": "b05c897aff768c99",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.8"
-              }
-            }
-          },
-          {
             "id": "e2259b049bf3e08d",
             "type": "leaf",
             "state": {
@@ -102,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -188,7 +178,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "b05c897aff768c99",
+  "active": "006c5e181a0bd7e2",
   "lastOpenFiles": [
     "在macOS系统中通过brew安装MongoDB数据库的方法.md",
     "21短文-手写前端框架.md",
