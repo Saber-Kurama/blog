@@ -68,6 +68,16 @@
             }
           },
           {
+            "id": "b05c897aff768c99",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.8"
+              }
+            }
+          },
+          {
             "id": "e2259b049bf3e08d",
             "type": "leaf",
             "state": {
@@ -92,7 +102,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -169,7 +179,16 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "006c5e181a0bd7e2",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:Create new canvas": false,
+      "command-palette:打开命令面板": false,
+      "markdown-importer:打开 Markdown 格式转换器": false
+    }
+  },
+  "active": "b05c897aff768c99",
   "lastOpenFiles": [
     "在macOS系统中通过brew安装MongoDB数据库的方法.md",
     "21短文-手写前端框架.md",
