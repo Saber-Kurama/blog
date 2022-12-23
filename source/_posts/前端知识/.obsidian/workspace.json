@@ -30,69 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f165957f86fff8cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "babel/babel的插件开发.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f9bd521e64de3037",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "21短文-手写前端框架.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "006c5e181a0bd7e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "nginx.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e2259b049bf3e08d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vue3/admin.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f42ede68a0061097",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "组件问题/我的NPM最佳实践.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nginx",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -130,8 +70,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -151,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nginx.md",
+                "file": "微前端/微前端.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -178,17 +117,17 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "006c5e181a0bd7e2",
+  "active": "cce6c4baa23671cc",
   "lastOpenFiles": [
-    "在macOS系统中通过brew安装MongoDB数据库的方法.md",
+    "babel/babel的插件开发.md",
+    "组件问题/我的NPM最佳实践.md",
     "21短文-手写前端框架.md",
+    "nginx.md",
+    "vue3/vite does not provide an export named 'default'.md",
+    "在macOS系统中通过brew安装MongoDB数据库的方法.md",
     "vue3/关于 vue3 透传.md",
     "vue3/高阶组件.md",
-    "nginx.md",
     "编译思想和设计模式/深度工作.md",
-    "babel/babel的插件开发.md",
-    "CSS/tailwindcss.md",
-    "vue3/admin.md",
-    "lowcode 低代码.md"
+    "CSS/tailwindcss.md"
   ]
 }
