@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "组件",
+                "query": "nginx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +118,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "cce6c4baa23671cc",
+  "active": "12495da245cbde8b",
   "lastOpenFiles": [
     "使用 Nx 进行有效的 React 开发/第 1 章：入门.md",
     "vue3/高阶组件.md",
