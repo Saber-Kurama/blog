@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "微前端/微前端.md",
+                "file": "组件问题/组件库的建设.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "组件",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -90,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "微前端/微前端.md",
+                "file": "组件问题/组件库的建设.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,15 +120,15 @@
   },
   "active": "cce6c4baa23671cc",
   "lastOpenFiles": [
-    "babel/babel的插件开发.md",
-    "组件问题/我的NPM最佳实践.md",
-    "21短文-手写前端框架.md",
-    "nginx.md",
-    "vue3/vite does not provide an export named 'default'.md",
-    "在macOS系统中通过brew安装MongoDB数据库的方法.md",
+    "一些有趣的博客.md",
+    "fromily 的配置.md",
+    "javascript的long类型.md",
+    "mock 数据接口相关.md",
+    "lowcode 低代码.md",
+    "vue3/admin.md",
     "vue3/关于 vue3 透传.md",
     "vue3/高阶组件.md",
-    "编译思想和设计模式/深度工作.md",
-    "CSS/tailwindcss.md"
+    "微前端/微前端.md",
+    "babel/babel的插件开发.md"
   ]
 }
