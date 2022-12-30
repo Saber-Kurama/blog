@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "2707df19b27636f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "rust圣经/02rust基础入门/2.9 集合类型.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust cli/02-Test for Echo.md",
+                "file": "rust圣经/02rust基础入门/2.9 集合类型.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust cli/02-Test for Echo.md",
+                "file": "rust圣经/02rust基础入门/2.9 集合类型.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust cli/02-Test for Echo.md"
+                "file": "rust圣经/02rust基础入门/2.9 集合类型.md"
               }
             }
           }
@@ -195,11 +207,11 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9fc9261b02269f35",
+  "active": "2707df19b27636f7",
   "lastOpenFiles": [
+    "Rust cli/02-Test for Echo.md",
     "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
     "Rust cli/00 - 前言.md",
-    "Rust cli/02-Test for Echo.md",
     "rust圣经/02rust基础入门/2.8 泛型和特征.md",
     "rust圣经/02rust基础入门/2.3 所有权和借用.md",
     "rust圣经/02rust基础入门/2.2 基本类型.md",
