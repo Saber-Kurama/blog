@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c1cf76f4cb6778f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "vite/深入浅出vite/基础使用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "组件问题/组件库的建设.md",
+                "file": "vite/深入浅出vite/基础使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,17 +117,17 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "42d03b7013090d6f",
+  "active": "c1cf76f4cb6778f3",
   "lastOpenFiles": [
+    "fromily 的配置.md",
+    "vite/深入浅出vite/基础使用.md",
+    "组件问题/组件库的建设.md",
     "使用 Nx 进行有效的 React 开发/第 1 章：入门.md",
     "vue3/高阶组件.md",
     "vue3/关于 vue3 透传.md",
     "常见问题/解决TypeError Right-hand side of 'instanceof' is not callable.md",
     "组件问题/开发过程中 关于 UI的问题.md",
     "组件问题/替换icon的组件库.md",
-    "微前端/微前端.md",
-    "一些有趣的博客.md",
-    "组件问题/组件库的建设.md",
-    "fromily 的配置.md"
+    "微前端/微前端.md"
   ]
 }
