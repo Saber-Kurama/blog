@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.9 集合类型.md",
+                "file": "Rust cli/02-Test for Echo.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.9 集合类型.md",
+                "file": "Rust cli/02-Test for Echo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.9 集合类型.md",
+                "file": "Rust cli/02-Test for Echo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.9 集合类型.md"
+                "file": "Rust cli/02-Test for Echo.md"
               }
             }
           }
@@ -209,6 +209,7 @@
   },
   "active": "2707df19b27636f7",
   "lastOpenFiles": [
+    "rust圣经/02rust基础入门/2.9 集合类型.md",
     "Rust cli/02-Test for Echo.md",
     "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
     "Rust cli/00 - 前言.md",
@@ -217,7 +218,6 @@
     "rust圣经/02rust基础入门/2.2 基本类型.md",
     "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
     "rust圣经/02rust基础入门/2.6 模式匹配.md",
-    "rust圣经/02rust基础入门/2.7 方法 Method.md",
-    "rust圣经/02rust基础入门/2.5 流程控制.md"
+    "rust圣经/02rust基础入门/2.7 方法 Method.md"
   ]
 }
