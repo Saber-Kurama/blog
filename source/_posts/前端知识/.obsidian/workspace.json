@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vscode/VS Code + ESLint 自动格式化和快捷键配置.md",
+                "file": "【前端安全】 csp-nonce.md",
                 "mode": "source",
                 "source": false
               }
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vscode/VS Code + ESLint 自动格式化和快捷键配置.md",
+                "file": "【前端安全】 csp-nonce.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,6 +143,7 @@
   },
   "active": "ee45d23ed4d14102",
   "lastOpenFiles": [
+    "vscode/VS Code + ESLint 自动格式化和快捷键配置.md",
     "CSS级联层完整指南.md",
     "vite/深入浅出vite/基础使用.md",
     "fromily 的配置.md",
@@ -151,7 +152,6 @@
     "vue3/高阶组件.md",
     "vue3/关于 vue3 透传.md",
     "常见问题/解决TypeError Right-hand side of 'instanceof' is not callable.md",
-    "组件问题/开发过程中 关于 UI的问题.md",
-    "组件问题/替换icon的组件库.md"
+    "组件问题/开发过程中 关于 UI的问题.md"
   ]
 }
