@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "微前端/从零开始写一个微前端框架.md",
+                "file": "组件问题/前端组件.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "zh.loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion",
+                "query": "cron",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +118,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -138,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "微前端/从零开始写一个微前端框架.md",
+                "file": "组件问题/前端组件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,15 +168,15 @@
   },
   "active": "4830f80ebef8a810",
   "lastOpenFiles": [
+    "vue3/admin.md",
+    "组件问题/前端组件.md",
+    "微前端/从零开始写一个微前端框架.md",
     "微前端/微前端.md",
     "微前端/关于微前端-一次microApp的使用经历.md",
     "nginx.md",
     "21短文-手写前端框架.md",
     "【前端安全】 csp-nonce.md",
     "vscode/VS Code + ESLint 自动格式化和快捷键配置.md",
-    "CSS级联层完整指南.md",
-    "vite/深入浅出vite/基础使用.md",
-    "fromily 的配置.md",
-    "组件问题/组件库的建设.md"
+    "CSS级联层完整指南.md"
   ]
 }
