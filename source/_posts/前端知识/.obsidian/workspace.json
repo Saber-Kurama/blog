@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "微前端/模块联邦.md",
+                "file": "一些有趣的博客.md",
                 "mode": "source",
                 "source": false
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "微前端/模块联邦.md",
+                "file": "一些有趣的博客.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,6 +180,7 @@
   },
   "active": "318758909d082766",
   "lastOpenFiles": [
+    "微前端/模块联邦.md",
     "组件问题/组件库的建设.md",
     "一些有趣的博客.md",
     "monaco-editor 编辑器.md",
@@ -188,7 +189,6 @@
     "组件问题/前端组件.md",
     "vue3/admin.md",
     "微前端/从零开始写一个微前端框架.md",
-    "微前端/微前端.md",
-    "微前端/关于微前端-一次microApp的使用经历.md"
+    "微前端/微前端.md"
   ]
 }
