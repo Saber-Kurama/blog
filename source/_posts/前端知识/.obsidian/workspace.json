@@ -130,8 +130,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -178,7 +177,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "318758909d082766",
+  "active": "42d03b7013090d6f",
   "lastOpenFiles": [
     "微前端/模块联邦.md",
     "组件问题/组件库的建设.md",
