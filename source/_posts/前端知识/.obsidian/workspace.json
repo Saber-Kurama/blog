@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常见问题/字体问题的处理.md",
+                "file": "vue3/admin.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "模块",
+                "query": "组件",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,7 +142,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -162,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常见问题/字体问题的处理.md",
+                "file": "vue3/admin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,6 +192,7 @@
   },
   "active": "1550294c46eb92cc",
   "lastOpenFiles": [
+    "常见问题/字体问题的处理.md",
     "一些有趣的博客.md",
     "微前端/模块联邦.md",
     "组件问题/组件库的建设.md",
@@ -199,7 +201,6 @@
     "vite/vite 插件.md",
     "组件问题/前端组件.md",
     "vue3/admin.md",
-    "微前端/从零开始写一个微前端框架.md",
-    "微前端/微前端.md"
+    "微前端/从零开始写一个微前端框架.md"
   ]
 }
