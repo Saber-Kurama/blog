@@ -97,7 +97,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "一些有趣的博客.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "组件",
+                "query": "博客",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "一些有趣的博客.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,6 +192,7 @@
   },
   "active": "1550294c46eb92cc",
   "lastOpenFiles": [
+    "vue3/admin.md",
     "常见问题/字体问题的处理.md",
     "一些有趣的博客.md",
     "微前端/模块联邦.md",
@@ -200,7 +201,6 @@
     "常见问题/TypeScript 的一些问题.md",
     "vite/vite 插件.md",
     "组件问题/前端组件.md",
-    "vue3/admin.md",
     "微前端/从零开始写一个微前端框架.md"
   ]
 }
