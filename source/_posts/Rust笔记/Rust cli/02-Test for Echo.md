@@ -564,8 +564,27 @@ fn dies_no_args() -> TestResult {
 
 我总共有四个文件要检查，所以我有必要编写一个辅助函数。我将调用它运行并将参数字符串与预期的输出文件一起传递给它。我不使用向量作为参数，而是使用 std::slice，因为我不需要在定义参数列表后增加它：
 
+```rust
+type TestResult = Result<(), Box<dyn std::error::Error>>;
 
+fn run(args: &[&str], expected_file: &str) -> TestResult {
+    let expected = fs::read_to_string(expected_file)?;
+    let mut cmd = Command::cargo_bin("echor")?;
+    cmd.args(args).assert().success().stdout(expected);
+    Ok(())
+}
+```
 
+# 总结
+
+现在你已经在 src/main.rs 中为 echor 程序编写了大约 30 行 Rust 代码，并在 tests/cli.rs 中编写了五个测试来验证你的程序是否满足某种规范（如他们所说的规范）。
+想想你取得的成就：
+*  行为良好的系统程序应该将基本输出打印到 STDOUT，将错误打印到 STDERR。
+* 您已经编写了一个程序，该程序采用选项 -h|--help 来生成帮助，-V|--version 来显示程序的版本，以及 -n 来省略换行符以及一个或多个位置命令行参数。
+* 如果程序以错误的参数或 -h|--help 标志运行，它将打印使用文档。
+* 该程序将回显所有以空格连接的命令行参数。
+* 如果存在 -n 标志，尾随的换行符将被省略
+* 
 
 
 
