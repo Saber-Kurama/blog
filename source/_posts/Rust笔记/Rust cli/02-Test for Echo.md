@@ -409,3 +409,170 @@ For more information try --help
 
 所以你会看到，行为良好的系统程序的另一个标志是将常规输出打印到 STDOUT 并将错误消息打印到 STDERR。有时错误严重到你应该停止程序，但有时它们应该在运行过程中被注意到.例如，在第 3 章中，您将编写一个处理输入文件的程序，其中一些文件将有意不存在或不可读。
 我将向您展示如何向 STDERR 打印关于这些文件的警告并跳到下一个参数。
+
+## Creating the Program Output 创建程序输出
+
+我的下一步是使用用户提供的值来创建程序的输出。将匹配项中的值复制到变量中是很常见的。
+首先，我想提取文本参数。因为这个 Arg 被定义为接受一个或多个值，所以我可以使用这些返回多个值的函数之一：
+
+* ArgMatches::values_of: returns `Option<Values>`
+* ArgMatches::values_of_lossy: returns `Option<Vec<String>>`
+
+
+
+要决定使用哪个，我必须跑几个例子来理解以下概念：
+
+* Option：一个值为 None 或 Some(T) 的值，其中 T 是任何类型，如字符串或整数。在 ArgMatches::values_of_lossy 的情况下，类型 T 将是一个字符串向量。
+* Values：用于从参数中获取多个值的迭代器。
+* Vec： 一个向量，它是一个连续的可增长数组类型。
+* String： 一串字符
+
+这两个函数 ArgMatches::values_of 和 A​​rgMatches::values_of_lossy 都会返回一个Option。由于我最终想要打印字符串，因此我将使用 ArgMatches::values_of_lossy 函数来获取 `Option<Vec<String>>`，Option::unwrap 函数将从 Some(T) 中取出值以获取重载 T。
+因为 text 参数是 clap 所必需的，所以我知道 None 是不可能的；因此，我可以安全地调用 Option::unwrap 来获取` Vec<String>` 值
+
+```rust
+let text = matches.values_of_lossy("text").unwrap();
+```
+
+omit_newline 参数更容易一些，因为它存在或不存在。这个值的类型是 bool 或 Boolean，要么是 true 要么是 false：
+
+```rust
+let omit_newline = matches.is_present("omit_newline");
+```
+
+最后，我想打印这些值。因为文本是字符串向量，所以我可以使用 Vec::join 将单个空格上的所有字符串连接成一个新字符串以进行打印。在 echor 程序中，clap 将创建向量。为了演示 Vec::join 是如何工作的，我将向您展示如何使用 vec!宏观：
+```rust
+let text = vec!["Hello", "world"];
+```
+Vec::join 将在向量的所有元素之间插入给定的字符串以创建一个新字符串。我可以使用 println！将新字符串打印到 STDOUT，后跟一个换行符：
+```rust
+println!("{}", text.join(" "));
+```
+在 Rust 文档中，使用断言来呈现事实是常见的做法！说某事是真的或 assert_eq！证明一件事等同于另一件事。
+在下面的代码中，我可以断言 text.join(" ") 的结果等于字符串“Hello world”：
+```rust
+assert_eq!(text.join(" "), "Hello world");
+```
+
+当存在 -n 标志时，输出应省略换行符。我会改用`print！`不添加换行符的宏，我将根据omit_newline 的值选择添加换行符或空字符串。
+
+```rust
+print!("{}{}", text.join(" "), if omit_newline { "" } else { "\n" });
+```
+
+这需要我编写一些测试来使用各种输入运行我的程序，并验证它产生与原始 echo 程序相同的输出。
+
+# 集成和单元测试
+
+在第 1 章中，我展示了如何创建从命令行运行程序的集成测试，就像用户将执行的操作一样，以确保程序正常工作。在本章中，我还将向您展示如何编写用于执行单个功能的单元测试，这些功能可能被视为一个编程单元。
+首先，您应该将以下依赖项添加到 Cargo.toml。Note that I’m adding `predicates` to this project:
+
+``` yaml
+[dev-dependencies]
+assert_cmd = "1"
+predicates = "1"
+```
+
+经常编写测试以确保我的程序在错误运行时失败。例如，如果没有提供任何参数，该程序应该会失败并打印帮助文档。创建一个*tests*目录，然后使用以下内容创建*tests/cli.rs*：
+
+```rust
+#[test]
+fn dies_no_args() {
+    let mut cmd = Command::cargo_bin("echor").unwrap();
+    cmd.assert()
+        .failure()
+        .stderr(predicate::str::contains("USAGE"));
+}
+```
+
+Import the predicates crate
+
+在没有参数的情况下运行程序并断言它失败并向 STDERR 打印一个用法语句。
+
+> 我通常用前缀 dies 来命名这些类型的测试，这样我就可以用 cargo test dies 来运行它们，以确保程序在各种条件下失败。
+
+我还可以添加一个测试来确保程序在提供参数时成功退出
+
+```rust
+#[test]
+fn runs() {
+    let mut cmd = Command::cargo_bin("echor").unwrap();
+    cmd.arg("hello").assert().success();
+}
+```
+
+### 创建测试输出文件
+
+我现在可以运行 cargo test 来验证我有一个程序可以运行、验证用户输入并打印使用情况。接下来，我想确保程序创建与 echo 相同的输出。首先，我需要捕获各种输入的原始 echo 的输出，以便我可以将它们与我的程序的输出进行比较。在我的 GitHub 存储库的 02_echor 目录中，您会找到一个名为 mk-outs.sh 的 bash 脚本，我用它为各种参数生成 echo 的输出。你可以看到，即使使用这样一个简单的工具，仍然存在相当多的圈复杂度，它指的是所有参数可以组合的各种方式。我需要使用和不使用换行选项检查一个或多个文本参数:
+
+```sh
+#!/usr/bin/env bash
+
+OUTDIR="tests/expected"
+[[ ! -d "$OUTDIR" ]] && mkdir -p "$OUTDIR"
+
+echo "Hello there" > $OUTDIR/hello1.txt
+echo "Hello"  "there" > $OUTDIR/hello2.txt
+echo -n "Hello  there" > $OUTDIR/hello1.n.txt
+echo -n "Hello"  "there" > $OUTDIR/hello2.n.txt
+```
+
+### 比较程序输出
+
+第一个输出文件是用输入 Hello there 作为单个字符串生成的，输出被捕获到文件 tests/expected/hello1.txt 中。对于我的下一个测试，我将使用此参数运行 echor 并将输出与该文件的内容进行比较。确保将 use std::fs 添加到 tests/cli.rs 中，引入标准文件系统模块，然后将 runs 函数替换为：
+
+```rust
+#[test]
+fn runs() {
+    let outfile = "tests/expected/hello1.txt";
+    let expected = fs::read_to_string(outfile).unwrap();
+    let mut cmd = Command::cargo_bin("echor").unwrap();
+    cmd.arg("Hello there").assert().success().stdout(expected);
+}
+```
+
+使用给定的参数运行程序并断言它成功完成并且 STDOUT 是预期值
+
+> fs::read_to_string 是一种将文件读入内存的便捷方式，但如果您碰巧读取了超出可用内存的文件，它也是一种使您的程序（甚至可能是您的计算机）崩溃的简单方法。您应该只对小文件使用此功能。正如 Ted Nelson 所说：“关于计算机的好消息是，它们会按照您的吩咐去做。坏消息是他们会按照你的吩咐去做。
+
+### 使用Result类型
+
+我一直在以这样一种方式使用 Result::unwrap 方法，即假设每个容易出错的调用都会成功。例如，在 hello1 函数中，我假设输出文件存在并且可以打开并读入一个字符串。在我有限的测试中，情况可能是这样，但做出这样的假设是危险的。我宁愿更加谨慎，所以我将创建一个名为 TestResult 的类型别名。这将是一个特定类型的 Result，它要么是一个总是包含单元类型的 Ok，要么是某个实现 std::error::Error 特性的值：
+
+```rust
+type TestResult = Result<(), Box<dyn std::error::Error>>;
+```
+
+在前面的代码中，Box 表示错误将存在于一种指针中，其中内存是在堆上动态分配的而不是栈，dyn "用于突出显示对关联 Trait 上的方法的调用是动态调度的。"这真的是很多信息，如果你的眼睛呆滞，我不怪你。简而言之，我是说 TestResult 的 Ok 部分将永远只包含单元类型，而 Err 部分可以包含任何实现 std::error::Error 特性的东西。
+
+这以一些微妙的方式改变了我的测试代码。所有函数现在都表明它们返回一个 TestResult。以前我使用 Result::unwrap 解包 Ok 值并在出现 Err 时恐慌，导致测试失败。在下面的代码中，我将 unwrap 替换为 ?运算符解压缩 Ok 值或将 Err 值传播到返回类型。也就是说，这将导致函数将 Option 的 Err 变体返回给调用者，进而导致测试失败。如果测试函数中的所有代码都成功运行，我将返回一个包含单元类型的 Ok 以指示测试通过。请注意，虽然 Rust 确实有 return 以从函数中提前返回一个值，但习惯用法是省略最后一个表达式中的分号以隐式返回该结果。
+将你的 tests/cli.rs 更新为：
+
+```rust
+#[test]
+fn dies_no_args() -> TestResult {
+    let mut cmd = Command::cargo_bin("echor")?;
+    cmd.assert()
+        .failure()
+        .stderr(predicate::str::contains("USAGE"));
+    Ok(())
+}
+```
+利用 ？而不是 Result::unwrap 来解包一个 Ok 值或传播一个 Err。
+
+下一个测试传递两个参数，Hello 和 there，并期望程序打印 Hello there。
+
+我总共有四个文件要检查，所以我有必要编写一个辅助函数。我将调用它运行并将参数字符串与预期的输出文件一起传递给它。我不使用向量作为参数，而是使用 std::slice，因为我不需要在定义参数列表后增加它：
+
+
+
+
+
+
+
+
+
+
+
+
+

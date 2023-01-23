@@ -4,107 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6551e82d99aa730f",
+        "id": "ea72119d64817283",
         "type": "tabs",
         "children": [
           {
-            "id": "639887428024f4f2",
+            "id": "9064442c2932ceb2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rust圣经/02rust基础入门/2.5 流程控制.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8c1b8f428c5a8635",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "RUST的一些资源.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a73c872e5acc8343",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rust圣经/02rust基础入门/2.6 模式匹配.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dc889f2ec3337644",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rust圣经/02rust基础入门/2.7 方法 Method.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9fc9261b02269f35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rust cli/02-Test for Echo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2707df19b27636f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rust圣经/02rust基础入门/2.9 集合类型.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3544de6e2c0c47e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rust圣经/02rust基础入门/2.11 返回值和错误处理.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a80048898c6dcc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -170,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -231,17 +138,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1a80048898c6dcc4",
+  "active": "9064442c2932ceb2",
   "lastOpenFiles": [
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "Rust cli/02-Test for Echo.md",
+    "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
+    "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
     "rust圣经/02rust基础入门/2.11 返回值和错误处理.md",
     "未命名 2.md",
     "未命名 1.md",
     "rust圣经/02rust基础入门/2.9 集合类型.md",
-    "rust圣经/02rust基础入门/2.8 泛型和特征.md",
-    "Rust cli/02-Test for Echo.md",
-    "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
-    "Rust cli/00 - 前言.md",
-    "rust圣经/02rust基础入门/2.3 所有权和借用.md",
-    "rust圣经/02rust基础入门/2.2 基本类型.md"
+    "rust圣经/02rust基础入门/2.8 泛型和特征.md"
   ]
 }
