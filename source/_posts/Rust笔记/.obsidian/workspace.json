@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e4b09f782dfda638",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9dda0bd42ccf6447",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rust cli/03 - On The Catwalk.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust cli/02-Test for Echo.md",
+                "file": "Rust cli/03 - On The Catwalk.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust cli/02-Test for Echo.md",
+                "file": "Rust cli/03 - On The Catwalk.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust cli/02-Test for Echo.md"
+                "file": "Rust cli/03 - On The Catwalk.md"
               }
             }
           }
@@ -146,17 +171,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9064442c2932ceb2",
+  "active": "9dda0bd42ccf6447",
   "lastOpenFiles": [
+    "未命名 3.md",
+    "未命名 2.md",
+    "Rust cli/02-Test for Echo.md",
     "未命名 1.canvas",
     "未命名.canvas",
-    "Rust cli/02-Test for Echo.md",
     "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
     "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
     "rust圣经/02rust基础入门/2.11 返回值和错误处理.md",
-    "未命名 2.md",
     "未命名 1.md",
-    "rust圣经/02rust基础入门/2.9 集合类型.md",
-    "rust圣经/02rust基础入门/2.8 泛型和特征.md"
+    "rust圣经/02rust基础入门/2.9 集合类型.md"
   ]
 }
