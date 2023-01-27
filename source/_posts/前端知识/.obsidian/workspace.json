@@ -104,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "lowcode 低代码.md",
+                "file": "CSS级联层完整指南.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,8 +190,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "1550294c46eb92cc",
+  "active": "76b4a73d7372b19a",
   "lastOpenFiles": [
+    "lowcode 低代码.md",
     "一些有趣的博客.md",
     "vue3/admin.md",
     "常见问题/字体问题的处理.md",
@@ -200,7 +201,6 @@
     "monaco-editor 编辑器.md",
     "常见问题/TypeScript 的一些问题.md",
     "vite/vite 插件.md",
-    "组件问题/前端组件.md",
-    "微前端/从零开始写一个微前端框架.md"
+    "组件问题/前端组件.md"
   ]
 }
