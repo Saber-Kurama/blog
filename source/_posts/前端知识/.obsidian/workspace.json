@@ -133,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "formily",
+                "query": "stor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -190,7 +190,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "76b4a73d7372b19a",
+  "active": "12495da245cbde8b",
   "lastOpenFiles": [
     "lowcode 低代码.md",
     "一些有趣的博客.md",
