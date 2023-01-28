@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust cli/03 - On The Catwalk.md",
+                "file": "rust圣经/02rust基础入门/2.6 模式匹配.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust cli/03 - On The Catwalk.md",
+                "file": "rust圣经/02rust基础入门/2.6 模式匹配.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust cli/03 - On The Catwalk.md",
+                "file": "rust圣经/02rust基础入门/2.6 模式匹配.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust cli/03 - On The Catwalk.md"
+                "file": "rust圣经/02rust基础入门/2.6 模式匹配.md"
               }
             }
           }
@@ -148,15 +148,15 @@
   },
   "active": "9dda0bd42ccf6447",
   "lastOpenFiles": [
+    "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
+    "rust圣经/02rust基础入门/2.7 方法 Method.md",
+    "rust圣经/02rust基础入门/2.9 集合类型.md",
+    "rust圣经/02rust基础入门/2.11 返回值和错误处理.md",
+    "Rust cli/03 - On The Catwalk.md",
     "未命名 3.md",
     "Rust cli/02-Test for Echo.md",
-    "Rust cli/03 - On The Catwalk.md",
     "未命名 2.md",
     "未命名 1.canvas",
-    "未命名.canvas",
-    "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
-    "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
-    "rust圣经/02rust基础入门/2.11 返回值和错误处理.md",
-    "未命名 1.md"
+    "未命名.canvas"
   ]
 }
