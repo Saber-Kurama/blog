@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9064442c2932ceb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rust cli/02-Test for Echo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e4b09f782dfda638",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9dda0bd42ccf6447",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,14 +149,14 @@
   "active": "9dda0bd42ccf6447",
   "lastOpenFiles": [
     "未命名 3.md",
-    "未命名 2.md",
     "Rust cli/02-Test for Echo.md",
+    "Rust cli/03 - On The Catwalk.md",
+    "未命名 2.md",
     "未命名 1.canvas",
     "未命名.canvas",
     "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
     "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
     "rust圣经/02rust基础入门/2.11 返回值和错误处理.md",
-    "未命名 1.md",
-    "rust圣经/02rust基础入门/2.9 集合类型.md"
+    "未命名 1.md"
   ]
 }
