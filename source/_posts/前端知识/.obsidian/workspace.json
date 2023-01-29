@@ -4,107 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b293b3b230365752",
+        "id": "b3f8d4353ab107da",
         "type": "tabs",
         "children": [
           {
-            "id": "ee2d0ef6c871c4fc",
+            "id": "ecf5337e1f41b605",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mock 数据接口相关.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c1cf76f4cb6778f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vite/深入浅出vite/基础使用.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "76b4a73d7372b19a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS级联层完整指南.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ee45d23ed4d14102",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "微前端/关于微前端-一次microApp的使用经历.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "522922c1780c400c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "微前端/微前端.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4830f80ebef8a810",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "组件问题/前端组件.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "318758909d082766",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "一些有趣的博客.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1550294c46eb92cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "lowcode 低代码.md",
+                "file": "编译思想和设计模式/JSON Schema 规范（中文版）.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "stor",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -163,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS级联层完整指南.md",
+                "file": "编译思想和设计模式/JSON Schema 规范（中文版）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,8 +104,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "12495da245cbde8b",
+  "active": "ecf5337e1f41b605",
   "lastOpenFiles": [
+    "CSS级联层完整指南.md",
+    "mock 数据接口相关.md",
     "lowcode 低代码.md",
     "一些有趣的博客.md",
     "vue3/admin.md",
@@ -199,8 +115,6 @@
     "微前端/模块联邦.md",
     "组件问题/组件库的建设.md",
     "monaco-editor 编辑器.md",
-    "常见问题/TypeScript 的一些问题.md",
-    "vite/vite 插件.md",
-    "组件问题/前端组件.md"
+    "常见问题/TypeScript 的一些问题.md"
   ]
 }
