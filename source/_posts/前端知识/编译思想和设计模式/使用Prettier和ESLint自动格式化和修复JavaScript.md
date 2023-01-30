@@ -43,3 +43,14 @@ Prettier有一个 [`tabs` option](https://prettier.io/docs/en/options.html#tab
 
 ## ESLint和Prettier初始配置和基本用法
 
+
+## Methods for linting and pretty-printing your code
+
+### 删除冲突规则并连续运行
+
+此方法是最干净、最有效的方法，也是推荐使用的最佳方法。
+
+通过使用以下配置，可以很容易地关闭与ESLint中的Prettier冲突的规则：
+* `[eslint-config-prettier](https://github.com/prettier/eslint-config prettier)` for JavaScript
+*[tslint-config-prettier](https://github.com/alexjoverm/tslint-config-prettier) for TypeScript
+
