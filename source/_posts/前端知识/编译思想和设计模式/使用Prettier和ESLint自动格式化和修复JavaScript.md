@@ -51,6 +51,75 @@ Prettier有一个 [`tabs` option](https://prettier.io/docs/en/options.html#tab
 此方法是最干净、最有效的方法，也是推荐使用的最佳方法。
 
 通过使用以下配置，可以很容易地关闭与ESLint中的Prettier冲突的规则：
-* `[eslint-config-prettier](https://github.com/prettier/eslint-config prettier)` for JavaScript
-*[tslint-config-prettier](https://github.com/alexjoverm/tslint-config-prettier) for TypeScript
 
+* [eslint-config-prettier](https://github.com/prettier/eslint-config prettier) for JavaScript
+* [tslint-config-prettier](https://github.com/alexjoverm/tslint-config-prettier) for TypeScript
+
+首先，安装JavaScript的配置：
+
+```
+npm install --save-dev eslint-config-prettier
+```
+
+这里有一个例子。 `.eslintrc.json`
+
+```
+{
+  // ...
+  extends: [
+    // ...
+    'eslint:recommended',
+    "prettier" // Make sure this is the last
+  ],
+  // ...
+}
+```
+
+`package.json`
+
+```
+{
+   "name": "no-worries-setup",   
+   "version": "1.0.0",
+   "scripts": {
+    "lint": "npx eslint src test",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "npx prettier src test --check",
+    "prettier:fix": "npm run prettier -- --write",
+    "format": "npm run prettier:fix && npm run lint:fix",
+  }
+  // ...
+}
+```
+
+现在，您可以运行`npm run format`命令来一次性格式化和修复所有代码。
+
+要与VS代码一起使用，请安装扩展：[ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)、[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)和[Format Code Action](https://marketplace.visualstudio.com/items?itemName=rohit-gohri.format-code-action&ssr=false#review-details)，并更新您的用户设置（`setting.json` ），如下所示：
+
+```
+{
+  //...
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.probe": [
+      "javascript",
+      "javascriptreact",
+      "vue"
+  ],
+  "editor.formatOnSave": false,
+  // Runs Prettier, then ESLint
+  "editor.codeActionsOnSave": [
+    "source.formatDocument",
+    "source.fixAll.eslint"
+  ],
+  "vetur.validation.template": false
+  // ...
+}
+```
+
+首先，您需要在保存时禁用编辑器格式设置（`editor.formatOnSave` ）;我们希望通过代码操作来处理所有事情
+
+2020年3月 [（v1.44）](https://code.visualstudio.com/updates/v1_44#_explicit-ordering-for-code-actions-on-save&quot)，`editor.codeActionsOnSave` 属性已更新为接受代码操作数组，这允许有序的代码操作。如果安装了[Format Code Action](https://marketplace.visualstudio.com/items?itemName=rohit-gohri.format-code-action&ssr=false#review-details)扩展，就可以将格式设置作为代码操作使用。
+
+现在，我们可以按照任意顺序将Prettier和ESLint作为代码操作运行。太好了!
+
+在本例中，我们首先运行Prettier，操作如下  `source.formatDocument`（它使用默认格式化程序），然后运行  `eslint --fix` 与 `源。全部修复。埃斯林特` 行动。
