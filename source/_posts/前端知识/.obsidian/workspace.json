@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f69ae36b4427f02e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "编译思想和设计模式/使用Prettier和ESLint自动格式化和修复JavaScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编译思想和设计模式/JSON Schema 规范（中文版）.md",
+                "file": "编译思想和设计模式/使用Prettier和ESLint自动格式化和修复JavaScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,8 +117,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "ecf5337e1f41b605",
+  "active": "f69ae36b4427f02e",
   "lastOpenFiles": [
+    "编译思想和设计模式/JSON Schema 规范（中文版）.md",
     "CSS级联层完整指南.md",
     "mock 数据接口相关.md",
     "lowcode 低代码.md",
@@ -114,7 +128,6 @@
     "常见问题/字体问题的处理.md",
     "微前端/模块联邦.md",
     "组件问题/组件库的建设.md",
-    "monaco-editor 编辑器.md",
-    "常见问题/TypeScript 的一些问题.md"
+    "monaco-editor 编辑器.md"
   ]
 }
