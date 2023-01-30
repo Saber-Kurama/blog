@@ -1,6 +1,10 @@
 
 [# 使用Prettier和ESLint自动格式化和修复JavaScript](https://blog.logrocket.com/using-prettier-eslint-automate-formatting-fixing-javascript/)
 
+[# 如何让ESlint和Prettier在VS代码中表现良好？](https://rohit.page/blog/posts/how-to-get-prettier-eslint-play-nicely-with-vscode/?utm_source=github&utm_medium=repo&utm_campaign=hf)
+
+
+
 ## Prettier VS ESLint
 
 Prettier 可以用来格式化代码，除了格式化 `js` 和 `ts` 代码，还可以美化 `css`等
