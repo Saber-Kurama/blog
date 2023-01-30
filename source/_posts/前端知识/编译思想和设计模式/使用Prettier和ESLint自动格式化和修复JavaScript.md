@@ -32,3 +32,14 @@ Prettier是一个用于JavaScript和其他流行语言的固执己见的代码�
 
 linting 规则有两大类：格式化规则和代码质量规则。
 格式化规则是影响代码风格的规则，与错误无关。例如，ESLint 中的 no-mixed-spaces-and-tabs 规则确保只有制表符或空格用于缩进。
+Prettier有一个 [`tabs` option](https://prettier.io/docs/en/options.html#tabs)来做同样的事情。
+其次，代码质量规则提高了代码质量，可以防止或捕获错误。例如，ESLint 中的规则 no-implicit-globals 不允许全局范围变量。
+从其他脚本创建的全局变量可能会发生名称冲突，这通常会导致运行时错误或意外行为。
+问题是Prettier和ESLint的规则重叠，我们希望它们不重叠！
+通常，我们希望 Prettier 处理第一个类别，ESLint 处理第二个类别。有些规则可能很难归为一类或另一类；我们不需要对它们属于哪个类别迂腐。
+我们的兴趣在于确保 Prettier 或 ESLint 执行特定操作并且不会相互碰撞。
+至于它们的运行顺序，通常最好在 ESLint 之前运行 Prettier，因为 Prettier 会从头开始重新打印您的整个程序。所以，如果你想让 ESLint 参与格式化操作，你应该在 Prettier 之后运行它以防止更改被覆盖。
+如果您不熟悉ESLint和Prettier，我们将在下一节介绍如何配置和使用它们。
+
+## ESLint和Prettier初始配置和基本用法
+
