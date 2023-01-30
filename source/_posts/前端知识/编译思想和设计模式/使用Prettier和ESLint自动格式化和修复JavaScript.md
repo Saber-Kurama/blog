@@ -122,4 +122,67 @@ npm install --save-dev eslint-config-prettier
 
 现在，我们可以按照任意顺序将Prettier和ESLint作为代码操作运行。太好了!
 
-在本例中，我们首先运行Prettier，操作如下  `source.formatDocument`（它使用默认格式化程序），然后运行  `eslint --fix` 与 `源。全部修复。埃斯林特` 行动。
+在本例中，我们首先运行Prettier，操作如下  `source.formatDocument`（它使用默认格式化程序），然后运行  `eslint --fix` 与 `source.fixAll.eslint` 行动。
+
+`eslint.probe` 属性针对ESLint应验证的语言。您可以使用  `eslint.validate` 如果你想看到弹出消息代替。
+
+### 以编程方式运行Prettier，然后运行ESLint
+
+下面的应用程序提供了一种统一的方式来运行`pretter`，紧接着是`eslint--fix`on files：
+
+-   [prettier-eslint](https://github.com/prettier/prettier-eslint) for JavaScript
+-  [prettier-tslint](https://github.com/azz/prettier-tslint) for TypeScript
+
+首先，安装软件包。这只是针对JavaScript：
+
+```
+npm install --save-dev prettier-eslint
+```
+
+基本示例：
+
+```
+const format = require("prettier-eslint");
+
+// notice, no semicolon in the original text
+const sourceCode = "const {foo} = bar";
+
+const options = {
+  text: sourceCode,
+  eslintConfig: {
+    parserOptions: {
+      ecmaVersion: 7,
+    },
+    rules: {
+      semi: ["error", "never"],
+    },
+  },
+  prettierOptions: {
+    bracketSpacing: true,
+  },
+  fallbackPrettierOptions: {
+    singleQuote: false,
+  },
+};
+
+const formatted = format(options);
+
+// notice no semicolon in the formatted text
+formatted; // const { foo } = bar
+```
+
+显然，这种方法需要更多的工作来定位文件、读取内容和写入输出。
+
+要在VS代码中使用，可以安装并使用[Prettier ESLint](https://marketplace.visualstudio.com/items?itemName=rvest.vs-code-prettier-eslint)扩展。
+
+### 将Prettier作为ESLint规则运行
+
+通常不建议这样做，因为：
+
+1.  Formatting issues reported as problems by ESLint ESLint报告为问题的格式问题
+2.  It is a bit slower than running Prettier directly 这比直接运行Prettier要慢一些
+3.  You have another layer where bugs can be introduced 您还有另一个图层，其中可能会引入错误
+
+## 结语
+
+Prettier和ESLint可以非常有效地一起使用。它需要一些配置，但阅读本文后应该很简单！
