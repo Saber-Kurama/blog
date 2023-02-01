@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "常见问题/全局第三方字体.md",
+                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "常见问题/全局第三方字体.md",
+                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,15 +106,15 @@
   },
   "active": "0fd0c54ebdb5e305",
   "lastOpenFiles": [
-    "编译思想和设计模式/JSON Schema 规范（中文版）.md",
-    "常见问题/全局第三方字体.md",
-    "常见问题/解决视频播放在手机百度上播放被劫持的现象.md",
-    "编译思想和设计模式/使用Prettier和ESLint自动格式化和修复JavaScript.md",
-    "CSS级联层完整指南.md",
-    "mock 数据接口相关.md",
-    "lowcode 低代码.md",
+    "未命名 1.md",
     "一些有趣的博客.md",
-    "vue3/admin.md",
-    "常见问题/字体问题的处理.md"
+    "在macOS系统中通过brew安装MongoDB数据库的方法.md",
+    "icon.md",
+    "javascript的long类型.md",
+    "lowcode 低代码.md",
+    "mock 数据接口相关.md",
+    "monaco-editor 编辑器.md",
+    "monorepo.md",
+    "nestjs.md"
   ]
 }
