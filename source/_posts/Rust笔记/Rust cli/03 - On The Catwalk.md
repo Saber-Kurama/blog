@@ -37,4 +37,15 @@ GNU 版本确实响应 --help:
 也就是说，我希望我的程序至少不会倒下。
 以下命令不产生任何输出，所以我希望我的程序做同样的事情：
 
+-n|--number 和 -b|--number-nonblank 标志都会对行进行编号，行号在六个字符宽的字段中右对齐，后跟一个制表符，然后是文本行。为了区分制表符，我可以使用-t选项来显示非打印字符，使制表符显示为^I。在以下命令中，我使用 Unix 管道 |将第一个命令的 STDOUT 连接到第二个命令中的 STDIN：
+```sh
+cat -n tests/inputs/fox.txt | cat -t
+1^IThe quick brown fox jumps over the lazy dog.
+```
+
+spiders.txt 文件有三行文本，应使用 -b 选项编号：
+
+
+当处理任何不存在或无法打开的文件时，cat 将向 STDERR 打印一条消息并移动到下一个文件。在以下示例中，我将 blargh 用作不存在的文件。我使用 touch 命令创建文件 cant-touch-this 并使用 chmod 命令设置文件权限使其不可读。当您编写 ls 的克隆时，您将在第 15 章中了解更多关于 000 的含义:
+
 
