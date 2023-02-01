@@ -48,4 +48,36 @@ spiders.txt 文件有三行文本，应使用 -b 选项编号：
 
 当处理任何不存在或无法打开的文件时，cat 将向 STDERR 打印一条消息并移动到下一个文件。在以下示例中，我将 blargh 用作不存在的文件。我使用 touch 命令创建文件 cant-touch-this 并使用 chmod 命令设置文件权限使其不可读。当您编写 ls 的克隆时，您将在第 15 章中了解更多关于 000 的含义:
 
+```sh
+$ touch cant-touch-this && chmod 000 cant-touch-this
+$ cat tests/inputs/fox.txt blargh tests/inputs/spiders.txt cant-touch-this
+The quick brown fox jumps over the lazy dog. 
+cat: blargh: No such file or directory 
+Don't worry, spiders, 
+I keep house
+casually.
+cat: cant-touch-this: Permission denied 
+```
+“最后，对所有文件运行 cat 并注意它开始为每个文件重新编号行
+```sh
+$ cat -n empty.txt fox.txt spiders.txt the-bustle.txt
+     1	The quick brown fox jumps over the lazy dog.
+     1	Don't worry, spiders,
+     2	I keep house
+     3	casually.
+     1	The bustle in a house
+     2	The morning after death
+     3	Is solemnest of industries
+     4	Enacted upon earth,—
+     5
+     6	The sweeping up the heart,
+     7	And putting love away
+     8	We shall not want to use again
+     9	Until eternity.
+
+```
+
+如果你查看 mk-outs.sh 脚本，你会看到我使用所有这些文件单独和一起执行 cat，作为常规文件并通过 STDIN，不使用标志并使用 -n 和 -b 标志。我将所有输出捕获到 tests/expected 目录中的各种文件，以用于测试。
+
+
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust cli/03 - On The Catwalk.md",
+                "file": "Rust初始环境.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Some",
+                "query": "书",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust cli/03 - On The Catwalk.md",
+                "file": "Rust初始环境.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust cli/03 - On The Catwalk.md",
+                "file": "Rust初始环境.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust cli/03 - On The Catwalk.md"
+                "file": "Rust初始环境.md"
               }
             }
           }
@@ -146,7 +147,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "2688c4ab8018ed29",
+  "active": "902412ec686b2af6",
   "lastOpenFiles": [
     "RUST的一些资源.md",
     "Rust cli/03 - On The Catwalk.md",
