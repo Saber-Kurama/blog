@@ -23,3 +23,6 @@ GNU 版本确实响应 --help:
 对于挑战程序，我将只执行选项 -b|--number-nonblank 和 -n|--number。我还将展示如何在给定文件名参数“-”时读取常规文件和 STDIN。我已经将四个用于测试的文件放03_catr/tests/inputs 目录中：
 
 
+
+
+
