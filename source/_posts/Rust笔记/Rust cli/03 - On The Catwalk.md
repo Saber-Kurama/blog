@@ -17,12 +17,24 @@
 
 我将从展示 cat 的工作原理开始，以便您了解挑战的预期内容。BSD 版的 cat 没有响应 --help，所以我必须使用 man cat 来阅读手册页。对于这样一个有限的程序，它有惊人数量的选项：
 
+-b 从1开始对非空输出行进行编号.
+-n 从1开始对输出行进行编号.
 
 GNU 版本确实响应 --help:
 
+-b, --number-nonblank    number nonempty output lines, overrides -n
+-n, --number             number all output lines
+
 对于挑战程序，我将只执行选项 -b|--number-nonblank 和 -n|--number。我还将展示如何在给定文件名参数“-”时读取常规文件和 STDIN。我已经将四个用于测试的文件放03_catr/tests/inputs 目录中：
 
+1. empty.txt：一个空文件
+2. fox.txt：单行文本
+3. spiders.txt：三行文字
+4. the-bustle.txt：艾米丽狄金森的一首可爱的诗，有九行，包括一个空白
 
-
+空文件很常见，即使没有用。
+我包含它是为了确保我的程序可以优雅地处理意外输入。
+也就是说，我希望我的程序至少不会倒下。
+以下命令不产生任何输出，所以我希望我的程序做同样的事情：
 
 
