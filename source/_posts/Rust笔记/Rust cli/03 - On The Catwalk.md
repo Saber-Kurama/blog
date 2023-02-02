@@ -120,3 +120,42 @@ rand = "0.8”
 首先，我将把所有重要的部分从 src/main.rs 移到 src/lib.rs 中一个名为 run 的函数中。
 此函数将返回一种 Result 以指示成功或失败。这类似于第 2 章中的 TestResult 类型别名。
 TestResult 总是返回 Ok 变体中的单元类型 ()，但 MyResult 可以返回一个 Ok，它包含我可以使用泛型 T 表示的任何类型：
+
+``` rust
+// src/lib.rs
+type MyResult<T> = Result<T, Box<Error>>;
+
+pub fn run() -> MyResult<()> {
+    println!("Hello world");
+    Ok(())
+}
+```
+
+```rs
+// src/main.rs
+
+fn main() {
+    if let Err(e) = catr::run() {
+        eprintln!("{}", e);
+        std::process::exit(1)
+    }
+}
+```
+
+## 定义参数
+
+接下来，我将添加程序的参数，我想引入一个名为 Config 的结构来表示程序的参数。
+结构是一种数据结构，您可以在其中定义它将包含的元素的名称和类型。它类似于其他语言中的类定义。在这种情况下，我想要一个结构来描述程序将需要的值，例如输入文件名列表和用于对输出行进行编号的标志。
+
+``` rust
+#[derive(Debug)]
+pub struct Config {
+    files: Vec<String>,
+    number_lines: bool,
+    number_nonblank_lines: bool,
+}
+
+```
+
+要使用结构，我可以创建一个具有特定值的实例。在下面的 get_args 函数草图中，您可以看它通过使用用户的运行时值创建一个新的 Config 来完成。添加 use clap::{App, Arg} 和这个函数到你的 src/lib.rs。
+尝试自己完成功能，从第 2 章中窃取你能窃取的内容：
