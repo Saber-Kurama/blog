@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a834df079d2638aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/box-shadow 模糊半径与扩展半径.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+                "file": "CSS/box-shadow 模糊半径与扩展半径.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,8 +117,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "0fd0c54ebdb5e305",
+  "active": "a834df079d2638aa",
   "lastOpenFiles": [
+    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "未命名 1.md",
     "一些有趣的博客.md",
     "在macOS系统中通过brew安装MongoDB数据库的方法.md",
@@ -114,7 +128,6 @@
     "lowcode 低代码.md",
     "mock 数据接口相关.md",
     "monaco-editor 编辑器.md",
-    "monorepo.md",
-    "nestjs.md"
+    "monorepo.md"
   ]
 }
