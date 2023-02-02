@@ -158,3 +158,50 @@ pub struct Config {
 ```
 
 要使用结构，我可以创建一个具有特定值的实例。在下面的 get_args 函数草图中，您可以看它通过使用用户的运行时值创建一个新的 Config 来完成。添加 use clap::{App, Arg} 和这个函数到你的 src/lib.rs。尝试自己完成功能，从第 2 章中窃取你能窃取的内容：
+
+这意味着运行函数需要更新以接受配置参数。现在，打印它：
+
+```rust
+pub fn run(config: Config) -> MyResult<()> {
+    dbg!(config);
+    Ok(())
+}
+```
+
+Use the dbg! (debug) macro to print the configuration.
+更新你的 src/main.rs 如下
+
+```rust
+fn main() {
+    if let Err(e) = catr::get_args().and_then(catr::run) {
+        eprintln!("{}", e);
+        std::process::exit(1)
+    }
+}
+```
+
+调用 catr::get_args 函数，然后使用 Result::and_then 将 Ok(config) 传递给 catr::run
+
+看看你是否可以让你的程序打印这样的用法：
+
+```sh
+$ cargo run --quiet -- --help
+catr 0.1.0
+Ken Youens-Clark <kyclark@gmail.com>
+Rust cat
+
+USAGE:
+    catr [FLAGS] <FILE>...
+
+FLAGS:
+    -h, --help               Prints help information
+    -n, --number             Number lines
+    -b, --number-nonblank    Number non-blank lines
+    -V, --version            Prints version information
+
+ARGS:
+    <FILE>...    Input file(s) [default: -]
+```
+
+虽然 BSD 版本允许同时使用 -n 和 -b，但挑战程序应该认为它们是相互排斥的，并且在一起使用时会产生错误：
+
