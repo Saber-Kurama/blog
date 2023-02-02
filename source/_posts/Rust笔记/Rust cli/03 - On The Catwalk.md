@@ -101,3 +101,22 @@ catr
 4 directories, 3 files
 ```
 我将使用与第 2 章中相同的所有外部箱子加上 rand cate进行测试，因此请将您的 Cargo.toml 更新为：
+
+```
+[dependencies]
+clap = "2.33"
+
+[dev-dependencies]
+assert_cmd = "1"
+predicates = "1"
+rand = "0.8”
+```
+
+现在运行 cargo test 下载crates，编译你的程序，然后运行测试。所有测试都应该失败。如果你选择接受，你的任务就是编写一个能够通过这些测试的程序。
+
+## Creating a Library Crate 
+
+第 2 章中的程序非常短，很容易放入 src/main.rs 中。您在职业生涯中编写的典型程序可能会更长。从这个程序开始，我将把我的代码分成 src/lib.rs 中的库和 src/main.rs 中调用库函数的二进制文件。我相信随着时间的推移，这个组织可以更容易地测试和发展应用程序。
+首先，我将把所有重要的部分从 src/main.rs 移到 src/lib.rs 中一个名为 run 的函数中。
+此函数将返回一种 Result 以指示成功或失败。这类似于第 2 章中的 TestResult 类型别名。
+TestResult 总是返回 Ok 变体中的单元类型 ()，但 MyResult 可以返回一个 Ok，它包含我可以使用泛型 T 表示的任何类型：
