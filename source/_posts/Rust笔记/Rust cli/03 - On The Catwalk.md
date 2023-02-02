@@ -87,3 +87,17 @@ $ cat -n empty.txt fox.txt spiders.txt the-bustle.txt
 
 对于 cat 的 Rust 版本，你编写的挑战程序应该称为 catr（发音为 cat-er）。
 我建议您从 cargo new catr 开始一个新的应用程序，然后将我的 03_catr/tests 目录复制到您的源代码树中。除了测试之外不要复制任何东西，因为您将自己编写其余代码。你应该有这样的结构：
+```sh
+$ tree -L 2 catr/
+catr
+├── Cargo.toml
+├── src
+│   └── main.rs
+└── tests
+    ├── cli.rs
+    ├── expected
+    └── inputs
+
+4 directories, 3 files
+```
+我将使用与第 2 章中相同的所有外部箱子加上 rand cate进行测试，因此请将您的 Cargo.toml 更新为：
