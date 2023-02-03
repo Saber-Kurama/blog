@@ -213,3 +213,26 @@ ARGS:
 ## 处理文件
 
 现在您已经验证了所有参数，您已准备好处理文件并创建正确的输出。首先修改 src/lib.rs 中的运行函数来打印每个文件名：
+```rust
+pub fn run(config: Config) -> MyResult<()> {
+    for filename in config.files {
+        println!("filename: {}", filename)
+    }
+    Ok(())
+}
+```
+
+用一些输入文件运行程序。在以下示例中，bash shell 会将文件 glob *.txt 扩展为所有以扩展名 .txt 结尾的文件名：
+
+```sh
+$ cargo run -- tests/inputs/*.txt 
+tests/inputs/empty.txt
+tests/inputs/fox.txt
+tests/inputs/spiders.txt
+tests/inputs/the-bustle.txt
+```
+
+## 打开文件或 STDIN
+
+下一步是尝试打开每个文件名。当文件名为“-”时，我应该打开STDIN；否则，我将尝试打开给定的文件名并处理错误。对于以下代码，您需要将导入扩展为以下内容：
+
