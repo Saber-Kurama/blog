@@ -236,5 +236,31 @@ tests/inputs/the-bustle.txt
 
 下一步是尝试打开每个文件名。当文件名为“-”时，我应该打开STDIN；否则，我将尝试打开给定的文件名并处理错误。对于以下代码，您需要将导入扩展为以下内容：
 
+```rust
+use std::error::Error;
+use std::fs::File;
+use std::io::{self, BufRead, BufReader};
+```
+
 这一步有点棘手，所以我想提供一个开放的功能供你使用。在下面的代码中，我使用了 match 关键字，它类似于 C 中的 switch 语句。具体来说，我正在匹配文件名是否等于“-”或其他东西，这是使用通配符 _ 指定的：
 
+```rust
+fn open(filename: &str) -> MyResult<Box<dyn BufRead>> {
+    println!("open {}", filename);
+    match filename {
+        "-" => Ok(Box::new(BufReader::new(io::stdin()))),
+        _ => Ok(Box::new(BufReader::new(File::open(filename)?))),
+    }
+}
+```
+
+该函数将接受文件名并将返回一个错误或一个实现 BufRead 特征的boxed值。
+
+如果 File::open 成功，结果将是一个文件句柄，这是一种读取文件内容的机制。文件句柄和 std::io::stdin 都实现了 BufRead 特性，这意味着值将例如响应 BufRead::lines 函数以生成文本行。请注意，BufRead::lines 将删除任何行结尾，例如 Windows 上的 \r\n 和 Unix 上的 \n。
+
+你再次看到我正在使用一个 Box 创建一个指向堆分配内存的指针来保存文件句柄。
+您可能想知道这是否完全必要。我可以尝试不使用 Box 来编写函数：
+
+如果我尝试编译这段代码，我会收到以下错误：
+
+正如编译器所说，BufRead 中没有针对 Sized 特性的实现。如果一个变量没有固定的、已知的大小，那么 Rust 不能将它存储在堆栈上。解决方案是改为分配
