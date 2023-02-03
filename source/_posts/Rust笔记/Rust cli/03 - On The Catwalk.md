@@ -287,8 +287,62 @@ $ cargo run -- tests/inputs/fox.txt
 The quick brown fox jumps over the lazy dog.
 ```
 
+确认您可以默认读取 STDIN。在下面的命令中，我将使用 |将第一个命令的 STDOUT 通过管道传输到第二个命令的 STDIN
+
+```sh
+$ cat tests/inputs/fox.txt | cargo run
+The quick brown fox jumps over the lazy dog.
+```
+
+提供文件名“-”时，输出应该相同。在以下命令中，我将使用 bash 重定向运算符 < 从给定的文件名中获取输入并将其提供给 STDIN：
+
+```sh
+$ cargo run -- - < tests/inputs/fox.txt
+The quick brown fox jumps over the lazy dog.
+```
+
+接下来，尝试一个多行的输入文件，并尝试为 -n 的行编号：
+
+```sh
+$ cargo run -- -n tests/inputs/spiders.txt
+     1	Don't worry, spiders,
+     2	I keep house
+     3	casually.
+```
+
+然后尝试跳过 -b 编号中的空白行：
+
+```sh
+$ cargo run -- -b tests/inputs/the-bustle.txt
+     1	The bustle in a house
+	 2	The morning after death
+     3	Is solemnest of industries
+     4	Enacted upon earth,—
+
+     5	The sweeping up the heart,
+     6	And putting love away
+     7	We shall not want to use again
+     8	Until eternity.
+```
+
+经常运行`cargo test`以查看哪些测试失败了。tests/cli.rs 中的测试与第 2 章类似，但我添加了更多的组织。例如，我在整个板条箱中使用的那个模块的顶部定义了几个常量 &str 值。我使用 ALL_CAPS 名称的通用约定来强调它们在整个板条箱中的作用域或可见的事实：
 
 
+为了测试程序在给定一个不存在的文件时会死掉，我使用 rand crate 生成一个不存在的随机文件名。对于下面的函数，我将使用 rand::{distributions::Alphanumeric, Rng} 来导入我在这个函数中需要的 crate 的各个部分：
 
 
+该函数将返回一个字符串，它是一个动态生成的字符串，与我一直使用的 str 结构密切相关。
+
+如果您还没有完全理解前面的代码，请不要担心。我只是展示这个，以便您了解它是如何在 skips_bad_file 测试中使用的：
+
+
+1. 生成一个不存在的文件的名称。
+2. 在 Windows 或 Unix 平台上，预期的错误消息应包括文件名和字符串“os error 2”。
+3. 使用错误文件运行程序并验证 STDERR 是否与预期模式匹配。
+4. 该命令应该会成功，因为坏文件应该只会生成警告，而不会终止进程。
+
+我创建了一个运行辅助函数来运行带有输入参数的程序，并验证输出是否与 mk-outs.sh 生成的文件中的文本相匹配：
+
+
+## 
 
