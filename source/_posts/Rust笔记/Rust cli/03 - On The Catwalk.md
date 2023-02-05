@@ -385,13 +385,66 @@ match open(&filename) {
 
 接下来，我想为 -n|--number 选项添加行号打印。C 程序员可能熟悉的一种解决方案是这样的：
 
+```rust
+match open(&filename) {
+	Err(err) => eprintln!("faild filename {} : {}", filename, err),
+	Ok(file) => {
+		let mut line_number = 0;
+		for line_result in file.lines() {
+			let line = line_result?;
+			line_number += 1;
+			if config.number_lines {
+				println!("{:>6}\t{}", line_number, line)
+			} else {
+				println!("{}", line)
+			}
+		}
+	}
+}
+```
+
 回想一下，默认情况下，Rust 中的所有变量都是不可变的，因此有必要将 mut 添加到 line_num 中，因为我打算更改它。+= 运算符是一个复合赋值，它将右边的值 1 添加到 line_num 以递增 it1。同样值得注意的是格式语法 {:>6}，它将字段的宽度指示为六个字符，文本右对齐。（您可以使用 < 表示左对齐，使用 ^ 表示居中文本。）这种语法类似于 C、Perl 和 Python 的字符串格式化中的 printf。
 
 如果我运行这个版本的程序，它看起来很不错
 
 虽然这足够有效，但我想指出一个使用 Iterator::enumerate 的更惯用的解决方案。此方法将返回一个元组，其中包含可迭代对象中每个元素的索引位置和值，这是可以产生值直到耗尽的东西：
 
+```rust 
+Ok(file) => {
+	for (line_number, line_result) in file.lines().enumerate() {
+		let line = line_result?;
+		if config.number_lines {
+			println!("{:>6}\t{}", line_number + 1, line)
+		} else {
+			println!("{}", line)
+		}
+	}
+}
+```
+
 这将创建相同的输出，但现在代码避免使用可变值。我可以执行 cargo test fox 来运行所有以 fox 开头的测试，我发现三分之二的测试通过了。该程序在 -b 标志上失败，所以接下来我需要处理仅为非空行打印行号。请注意，在此版本中，我还将删除 line_result 并隐藏 line 变量：
+
+```rust
+Ok(file) => {
+	let mut last_num = 0;
+	for (line_number, line_result) in file.lines().enumerate() {
+		let line = line_result?;
+		if config.number_lines {
+			println!("{:>6}\t{}", line_number + 1, line)
+		} else if config.number_nonblank_lines {
+			if !line.is_empty() {
+				last_num += 1;
+				println!("{:>6}\t{}", last_num, line)
+			} else {
+				println!()
+			}
+		} else {
+			println!("{}", line)
+		}
+	}
+}
+```
+
 
 # 更进一步
 
