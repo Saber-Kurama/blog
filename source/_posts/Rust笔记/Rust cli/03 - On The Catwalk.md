@@ -282,6 +282,25 @@ touch cant-touch-this && chmod 000 cant-touch-this
 
 有了这个添加，你应该能够通过`cargo test skips_bad_file`。现在您可以打开并读取有效的输入文件，我希望您自己完成该程序。你能弄清楚如何逐行读取打开的文件吗？从只有一行的 tests/inputs/fox.txt 开始。您应该能够看到以下输出：
 
+```rust
+pub fn run(config: Config) -> MyResult<()> {
+    // dbg!(config);
+    for filename in config.files {
+        println!("filename: {}", filename);
+        match open(&filename) {
+            Err(err) => eprintln!("faild filename {} : {}", filename, err),
+            Ok(mut file) => {
+                let mut fileStr = String::new();
+                file.read_to_string(&mut fileStr)?;
+                println!("open {}, {}", filename, fileStr);
+            }
+        }
+    }
+    Ok(())
+}
+
+```
+
 ```sh
 $ cargo run -- tests/inputs/fox.txt
 The quick brown fox jumps over the lazy dog.
