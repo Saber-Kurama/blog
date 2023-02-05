@@ -369,6 +369,18 @@ $ cargo run -- -b tests/inputs/the-bustle.txt
 
 ## 读取文件中的行
 
+```rust
+match open(&filename) {
+            Err(err) => eprintln!("faild filename {} : {}", filename, err),
+            Ok(file) => {
+                for line_result in file.lines() {
+                    let line = line_result?;
+                    println!("{}", line)
+                }
+            }
+        }
+```
+
 ##  打印行号
 
 接下来，我想为 -n|--number 选项添加行号打印。C 程序员可能熟悉的一种解决方案是这样的：
