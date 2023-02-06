@@ -1,6 +1,6 @@
 # vue 一些有趣的项目
 
-https://bestofvuejs.com/p/materio-vuetify-admin
+https://bestofvuejs.com/
 
 Figma-低代码
 https://github.com/KlausSchaefers/figma-low-code
