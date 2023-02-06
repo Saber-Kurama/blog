@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/box-shadow 模糊半径与扩展半径.md",
+                "file": "vite/vue  一些有趣的项目.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "vue",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -90,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/box-shadow 模糊半径与扩展半径.md",
+                "file": "vite/vue  一些有趣的项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,6 +120,7 @@
   },
   "active": "a834df079d2638aa",
   "lastOpenFiles": [
+    "CSS/box-shadow 模糊半径与扩展半径.md",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "未命名 1.md",
     "一些有趣的博客.md",
@@ -127,7 +129,6 @@
     "javascript的long类型.md",
     "lowcode 低代码.md",
     "mock 数据接口相关.md",
-    "monaco-editor 编辑器.md",
-    "monorepo.md"
+    "monaco-editor 编辑器.md"
   ]
 }
