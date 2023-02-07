@@ -57,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -105,7 +104,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "0fd0c54ebdb5e305",
+  "active": "42d03b7013090d6f",
   "lastOpenFiles": [
     "vite/vue  一些有趣的项目.md",
     "CSS/box-shadow 模糊半径与扩展半径.md",
