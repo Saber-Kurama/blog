@@ -24,7 +24,7 @@ http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion/
 |autoSave|是否自动保存| `boolean`| `false`|
 |hideSaveButton|是否隐藏保存按钮| `boolean`| `false`|
 |hideCancleButton|是否隐藏取消按钮| `boolean`| `false`|
-|renderValue|自定义文字渲染| `(text: string | number) => string | any`| `-`|
+|renderValue|自定义文字渲染| `(text: string \| number) => string | any`| `-`|
 
 ### `<edit-text>` Events
 |事件名|描述|参数|
