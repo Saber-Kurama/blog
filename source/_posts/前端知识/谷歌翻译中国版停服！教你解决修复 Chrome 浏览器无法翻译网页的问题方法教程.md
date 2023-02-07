@@ -8,3 +8,24 @@
 ## 图书
 https://zh.singlelogin.me/
 http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion/
+
+
+### `<edit-text>` Props
+
+|参数名|描述|类型|默认值|
+|---|---|---|:---:|
+|type|组件类型|`'number'\| "date" \| "text" \| "password" \| "select" \| "textarea"` | `text`|
+|text|文本编辑内容| `string \| number` | ''|
+|placeholder| 提示文案| `string` | `''`|
+|editButtonType| 编辑操作类型| `icon \| text`| `icon`|
+|component| 自定义组件| 
+
+
+
+### `<edit-text>` Events
+|事件名|描述|参数|
+|---|:---:|---|
+### `<edit-text>` Slots
+
+|插槽名|描述|参数|
+|---|:---:|---|
