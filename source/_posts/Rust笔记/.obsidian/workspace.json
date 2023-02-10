@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md",
+                "file": "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md",
+                "file": "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md",
+                "file": "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md"
+                "file": "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md"
               }
             }
           }
@@ -161,6 +161,7 @@
   },
   "active": "c2341c36236098a5",
   "lastOpenFiles": [
+    "Rust cli/04 - Head Aches.md",
     "Rust cli/03 - On The Catwalk.md",
     "rust圣经/02rust基础入门/2.9 集合类型.md",
     "Rust初始环境.md",
@@ -169,7 +170,6 @@
     "rust圣经/03rust高级进阶/3.1 生命周期.md",
     "参考.md",
     "rust圣经/02rust基础入门/2.6 模式匹配.md",
-    "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
-    "rust圣经/02rust基础入门/2.7 方法 Method.md"
+    "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md"
   ]
 }
