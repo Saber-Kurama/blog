@@ -38,4 +38,7 @@ https://github.com/aisuda/amis-editor-demo
 
 https://juejin.cn/post/7139899195745370143
 
+
+[# vivo 低代码平台【后羿】的探索与实践](https://zhuanlan.zhihu.com/p/593562263)
+
 # cimi——一款全自动发布NPM包的工具
