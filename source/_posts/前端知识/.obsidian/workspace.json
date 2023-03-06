@@ -42,9 +42,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5c209e474663dbf0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.16"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -129,7 +139,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "bf70b014199a8b60",
+  "active": "5c209e474663dbf0",
   "lastOpenFiles": [
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "sketch/一些资料.md",
