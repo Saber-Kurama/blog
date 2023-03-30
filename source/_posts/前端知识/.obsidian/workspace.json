@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "icon.md",
+                "file": "vite/Vite之高效插件推荐.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "icon.md",
+                "file": "vite/Vite之高效插件推荐.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,8 +132,13 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "12495da245cbde8b",
+  "active": "c347638d48263273",
   "lastOpenFiles": [
+    "vite/vue  一些有趣的项目.md",
+    "vite/Vite之高效插件推荐.md",
+    "vite/vite 插件.md",
+    "未命名 1.canvas",
+    "icon.md",
     "nginx.md",
     "图形学/可视化.md",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
@@ -149,7 +153,6 @@
     "组件问题/如何在React中构建内联可编辑UI.md",
     "vue3/温故而知新，浅入 Vue scoped 原理.md",
     "vue3/高阶组件.md",
-    "vite/vue  一些有趣的项目.md",
     "CSS/box-shadow 模糊半径与扩展半径.md",
     "未命名 1.md",
     "一些有趣的博客.md",
