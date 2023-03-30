@@ -7,5 +7,11 @@ https://juejin.cn/post/6998059092497399845
 https://www.fullstackaction.com/pages/f81235/#_4%E3%80%81%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F
 
 
+# 如何编写 webpack 插件，以 git version 为例
+https://zhuanlan.zhihu.com/p/462642349
+
+
+
+
 
 
