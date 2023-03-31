@@ -40,7 +40,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vite/Vite之高效插件推荐.md",
+                "file": "一些有趣的博客.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nginx",
+                "query": "import(\"./main.js\")",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vite/Vite之高效插件推荐.md",
+                "file": "一些有趣的博客.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,8 +135,12 @@
   },
   "active": "12495da245cbde8b",
   "lastOpenFiles": [
-    "vite/vue  一些有趣的项目.md",
+    "图形学/canvas.md",
+    "monorepo.md",
+    "vue3/vite does not provide an export named 'default'.md",
+    "微前端/模块联邦.md",
     "vite/Vite之高效插件推荐.md",
+    "vite/vue  一些有趣的项目.md",
     "vite/vite 插件.md",
     "未命名 1.canvas",
     "icon.md",
