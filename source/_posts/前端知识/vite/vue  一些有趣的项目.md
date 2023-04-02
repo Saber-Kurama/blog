@@ -1,3 +1,6 @@
+
+[# 分享一个实用的 vite + vue3 组件库脚手架工具，提升开发效率](https://zhuanlan.zhihu.com/p/579412416)
+
 # vue 一些有趣的项目
 
 https://bestofvuejs.com/

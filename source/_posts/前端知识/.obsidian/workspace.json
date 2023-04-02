@@ -11,14 +11,11 @@
             "id": "b4b1d93df37bd8f8",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "vite/vue  一些有趣的项目.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -46,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +72,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "import(\"./main.js\")",
+                "query": "vite",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,8 +81,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -106,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "一些有趣的博客.md",
+                "file": "vite/vue  一些有趣的项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,8 +128,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "12495da245cbde8b",
+  "active": "b4b1d93df37bd8f8",
   "lastOpenFiles": [
+    "组件问题/前端基建.md",
+    "未命名.canvas",
     "图形学/canvas.md",
     "monorepo.md",
     "vue3/vite does not provide an export named 'default'.md",
@@ -149,7 +146,6 @@
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "未命名.md",
     "编译思想和设计模式/翻墙.md",
-    "未命名.canvas",
     "微前端/从零开始写一个微前端框架.md",
     "组件问题/前端组件.md",
     "sketch/一些资料.md",
