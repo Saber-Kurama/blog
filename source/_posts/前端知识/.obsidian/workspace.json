@@ -13,110 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "图形学/可视化.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "678bd984fe2567af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97295f7b25b42761",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "【前端安全】 csp-nonce.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1f5538fca4a131e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8af8938011829d49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名 4.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6bb7a4967e188c87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "chart/未命名.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6603b10cd504cbf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "postcss插件/1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79405e145dda1b65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c347638d48263273",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "一些有趣的博客.md",
+                "file": "图形学/echart.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "echart",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -154,7 +57,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -174,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "postcss插件/1.md",
+                "file": "图形学/echart.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -201,39 +105,39 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "6603b10cd504cbf2",
+  "active": "b4b1d93df37bd8f8",
   "lastOpenFiles": [
+    "未命名 1.md",
+    "未命名 1.canvas",
+    "未命名 2.canvas",
+    "未命名 2.md",
+    "未命名 4.md",
+    "未命名.canvas",
+    "未命名.md",
+    "图形学/可视化.md",
     "chart/未命名.md",
+    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+    "一些有趣的博客.md",
     "postcss插件/1.md",
     "postcss插件",
-    "未命名 4.md",
     "未命名 3.md",
     "【前端安全】 csp-nonce.md",
     "chart",
     "图形学/echart.md",
-    "未命名 2.md",
-    "图形学/可视化.md",
-    "未命名 2.canvas",
     "vite/vue  一些有趣的项目.md",
     "组件问题/前端基建.md",
-    "未命名.canvas",
     "图形学/canvas.md",
     "monorepo.md",
     "vue3/vite does not provide an export named 'default'.md",
     "微前端/模块联邦.md",
     "vite/Vite之高效插件推荐.md",
     "vite/vite 插件.md",
-    "未命名 1.canvas",
     "icon.md",
     "nginx.md",
-    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
-    "未命名.md",
     "编译思想和设计模式/翻墙.md",
     "微前端/从零开始写一个微前端框架.md",
     "组件问题/前端组件.md",
     "sketch/一些资料.md",
-    "sketch",
-    "lowcode 低代码.md",
-    "组件问题/如何在React中构建内联可编辑UI.md"
+    "sketch"
   ]
 }
