@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ff091748d7cd1435",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "735f647d2d71242f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CSS/泪目了！CSS nth-child伪类终于支持了of关键词.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -102,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.md",
+                "file": "CSS/泪目了！CSS nth-child伪类终于支持了of关键词.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,17 +153,18 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "0a5bb4c27efa697d",
+  "active": "735f647d2d71242f",
   "lastOpenFiles": [
-    "前端工程化/rollup.md",
+    "未命名 2.md",
+    "CSS/泪目了！CSS nth-child伪类终于支持了of关键词.md",
     "未命名.md",
+    "前端工程化/rollup.md",
     "前端工程化/changelog.md",
     "前端工程化/Code Review.md",
     "图形学/echart.md",
     "未命名 1.md",
     "未命名 1.canvas",
     "未命名 2.canvas",
-    "未命名 2.md",
     "未命名 4.md",
     "未命名.canvas",
     "图形学/可视化.md",
@@ -161,7 +186,6 @@
     "vite/vite 插件.md",
     "icon.md",
     "nginx.md",
-    "编译思想和设计模式/翻墙.md",
     "sketch"
   ]
 }
