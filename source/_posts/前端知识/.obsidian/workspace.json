@@ -66,9 +66,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "32178233c42d5237",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名 3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c890ecb704c35318",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "前端工程化/webpack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -126,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/泪目了！CSS nth-child伪类终于支持了of关键词.md",
+                "file": "前端工程化/webpack.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,10 +177,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "735f647d2d71242f",
+  "active": "c890ecb704c35318",
   "lastOpenFiles": [
-    "未命名 2.md",
+    "未命名 3.md",
+    "前端工程化/webpack.md",
     "CSS/泪目了！CSS nth-child伪类终于支持了of关键词.md",
+    "未命名 2.md",
     "未命名.md",
     "前端工程化/rollup.md",
     "前端工程化/changelog.md",
@@ -173,7 +199,6 @@
     "一些有趣的博客.md",
     "postcss插件/1.md",
     "postcss插件",
-    "未命名 3.md",
     "【前端安全】 csp-nonce.md",
     "chart",
     "vite/vue  一些有趣的项目.md",
@@ -185,7 +210,6 @@
     "vite/Vite之高效插件推荐.md",
     "vite/vite 插件.md",
     "icon.md",
-    "nginx.md",
     "sketch"
   ]
 }
