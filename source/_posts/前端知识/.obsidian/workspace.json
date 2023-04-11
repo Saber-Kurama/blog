@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vite/Vite之高效插件推荐.md",
+                "file": "vite/vue  一些有趣的项目.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vite/Vite之高效插件推荐.md",
+                "file": "vite/vue  一些有趣的项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,11 +179,11 @@
   },
   "active": "c890ecb704c35318",
   "lastOpenFiles": [
-    "vite/vue  一些有趣的项目.md",
+    "vite/Vite之高效插件推荐.md",
     "vite/vite 插件.md",
+    "vite/vue  一些有趣的项目.md",
     "前端工程化/webpack.md",
     "vite/深入浅出vite/基础使用.md",
-    "vite/Vite之高效插件推荐.md",
     "未命名 3.md",
     "CSS/泪目了！CSS nth-child伪类终于支持了of关键词.md",
     "未命名 2.md",
