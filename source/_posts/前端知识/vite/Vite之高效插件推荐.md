@@ -11,7 +11,7 @@ https://www.fullstackaction.com/pages/f81235/#_4%E3%80%81%E5%85%A8%E5%B1%80%E5%8
 https://zhuanlan.zhihu.com/p/462642349
 
 
-
+vite-plugin-info
 
 https://juejin.cn/post/7110920974379253791
 
