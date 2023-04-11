@@ -1,3 +1,5 @@
+https://github.com/Hzy0913/mpvue-calendar
+https://madewithvuejs.com/
 
 [# 分享一个实用的 vite + vue3 组件库脚手架工具，提升开发效率](https://zhuanlan.zhihu.com/p/579412416)
 

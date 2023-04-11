@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工程化/webpack.md",
+                "file": "vite/vue  一些有趣的项目.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化/webpack.md",
+                "file": "vite/vue  一些有趣的项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,8 +179,10 @@
   },
   "active": "c890ecb704c35318",
   "lastOpenFiles": [
-    "未命名 3.md",
+    "vite/Vite之高效插件推荐.md",
+    "vite/vue  一些有趣的项目.md",
     "前端工程化/webpack.md",
+    "未命名 3.md",
     "CSS/泪目了！CSS nth-child伪类终于支持了of关键词.md",
     "未命名 2.md",
     "未命名.md",
@@ -201,13 +203,11 @@
     "postcss插件",
     "【前端安全】 csp-nonce.md",
     "chart",
-    "vite/vue  一些有趣的项目.md",
     "组件问题/前端基建.md",
     "图形学/canvas.md",
     "monorepo.md",
     "vue3/vite does not provide an export named 'default'.md",
     "微前端/模块联邦.md",
-    "vite/Vite之高效插件推荐.md",
     "vite/vite 插件.md",
     "icon.md",
     "sketch"
