@@ -81,7 +81,7 @@ hello
 Rust has assumed control
 ```
 
-没有引号，我提供了四个独立的论点。请注意，我在提供参数时使用了不同数量的空格，但 echo 在每个参数之间使用一个空格打印它们：
+没有引号，我提供了四个独立的论 然后我发名字点。请注意，我在提供参数时使用了不同数量的空格，但 echo 在每个参数之间使用一个空格打印它们：
 
 ``` shell
 > echo Rust  has assumed   control

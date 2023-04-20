@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
+                "file": "Rust cli/02-Test for Echo.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
+                "file": "Rust cli/02-Test for Echo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
+                "file": "Rust cli/02-Test for Echo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust cli/01 - 真实或结果 Truth Or Consequences.md"
+                "file": "Rust cli/02-Test for Echo.md"
               }
             }
           }
@@ -172,6 +172,7 @@
   },
   "active": "1c0e9756e228fd98",
   "lastOpenFiles": [
+    "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
     "Rust cli/00 - 前言.md",
     "Rust cli/04 - Head Aches.md",
     "Rust cli/02-Test for Echo.md",
