@@ -112,7 +112,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名 4.md",
+                "file": "vue3/vue3 和 typescript 的问题.md",
                 "mode": "source",
                 "source": false
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 4.md",
+                "file": "vue3/vue3 和 typescript 的问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,10 +204,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "2802a0a37c5593cc",
+  "active": "42d03b7013090d6f",
   "lastOpenFiles": [
     "未命名.canvas",
-    "未命名 4.md",
+    "vue3/vue3 和 typescript 的问题.md",
     "图形学/echart.md",
     "前端工程化/参考.md",
     "vite/vue  一些有趣的项目.md",
