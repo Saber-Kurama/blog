@@ -4,21 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d9647513c49c5169",
+        "id": "e3b65a2a02aaeb96",
         "type": "tabs",
         "children": [
           {
-            "id": "4c5f12c4958e4604",
+            "id": "b33a9a13d940b154",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "未命名 2.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "vue3/vue3 和 typescript 的问题.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -60,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -81,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 2.canvas",
+                "file": "vue3/vue3 和 typescript 的问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,10 +104,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "4c5f12c4958e4604",
+  "active": "b33a9a13d940b154",
   "lastOpenFiles": [
-    "未命名 1.canvas",
     "未命名 2.canvas",
+    "未命名 1.canvas",
     "vue3/vue3 和 typescript 的问题.md",
     "未命名.canvas",
     "vite/vue  一些有趣的项目.md",
