@@ -11,8 +11,15 @@
             "id": "4c5f12c4958e4604",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "canvas",
+              "state": {
+                "file": "未命名 2.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
+              }
             }
           }
         ]
@@ -74,6 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "未命名 2.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,8 +108,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "12495da245cbde8b",
+  "active": "4c5f12c4958e4604",
   "lastOpenFiles": [
+    "未命名 1.canvas",
+    "未命名 2.canvas",
     "vue3/vue3 和 typescript 的问题.md",
     "未命名.canvas",
     "vite/vue  一些有趣的项目.md",
@@ -119,8 +129,6 @@
     "前端工程化/changelog.md",
     "前端工程化/Code Review.md",
     "未命名 1.md",
-    "未命名 1.canvas",
-    "未命名 2.canvas",
     "图形学/可视化.md",
     "chart/未命名.md",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
