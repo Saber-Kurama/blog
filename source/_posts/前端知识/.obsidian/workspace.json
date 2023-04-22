@@ -4,122 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "883b68d1482c03ab",
+        "id": "d9647513c49c5169",
         "type": "tabs",
         "children": [
           {
-            "id": "b4b1d93df37bd8f8",
+            "id": "4c5f12c4958e4604",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端工程化/changelog.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ababac5fdfc04b2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "前端工程化/rollup.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a5bb4c27efa697d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ff091748d7cd1435",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "735f647d2d71242f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CSS/泪目了！CSS nth-child伪类终于支持了of关键词.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32178233c42d5237",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "未命名 3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c890ecb704c35318",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vite/vue  一些有趣的项目.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "aabd22ad0a88560c",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              }
-            }
-          },
-          {
-            "id": "2802a0a37c5593cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "vue3/vue3 和 typescript 的问题.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 8
+        ]
       }
     ],
     "direction": "vertical"
@@ -148,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "部",
+                "query": "osrc",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -178,7 +74,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/vue3 和 typescript 的问题.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,17 +102,17 @@
   },
   "active": "12495da245cbde8b",
   "lastOpenFiles": [
-    "未命名.canvas",
     "vue3/vue3 和 typescript 的问题.md",
+    "未命名.canvas",
+    "vite/vue  一些有趣的项目.md",
+    "未命名 3.md",
+    "CSS/泪目了！CSS nth-child伪类终于支持了of关键词.md",
     "图形学/echart.md",
     "前端工程化/参考.md",
-    "vite/vue  一些有趣的项目.md",
     "vite/Vite之高效插件推荐.md",
     "vite/vite 插件.md",
     "前端工程化/webpack.md",
     "vite/深入浅出vite/基础使用.md",
-    "未命名 3.md",
-    "CSS/泪目了！CSS nth-child伪类终于支持了of关键词.md",
     "未命名 2.md",
     "未命名.md",
     "前端工程化/rollup.md",
