@@ -448,7 +448,7 @@ Vec::join 将在向量的所有元素之间插入给定的字符串以创建一�
 ```rust
 println!("{}", text.join(" "));
 ```
-在 Rust 文档中，使用断言来呈现事实是常见的做法！说某事是真的或 assert_eq！证明一件事等同于另一件事。
+在 Rust 文档中，使用断言来呈现事实是常见的做法`assert!`说某事是真的或` assert_eq！`证明一件事等同于另一件事。
 在下面的代码中，我可以断言 text.join(" ") 的结果等于字符串“Hello world”：
 ```rust
 assert_eq!(text.join(" "), "Hello world");
