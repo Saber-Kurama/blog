@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue3/vue3 和 typescript 的问题.md",
+                "file": "微前端/从零开始写一个微前端框架.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dc84c8a0f68fcedb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "微前端/沙箱.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/vue3 和 typescript 的问题.md",
+                "file": "微前端/沙箱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,11 +117,15 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "b33a9a13d940b154",
+  "active": "dc84c8a0f68fcedb",
   "lastOpenFiles": [
+    "微前端/从零开始写一个微前端框架.md",
+    "微前端/沙箱.md",
+    "微前端/模块联邦.md",
+    "微前端/微前端.md",
+    "vue3/vue3 和 typescript 的问题.md",
     "未命名 2.canvas",
     "未命名 1.canvas",
-    "vue3/vue3 和 typescript 的问题.md",
     "未命名.canvas",
     "vite/vue  一些有趣的项目.md",
     "未命名 3.md",
@@ -133,9 +150,6 @@
     "postcss插件",
     "【前端安全】 csp-nonce.md",
     "chart",
-    "组件问题/前端基建.md",
-    "图形学/canvas.md",
-    "monorepo.md",
     "sketch"
   ]
 }
