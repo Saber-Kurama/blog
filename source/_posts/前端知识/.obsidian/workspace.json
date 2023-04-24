@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "微前端/从零开始写一个微前端框架.md",
+                "file": "微前端/沙箱.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "微前端/从零开始写一个微前端框架.md",
+                "file": "微前端/沙箱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,8 +120,8 @@
   "active": "dc84c8a0f68fcedb",
   "lastOpenFiles": [
     "微前端/微前端.md",
-    "微前端/沙箱.md",
     "微前端/从零开始写一个微前端框架.md",
+    "微前端/沙箱.md",
     "微前端/模块联邦.md",
     "vue3/vue3 和 typescript 的问题.md",
     "未命名 2.canvas",
