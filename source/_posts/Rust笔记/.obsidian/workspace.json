@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "web-see",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -161,7 +162,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "adb9cb30bf3a9cd3",
+  "active": "902412ec686b2af6",
   "lastOpenFiles": [
     "Rust cli/02-Test for Echo.md",
     "未命名 4.canvas",
