@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "微前端/沙箱.md",
+                "file": "monaco-editor 编辑器.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "osrc",
+                "query": "埋",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -90,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "微前端/沙箱.md",
+                "file": "monaco-editor 编辑器.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,11 +118,13 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "dc84c8a0f68fcedb",
+  "active": "12495da245cbde8b",
   "lastOpenFiles": [
+    "一些有趣的博客.md",
+    "组件问题/前端基建.md",
+    "微前端/沙箱.md",
     "微前端/微前端.md",
     "微前端/从零开始写一个微前端框架.md",
-    "微前端/沙箱.md",
     "微前端/模块联邦.md",
     "vue3/vue3 和 typescript 的问题.md",
     "未命名 2.canvas",
@@ -145,10 +148,8 @@
     "图形学/可视化.md",
     "chart/未命名.md",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
-    "一些有趣的博客.md",
     "postcss插件/1.md",
     "postcss插件",
-    "【前端安全】 csp-nonce.md",
     "chart",
     "sketch"
   ]
