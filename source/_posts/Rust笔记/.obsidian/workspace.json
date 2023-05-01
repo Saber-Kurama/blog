@@ -11,11 +11,14 @@
             "id": "644f1dcf9a67c836",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Rust cli/02-Test for Echo.md",
-                "mode": "source",
-                "source": false
+                "file": "未命名 4.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           },
@@ -60,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "机场",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,8 +80,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust cli/02-Test for Echo.md",
+                "file": "未命名 4.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust cli/02-Test for Echo.md",
+                "file": "未命名 4.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust cli/02-Test for Echo.md"
+                "file": "未命名 4.canvas"
               }
             }
           }
@@ -159,12 +161,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "902412ec686b2af6",
+  "active": "adb9cb30bf3a9cd3",
   "lastOpenFiles": [
+    "Rust cli/02-Test for Echo.md",
+    "未命名 4.canvas",
     "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
     "Rust cli/00 - 前言.md",
     "Rust cli/04 - Head Aches.md",
-    "Rust cli/02-Test for Echo.md",
     "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
     "Rust 学习资源.md",
     "Pasted image 20221026204959.png",
