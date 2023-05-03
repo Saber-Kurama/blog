@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md",
+                "file": "rust程序设计第二版/02- Rust 之旅.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "书",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md",
+                "file": "rust程序设计第二版/02- Rust 之旅.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md",
+                "file": "rust程序设计第二版/02- Rust 之旅.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md"
+                "file": "rust程序设计第二版/02- Rust 之旅.md"
               }
             }
           }
@@ -158,21 +159,24 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "644f1dcf9a67c836",
+  "active": "902412ec686b2af6",
   "lastOpenFiles": [
+    "rust程序设计第二版/01-为什么是rust.md",
+    "Rust cli/00 - 前言.md",
+    "流程控制.md",
+    "模块化编程.md",
+    "图形学.md",
+    "Rust 学习资源.md",
+    "Rust初始环境.md",
+    "RUST的一些资源.md",
+    "Rust cli/04 - Head Aches.md",
     "未命名 4.canvas",
     "Rust cli/02-Test for Echo.md",
     "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
-    "Rust cli/00 - 前言.md",
-    "Rust cli/04 - Head Aches.md",
     "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
-    "Rust 学习资源.md",
     "Pasted image 20221026204959.png",
     "未命名 3.canvas",
     "未命名 2.canvas",
-    "图形学.md",
-    "模块化编程.md",
-    "流程控制.md",
     "Rust cli/03 - On The Catwalk.md",
     "函数、闭包和迭代器.md",
     "未命名.canvas",
