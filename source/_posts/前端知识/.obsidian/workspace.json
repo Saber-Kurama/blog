@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "监控/前端监控.md",
+                "file": "组件问题/前端组件.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,8 +73,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "前端",
-                "matchingCase": true,
+                "query": "corn",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "监控/前端监控.md",
+                "file": "组件问题/前端组件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,10 +130,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "9d9558a1bfada841",
+  "active": "12495da245cbde8b",
   "lastOpenFiles": [
-    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+    "vue3/admin.md",
+    "组件问题/前端组件.md",
     "监控/前端监控.md",
+    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "monaco-editor 编辑器.md",
     "监控",
     "一些有趣的博客.md",
@@ -160,8 +162,6 @@
     "前端工程化/rollup.md",
     "前端工程化/changelog.md",
     "前端工程化/Code Review.md",
-    "未命名 1.md",
-    "图形学/可视化.md",
     "postcss插件",
     "chart",
     "sketch"
