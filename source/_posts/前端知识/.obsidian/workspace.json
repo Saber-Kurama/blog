@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+                "file": "监控/前端监控.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "书",
+                "query": "前端",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+                "file": "监控/前端监控.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,6 +132,7 @@
   },
   "active": "9d9558a1bfada841",
   "lastOpenFiles": [
+    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "监控/前端监控.md",
     "monaco-editor 编辑器.md",
     "监控",
@@ -161,7 +162,6 @@
     "前端工程化/Code Review.md",
     "未命名 1.md",
     "图形学/可视化.md",
-    "chart/未命名.md",
     "postcss插件",
     "chart",
     "sketch"
