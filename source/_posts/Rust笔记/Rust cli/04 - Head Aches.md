@@ -100,5 +100,20 @@ lines,
 与第3章中的`cat`一样，任何不存在或不可读的文件都会被跳过，并打印给STDERR的警告。
 在以下命令中，我将使用blargh作为不存在的文件，并将创建一个名为cant-touch-this的不可读文件：
 
+```sh
+❯ touch cant-touch-this && chmod 000 cant-touch-this
+❯ head blargh cant-touch-this tests/inputs/one.txt
+head: blargh: No such file or directory
+head: cant-touch-this: Permission denied
+==> tests/inputs/one.txt <==
+One lines, four words.%        
+```
+
+这将与挑战计划预期的重新创建一样多。
+
 ## 开始
+
+你可能已经预料到，我想让你写的程序将被称为headr（发音为header）。首先运行`cargo new headr`，并将我的04_headr/tests目录复制到您的项目目录中。将以下依赖项添加到您的Cargo.toml中：
+
+
 
