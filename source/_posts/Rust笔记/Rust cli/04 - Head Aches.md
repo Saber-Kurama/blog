@@ -41,5 +41,23 @@ DESCRIPTION
 
 请注意，GNU版本能够用负数指定-n和-c，并使用K、M等后缀，我不会实现。在这两个版本中，文件都是可选的位置参数，默认情况下或当文件名为“-”时，将读取STDIN。-N和-b是取整数值的可选参数。
 
+为了演示一些使用head的示例，我将使用04_headr/tests/inputs中找到的文件。给定一个空文件，没有输出，您可以使用头部测试/inputs/empty.txt进行验证。默认情况下，head将打印文件的前10行。如果一个文件少于10行，它将打印所有行。您可以使用tests/inputs/three.txt看到这一点，它有3行：
+
+```shell
+❯ head tests/inputs/three.txt
+Three
+lines,
+four words.%  
+```
+
+-N选项允许您控制显示的行数。例如，我只能使用以下命令选择2行：
+
+```sh
+head -n 2 tests/inputs/three.txt
+Three
+lines,
+```
+
+
 ## 开始
 
