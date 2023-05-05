@@ -130,8 +130,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "12495da245cbde8b",
+  "active": "9d9558a1bfada841",
   "lastOpenFiles": [
+    "微前端/从零开始写一个微前端框架.md",
     "vue3/admin.md",
     "组件问题/前端组件.md",
     "监控/前端监控.md",
@@ -142,7 +143,6 @@
     "组件问题/前端基建.md",
     "微前端/沙箱.md",
     "微前端/微前端.md",
-    "微前端/从零开始写一个微前端框架.md",
     "微前端/模块联邦.md",
     "vue3/vue3 和 typescript 的问题.md",
     "未命名 2.canvas",
