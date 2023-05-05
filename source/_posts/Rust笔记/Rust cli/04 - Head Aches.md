@@ -58,6 +58,47 @@ Three
 lines,
 ```
 
+-C选项仅显示文件中给定的字节数，例如，仅显示前4个字节：
+
+```sh
+❯ head -c 4  tests/inputs/three.txt
+Thre%       
+```
+奇怪的是，GNU版本将允许您同时提供-n和-c，并默认显示字节。BSD版本将拒绝这两个参数：
+
+任何不是正整数的-n或-c值都将产生一个错误，该错误将停止程序，该错误将回波非法值：
+
+```sh
+❯ head -n 0  tests/inputs/one.txt
+head: illegal line count -- 0
+❯ head -c foo  tests/inputs/one.txt
+head: illegal byte count -- foo
+```
+
+当有多个参数时，head会添加一个标题，并在每个文件之间插入一个空行：
+```sh
+❯ head -n 1  tests/inputs/*.txt
+==> tests/inputs/empty.txt <==
+
+==> tests/inputs/one.txt <==
+One lines, four words.
+==> tests/inputs/three.txt <==
+Three
+
+==> tests/inputs/two.txt <==
+Two lines,
+```
+
+在没有文件参数的情况下，head将从STDIN读取：
+
+```sh
+❯ cat tests/inputs/three.txt | head -n 2
+Three
+lines,
+```
+
+与第3章中的`cat`一样，任何不存在或不可读的文件都会被跳过，并打印给STDERR的警告。
+在以下命令中，我将使用blargh作为不存在的文件，并将创建一个名为cant-touch-this的不可读文件：
 
 ## 开始
 
