@@ -115,5 +115,18 @@ One lines, four words.%
 
 你可能已经预料到，我想让你写的程序将被称为headr（发音为header）。首先运行`cargo new headr`，并将我的04_headr/tests目录复制到您的项目目录中。将以下依赖项添加到您的Cargo.toml中：
 
+```toml
+
+[dependencies]
+clap = "2.33"
+
+[dev-dependencies]
+assert_cmd = "1"
+predicates = "1"
+rand = "0.8"
+```
+
+我建议你再次拆分你的源代码，这样src/main.rs看起来像这样：
+
 
 
