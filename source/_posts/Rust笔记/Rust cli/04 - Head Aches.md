@@ -128,5 +128,20 @@ rand = "0.8"
 
 我建议你再次拆分你的源代码，这样src/main.rs看起来像这样：
 
+```rust
+fn main() {
+    if let Err(e) = headr::get_args().and_then(headr::run) {
+        eprint!("{}", e);
+        std::process::exit(1);
+    }
+}
+```
 
+通过引入`clip`和`Error`特征并声明MyResult来开始您的src/lib.rs，您可以从第3章的源代码中复制它：
+
+```rust
+type MyResult<T> = Result<T, Box<dyn Error>>;
+```
+
+该程序将有三个参数，可以用配置结构表示：
 
