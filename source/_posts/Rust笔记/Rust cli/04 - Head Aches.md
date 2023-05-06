@@ -155,4 +155,17 @@ type MyResult<T> = Result<T, Box<dyn Error>>;
 您可以使用以下大纲启动get_args函数。您需要添加代码来解析参数并返回Config结构：
 
 
+``` rust
+pub fn get_args() -> MyResult<Config> {
+    let matches = App::new("headr")
+        .version("0.1.0")
+        .author("saber")
+        .about("Rust head")
+        ...
+        .get_matches();
+    Ok(Config {})
+}
+```
+
+
 此程序的所有命令行参数都是可选的，因为文件将默认为“-”，行将默认为10，并且可以省略字节。第3章中的可选参数是标志，但这里的行和字节需要将Arg::takes_value设置为true。
