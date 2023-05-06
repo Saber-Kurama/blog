@@ -186,7 +186,7 @@ pub fn run(config: Config) -> MyResult<()> {
 ```
 
 1. 该函数将接受配置结构，如果成功，将返回带有单元类型的Ok。
-2. 
+2. 使用dbg！（调试）宏以打印配置。
 Use the dbg! (debug) macro to print the configuration.
 更新你的 src/main.rs 如下
 
