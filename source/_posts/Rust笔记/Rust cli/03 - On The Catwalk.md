@@ -159,6 +159,23 @@ pub struct Config {
 
 要使用结构，我可以创建一个具有特定值的实例。在下面的 get_args 函数草图中，您可以看它通过使用用户的运行时值创建一个新的 Config 来完成。添加 use clap::{App, Arg} 和这个函数到你的 src/lib.rs。尝试自己完成功能，从第 2 章中窃取你能窃取的内容：
 
+```rust
+pub fn get_args() -> MyResult<Config> {
+    let matches = App::new("catr")
+        .version("0.0.1")
+        .author("saber")
+        .about("catr demo")
+        ...
+        .get_matches();
+    let files = matches.values_of_lossy("files").unwrap();
+    Ok(Config {
+        files,
+        number_lines: matches.is_present("number"),
+        number_nonblank_lines: matches.is_present("number_nonblank"),
+    })
+}
+```
+
 这意味着运行函数需要更新以接受配置参数。现在，打印它：
 
 ```rust
@@ -168,6 +185,8 @@ pub fn run(config: Config) -> MyResult<()> {
 }
 ```
 
+1. 该函数将接受配置结构，如果成功，将返回带有单元类型的Ok。
+2. 
 Use the dbg! (debug) macro to print the configuration.
 更新你的 src/main.rs 如下
 
