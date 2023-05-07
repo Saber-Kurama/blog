@@ -196,3 +196,24 @@ fn parse_positive_int(val: &str) -> MyResult<usize> {
 
 本着测试驱动开发的精神，我将为此功能添加一个单元测试。我建议在它正在测试的功能之后添加这个：
 
+``` rust
+#[test]
+fn test_parse_positive_int() {
+    // 测试数字字符串3
+    let res = parse_positive_int("3");
+    assert!(res.is_ok());
+    assert_eq!(res.unwrap(), 3);
+
+    // 测试非数字字符串
+    let res = parse_positive_int("foo");
+    assert!(res.is_err());
+    assert_eq!(res.unwrap_err().to_string(), "foo".to_string());
+
+    // ”0“
+    let res = parse_positive_int("0");
+    assert!(res.is_err());
+    assert_eq!(res.unwrap_err().to_string(), "0".to_string());
+}
+```
+
+运行`cargo test parse_positive_int`，并验证测试是否确实失败。现在停止阅读，写一个通过此测试的函数版本。我会在这里等你完成。
