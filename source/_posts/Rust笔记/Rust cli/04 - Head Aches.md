@@ -150,10 +150,9 @@ type MyResult<T> = Result<T, Box<dyn Error>>;
 行和字节将用于几个函数，其中一个需要usize，另一个需要u64。
 这将为稍后讨论如何在类型之间转换提供机会。
 您的程序应使用10作为行的默认值，但字节将是一个选项，这是我在第2章中首次介绍的。
-这意味着，如果用户提供了有效的值，字节将是Some<usize>，如果没有，字节将是None。
+这意味着，如果用户提供了有效的值，字节将是`Some<usize>`，如果没有，字节将是None。
 
 您可以使用以下大纲启动get_args函数。您需要添加代码来解析参数并返回Config结构：
-
 
 ``` rust
 pub fn get_args() -> MyResult<Config> {
