@@ -168,3 +168,19 @@ pub fn get_args() -> MyResult<Config> {
 
 
 此程序的所有命令行参数都是可选的，因为文件将默认为“-”，行将默认为10，并且可以省略字节。第3章中的可选参数是标志，但这里的行和字节需要将Arg::takes_value设置为true。
+
+
+
+您可以从打印配置的运行函数开始：
+
+```rust
+pub fn run(options: Config) -> MyResult<()> {
+    println!("{:#?}", options);
+    Ok(())
+}
+
+```
+
+### 将字符串解析为数字
+
+Clap返回的所有值都是字符串，但当存在时，您需要将行和字节转换为整数。我将向您展示如何使用str::parse。当提供的值无法解析为数字或包含转换后的数字的Ok时，此函数将返回一个结果，该结果将是一个Err。我将编写一个名为parse_positive_int的函数，该函数试图将字符串值解析为正的usize值。您可以将此添加到您的src/lib.rs中：
