@@ -184,3 +184,15 @@ pub fn run(options: Config) -> MyResult<()> {
 ### 将字符串解析为数字
 
 Clap返回的所有值都是字符串，但当存在时，您需要将行和字节转换为整数。我将向您展示如何使用str::parse。当提供的值无法解析为数字或包含转换后的数字的Ok时，此函数将返回一个结果，该结果将是一个Err。我将编写一个名为parse_positive_int的函数，该函数试图将字符串值解析为正的usize值。您可以将此添加到您的src/lib.rs中：
+
+```rust
+fn parse_positive_int(val: &str) -> MyResult<usize> {
+    unimplemented!()
+}
+```
+
+1. 此函数接受&str，并将返回正usize或错误。
+2.  unimplemented!宏“通过惊慌失措地显示未实现的消息来指示未实现的代码。
+
+本着测试驱动开发的精神，我将为此功能添加一个单元测试。我建议在它正在测试的功能之后添加这个：
+
