@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md",
+                "file": "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
                 "mode": "source",
                 "source": true
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md",
+                "file": "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md",
+                "file": "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md"
+                "file": "rust圣经/02rust基础入门/2.1 变量绑定与解构.md"
               }
             }
           }
@@ -148,13 +148,20 @@
   },
   "active": "c2341c36236098a5",
   "lastOpenFiles": [
+    "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
+    "rust圣经/03rust高级进阶/3.1 生命周期.md",
+    "rust圣经/02rust基础入门/2.6 模式匹配.md",
+    "rust圣经/02rust基础入门/2.5 流程控制.md",
+    "rust圣经/02rust基础入门/2.4 复合类型.md",
+    "rust圣经/02rust基础入门/2.2 基本类型.md",
+    "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
+    "Rust cli/00 - 前言.md",
+    "Rust cli/04 - Head Aches.md",
     "Rust cli/02-Test for Echo.md",
     "Rust cli/03 - On The Catwalk.md",
-    "Rust cli/04 - Head Aches.md",
     "参考.md",
     "rust程序设计第二版/02- Rust 之旅.md",
     "rust程序设计第二版/01-为什么是rust.md",
-    "Rust cli/00 - 前言.md",
     "流程控制.md",
     "模块化编程.md",
     "图形学.md",
@@ -163,7 +170,6 @@
     "RUST的一些资源.md",
     "未命名 4.canvas",
     "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
-    "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
     "Pasted image 20221026204959.png",
     "未命名 3.canvas",
     "未命名 2.canvas",
