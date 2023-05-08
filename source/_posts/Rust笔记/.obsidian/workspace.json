@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
+                "file": "Rust 学习资源.md",
                 "mode": "source",
                 "source": true
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "书",
+                "query": "Programming-Rust",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
+                "file": "Rust 学习资源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
+                "file": "Rust 学习资源.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rust圣经/02rust基础入门/2.1 变量绑定与解构.md"
+                "file": "Rust 学习资源.md"
               }
             }
           }
@@ -148,13 +148,14 @@
   },
   "active": "c2341c36236098a5",
   "lastOpenFiles": [
+    "Rust初始环境.md",
+    "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
     "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
     "rust圣经/03rust高级进阶/3.1 生命周期.md",
     "rust圣经/02rust基础入门/2.6 模式匹配.md",
     "rust圣经/02rust基础入门/2.5 流程控制.md",
     "rust圣经/02rust基础入门/2.4 复合类型.md",
     "rust圣经/02rust基础入门/2.2 基本类型.md",
-    "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
     "Rust cli/00 - 前言.md",
     "Rust cli/04 - Head Aches.md",
     "Rust cli/02-Test for Echo.md",
@@ -166,7 +167,6 @@
     "模块化编程.md",
     "图形学.md",
     "Rust 学习资源.md",
-    "Rust初始环境.md",
     "RUST的一些资源.md",
     "未命名 4.canvas",
     "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
