@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "图形学/echart.md",
+                "file": "vite/vue  一些有趣的项目.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "echart",
+                "query": "vue",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "图形学/echart.md",
+                "file": "vite/vue  一些有趣的项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,6 +152,8 @@
   },
   "active": "8bb226fb360bb1b9",
   "lastOpenFiles": [
+    "vue3/高阶组件.md",
+    "图形学/echart.md",
     "vite does not provide an export named 'default'.md",
     "组件问题/前端组件.md",
     "微前端/从零开始写一个微前端框架.md",
@@ -172,7 +174,6 @@
     "vite/vue  一些有趣的项目.md",
     "未命名 3.md",
     "CSS/泪目了！CSS nth-child伪类终于支持了of关键词.md",
-    "图形学/echart.md",
     "前端工程化/参考.md",
     "vite/Vite之高效插件推荐.md",
     "vite/vite 插件.md",
@@ -181,7 +182,6 @@
     "未命名 2.md",
     "未命名.md",
     "前端工程化/rollup.md",
-    "前端工程化/changelog.md",
     "postcss插件",
     "chart",
     "sketch"
