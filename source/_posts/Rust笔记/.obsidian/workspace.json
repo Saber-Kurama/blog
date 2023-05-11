@@ -15,7 +15,7 @@
               "state": {
                 "file": "Rust 学习资源.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -156,7 +156,13 @@
   },
   "active": "c2341c36236098a5",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "图形学.md",
+    "模块化编程.md",
+    "流程控制.md",
+    "Rust 学习资源.md",
     "Rust初始环境.md",
+    "RUST的一些资源.md",
     "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
     "rust圣经/03rust高级进阶/3.10 Macro 宏编程.md",
     "rust圣经/03rust高级进阶/3.1 生命周期.md",
@@ -171,22 +177,15 @@
     "参考.md",
     "rust程序设计第二版/02- Rust 之旅.md",
     "rust程序设计第二版/01-为什么是rust.md",
-    "流程控制.md",
-    "模块化编程.md",
-    "图形学.md",
-    "Rust 学习资源.md",
-    "RUST的一些资源.md",
     "未命名 4.canvas",
     "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
     "Pasted image 20221026204959.png",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "函数、闭包和迭代器.md",
-    "未命名.canvas",
     "未命名.md",
     "未命名 1.canvas",
     "未命名 1.md",
-    "未命名 2.md",
-    "未命名 3.md"
+    "未命名 2.md"
   ]
 }
