@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust 学习资源.md",
+                "file": "Rust cli/04 - Head Aches.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust 学习资源.md",
+                "file": "Rust cli/04 - Head Aches.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust 学习资源.md",
+                "file": "Rust cli/04 - Head Aches.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust 学习资源.md"
+                "file": "Rust cli/04 - Head Aches.md"
               }
             }
           }
@@ -156,11 +156,12 @@
   },
   "active": "c2341c36236098a5",
   "lastOpenFiles": [
+    "rust程序设计第二版/03-基本类型.md",
+    "Rust 学习资源.md",
     "未命名.canvas",
     "图形学.md",
     "模块化编程.md",
     "流程控制.md",
-    "Rust 学习资源.md",
     "Rust初始环境.md",
     "RUST的一些资源.md",
     "rust圣经/02rust基础入门/2.1 变量绑定与解构.md",
