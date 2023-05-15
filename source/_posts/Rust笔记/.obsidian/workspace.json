@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -154,7 +155,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "c2341c36236098a5",
+  "active": "902412ec686b2af6",
   "lastOpenFiles": [
     "RUST的一些资源.md",
     "Rust初始环境.md",
