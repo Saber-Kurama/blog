@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "监控/前端监控.md",
+                "file": "组件问题/前端基建.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "监控",
+                "query": "前端",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "监控/前端监控.md",
+                "file": "组件问题/前端基建.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,6 +152,7 @@
   },
   "active": "8bb226fb360bb1b9",
   "lastOpenFiles": [
+    "监控/前端监控.md",
     "未命名 3.canvas",
     "vite/vue  一些有趣的项目.md",
     "vue3/高阶组件.md",
@@ -160,7 +161,6 @@
     "组件问题/前端组件.md",
     "微前端/从零开始写一个微前端框架.md",
     "vue3/admin.md",
-    "监控/前端监控.md",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "monaco-editor 编辑器.md",
     "监控",
