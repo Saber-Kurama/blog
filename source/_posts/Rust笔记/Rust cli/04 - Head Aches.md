@@ -305,3 +305,26 @@ assert_eq!(string, other_string);
 
 
 现在您有办法将字符串转换为数字，请将其集成到您的get_args中。看看你是否可以让你的程序打印以下用法。请注意，我使用GNU版本中的短名称和长名称：
+
+```shell
+$ cargo run -- -h
+headr 0.1.0
+saber saber@qq.com
+Rust head
+
+USAGE:
+    headr [OPTIONS] <FILES>...
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+OPTIONS:
+    -c, --bytes <BYTES>    Number of bytes
+    -n, --lines <LINES>    Number of lines [default: 10]
+
+ARGS:
+    <FILES>...    Input file(s) [default: -]
+```
+
+在没有输入的情况下运行程序，并验证默认值是否设置正确：
