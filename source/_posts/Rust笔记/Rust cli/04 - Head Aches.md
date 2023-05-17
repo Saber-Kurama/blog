@@ -293,4 +293,15 @@ assert_eq!(string, other_string);
 就我而言，我可以使用`std::convert::From`和`std::convert::Int`o以多种方式将&str转换为错误。正如文档所述：
 
 在执行错误处理时，From也非常有用。当构造一个能够失败的函数时，返回类型通常以Result<T, E>的形式。From特征通过允许函数返回封装多个错误类型的单个错误类型来简化错误处理。
-图4-1显示了几种等效的写方法，其中没有一种是可取的。
+
+```rust
+ match val.parse::<usize>() {
+        Ok(v) if v > 0 => Ok(v),
+        // _ => Err(val.into()),
+        // _ => Err(Into::into(val)),
+        _ => Err(From::from(val)),
+    }
+```
+
+
+现在您有办法将字符串转换为数字，请将其集成到您的get_args中。看看你是否可以让你的程序打印以下用法。请注意，我使用GNU版本中的短名称和长名称：
