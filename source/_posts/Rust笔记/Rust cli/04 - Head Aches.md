@@ -218,6 +218,9 @@ fn test_parse_positive_int() {
 
 运行`cargo test parse_positive_int`，并验证测试是否确实失败。现在停止阅读，写一个通过此测试的函数版本。我会在这里等你完成。
 
+```rust
+```
+
 怎么样？膨胀，我敢打赌！这是我写的通过上述测试的函数：
 
 1. 尝试解析给定的值。Rust从返回类型中推断出usize类型。
