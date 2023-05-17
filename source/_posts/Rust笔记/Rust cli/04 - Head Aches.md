@@ -219,6 +219,10 @@ fn test_parse_positive_int() {
 运行`cargo test parse_positive_int`，并验证测试是否确实失败。现在停止阅读，写一个通过此测试的函数版本。我会在这里等你完成。
 
 ```rust
+  match val.parse::<usize>() {
+        Ok(v) if v > 0 => Ok(v),
+        _ => Err(From::from(val)),
+    }
 ```
 
 怎么样？膨胀，我敢打赌！这是我写的通过上述测试的函数：
@@ -230,3 +234,37 @@ fn test_parse_positive_int() {
 到目前为止，我已经使用过几次匹配，但这是我第一次展示匹配手臂可以包括后卫，这是模式匹配后的额外检查。我不知道你怎么样，但我觉得这很贴心。
 
 ### 将字符串转换为错误
+
+当我无法将给定的字符串值解析为正整数时，我想返回原始字符串，以便将其包含在错误消息中。为了在前面的函数中执行此操作，我使用了冗余的From::from函数将输入&str值转换为错误。考虑一下这个版本，我试图将无法解析的字符串直接放入错误中：
+
+```rust
+match val.parse::<usize>() {
+        Ok(v) if v > 0 => Ok(v),
+        _ => Err(val),
+    }
+```
+
+如果我尝试编译这个，我会收到以下错误：
+
+```shell
+error[E0308]: mismatched types
+   --> src/lib.rs:41:18
+    |
+41  |         _ => Err(val),
+    |              --- ^^^ expected struct `Box`, found `&str`
+    |              |
+    |              arguments to this enum variant are incorrect
+    |
+    = note: expected struct `Box<dyn std::error::Error>`
+            found reference `&str`
+note: tuple variant defined here
+```
+
+问题是，我应该返回一个MyResult，该结果被定义为任何类型的T类型的`Ok<T>`或实现`Err`特征并存储在`Box`中的东西：
+
+```rust
+type MyResult<T> = Result<T, Box<dyn Error>>;
+```
+
+在前面的代码中，&str既不实现错误，也不存在于Box中。我可以通过将此更改为`Err（Box::new（val）`来尝试根据建议解决这个问题。
+不幸的是，这仍然无法编译，因为我仍然没有满足错误特征：
