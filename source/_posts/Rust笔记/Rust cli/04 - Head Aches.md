@@ -268,3 +268,29 @@ type MyResult<T> = Result<T, Box<dyn Error>>;
 
 在前面的代码中，&str既不实现错误，也不存在于Box中。我可以通过将此更改为`Err（Box::new（val）`来尝试根据建议解决这个问题。
 不幸的是，这仍然无法编译，因为我仍然没有满足错误特征：
+
+``` shell
+error[E0277]: the trait bound `str: std::error::Error` is not satisfied
+  --> src/lib.rs:41:18
+   |
+41 |         _ => Err(Box::new(val)),
+   |                  ^^^^^^^^^^^^^ the trait `std::error::Error` is not implemented for `str`
+   |
+   = note: required for `&str` to implement `std::error::Error`
+   = note: required for the cast from `&str` to the object type `dyn std::error::Error`
+
+```
+
+输入`std::convert::From` trait，这有助于从一种类型转换为另一种类型。
+例如，文档展示了如何从str转换为字符串：
+
+```rust
+let string = "hello".to_string();
+let other_string = String::from("hello");
+assert_eq!(string, other_string);
+```
+
+就我而言，我可以使用`std::convert::From`和`std::convert::Int`o以多种方式将&str转换为错误。正如文档所述：
+
+在执行错误处理时，From也非常有用。当构造一个能够失败的函数时，返回类型通常以Result<T, E>的形式。From特征通过允许函数返回封装多个错误类型的单个错误类型来简化错误处理。
+图4-1显示了几种等效的写方法，其中没有一种是可取的。
