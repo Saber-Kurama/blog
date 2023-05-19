@@ -629,7 +629,43 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 
 以下可能是从文件中读取所需字节数的最短方法：
 
+```rust
+let bytes: Result<Vec<_>, _> = file.bytes().take(num_bytes).collect();
+print!("{}", String::from_utf8_lossy(&bytes?))
+```
 
+在前面的代码中，类型注释`Result<Vec<_>，_>`是必要的，因为编译器将字节的类型推断为切片，其大小未知。我必须表明我想要一个Vec，这是一个堆分配内存的智能指针。这里的下划线`（_）`表示部分类型注释，这基本上指示编译器推断类型。
+没有这个，编译器会这样抱怨：
+
+```shell
+Compiling headr v0.1.0 (/Users/kyclark/work/sysprog-rust/playground/headr)
+error[E0277]: the size for values of type `[u8]` cannot be known at compilation time
+  --> src/lib.rs:95:58
+   |
+95 |                     print!("{}", String::from_utf8_lossy(&bytes?));
+   |                                                          ^^^^^^^ doesn't
+   |                                        have a size known at compile-time
+   |
+   = help: the trait `Sized` is not implemented for `[u8]`
+   = note: all local variables must have a statically known size
+   = help: unsized locals are gated as an unstable feature
+```
+
+> 您现在已经看到，下划线_具有各种不同的功能。作为变量的前缀或名称，它显示您不想使用该值的编译器。在match中，它是处理任何案件的通配符。当用于类型注释时，它会告诉编译器推断类型。
+
+您还可以使用`turbofish`运算符`（::<>）`在表达式右侧指示类型信息。通常，无论您在左侧还是右侧指示类型，这都是一个风格问题，但稍后您将看到一些表达式需要涡轮鱼的例子：
+
+```rust
+let bytes = file.bytes().take(num_bytes).collect::<Result<Vec<_>, _>>();
+```
+
+
+`String::from_utf8_lossy（b'\xef\xbf\xbd'）`产生的未知字符与BSD头（b'\xc3'）产生的输出不完全相同，这使得这有点难以测试。
+如果您查看tests/cli.rs中的运行帮助函数，您会发现我读取了期望值（来自头部的输出），并使用相同的函数来转换可能无效的UTF-8，以便我可以比较两个输出。
+Run_stdin函数的工作原理类似：
+
+1. 在expected_file中处理任何无效的UTF-8。
+2. 
 ### 打印文件分隔符
 
 
