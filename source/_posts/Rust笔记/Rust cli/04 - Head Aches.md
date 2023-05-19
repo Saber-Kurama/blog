@@ -390,9 +390,34 @@ ARGS:
 
 以下是我如何在get_args中使用parse_positive_int来验证行和字节。当函数返回Err变体时，我使用?将错误传播到主程序并结束程序；否则，我返回配置：
 
-
+```rust
+let lines = matches
+        .value_of("lines")
+        .map(parse_positive_int)
+        .transpose()
+        .map_err(|e| format!("illegal line count -- {}", e))?;
+    let bytes = matches
+        .value_of("bytes")
+        .map(parse_positive_int)
+        .transpose()
+        .map_err(|e| format!("illegal byte count -- {}", e))?;
+    Ok(Config {
+        files: matches.values_of_lossy("files").unwrap(),
+        lines: lines.unwrap(),
+        bytes,
+    })
+```
 
 ``
+1. `ArgMatches.value_of`返回一个`Option<&str>`。
+2. 使用`Option::ma`p从`Some`解压`&str`并将其发送到`parse_positive_int`。
+3. `Option::map`的结果将是`Option<Result>`，`Option::transpose`将其转换为`Result<Option>`。
+4. 如果出现错误，请创建一个信息性错误消息。使用？传播错误或解压Ok值。
+5. bytes同样处理
+6. 文件选项应该至少有一个值，因此应该可以安全地调用Option::unwrap。
+7. 这些行具有默认值，并且可以安全地展开。
+8. 字节应保留为选项。使用结构字段init速记，因为字段的名称与变量相同。
+
 
 
 
