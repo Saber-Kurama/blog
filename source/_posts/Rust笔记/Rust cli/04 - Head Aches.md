@@ -418,6 +418,30 @@ let lines = matches
 7. 这些行具有默认值，并且可以安全地展开。
 8. 字节应保留为选项。使用结构字段init速记，因为字段的名称与变量相同。
 
+在前面的代码中，我本可以像这样用每个键/值对编写配置：
+Clippy将提出以下建议：
+
+```rust
+“$ cargo clippy
+warning: redundant field names in struct initialization
+  --> src/lib.rs:61:9
+   |
+61 |         bytes: bytes,
+   |         ^^^^^^^^^^^^ help: replace it with: `bytes`
+   |
+   = note: `#[warn(clippy::redundant_field_names)]` on by default
+   = help: for further information visit https://rust-lang.github.io/
+     rust-clippy/master/index.html#redundant_field_names”
+```
+
+验证所有用户输入需要相当多的工作，但现在我有一些保证，我可以继续处理好的数据。
+
+### 处理输入文件
+
+这个挑战程序应该像第3章一样处理输入文件，所以我建议你从那里引入`open`函数：
+
+
+
 
 
 
