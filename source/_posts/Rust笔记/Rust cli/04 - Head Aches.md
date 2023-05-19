@@ -439,6 +439,30 @@ warning: redundant field names in struct initialization
 ### 处理输入文件
 
 这个挑战程序应该像第3章一样处理输入文件，所以我建议你从那里引入`open`函数：
+```rust
+fn open(filename: &str) -> MyResult<Box<dyn BufRead>> {
+    match filename {
+        "_" => Ok(Box::new(BufReader::new(io::stdin()))),
+        _ => Ok(Box::new(BufReader::new(File::open(filename)?))),
+    }
+}
+```
+请务必添加所有需要的依赖项：
+
+```rust
+use std::{
+    error::Error,
+    format,
+    fs::File,
+    io::{self, BufRead, BufReader},
+};
+
+use clap::{App, Arg};
+```
+
+展开您的运行功能，尝试打开文件，在遇到错误时打印错误：
+
+
 
 
 
