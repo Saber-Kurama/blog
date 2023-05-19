@@ -674,6 +674,43 @@ Run_stdin函数的工作原理类似：
 最后要处理的是多个文件之间的分隔符。如前所述，有效文件有一个标头，将文件名放在`==>和<==`标记中。第一个文件之后的文件在开头有一个额外的换行，以直观地分隔输出。这意味着我需要知道我正在处理的文件的编号，我可以通过使用`Iterator::enumerate`方法获得。
 以下是我的运行函数的最终版本，它将通过所有测试：
 
+```rust
+pub fn run(config: Config) -> MyResult<()> {
+    let num_files = config.files.len();
+    for (file_num, filename) in config.files.iter().enumerate() {
+        match open(&filename) {
+            Err(err) => eprintln!("{} : {}", filename, err),
+            Ok(mut file) => {
+                if num_files > 1 {
+                    println!(
+                        "{}===> {} <===",
+                        if file_num > 0 { "\n" } else { "" },
+                        &filename
+                    )
+                }
+                if let Some(num_bytes) = config.bytes {
+                    let mut handle = file.take(num_bytes as u64);
+                    let mut buffer = vec![0; num_bytes];
+                    let n = handle.read(&mut buffer)?;
+                    println!("{}", String::from_utf8_lossy(&buffer[..n]));
+                } else {
+                    let mut line = String::new();
+                    for _ in 0..config.lines {
+                        let bytes = file.read_line(&mut line)?;
+                        if bytes == 0 {
+                            break;
+                        }
+                        println!("{}", line);
+                        line.clear();
+                    }
+                }
+            }
+        }
+    }
+    Ok(())
+}
+```
+
 
 1. 使用Vec::len方法获取文件数量。
 2. 使用Iterator::enumerate方法跟踪文件号和文件名。
