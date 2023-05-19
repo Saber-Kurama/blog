@@ -540,6 +540,42 @@ Two lines,
 要解决这个问题，我必须使用`BufRead::read_line`，上面写着“此函数将从底层流中读取字节，直到找到换行符（0xA字节）或EOF1。一旦找到，直到并包括分隔符（如果找到）的所有字节都将附加到buf。”以下是将保留原始行结尾的版本。
 有了这些变化，该程序将通过比失败更多的测试：
 
+```rust
+ for filename in config.files {
+        match open(&filename) {
+            Err(err) => eprintln!("{} : {}", filename, err),
+            Ok(mut file) => {
+                let mut line = String::new();
+                for _ in 0..config.lines {
+                    let bytes = file.read_line(&mut line)?;
+                    if bytes == 0 {
+                        break;
+                    }
+                    println!("{}", line);
+                    line.clear();
+                }
+            }
+        }
+    }
+```
+
+1. 接受文件处理为mut（可变）值。
+2. 使用`String::new`创建一个新的空可变字符串缓冲区来保存每行。
+3. 用于迭代std::ops::Range，从0计数到请求的行数。变量名_表示我不打算使用它
+4. 使用`BufRead::read_lin`e阅读下一行。
+5. 文件处理到达终点时将返回0字节，因此请突破循环。
+6. 打印行，包括原始行尾。
+7.  使用`String::clea`r清空行缓冲区。
+
+如果我在这一点上运行`cargo test`，我几乎通过了所有读取行的测试，而读取字节和处理多个文件的所有测试都失败了。
+
+### 从文件中读取字节
+
+接下来，我将处理从文件中读取字节。在我尝试打开文件后，我会检查config.bytes是否是一些字节数；否则，我将使用前面读取行的代码：
+
+### 打印文件分隔符
+
+
 
 
 
