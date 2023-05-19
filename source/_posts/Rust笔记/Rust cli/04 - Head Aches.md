@@ -462,7 +462,45 @@ use clap::{App, Arg};
 
 展开您的运行功能，尝试打开文件，在遇到错误时打印错误：
 
+```rust
+ for filename in config.files {
+        match open(&filename) {
+            Err(err) => eprintln!("{} : {}", filename, err),
+            Ok(_file) => println!("Opend {}", filename),
+        }
+    }
+```
 
+使用好文件和坏文件运行您的程序，以确保它似乎工作：
+
+```rust
+$ cargo run -- blargh tests/inputs/one.txt
+blargh: No such file or directory (os error 2)
+Opened tests/inputs/one.txt
+```
+
+接下来，尝试求解读取给定文件的行和字节，然后尝试添加分隔多个文件参数的标头。在处理无效文件时，请仔细查看头部的错误输出。请注意，可读文件首先有一个标题，然后是文件输出，但无效文件只会打印错误。此外，还有一条额外的空白行将有效文件的输出分开：
+
+```shell
+❯ head -n 1 tests/inputs/one.txt blargh tests/inputs/two.txt
+==> tests/inputs/one.txt <==
+head: blargh: No such file or directory
+One lines, four words.
+==> tests/inputs/two.txt <==
+Two lines,
+```
+
+我专门设计了一些具有挑战性的输入，供您考虑。要查看您面临的内容，请使用文件命令报告文件类型信息：
+
+
+> 在Windows上，换行符是回车和换行的组合，通常显示为CRLF或\r\n。在Unix平台上，只使用换行，所以LF或\n。这些行结尾必须保留在程序的输出中，因此您必须找到一种在不删除行结尾的情况下读取文件中行的方法。
+
+### 阅读字节与字符
+
+我想解释一下从文件中读取字节和字符之间的区别。
+20世纪60年代初，美国信息交换标准代码（ASCII，发音为键）128个字符的表格代表了计算中所有可能的文本元素。
+
+只需要七位（27 = 128）来表示每个字符，因此字节和字符的概念是可以互换的。
 
 
 
