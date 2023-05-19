@@ -602,7 +602,32 @@ Two lines,
 
 让我向您展示我尝试从文件中读取字节的第一个方法。我决定将整个文件读成一个字符串，将其转换为字节向量，并使用切片来选择第一个`num_bytes。`
 
+```rust
+	let mut contents = String::new();
+	file.read_to_string(&mut contents)?;
+	let bytes = contents.as_bytes();
+	println!("{}", String::from_utf8_lossy(&bytes[..num_bytes]));
+```
 
+1. 创建一个新的字符串缓冲区来保存文件的内容。
+2. 将整个文件内容读入字符串缓冲区。
+3. 使用str::as_bytes将内容转换为字节（u8或无符号8位整数）。
+4. 使用String::from_utf8_lossy将字节的切片转换为字符串。
+
+> 我向您展示这种方法，以便您知道如何将文件读取到字符串中；但是，如果文件大小超过您机器上的内存量，这可能是一件非常危险的事情。一般来说，除非你确定文件很小，否则这是一个糟糕的想法。
+
+
+前面代码的另一个严重问题是，它假设切片操作字节[..num_bytes]将成功。例如，如果您将此代码与空文件一起使用，您将要求字节不存在。这将导致您的程序崩溃并立即退出，并显示错误消息：
+
+```shell
+❯ cargo run --  -c 1  tests/inputs/empty.txt
+thread 'main' panicked at 'range end index 1 out of range for slice of length 0', src/lib.rs:79:61
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+```
+
+> Rust可以防止你犯各种令人震惊的错误，但它不能阻止你做蠢事。你仍然有很多方法可以射中自己的脚。
+
+以下可能是从文件中读取所需字节数的最短方法：
 
 
 ### 打印文件分隔符
