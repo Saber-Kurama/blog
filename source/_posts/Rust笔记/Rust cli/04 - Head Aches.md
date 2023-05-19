@@ -347,10 +347,50 @@ ARGS:
 
 以下是我如何定义clap的论点。请注意，行和字节的两个选项将采用值。这与第3章中实现的用作布尔值的标志不同：
 
+```rust
+ let matches: clap::ArgMatches = App::new("headr")
+        .version("0.1.0")
+        .author("saber saber@qq.com")
+        .about("Rust head")
+        .arg(
+            Arg::with_name("lines")
+                .short("n")
+                .long("lines")
+                .value_name("LINES")
+                .help("Number of lines")
+                .default_value("10"),
+        )
+        .arg(
+            Arg::with_name("bytes")
+                .short("c")
+                .long("bytes")
+                .value_name("BYTES")
+                .help("Number of bytes")
+                .takes_value(true)
+                .conflicts_with("lines"),
+        )
+        .arg(
+            Arg::with_name("files")
+                .value_name("FILES")
+                .help("Input file(s)")
+                .required(true)
+                .default_value("-")
+                .min_values(1),
+        )
+        .get_matches();
+```
+
 
 1. 行选项取一个值，默认为“10”。
 2.  字节选项接受一个值，它与行参数冲突，因此它们是相互排斥的。
-3. 文件参数是位置性的，是必需的，接受一个或多个值，并默认为“-”。    
+3. 文件参数是位置性的，是必需的，接受一个或多个值，并默认为“-”。  
+
+> Arg::value_name将打印在使用文档中，因此请务必选择一个描述性名称。不要将此与Arg::with_name混淆，Arg::with_name唯一定义了在代码中访问的参数的名称。
+
+
+以下是我如何在get_args中使用parse_positive_int来验证行和字节。当函数返回Err变体时，我使用?将错误传播到主程序并结束程序；否则，我返回配置：
+
+
 
 ``
 
