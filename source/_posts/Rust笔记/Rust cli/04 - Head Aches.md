@@ -516,6 +516,32 @@ Two lines,
 ### 逐行读取文件
 
 首先，我将修改第3章中的一些代码，用于读取文件中的行：
+```rust
+ match open(&filename) {
+            Err(err) => eprintln!("{} : {}", filename, err),
+            Ok(file) => {
+                for line in file.lines().take(config.lines) {
+                    println!("{}", line?)
+                }
+            }
+        }
+```
+
+我认为这是一个非常有趣的解决方案，因为它使用Iterator::take方法从config.lines中选择行数。
+我可以运行该程序，从包含三行的文件中选择一行，它似乎工作得很棒：
+
+如果我运行`cargo test`，该程序将通过几次测试，这似乎只实现了一小部分规格。它从三个使用Windows编码的输入文件开始的测试都失败了。为了解决这个问题，我要坦白一下。
+
+### 读取文件时保留行结尾
+
+
+
+
+
+
+
+
+
 
 
 
