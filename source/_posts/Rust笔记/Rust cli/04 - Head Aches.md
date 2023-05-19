@@ -585,7 +585,25 @@ Two lines,
 1. 使用模式匹配来检查config.bytes是否是要读取的字节数。
 2. 使用`take`读取请求的字节数。
 3. 创建一个固定长度的num_bytes的可变缓冲区，填充零，以保存从文件中读取的字节。
-4. 
+4. 从文件处理中读取所需的字节数到缓冲区。值n将报告实际读取的字节数，该字节数可能小于请求的数量。
+5. 将字节转换为可能无效的UTF-8的字符串。注意范围操作，仅选择实际读取的字节。
+
+> 来自std::io::Read trait的take方法希望其参数为u64类型，但我有一个usize。我使用as关键字转换或转换值。
+
+对我来说，这可能是该计划中最难的部分。一旦我弄清楚如何只读几个字节，我就必须弄清楚如何将它们转换为文本。如果我只使用多字节字符的一部分，结果将失败，因为Rust中的字符串必须是有效的UTF-8。我很高兴找到String::from_utf8_lossy，它将悄悄地将无效的UTF-8序列转换为未知或替换字符：
+
+```rust
+❯ cargo run --  -c 1  tests/inputs/one.txt
+   Compiling headr v0.1.0 (/Users/saber/coding/rust/command-line-rust/04_headr/headr)
+    Finished dev [unoptimized + debuginfo] target(s) in 1.17s
+     Running `target/debug/headr -c 1 tests/inputs/one.txt`
+�
+```
+
+让我向您展示我尝试从文件中读取字节的第一个方法。我决定将整个文件读成一个字符串，将其转换为字节向量，并使用切片来选择第一个`num_bytes。`
+
+
+
 
 ### 打印文件分隔符
 
