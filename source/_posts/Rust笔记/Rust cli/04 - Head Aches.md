@@ -573,6 +573,20 @@ Two lines,
 
 接下来，我将处理从文件中读取字节。在我尝试打开文件后，我会检查config.bytes是否是一些字节数；否则，我将使用前面读取行的代码：
 
+```rust
+  if let Some(num_bytes) = config.bytes {
+                    let mut handle = file.take(num_bytes as u64);
+                    let mut buffer = vec![0; num_bytes];
+                    let n = handle.read(&mut buffer)?;
+                    println!("{}", String::from_utf8_lossy(&buffer[..n]));
+                }
+```
+
+1. 使用模式匹配来检查config.bytes是否是要读取的字节数。
+2. 使用`take`读取请求的字节数。
+3. 创建一个固定长度的num_bytes的可变缓冲区，填充零，以保存从文件中读取的字节。
+4. 
+
 ### 打印文件分隔符
 
 
