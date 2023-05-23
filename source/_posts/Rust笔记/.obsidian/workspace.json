@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md",
+                "file": "Rust 学习资源.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md",
+                "file": "Rust 学习资源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md",
+                "file": "Rust 学习资源.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md"
+                "file": "Rust 学习资源.md"
               }
             }
           }
@@ -156,8 +156,8 @@
   },
   "active": "c2341c36236098a5",
   "lastOpenFiles": [
-    "Rust 学习资源.md",
     "Rust cli/04 - Head Aches.md",
+    "Rust 学习资源.md",
     "RUST的一些资源.md",
     "Rust cli/03 - On The Catwalk.md",
     "Rust cli/02-Test for Echo.md",
