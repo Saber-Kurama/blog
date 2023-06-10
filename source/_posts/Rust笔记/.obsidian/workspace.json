@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rust程序设计第二版/02- Rust 之旅.md",
+                "file": "Rust cli/04 - Head Aches.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust程序设计第二版/02- Rust 之旅.md",
+                "file": "Rust cli/04 - Head Aches.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rust程序设计第二版/02- Rust 之旅.md",
+                "file": "Rust cli/04 - Head Aches.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rust程序设计第二版/02- Rust 之旅.md"
+                "file": "Rust cli/04 - Head Aches.md"
               }
             }
           }
@@ -156,6 +156,7 @@
   },
   "active": "c2341c36236098a5",
   "lastOpenFiles": [
+    "rust程序设计第二版/02- Rust 之旅.md",
     "Rust 学习资源.md",
     "RUST的一些资源.md",
     "Rust初始环境.md",
@@ -166,7 +167,6 @@
     "Rust cli/00 - 前言.md",
     "rust程序设计第二版/00-前言.md",
     "rust程序设计第二版/01-为什么是rust.md",
-    "rust程序设计第二版/02- Rust 之旅.md",
     "rust程序设计第二版/03-基本类型.md",
     "未命名.canvas",
     "图形学.md",
