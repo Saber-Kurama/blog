@@ -161,4 +161,8 @@ const watch = (w, fn, options) => {
 
 ```
 
-`watch`立即执行和执行shi'ji
+`watch`立即执行和执行时机
+
+🤔： 过期的副作用。如何解决数据竞争等问题呢 解决`watch`的副作用
+
+
