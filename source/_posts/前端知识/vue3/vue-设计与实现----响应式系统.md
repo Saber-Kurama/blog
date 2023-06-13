@@ -85,13 +85,16 @@ const computed = (fn) => {
 }
 ```
 
-如何更新缓存
+如何更新缓存, 使用`scheduler` 调度器
 
-```
+```js
 const computed = (fn) => {
-	const effectFn = effect(fn, {lazy: false, shu})
+	
 	let val;
 	let dirty = true
+	const effectFn = effect(fn, {lazy: false, scheduler() {
+		dirty = true
+	}})
 	const cProxy = new Proxy( {
 		get() {
 			if(dirty) {
@@ -106,3 +109,36 @@ const computed = (fn) => {
 	})
 }
 ```
+
+当`computed`中的数据发生修改，如何触发 `computed`的副作用发生修改呢
+因为`computed` 只有`getter` ,所以可以在`getter`中触发依赖收集`track(obj，'value')`
+那么触发是在什么时候呢，那就是副作用发生修改`trigger`
+
+```js
+const computed = (fn) => {
+	
+	let val;
+	let dirty = true
+	const effectFn = effect(fn, {lazy: false, scheduler() {
+		dirty = true
+		trigger(cProxy, 'value')
+	}})
+	const cProxy = new Proxy( {
+		get() {
+			if(dirty) {
+				 val = effectFn()
+				 dirty = false
+				 return val
+			}else {
+				return val
+			}
+			track(cProxy，'value')
+		}
+		
+	})
+}
+```
+
+🤔： `watch` 是怎么实现的呢？ `watch` 是基于`effect`
+
+可以认为`watch`的一个参数是 `getter`函数，第二个是 `scheduler`diao
