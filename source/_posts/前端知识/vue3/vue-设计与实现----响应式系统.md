@@ -50,24 +50,59 @@ effectFn(); // 这个时候就开始创建连接
 ```
 
 `computed` 返回一个响应式对象，只有当 获取 `value` 值的时候才会触发 `fn`
-
-
+简单的实现
 ```js
 const computed = (fn) => {
-	const cProxy {
+	const effectFn = effect(fn, {lazy: false})
+	const cProxy = new Proxy( {
 		get() {
-			return x
+			return effectF()
 		}
-		set() {
-		}
-	}
-	effect(fn, {lazy: false})
-	effect(() => {
 		
 	})
 }
 ```
 
+如何实现缓存呢
 
+```js
+const computed = (fn) => {
+	const effectFn = effect(fn, {lazy: false})
+	let val;
+	let dirty = true
+	const cProxy = new Proxy( {
+		get() {
+			if(dirty) {
+				 val = effectFn()
+				 dirty = false
+				 return val
+			}else {
+				return val
+			}
+		}
+		
+	})
+}
+```
 
+如何更新缓存
 
+```
+const computed = (fn) => {
+	const effectFn = effect(fn, {lazy: false, shu})
+	let val;
+	let dirty = true
+	const cProxy = new Proxy( {
+		get() {
+			if(dirty) {
+				 val = effectFn()
+				 dirty = false
+				 return val
+			}else {
+				return val
+			}
+		}
+		
+	})
+}
+```
