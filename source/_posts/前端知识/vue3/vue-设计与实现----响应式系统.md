@@ -32,18 +32,39 @@
 
 🤔： `computed` 和`lazy` 
 
-通过传递属性`options`, `effect(fn, options)` 就可以控制是否立即执行`fn`
+通过传递属性`options`, `effect(fn, options)` 就可以控制是否立即执行`fn`, 返回副作用函数
+
+```js
+const effectFn =  effect(fn, {lazy: true})
+/**
+_effectFn 大致就是
+const  _effectFn = () => {
+	cleanup()
+	activeEffect = effect
+	fn()
+	activeEffect
+} 
+
+*/
+effectFn(); // 这个时候就开始创建连接
+```
 
 `computed` 返回一个响应式对象，只有当 获取 `value` 值的时候才会触发 `fn`
 
 
 ```js
-const computed = () => {
-	return Proxy {
+const computed = (fn) => {
+	const cProxy {
 		get() {
 			return x
 		}
+		set() {
+		}
 	}
+	effect(fn, {lazy: false})
+	effect(() => {
+		
+	})
 }
 ```
 
