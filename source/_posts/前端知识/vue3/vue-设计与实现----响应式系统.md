@@ -141,11 +141,20 @@ const computed = (fn) => {
 
 🤔： `watch` 是怎么实现的呢？ `watch` 是基于`effect`
 
-可以认为`watch`的一个参数是 `getter`函数，第二个是 `scheduler`调度器。旧值和新值
+可以认为`watch`的一个参数是 `getter`函数或者一个响应式对象，第二个是 `scheduler`调度器。旧值和新值
 ```js
 
-const watch = (f) => {
-
+const watch = (w, fn, options) => {
+	let getter
+	if(typeof w === 'function') {
+		getter = w
+	}else {
+		// 递归响应对象
+		getter = () => { tr(w)}
+	}
+	effect(getter, {scheduler: () => {
+		fn()
+	}})
 }
 
 ```
