@@ -141,4 +141,4 @@ const computed = (fn) => {
 
 🤔： `watch` 是怎么实现的呢？ `watch` 是基于`effect`
 
-可以认为`watch`的一个参数是 `getter`函数，第二个是 `scheduler`diao
+可以认为`watch`的一个参数是 `getter`函数，第二个是 `scheduler`调度器
