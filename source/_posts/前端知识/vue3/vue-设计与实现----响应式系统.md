@@ -145,16 +145,20 @@ const computed = (fn) => {
 ```js
 
 const watch = (w, fn, options) => {
-	let getter
+	let getter;
+	let oldValue, newValue;
 	if(typeof w === 'function') {
 		getter = w
 	}else {
 		// 递归响应对象
 		getter = () => { tr(w)}
 	}
-	effect(getter, {scheduler: () => {
+	const  effectFn = effect(getter, {lazy: false,scheduler: () => {
 		fn()
-	}})
-}
+	})
+	oldValue = effectFn()
+})
 
 ```
+
+`watch`立即执行和执行shi'ji
