@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust cli/00 - 前言.md",
+                "file": "Rust 学习资源.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust cli/00 - 前言.md",
+                "file": "Rust 学习资源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust cli/00 - 前言.md",
+                "file": "Rust 学习资源.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust cli/00 - 前言.md"
+                "file": "Rust 学习资源.md"
               }
             }
           }
@@ -156,15 +156,15 @@
   },
   "active": "c2341c36236098a5",
   "lastOpenFiles": [
+    "Rust初始环境.md",
+    "RUST的一些资源.md",
+    "Rust cli/00 - 前言.md",
     "Rust cli/04 - Head Aches.md",
     "rust程序设计第二版/02- Rust 之旅.md",
     "Rust 学习资源.md",
-    "RUST的一些资源.md",
-    "Rust初始环境.md",
     "Rust cli/03 - On The Catwalk.md",
     "Rust cli/02-Test for Echo.md",
     "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
-    "Rust cli/00 - 前言.md",
     "rust程序设计第二版/00-前言.md",
     "rust程序设计第二版/01-为什么是rust.md",
     "rust程序设计第二版/03-基本类型.md",
