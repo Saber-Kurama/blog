@@ -153,8 +153,9 @@
   },
   "active": "b33a9a13d940b154",
   "lastOpenFiles": [
-    "微前端/模块联邦.md",
+    "微前端/沙箱.md",
     "微前端/模块联邦的原理.md",
+    "微前端/模块联邦.md",
     "未命名 1.canvas",
     "微前端/从零开始写一个微前端框架.md",
     "未命名.canvas",
@@ -184,7 +185,6 @@
     "常见问题/TypeScript 的一些问题.md",
     "vite/vite 插件.md",
     "vite/vue  一些有趣的项目.md",
-    "微前端/微前端.md",
     "监控",
     "postcss插件",
     "chart",
