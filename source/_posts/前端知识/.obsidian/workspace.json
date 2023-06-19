@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "微前端/从零开始写一个微前端框架.md",
+                "file": "微前端/沙箱.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "微前端/从零开始写一个微前端框架.md",
+                "file": "微前端/沙箱.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,11 +153,11 @@
   },
   "active": "b33a9a13d940b154",
   "lastOpenFiles": [
+    "微前端/从零开始写一个微前端框架.md",
     "微前端/模块联邦的原理.md",
     "微前端/沙箱.md",
     "微前端/模块联邦.md",
     "未命名 1.canvas",
-    "微前端/从零开始写一个微前端框架.md",
     "未命名.canvas",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "vue3/在 Vue.js 3 中取得 Listeners.md",
