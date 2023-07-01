@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pinia/pinia的源码阅读.md",
+                "file": "chatgpt/一些资源.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pinia/pinia的源码阅读.md",
+                "file": "chatgpt/一些资源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,8 +153,11 @@
   },
   "active": "b33a9a13d940b154",
   "lastOpenFiles": [
-    "微前端/沙箱.md",
+    "monaco-editor 编辑器.md",
+    "chatgpt/一些资源.md",
+    "chatgpt",
     "pinia/pinia的源码阅读.md",
+    "微前端/沙箱.md",
     "pinia",
     "微前端/从零开始写一个微前端框架.md",
     "微前端/模块联邦的原理.md",
@@ -183,9 +186,7 @@
     "未命名 4.md",
     "面试",
     "组件问题/组件库的建设.md",
-    "monaco-editor 编辑器.md",
     "常见问题/TypeScript 的一些问题.md",
-    "vite/vite 插件.md",
     "监控",
     "postcss插件",
     "chart",
