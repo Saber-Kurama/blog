@@ -107,3 +107,27 @@ export default defineConfig({
 
 ### Service Worker Precache
 
+配置Service Worker的preache清单
+
+由于`vite-plugin-pwa`plugin使用[workbox-build](https://developer.chrome.com/docs/workbox/modules/workbox-build/)节点库来构建Service Worker，它只会在清单预缓存中包含`css`、`js`和`html`资源（检查[GlobPartical](https://developer.chrome.com/docs/workbox/reference/workbox-build/#type-GlobPartial)中的`globPatterns`条目）。
+
+`workbox-build`节点库是基于文件的，也就是说，它将遍历应用程序的构建输出文件夹。`Vite`将在`dist`文件夹中生成构建，因此，`workbox-build`将遍历`dist`文件夹，将其中找到的所有资源添加到Service Worker的预缓存清单中。
+
+所以默认 默认清单是dist目录下的 `css`、`js`、和`html`
+
+可以通过配置`globalPatterns` 来调整 preache的清单
+
+``` ts
+import { VitePWA } from 'vite-plugin-pwa' 
+export default defineConfig({ 
+	plugins: [ 
+		VitePWA({ 
+		registerType: 'autoUpdate', 
+		workbox: { globPatterns: ['**/*.{js,css,html,ico,png,svg}'] } 
+		}) 
+	]
+})
+```
+
+那么来了 `preach` 和 `cache`的区别
+``
