@@ -131,4 +131,8 @@ export default defineConfig({
 ```
 
 那么来了 `preach` 和 `cache`的区别
+
+
+猜测所谓的  `preach` 是使用了 `cache`
+那么  `preach` 的缓存策略是什么呢？
 ``

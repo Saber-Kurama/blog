@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pwa/pwa 的一些资源.md",
+                "file": "pwa/vite-plugin-pwa.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pwa/pwa 的一些资源.md",
+                "file": "pwa/vite-plugin-pwa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,8 +153,8 @@
   },
   "active": "b33a9a13d940b154",
   "lastOpenFiles": [
-    "pwa/vite-plugin-pwa.md",
     "pwa/pwa 的一些资源.md",
+    "pwa/vite-plugin-pwa.md",
     "chatgpt/一些资源.md",
     "pwa",
     "monaco-editor 编辑器.md",
