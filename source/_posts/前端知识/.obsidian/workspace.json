@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chatgpt/一些资源.md",
+                "file": "pwa/vite-plugin-pwa.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chatgpt/一些资源.md",
+                "file": "pwa/vite-plugin-pwa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,8 +153,11 @@
   },
   "active": "b33a9a13d940b154",
   "lastOpenFiles": [
-    "monaco-editor 编辑器.md",
+    "pwa/pwa 的一些资源.md",
+    "pwa/vite-plugin-pwa.md",
     "chatgpt/一些资源.md",
+    "pwa",
+    "monaco-editor 编辑器.md",
     "chatgpt",
     "pinia/pinia的源码阅读.md",
     "微前端/沙箱.md",
@@ -185,8 +188,6 @@
     "未命名 3.md",
     "未命名 4.md",
     "面试",
-    "组件问题/组件库的建设.md",
-    "常见问题/TypeScript 的一些问题.md",
     "监控",
     "postcss插件",
     "chart",
