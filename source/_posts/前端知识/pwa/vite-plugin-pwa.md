@@ -78,4 +78,32 @@ CDN 方案
 8. 如何发布更新提示
 
 
-##  
+##  官方文档
+
+###  入门
+
+``` ts
+import { VitePWA } from 'vite-plugin-pwa' 
+export default defineConfig({ 
+	plugins: [ VitePWA({ injectRegister: 'auto' }) ] 
+})
+
+```
+
+如果想在 `dev` 中使用的话，需要配置 `devOptions`
+
+### 注册服务工作者
+
+
+#### 内联注册
+
+#### 脚本注册
+
+#### 人工注册
+
+#### 自动注册
+
+如果您的应用程序代码库没有导入插件公开的任何虚拟模块，插件将回退到[脚本注册](https://vite-pwa-org.netlify.app/guide/register-service-worker.html#script-registration)，否则，导入的虚拟模块将为您注册Service Worker。
+
+### Service Worker Precache
+
