@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pwa/vite-plugin-pwa.md",
+                "file": "vue3/UI组件库.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "组件",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,8 +104,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -125,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pwa/vite-plugin-pwa.md",
+                "file": "vue3/UI组件库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,10 +151,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "12495da245cbde8b",
+  "active": "b33a9a13d940b154",
   "lastOpenFiles": [
-    "pwa/pwa 的一些资源.md",
+    "vue3/admin.md",
+    "vue3/UI组件库.md",
     "pwa/vite-plugin-pwa.md",
+    "pwa/pwa 的一些资源.md",
     "chatgpt/一些资源.md",
     "pwa",
     "monaco-editor 编辑器.md",
@@ -173,7 +174,6 @@
     "vue3/vue-设计与实现----响应式系统.md",
     "vue3/vue3 和 typescript 的问题.md",
     "vue3/vite does not provide an export named 'default'.md",
-    "vue3/admin.md",
     "vue3/温故而知新，浅入 Vue scoped 原理.md",
     "vue3/关于 vue3 透传.md",
     "vue3/高阶组件.md",
@@ -187,7 +187,6 @@
     "未命名 2.md",
     "未命名 2.canvas",
     "未命名 3.md",
-    "未命名 4.md",
     "面试",
     "监控",
     "postcss插件",
