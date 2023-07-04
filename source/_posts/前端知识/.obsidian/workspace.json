@@ -104,7 +104,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -151,7 +152,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "b33a9a13d940b154",
+  "active": "12495da245cbde8b",
   "lastOpenFiles": [
     "pwa/pwa 的一些资源.md",
     "pwa/vite-plugin-pwa.md",
