@@ -19,4 +19,12 @@ npx create-next-app@latest
 
 ### app 路由约定
 
-### page
+### page路由约定
+
+
+## react的要点
+
+
+
+## 路由
+
