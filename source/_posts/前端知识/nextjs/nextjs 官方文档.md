@@ -24,6 +24,10 @@ npx create-next-app@latest
 
 ## react的要点
 
+### 服务器组件
+
+新的心智模型
+
 
 
 ## 路由
