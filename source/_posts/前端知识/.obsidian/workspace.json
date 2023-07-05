@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zustand/zustand.md",
+                "file": "chatgpt/一些资源.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zustand/zustand.md",
+                "file": "chatgpt/一些资源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,8 +141,8 @@
   },
   "active": "dc84c8a0f68fcedb",
   "lastOpenFiles": [
-    "【前端安全】 csp-nonce.md",
     "zustand/zustand.md",
+    "【前端安全】 csp-nonce.md",
     "zustand",
     "nextjs/nextjs 官方文档.md",
     "nextjs/Angular之父为什么怼React？.md",
