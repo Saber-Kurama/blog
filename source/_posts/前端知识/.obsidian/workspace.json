@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nextjs/nextjs 官方文档.md",
+                "file": "zustand/zustand.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nextjs/nextjs 官方文档.md",
+                "file": "zustand/zustand.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,8 +141,11 @@
   },
   "active": "dc84c8a0f68fcedb",
   "lastOpenFiles": [
-    "nextjs/Angular之父为什么怼React？.md",
+    "【前端安全】 csp-nonce.md",
+    "zustand/zustand.md",
+    "zustand",
     "nextjs/nextjs 官方文档.md",
+    "nextjs/Angular之父为什么怼React？.md",
     "21短文-手写前端框架.md",
     "nextjs",
     "vue3/UI组件库.md",
@@ -171,15 +174,12 @@
     "vue3/关于 vue3 透传.md",
     "vue3/高阶组件.md",
     "工作/入职指引.md",
-    "【前端安全】 csp-nonce.md",
-    "未命名.md",
     "工作",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "面试",
     "监控",
     "postcss插件",
-    "chart",
-    "sketch"
+    "chart"
   ]
 }
