@@ -28,6 +28,7 @@ npx create-next-app@latest
 
 新的心智模型
 
+这个需要专门学习一下
 
 
 ## 路由
