@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nextjs/nextjs 官方文档.md",
+                "file": "nextjs/Angular之父为什么怼React？.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nextjs/nextjs 官方文档.md",
+                "file": "nextjs/Angular之父为什么怼React？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,8 +141,9 @@
   },
   "active": "dc84c8a0f68fcedb",
   "lastOpenFiles": [
-    "21短文-手写前端框架.md",
     "nextjs/nextjs 官方文档.md",
+    "nextjs/Angular之父为什么怼React？.md",
+    "21短文-手写前端框架.md",
     "nextjs",
     "vue3/UI组件库.md",
     "monaco-editor 编辑器.md",
@@ -173,7 +174,6 @@
     "【前端安全】 csp-nonce.md",
     "未命名.md",
     "工作",
-    "面试/面试的一些资料.md",
     "未命名 3.canvas",
     "未命名 2.canvas",
     "面试",
