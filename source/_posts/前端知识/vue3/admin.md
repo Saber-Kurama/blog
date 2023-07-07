@@ -130,3 +130,6 @@ https://demo.gin-vue-admin.com/#/layout/dashboard
 
 [vue-admin-better](https://github.com/chuzhixin/vue-admin-better)
 
+https://www.builtatlightspeed.com/
+
+https://madewithvuejs.com/?page=2
