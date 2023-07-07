@@ -142,6 +142,7 @@
   "active": "dc84c8a0f68fcedb",
   "lastOpenFiles": [
     "vue3/UI组件库.md",
+    "vue3/admin.md",
     "chatgpt/一些资源.md",
     "zustand/zustand.md",
     "【前端安全】 csp-nonce.md",
@@ -152,7 +153,6 @@
     "nextjs",
     "monaco-editor 编辑器.md",
     "element-plus.org.md",
-    "vue3/admin.md",
     "pwa/vite-plugin-pwa.md",
     "pwa/pwa 的一些资源.md",
     "pwa",
