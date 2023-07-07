@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chatgpt/一些资源.md",
+                "file": "vue3/UI组件库.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chatgpt/一些资源.md",
+                "file": "vue3/UI组件库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,6 +141,7 @@
   },
   "active": "dc84c8a0f68fcedb",
   "lastOpenFiles": [
+    "chatgpt/一些资源.md",
     "zustand/zustand.md",
     "【前端安全】 csp-nonce.md",
     "zustand",
@@ -154,7 +155,6 @@
     "vue3/admin.md",
     "pwa/vite-plugin-pwa.md",
     "pwa/pwa 的一些资源.md",
-    "chatgpt/一些资源.md",
     "pwa",
     "chatgpt",
     "pinia/pinia的源码阅读.md",
