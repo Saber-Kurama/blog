@@ -109,3 +109,24 @@ https://admin.makeit.vip/tools/global
 https://nextjs-components-docs.vercel.app/docs/user-select
 
 https://github.com/maqi1520/nextjs-components-docs
+
+
+
+## 一些资料
+
+https://demo.gin-vue-admin.com/#/layout/dashboard
+
+[Gin-Vue-Admin](https://www.gin-vue-admin.com/)
+
+[Geeker-Admin](https://github.com/HalseySpicy/Geeker-Admin)
+
+[# Berry](https://berrydashboard.io/vue/)
+
+[cool-js](https://cool-js.com/)
+
+[https://www.libhunt.com/topic/vue-admin](https://www.libhunt.com/topic/vue-admin)
+
+[parfait] (https://github.com/cosmoscatts/parfait)
+
+[vue-admin-better](https://github.com/chuzhixin/vue-admin-better)
+
