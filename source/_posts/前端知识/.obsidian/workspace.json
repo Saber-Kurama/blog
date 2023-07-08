@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "一些课程的学习/基于 Vite 的组件库工程化实战.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "一些课程的学习/基于 Vite 的组件库工程化实战.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,11 +139,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "42d03b7013090d6f",
+  "active": "dc84c8a0f68fcedb",
   "lastOpenFiles": [
+    "vue3/admin.md",
+    "一些课程的学习/基于 Vite 的组件库工程化实战.md",
     "一些课程的学习",
     "vue3/UI组件库.md",
-    "vue3/admin.md",
     "chatgpt/一些资源.md",
     "zustand/zustand.md",
     "【前端安全】 csp-nonce.md",
@@ -179,7 +180,6 @@
     "未命名 2.canvas",
     "面试",
     "监控",
-    "postcss插件",
-    "chart"
+    "postcss插件"
   ]
 }
