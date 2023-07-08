@@ -4,45 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e3b65a2a02aaeb96",
+        "id": "726287672356252e",
         "type": "tabs",
         "children": [
           {
-            "id": "dc84c8a0f68fcedb",
+            "id": "1d8672a30669061a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "一些课程的学习/基于 Vite 的组件库工程化实战.md",
+                "file": "组件问题/组件库的建设.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "9d9558a1bfada841",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "组件问题/前端组件.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8bb226fb360bb1b9",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "未命名.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
               }
             }
           }
@@ -92,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -113,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "一些课程的学习/基于 Vite 的组件库工程化实战.md",
+                "file": "组件问题/组件库的建设.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,12 +112,18 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "12495da245cbde8b",
+  "active": "1d8672a30669061a",
   "lastOpenFiles": [
+    "组件问题/前端组件.md",
+    "组件问题/前端基建.md",
+    "组件问题/开发过程中 关于 UI的问题.md",
+    "vue3/UI组件库.md",
     "vue3/admin.md",
+    "未命名 3.canvas",
+    "未命名.canvas",
+    "未命名 2.canvas",
     "一些课程的学习/基于 Vite 的组件库工程化实战.md",
     "一些课程的学习",
-    "vue3/UI组件库.md",
     "chatgpt/一些资源.md",
     "zustand/zustand.md",
     "【前端安全】 csp-nonce.md",
@@ -167,18 +145,12 @@
     "微前端/模块联邦的原理.md",
     "微前端/模块联邦.md",
     "未命名 1.canvas",
-    "未命名.canvas",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "vue3/在 Vue.js 3 中取得 Listeners.md",
     "vue3/vue-设计与实现----响应式系统.md",
     "vue3/vue3 和 typescript 的问题.md",
     "vue3/vite does not provide an export named 'default'.md",
-    "vue3/温故而知新，浅入 Vue scoped 原理.md",
-    "vue3/关于 vue3 透传.md",
-    "vue3/高阶组件.md",
     "工作",
-    "未命名 3.canvas",
-    "未命名 2.canvas",
     "面试",
     "监控",
     "postcss插件"
