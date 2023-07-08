@@ -75,7 +75,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "组件",
+                "query": "tag:#软件包封装：",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,7 +92,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -139,7 +140,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "dc84c8a0f68fcedb",
+  "active": "12495da245cbde8b",
   "lastOpenFiles": [
     "vue3/admin.md",
     "一些课程的学习/基于 Vite 的组件库工程化实战.md",
