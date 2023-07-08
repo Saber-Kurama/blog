@@ -92,3 +92,65 @@ SourceMap 就是一个信息文件，里面存储了代码打包转换后的位�
 
 LICENSE 协议
 
+## 组件发布： 建立语义化版本与提交软件包仓库 Npm
+
+### 使用语义化版本
+
+### 利用Action 实现自动发布
+
+
+## 建立组件库生态： 利用 Monorepo 方式管理组件库生态
+
+## 按需引入: 实现组件库的按需引入功能
+
+`unplugin-vue-components`
+
+## 文档部署： 用 Vercel 部署你的线上文档
+
+## README： 编写标准的 README
+
+- Banner + Title 居中；
+- 徽章的颜色重新定制和 Logo 呼应，并且细心地使用了渐变效果。
+- - 特性描述精炼准确；
+- 字体图标开头提升了页面视觉效果；
+- 引用链接完整清晰。
+
+
+这个项目系统地讲述了 README 的编写方法。文中提到标准的 README，最基本的部分包括以下几大内容：
+
+- Background 背景；
+- Install 安装 ；
+- Usage 用途；
+- Badge徽章 - 项目的标准，例： npm 下载量、测试覆盖率、通过 CI 工具持续验证 ；
+- Contributing 贡献者名单；
+- License 代码许可证。
+
+这个应该是一个最低配的 README。
+
+通过这个结构可以让使用者最短时间了解并上手。
+
+如果扩展一下，让项目介绍更加的丰满，还可以采用以下结构：
+
+- Title；
+- Banner；
+- Badges；
+- Short Description；
+- Long Description ；
+- Table of Contents；
+- Security；
+- Background；
+- Install；
+- Usage；
+- Extra Sections；
+- API；
+- Maintainers；
+- Thanks；
+- Contributing；
+- License 。
+
+以上，都是给你提供的一个思维框架，在实际运用中可以根据实际情况灵活掌握。
+
+## 品质保证：发布覆盖率测试报告
+
+代码覆盖率（Code coverage）是软件测试中的一种度量指标，描述测试过程中（运行时）被执行的源代码占全部源代码的比例。
+
