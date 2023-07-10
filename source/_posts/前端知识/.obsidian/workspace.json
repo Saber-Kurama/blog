@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue3/UI组件库.md",
+                "file": "vite/vitepress.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/UI组件库.md",
+                "file": "vite/vitepress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,11 +114,13 @@
   },
   "active": "1d8672a30669061a",
   "lastOpenFiles": [
+    "vite/深入浅出vite/基础使用.md",
+    "vite/vitepress.md",
+    "vue3/UI组件库.md",
     "组件问题/组件库的建设.md",
     "组件问题/前端组件.md",
     "组件问题/前端基建.md",
     "组件问题/开发过程中 关于 UI的问题.md",
-    "vue3/UI组件库.md",
     "vue3/admin.md",
     "未命名 3.canvas",
     "未命名.canvas",
@@ -148,8 +150,6 @@
     "未命名 1.canvas",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "vue3/在 Vue.js 3 中取得 Listeners.md",
-    "vue3/vue-设计与实现----响应式系统.md",
-    "vue3/vue3 和 typescript 的问题.md",
     "工作",
     "面试",
     "监控",
