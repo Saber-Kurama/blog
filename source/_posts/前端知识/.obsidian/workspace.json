@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vite/vitepress.md",
+                "file": "vue3/admin.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vite/vitepress.md",
+                "file": "vue3/admin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,14 +114,14 @@
   },
   "active": "1d8672a30669061a",
   "lastOpenFiles": [
-    "vite/深入浅出vite/基础使用.md",
-    "vite/vitepress.md",
     "vue3/UI组件库.md",
+    "vue3/admin.md",
+    "vite/vitepress.md",
+    "vite/深入浅出vite/基础使用.md",
     "组件问题/组件库的建设.md",
     "组件问题/前端组件.md",
     "组件问题/前端基建.md",
     "组件问题/开发过程中 关于 UI的问题.md",
-    "vue3/admin.md",
     "未命名 3.canvas",
     "未命名.canvas",
     "未命名 2.canvas",
