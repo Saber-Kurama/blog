@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vite/vitepress.md",
+                "file": "chatgpt/一些资源.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vite/vitepress.md",
+                "file": "chatgpt/一些资源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,6 +127,7 @@
   },
   "active": "2ac277b7c776e5fd",
   "lastOpenFiles": [
+    "vite/vitepress.md",
     "chatgpt/一些资源.md",
     "chart/未命名.md",
     "未命名 4.canvas",
@@ -137,7 +138,6 @@
     "codingnet",
     "vue3/admin.md",
     "vue3/UI组件库.md",
-    "vite/vitepress.md",
     "vite/深入浅出vite/基础使用.md",
     "组件问题/组件库的建设.md",
     "组件问题/前端组件.md",
