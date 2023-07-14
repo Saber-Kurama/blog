@@ -23,14 +23,11 @@
             "id": "2ac277b7c776e5fd",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "未命名 4.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "vite/vitepress.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -101,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 4.canvas",
+                "file": "vite/vitepress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,10 +125,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "42d03b7013090d6f",
+  "active": "2ac277b7c776e5fd",
   "lastOpenFiles": [
-    "nginx.md",
+    "chatgpt/一些资源.md",
+    "chart/未命名.md",
     "未命名 4.canvas",
+    "nginx.md",
     "codingnet/一些信息.md",
     "未命名 2.md",
     "webIDE.md",
@@ -149,7 +148,6 @@
     "未命名 2.canvas",
     "一些课程的学习/基于 Vite 的组件库工程化实战.md",
     "一些课程的学习",
-    "chatgpt/一些资源.md",
     "zustand/zustand.md",
     "【前端安全】 csp-nonce.md",
     "zustand",
@@ -166,7 +164,6 @@
     "pinia/pinia的源码阅读.md",
     "微前端/沙箱.md",
     "pinia",
-    "微前端/从零开始写一个微前端框架.md",
     "未命名 1.canvas",
     "工作",
     "面试",

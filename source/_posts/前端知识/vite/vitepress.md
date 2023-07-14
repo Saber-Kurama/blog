@@ -27,3 +27,4 @@ https://github.com/LadyChatterleyLover/vitrpress-doc-plugin
 
 
 
+https://docs.xihan.fun/
