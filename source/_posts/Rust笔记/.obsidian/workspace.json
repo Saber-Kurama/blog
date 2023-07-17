@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rust程序设计第二版/04-所有权.md",
+                "file": "rust程序设计第二版/04-所有权-思考.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust程序设计第二版/04-所有权.md",
+                "file": "rust程序设计第二版/04-所有权-思考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rust程序设计第二版/04-所有权.md",
+                "file": "rust程序设计第二版/04-所有权-思考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rust程序设计第二版/04-所有权.md"
+                "file": "rust程序设计第二版/04-所有权-思考.md"
               }
             }
           }
@@ -156,11 +156,13 @@
   },
   "active": "c2341c36236098a5",
   "lastOpenFiles": [
-    "rust程序设计第二版/05-引用.md",
     "rust程序设计第二版/03-基本类型-思考.md",
+    "rust程序设计第二版/04-所有权.md",
+    "rust程序设计第二版/04-所有权-思考.md",
+    "rust程序设计第二版/05-引用.md",
+    "未命名 4.md",
     "Rust 学习资源.md",
     "Rust初始环境.md",
-    "rust程序设计第二版/04-所有权.md",
     "rust程序设计第二版/03-基本类型.md",
     "RUST的一些资源.md",
     "rust程序设计第二版/01-为什么是rust.md",
@@ -181,8 +183,6 @@
     "rust圣经/02rust基础入门/2.6 模式匹配.md",
     "rust圣经/02rust基础入门/2.5 流程控制.md",
     "rust圣经/02rust基础入门/2.4 复合类型.md",
-    "rust圣经/02rust基础入门/2.2 基本类型.md",
-    "参考.md",
     "未命名 4.canvas",
     "Pasted image 20221026204959.png",
     "未命名 3.canvas",
