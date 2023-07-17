@@ -22,5 +22,8 @@ https://github.com/rlidwka/markdown-it.rs
 [# Programming Rust 第2版中文](https://blog.fudenglong.site/Programming-Rust/)
 
 
+http://www.17bigdata.com/study/programming/rust/rust-index.html
+
+
 
 
