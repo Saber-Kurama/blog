@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chatgpt/一些资源.md",
+                "file": "vite/vitepress.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chatgpt/一些资源.md",
+                "file": "vite/vitepress.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,8 +127,8 @@
   },
   "active": "2ac277b7c776e5fd",
   "lastOpenFiles": [
-    "vite/vitepress.md",
     "chatgpt/一些资源.md",
+    "vite/vitepress.md",
     "chart/未命名.md",
     "未命名 4.canvas",
     "nginx.md",
