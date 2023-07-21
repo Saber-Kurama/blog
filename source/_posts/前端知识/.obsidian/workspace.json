@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "微前端/micro-app 的vite 和 vue3.md",
+                "file": "chatgpt/一些资源.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "微前端/micro-app 的vite 和 vue3.md",
+                "file": "chatgpt/一些资源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,12 +127,12 @@
   },
   "active": "2ac277b7c776e5fd",
   "lastOpenFiles": [
+    "微前端/micro-app 的vite 和 vue3.md",
     "微前端/从零开始写一个微前端框架.md",
     "微前端/关于微前端-一次microApp的使用经历.md",
     "微前端/模块联邦的原理.md",
     "微前端/沙箱.md",
     "微前端/微前端.md",
-    "微前端/micro-app 的vite 和 vue3.md",
     "微前端/模块联邦.md",
     "vite/vitepress.md",
     "chatgpt/一些资源.md",
