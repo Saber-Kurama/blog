@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "cli",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -125,7 +126,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "2ac277b7c776e5fd",
+  "active": "12495da245cbde8b",
   "lastOpenFiles": [
     "微前端/micro-app 的vite 和 vue3.md",
     "微前端/从零开始写一个微前端框架.md",
