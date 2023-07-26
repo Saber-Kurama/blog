@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "chatgpt/一些资源.md",
+                "file": "nginx.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cli",
+                "query": "nginx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chatgpt/一些资源.md",
+                "file": "nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,8 +126,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "12495da245cbde8b",
+  "active": "2ac277b7c776e5fd",
   "lastOpenFiles": [
+    "webIDE.md",
     "微前端/micro-app 的vite 和 vue3.md",
     "微前端/从零开始写一个微前端框架.md",
     "微前端/关于微前端-一次microApp的使用经历.md",
@@ -142,7 +143,6 @@
     "nginx.md",
     "codingnet/一些信息.md",
     "未命名 2.md",
-    "webIDE.md",
     "codingnet",
     "vue3/admin.md",
     "vue3/UI组件库.md",
