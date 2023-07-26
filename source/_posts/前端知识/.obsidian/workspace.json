@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nginx.md",
+                "file": "一些课程的学习/前端调试通关秘籍.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,8 +77,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nginx.md",
+                "file": "webIDE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,8 +124,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "2ac277b7c776e5fd",
+  "active": "1d8672a30669061a",
   "lastOpenFiles": [
+    "一些课程的学习/前端调试通关秘籍.md",
+    "一些课程的学习/基于 Vite 的组件库工程化实战.md",
+    "未命名 3.md",
+    "nginx.md",
     "webIDE.md",
     "微前端/micro-app 的vite 和 vue3.md",
     "微前端/从零开始写一个微前端框架.md",
@@ -140,7 +142,6 @@
     "chatgpt/一些资源.md",
     "chart/未命名.md",
     "未命名 4.canvas",
-    "nginx.md",
     "codingnet/一些信息.md",
     "未命名 2.md",
     "codingnet",
@@ -154,13 +155,10 @@
     "未命名 3.canvas",
     "未命名.canvas",
     "未命名 2.canvas",
-    "一些课程的学习/基于 Vite 的组件库工程化实战.md",
     "一些课程的学习",
     "zustand/zustand.md",
     "【前端安全】 csp-nonce.md",
     "zustand",
-    "nextjs/nextjs 官方文档.md",
-    "nextjs/Angular之父为什么怼React？.md",
     "nextjs",
     "pwa",
     "chatgpt",
