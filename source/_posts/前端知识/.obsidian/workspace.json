@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编译思想和设计模式/如何快速学习一门语言.md",
+                "file": "编译思想和设计模式/编译原理哈工大/01-概念.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编译思想和设计模式/如何快速学习一门语言.md",
+                "file": "编译思想和设计模式/编译原理哈工大/01-概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,8 +126,8 @@
   },
   "active": "1d8672a30669061a",
   "lastOpenFiles": [
-    "编译思想和设计模式/编译原理哈工大/01-概念.md",
     "编译思想和设计模式/如何快速学习一门语言.md",
+    "编译思想和设计模式/编译原理哈工大/01-概念.md",
     "编译思想和设计模式/翻墙.md",
     "编译思想和设计模式/编译原理哈工大",
     "编译思想和设计模式/深度工作.md",
