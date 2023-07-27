@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工程化/参考.md",
+                "file": "组件问题/前端组件.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化/参考.md",
+                "file": "组件问题/前端组件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,10 +126,10 @@
   },
   "active": "1d8672a30669061a",
   "lastOpenFiles": [
+    "前端工程化/参考.md",
     "前端工程化/webpack.md",
     "前端工程化/Code Review.md",
     "前端工程化/changelog.md",
-    "前端工程化/参考.md",
     "面试/面试的一些资料.md",
     "常见问题/TypeScript 的一些问题.md",
     "常见问题/axios 的get 数组问题.md",
