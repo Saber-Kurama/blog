@@ -16,3 +16,19 @@ https://www.yuque.com/kongdepeng/rgpm60
 [# [vscode 插件推荐 - 献给所有前端工程师（2023.7.26更新）](https://segmentfault.com/a/1190000006697219)]
 
 https://gitee.com/lmos
+
+
+[https://iming.work/](https://iming.work/detail/6423fb151abe031ff717a14c.html)
+
+
+物料
+
+https://zhuanlan.zhihu.com/p/246712012
+
+
+源码
+
+
+[eact技术揭秘](https://react.iamkasong.com/)
+
+[自顶向下学 React 源码](https://ke.segmentfault.com/course/1650000023864436)
