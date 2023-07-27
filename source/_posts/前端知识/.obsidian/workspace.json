@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "开源/一些开源项目.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "开源/一些开源项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,11 +126,13 @@
   },
   "active": "1d8672a30669061a",
   "lastOpenFiles": [
+    "【前端安全】 csp-nonce.md",
+    "开源/一些开源项目.md",
+    "开源",
+    "vue3/admin.md",
     "react/react的一些资源.md",
     "vscode/vscode.md",
     "图形学/3d.md",
-    "vue3/admin.md",
-    "【前端安全】 csp-nonce.md",
     "react",
     "编译思想和设计模式/编译原理哈工大/01-概念.md",
     "编译思想和设计模式/如何快速学习一门语言.md",
@@ -154,7 +156,6 @@
     "chart/未命名.md",
     "未命名 4.canvas",
     "codingnet/一些信息.md",
-    "未命名 2.md",
     "codingnet",
     "未命名 3.canvas",
     "未命名.canvas",
@@ -165,7 +166,6 @@
     "pwa",
     "chatgpt",
     "pinia",
-    "未命名 1.canvas",
-    "工作"
+    "未命名 1.canvas"
   ]
 }
