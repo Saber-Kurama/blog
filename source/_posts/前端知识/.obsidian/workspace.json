@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "开源/一些开源项目.md",
+                "file": "编译思想和设计模式/如何快速学习一门语言.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "开源/一些开源项目.md",
+                "file": "编译思想和设计模式/如何快速学习一门语言.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,16 +127,16 @@
   "active": "1d8672a30669061a",
   "lastOpenFiles": [
     "react/react的一些资源.md",
+    "编译思想和设计模式/如何快速学习一门语言.md",
+    "开源/一些开源项目.md",
     "vue3/admin.md",
     "vscode/开发一个VSCODE 插件.md",
-    "开源/一些开源项目.md",
     "【前端安全】 csp-nonce.md",
     "开源",
     "vscode/vscode.md",
     "图形学/3d.md",
     "react",
     "编译思想和设计模式/编译原理哈工大/01-概念.md",
-    "编译思想和设计模式/如何快速学习一门语言.md",
     "编译思想和设计模式/翻墙.md",
     "编译思想和设计模式/编译原理哈工大",
     "编译思想和设计模式/深度工作.md",
