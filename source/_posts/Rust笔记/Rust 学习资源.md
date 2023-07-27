@@ -28,6 +28,18 @@ http://www.17bigdata.com/study/programming/rust/rust-index.html
 [# 利用Rustlings对Rust语言进行学习](https://sangshengjie802.gitee.io/posts/e41a3fa2/)
 
 
+[# 写一个小型的 Rust CLI 工具后的总结](https://www.qinglite.cn/doc/8698647703b01ad72)
+
+
+[克莉丝随笔](https://xr1s.me/)
+
+
+[# Make A Language](https://lunacookies.github.io/lang/)
+
+
+[关于使用Rust、WebAssembly、Javascript和WebGL]()
+
+
 
 
 
