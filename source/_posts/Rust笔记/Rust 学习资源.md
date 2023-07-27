@@ -37,7 +37,7 @@ http://www.17bigdata.com/study/programming/rust/rust-index.html
 [# Make A Language](https://lunacookies.github.io/lang/)
 
 
-[关于使用Rust、WebAssembly、Javascript和WebGL]()
+[关于使用Rust、WebAssembly、Javascript和WebGL](https://alecchendev.medium.com/on-working-with-rust-webassembly-javascript-and-webgl-f23b7563478e)
 
 
 
