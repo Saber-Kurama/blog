@@ -12,6 +12,9 @@
 
 [# VS Code插件开发教程（1） Overview](https://juejin.cn/post/6969601205735686157)
 
+
+http://blog.haoji.me/vscode-plugin-overview.html
+
 ## VSCODE 插件能做什么
 
 * 不受限的本地磁盘访问

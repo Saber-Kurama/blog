@@ -56,3 +56,10 @@ https://darylxyx.github.io/Demo/fragment/
 
 [# [分享](https://ruby-china.org/topics/node26) 通过「刻意练习」，你才能成为顶尖的程序员](https://ruby-china.org/topics/28553)
 
+ [React Fiber 数据结构](https://segmentfault.com/a/1190000018262038)
+ 
+https://github.com/lisir-eason/front-end-learn/blob/master/%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90/React/react-render.jpg
+
+https://juejin.cn/post/6992771308157141022
+
+https://github.com/7kms/react-illustration-series
