@@ -45,3 +45,12 @@ https://zhuanlan.zhihu.com/p/246712012
 
 https://nice.lovejade.cn/
 
+https://yes-1-am.gitbook.io/blog/web-kai-fa-guo-wang-gong-zuo-chen-dian/fatherbuild-shi-ru-he-gong-zuo-de#2-jian-dan-fen-xi-yuan-ma
+
+
+ [教你做炫酷的蜂巢式图片墙](https://www.cnblogs.com/ghost-xyx/p/3788438.html)
+https://darylxyx.github.io/Demo/fragment/
+
+
+[# [分享](https://ruby-china.org/topics/node26) 通过「刻意练习」，你才能成为顶尖的程序员](https://ruby-china.org/topics/28553)
+
