@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "postcss插件/1.md",
+                "file": "前端工程化/参考.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "postcss插件/1.md",
+                "file": "前端工程化/参考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +126,9 @@
   },
   "active": "1d8672a30669061a",
   "lastOpenFiles": [
+    "常见问题/axios 的get 数组问题.md",
+    "常见问题/解决视频播放在手机百度上播放被劫持的现象.md",
+    "postcss插件/1.md",
     "CSS/tailwindcss.md",
     "CSS/box-shadow 模糊半径与扩展半径.md",
     "CSS/泪目了！CSS nth-child伪类终于支持了of关键词.md",
@@ -152,9 +155,6 @@
     "微前端/从零开始写一个微前端框架.md",
     "微前端/关于微前端-一次microApp的使用经历.md",
     "微前端/模块联邦的原理.md",
-    "微前端/沙箱.md",
-    "微前端/微前端.md",
-    "微前端/模块联邦.md",
     "未命名 4.canvas",
     "codingnet",
     "未命名 3.canvas",
