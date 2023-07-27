@@ -139,3 +139,6 @@ https://madewithvuejs.com/?page=2
 
 
 https://www.makeit.vip/components/anchor
+
+
+[newbee-mall-vue3-app](https://github.com/newbee-ltd/newbee-mall-vue3-app)
