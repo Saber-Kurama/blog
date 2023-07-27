@@ -1,4 +1,11 @@
 
+
+
+[# Bigfish VSCode 插件开发实践](https://juejin.cn/post/6876976263571963912#heading-8)
+
+
+[# vscode 有哪些让人眼前一亮的插件](https://www.zhihu.com/question/311803609/answers/updated)
+
 # vscode
 
 一些有趣的vscode 插件
