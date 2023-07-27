@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rust程序设计第二版/10-枚举和模式匹配-思考.md",
+                "file": "Rust 学习资源.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust程序设计第二版/10-枚举和模式匹配-思考.md",
+                "file": "Rust 学习资源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rust程序设计第二版/10-枚举和模式匹配-思考.md",
+                "file": "Rust 学习资源.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rust程序设计第二版/10-枚举和模式匹配-思考.md"
+                "file": "Rust 学习资源.md"
               }
             }
           }
@@ -193,8 +193,9 @@
   },
   "active": "f1d4c0e6a0e3885c",
   "lastOpenFiles": [
-    "rust程序设计第二版/09-结构体-思考.md",
+    "Rust初始环境.md",
     "rust程序设计第二版/10-枚举和模式匹配-思考.md",
+    "rust程序设计第二版/09-结构体-思考.md",
     "rust程序设计第二版/07-错误处理-思考.md",
     "rust程序设计第二版/08-Crate 和 Module.md",
     "未命名 5.md",
@@ -207,7 +208,6 @@
     "rust程序设计第二版/04-所有权.md",
     "未命名 4.md",
     "Rust 学习资源.md",
-    "Rust初始环境.md",
     "rust程序设计第二版/03-基本类型.md",
     "RUST的一些资源.md",
     "rust程序设计第二版/01-为什么是rust.md",

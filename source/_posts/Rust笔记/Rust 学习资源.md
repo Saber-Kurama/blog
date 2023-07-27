@@ -25,5 +25,9 @@ https://github.com/rlidwka/markdown-it.rs
 http://www.17bigdata.com/study/programming/rust/rust-index.html
 
 
+[# 利用Rustlings对Rust语言进行学习](https://sangshengjie802.gitee.io/posts/e41a3fa2/)
+
+
+
 
 
