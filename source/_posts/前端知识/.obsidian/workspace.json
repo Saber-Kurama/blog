@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "webIDE.md",
+                "file": "编译思想和设计模式/编译原理哈工大/01-概念.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "webIDE.md",
+                "file": "编译思想和设计模式/编译原理哈工大/01-概念.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,11 +126,15 @@
   },
   "active": "1d8672a30669061a",
   "lastOpenFiles": [
+    "编译思想和设计模式/翻墙.md",
+    "编译思想和设计模式/编译原理哈工大/01-概念.md",
+    "编译思想和设计模式/编译原理哈工大",
+    "编译思想和设计模式/深度工作.md",
+    "webIDE.md",
     "一些课程的学习/前端调试通关秘籍.md",
     "一些课程的学习/基于 Vite 的组件库工程化实战.md",
     "未命名 3.md",
     "nginx.md",
-    "webIDE.md",
     "微前端/micro-app 的vite 和 vue3.md",
     "微前端/从零开始写一个微前端框架.md",
     "微前端/关于微前端-一次microApp的使用经历.md",
@@ -151,13 +155,10 @@
     "组件问题/组件库的建设.md",
     "组件问题/前端组件.md",
     "组件问题/前端基建.md",
-    "组件问题/开发过程中 关于 UI的问题.md",
     "未命名 3.canvas",
     "未命名.canvas",
     "未命名 2.canvas",
     "一些课程的学习",
-    "zustand/zustand.md",
-    "【前端安全】 csp-nonce.md",
     "zustand",
     "nextjs",
     "pwa",
@@ -165,7 +166,6 @@
     "pinia",
     "未命名 1.canvas",
     "工作",
-    "面试",
-    "监控"
+    "面试"
   ]
 }
