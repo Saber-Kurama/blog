@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue3/高阶组件.md",
+                "file": "vue3/UI组件库.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/高阶组件.md",
+                "file": "vue3/UI组件库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,10 +126,10 @@
   },
   "active": "1d8672a30669061a",
   "lastOpenFiles": [
+    "vue3/高阶组件.md",
     "vue3/admin.md",
     "vue3/在 Vue.js 3 中取得 Listeners.md",
     "vue3/温故而知新，浅入 Vue scoped 原理.md",
-    "vue3/高阶组件.md",
     "监控/前端监控.md",
     "编译思想和设计模式/如何快速学习一门语言.md",
     "工作/交接.md",
