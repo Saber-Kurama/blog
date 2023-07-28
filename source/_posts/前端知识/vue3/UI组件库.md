@@ -8,6 +8,7 @@ https://cn.nocobase.com/
 
 [理解前端常见的插件机制](https://github.com/Jiacheng787/Garfield-blog/blob/ac2efacf4c9d2c1cada3fe5d798012b7d12feea1/blog/2022-12-10/%E7%90%86%E8%A7%A3%E5%89%8D%E7%AB%AF%E5%B8%B8%E8%A7%81%E7%9A%84%E6%8F%92%E4%BB%B6%E6%9C%BA%E5%88%B6.md)
 
+https://www.seeseed.com/
 
 
 
