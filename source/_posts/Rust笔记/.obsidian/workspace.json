@@ -4,59 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "3aa2b5f9cee0d388",
+        "id": "f3baf776c90ab1b3",
         "type": "tabs",
         "children": [
           {
-            "id": "c2341c36236098a5",
+            "id": "2c192403d078ca3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rust程序设计第二版/06-表达式-思考.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8e5510a061a89210",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rust程序设计第二版/07-错误处理-思考.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f1c5986669f7e924",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "rust程序设计第二版/07-错误处理-思考.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f1d4c0e6a0e3885c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Rust 学习资源.md",
+                "file": "rust程序设计第二版/10-枚举和模式匹配-思考.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust 学习资源.md",
+                "file": "rust程序设计第二版/10-枚举和模式匹配-思考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust 学习资源.md",
+                "file": "rust程序设计第二版/10-枚举和模式匹配-思考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust 学习资源.md"
+                "file": "rust程序设计第二版/10-枚举和模式匹配-思考.md"
               }
             }
           }
@@ -191,15 +154,16 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "f1d4c0e6a0e3885c",
+  "active": "2c192403d078ca3e",
   "lastOpenFiles": [
+    "rust程序设计第二版/06-表达式-思考.md",
+    "rust程序设计第二版/07-错误处理-思考.md",
+    "Rust 学习资源.md",
     "Rust初始环境.md",
     "rust程序设计第二版/10-枚举和模式匹配-思考.md",
     "rust程序设计第二版/09-结构体-思考.md",
-    "rust程序设计第二版/07-错误处理-思考.md",
     "rust程序设计第二版/08-Crate 和 Module.md",
     "未命名 5.md",
-    "rust程序设计第二版/06-表达式-思考.md",
     "rust程序设计第二版/06-表达式.md",
     "rust程序设计第二版/05-引用-思考.md",
     "rust程序设计第二版/05-引用.md",
@@ -207,7 +171,6 @@
     "rust程序设计第二版/03-基本类型-思考.md",
     "rust程序设计第二版/04-所有权.md",
     "未命名 4.md",
-    "Rust 学习资源.md",
     "rust程序设计第二版/03-基本类型.md",
     "RUST的一些资源.md",
     "rust程序设计第二版/01-为什么是rust.md",
