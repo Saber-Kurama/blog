@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/tailwindcss.md",
+                "file": "zustand/zustand.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/tailwindcss.md",
+                "file": "zustand/zustand.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,6 +126,7 @@
   },
   "active": "1d8672a30669061a",
   "lastOpenFiles": [
+    "CSS/tailwindcss.md",
     "nextjs/Angular之父为什么怼React？.md",
     "nextjs/nextjs 官方文档.md",
     "工作/交接.md",
@@ -152,7 +153,6 @@
     "前端工程化/changelog.md",
     "面试/面试的一些资料.md",
     "常见问题/axios 的get 数组问题.md",
-    "常见问题/字体问题的处理.md",
     "开源",
     "react",
     "编译思想和设计模式/编译原理哈工大",
