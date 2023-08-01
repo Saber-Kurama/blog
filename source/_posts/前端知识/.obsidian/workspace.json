@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "工作/交接.md",
+                "file": "vue3/admin.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nginx",
+                "query": "admin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,7 +77,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "工作/交接.md",
+                "file": "vue3/admin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,11 +127,11 @@
   },
   "active": "1d8672a30669061a",
   "lastOpenFiles": [
+    "工作/交接.md",
     "zustand/zustand.md",
     "CSS/tailwindcss.md",
     "nextjs/Angular之父为什么怼React？.md",
     "nextjs/nextjs 官方文档.md",
-    "工作/交接.md",
     "工作/入职指引.md",
     "vue3/UI组件库.md",
     "vue3/高阶组件.md",
