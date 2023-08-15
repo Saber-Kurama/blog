@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "java/java.md",
+                "file": "github/一些基本.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "java/java.md",
+                "file": "github/一些基本.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,8 +127,12 @@
   },
   "active": "e82c6efa0ae3c5c6",
   "lastOpenFiles": [
-    "前端工程化/changelog.md",
+    "nginx.md",
+    "github/一些基本.md",
+    "未命名 4.md",
+    "github",
     "java/java.md",
+    "前端工程化/changelog.md",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "java",
     "工作/交接.md",
@@ -153,9 +157,6 @@
     "编译思想和设计模式/如何快速学习一门语言.md",
     "编译思想和设计模式/编译原理哈工大/01-概念.md",
     "常见问题/TypeScript 的一些问题.md",
-    "未命名 3.md",
-    "未命名 2.md",
-    "组件问题/开发过程中 关于 UI的问题.md",
     "开源",
     "react",
     "编译思想和设计模式/编译原理哈工大",
@@ -167,7 +168,6 @@
     "zustand",
     "nextjs",
     "pwa",
-    "chatgpt",
     "未命名 1.canvas"
   ]
 }
