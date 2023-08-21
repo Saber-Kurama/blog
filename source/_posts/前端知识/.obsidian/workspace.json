@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "github/一些基本.md",
+                "file": "nextjs/nest通关秘籍/07-nest 通关秘籍.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "github/一些基本.md",
+                "file": "nextjs/nest通关秘籍/07-nest 通关秘籍.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,10 +125,14 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "42d03b7013090d6f",
+  "active": "e82c6efa0ae3c5c6",
   "lastOpenFiles": [
-    "nginx.md",
+    "nextjs/Angular之父为什么怼React？.md",
+    "nextjs/nest通关秘籍/07-nest 通关秘籍.md",
+    "nextjs/nest通关秘籍",
+    "nextjs/nextjs 官方文档.md",
     "github/一些基本.md",
+    "nginx.md",
     "未命名 4.md",
     "github",
     "java/java.md",
@@ -146,8 +150,6 @@
     "vue3/admin.md",
     "zustand/zustand.md",
     "CSS/tailwindcss.md",
-    "nextjs/Angular之父为什么怼React？.md",
-    "nextjs/nextjs 官方文档.md",
     "工作/入职指引.md",
     "vue3/UI组件库.md",
     "vue3/高阶组件.md",
@@ -155,8 +157,6 @@
     "vue3/温故而知新，浅入 Vue scoped 原理.md",
     "监控/前端监控.md",
     "编译思想和设计模式/如何快速学习一门语言.md",
-    "编译思想和设计模式/编译原理哈工大/01-概念.md",
-    "常见问题/TypeScript 的一些问题.md",
     "开源",
     "react",
     "编译思想和设计模式/编译原理哈工大",
@@ -167,7 +167,6 @@
     "一些课程的学习",
     "zustand",
     "nextjs",
-    "pwa",
     "未命名 1.canvas"
   ]
 }
