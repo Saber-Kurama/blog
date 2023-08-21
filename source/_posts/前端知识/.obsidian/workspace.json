@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nextjs/nest通关秘籍/07-nest 通关秘籍.md",
+                "file": "前端工程化/cli.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nextjs/nest通关秘籍/07-nest 通关秘籍.md",
+                "file": "前端工程化/cli.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,8 +127,11 @@
   },
   "active": "e82c6efa0ae3c5c6",
   "lastOpenFiles": [
-    "nextjs/Angular之父为什么怼React？.md",
+    "前端工程化/参考.md",
+    "前端工程化/cli.md",
+    "未命名 5.md",
     "nextjs/nest通关秘籍/07-nest 通关秘籍.md",
+    "nextjs/Angular之父为什么怼React？.md",
     "nextjs/nest通关秘籍",
     "nextjs/nextjs 官方文档.md",
     "github/一些基本.md",
@@ -142,7 +145,6 @@
     "工作/交接.md",
     "前端工程化/rollup.md",
     "前端工程化/Code Review.md",
-    "前端工程化/参考.md",
     "开源/未命名.md",
     "一些课程的学习/前端调试通关秘籍.md",
     "未命名 5.canvas",
@@ -156,7 +158,6 @@
     "vue3/在 Vue.js 3 中取得 Listeners.md",
     "vue3/温故而知新，浅入 Vue scoped 原理.md",
     "监控/前端监控.md",
-    "编译思想和设计模式/如何快速学习一门语言.md",
     "开源",
     "react",
     "编译思想和设计模式/编译原理哈工大",
