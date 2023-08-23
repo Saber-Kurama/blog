@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工程化/cli.md",
+                "file": "vue3/admin.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "okr",
+                "query": "admin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化/cli.md",
+                "file": "vue3/admin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,8 +128,9 @@
   },
   "active": "e82c6efa0ae3c5c6",
   "lastOpenFiles": [
-    "前端工程化/参考.md",
+    "未命名 6.canvas",
     "前端工程化/cli.md",
+    "前端工程化/参考.md",
     "未命名 5.md",
     "nextjs/nest通关秘籍/07-nest 通关秘籍.md",
     "nextjs/Angular之父为什么怼React？.md",
@@ -157,7 +159,6 @@
     "vue3/高阶组件.md",
     "vue3/在 Vue.js 3 中取得 Listeners.md",
     "vue3/温故而知新，浅入 Vue scoped 原理.md",
-    "监控/前端监控.md",
     "开源",
     "react",
     "编译思想和设计模式/编译原理哈工大",
