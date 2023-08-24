@@ -15,3 +15,22 @@ D3 具有强大的添加、删除和更新 HTML/SVG 元素的机制以称为选�
 ### D3 modules
 
 D3 拥有大量模块可帮助您构建数据可视化。我们涵盖本书中的以下 D3 模块（和概念）
+
+| 名称| 描述|
+|---|---|
+| Scale functions| 比例函数转换数据值（例如百分比）转化为视觉值（例如位置、大小或颜色)|
+|Data requests|数据请求|
+|Event handling| 事件处理让您可以响应点击和悬停来自用户|
+|Transitions|过渡让您可以对位置、大小和颜色进行动画处理HTML/SVG 元素的数量|
+
+### Third party libraries
+
+### Web development patterns
+
+##  你将构建什么
+
+在本书中，我们将构建一个名为 Energy Explorer 的交互式数据可视化显示 141 个国家的能源结构。您可以访问 https://d3-start-to finish-energy-explorer.surge.sh/4 访问实时版本。
+每个国家由4个圆圈代表，每个圆圈表示可再生能源的数量，一个国家生产的化石燃料、水力发电和核能。
+
+
+
