@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "D3 开始到结束/01 Introduction.md",
+                "file": "D3 开始到结束/02 能源探索者.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "D3 开始到结束/01 Introduction.md",
+                "file": "D3 开始到结束/02 能源探索者.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,8 +127,9 @@
   },
   "active": "e82c6efa0ae3c5c6",
   "lastOpenFiles": [
-    "fromily 的配置.md",
     "D3 开始到结束/01 Introduction.md",
+    "D3 开始到结束/02 能源探索者.md",
+    "fromily 的配置.md",
     "D3 开始到结束",
     "未命名 7.canvas",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
@@ -160,7 +161,6 @@
     "工作/入职指引.md",
     "vue3/UI组件库.md",
     "vue3/高阶组件.md",
-    "vue3/在 Vue.js 3 中取得 Listeners.md",
     "开源",
     "react",
     "编译思想和设计模式/编译原理哈工大",

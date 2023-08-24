@@ -29,7 +29,7 @@ D3 拥有大量模块可帮助您构建数据可视化。我们涵盖本书中�
 
 ##  你将构建什么
 
-在本书中，我们将构建一个名为 Energy Explorer 的交互式数据可视化显示 141 个国家的能源结构。您可以访问 https://d3-start-to finish-energy-explorer.surge.sh/4 访问实时版本。
+在本书中，我们将构建一个名为 Energy Explorer 的交互式数据可视化显示 141 个国家的能源结构。您可以访问 https://d3-start-to-finish-energy-explorer.surge.sh/  访问实时版本。
 每个国家由4个圆圈代表，每个圆圈表示可再生能源的数量，一个国家生产的化石燃料、水力发电和核能。
 
 
