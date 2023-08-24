@@ -7,8 +7,7 @@
 
 ## 图书
 https://zh.singlelogin.me/
-http://loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion/
-https://singlelogin.me/
+http://zh.loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion/
 
 
 
