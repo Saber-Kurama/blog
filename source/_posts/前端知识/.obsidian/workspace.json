@@ -11,8 +11,12 @@
             "id": "7a95910d5fc26435",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "编辑器相关/测试.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vue",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/关于 vue3 透传.md",
+                "file": "编辑器相关/测试.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,8 +112,19 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "12495da245cbde8b",
+  "active": "7a95910d5fc26435",
   "lastOpenFiles": [
+    "Pasted image 20220618180239.png",
+    "编辑器相关/测试.md",
+    "未命名 4.canvas",
+    "未命名.canvas",
+    "未命名 4.md",
+    "未命名 5.md",
+    "【前端安全】 csp-nonce.md",
+    "未命名 8.canvas",
+    "未命名 9.canvas",
+    "未命名 6.md",
+    "编辑器相关",
     "工作/入职指引.md",
     "D3 开始到结束/02 能源探索者.md",
     "D3 开始到结束/01 Introduction.md",
@@ -122,14 +136,12 @@
     "未命名 6.canvas",
     "前端工程化/cli.md",
     "前端工程化/参考.md",
-    "未命名 5.md",
     "nextjs/nest通关秘籍/07-nest 通关秘籍.md",
     "nextjs/Angular之父为什么怼React？.md",
     "nextjs/nest通关秘籍",
     "nextjs/nextjs 官方文档.md",
     "github/一些基本.md",
     "nginx.md",
-    "未命名 4.md",
     "github",
     "java/java.md",
     "前端工程化/changelog.md",
@@ -140,20 +152,13 @@
     "开源/未命名.md",
     "一些课程的学习/前端调试通关秘籍.md",
     "未命名 5.canvas",
-    "未命名 4.canvas",
-    "zustand/zustand.md",
-    "CSS/tailwindcss.md",
-    "vue3/UI组件库.md",
-    "vue3/高阶组件.md",
     "开源",
     "react",
     "编译思想和设计模式/编译原理哈工大",
     "codingnet",
     "未命名 3.canvas",
-    "未命名.canvas",
     "未命名 2.canvas",
     "一些课程的学习",
-    "zustand",
     "未命名 1.canvas"
   ]
 }
