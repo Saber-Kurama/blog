@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vite/vue  一些有趣的项目.md",
+                "file": "开源/一些开源项目.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tree",
+                "query": "正则",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vite/vue  一些有趣的项目.md",
+                "file": "开源/一些开源项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,10 +114,12 @@
   },
   "active": "7a95910d5fc26435",
   "lastOpenFiles": [
+    "未命名 1.canvas",
+    "未命名.canvas",
+    "vite/vue  一些有趣的项目.md",
     "编辑器相关/测试.md",
     "Pasted image 20220618180239.png",
     "未命名 4.canvas",
-    "未命名.canvas",
     "未命名 4.md",
     "未命名 5.md",
     "【前端安全】 csp-nonce.md",
@@ -151,7 +152,6 @@
     "前端工程化/rollup.md",
     "前端工程化/Code Review.md",
     "开源/未命名.md",
-    "一些课程的学习/前端调试通关秘籍.md",
     "未命名 5.canvas",
     "开源",
     "react",
@@ -159,7 +159,6 @@
     "codingnet",
     "未命名 3.canvas",
     "未命名 2.canvas",
-    "一些课程的学习",
-    "未命名 1.canvas"
+    "一些课程的学习"
   ]
 }
