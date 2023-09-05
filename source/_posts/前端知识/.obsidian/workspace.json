@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS级联层完整指南.md",
+                "file": "vue3/高阶组件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,8 +124,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "42d03b7013090d6f",
+  "active": "7a95910d5fc26435",
   "lastOpenFiles": [
+    "CSS级联层完整指南.md",
     "flutter",
     "开源/一些开源项目.md",
     "开源/未命名.md",
@@ -172,7 +172,6 @@
     "编译思想和设计模式/编译原理哈工大",
     "codingnet",
     "未命名 3.canvas",
-    "未命名 2.canvas",
-    "一些课程的学习"
+    "未命名 2.canvas"
   ]
 }
