@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "微前端/模块联邦.md",
+                "file": "开源/一些开源项目.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "正则",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "微前端/模块联邦.md",
+                "file": "开源/一些开源项目.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,13 +113,13 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "42d03b7013090d6f",
+  "active": "5dfd2802f79b16ad",
   "lastOpenFiles": [
+    "微前端/模块联邦.md",
     "微前端/模块联邦的原理.md",
     "未命名 6.canvas",
     "未命名 5.canvas",
     "vue3/admin.md",
-    "微前端/模块联邦.md",
     "flutter/wend.md",
     "未命名.canvas",
     "未命名",
