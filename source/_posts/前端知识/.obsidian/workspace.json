@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "D3 开始到结束/04 D3简介.md",
+                "file": "vue3/admin.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "D3 开始到结束/04 D3简介.md",
+                "file": "vue3/admin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,8 +115,8 @@
   },
   "active": "5dfd2802f79b16ad",
   "lastOpenFiles": [
-    "D3 开始到结束/03 实用：设置.md",
     "D3 开始到结束/04 D3简介.md",
+    "D3 开始到结束/03 实用：设置.md",
     "D3 开始到结束/02 能源探索者.md",
     "D3 开始到结束/01 Introduction.md",
     "vue3/admin.md",
