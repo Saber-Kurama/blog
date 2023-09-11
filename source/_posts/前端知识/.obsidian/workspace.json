@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "D3 开始到结束/02 能源探索者.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "D3 开始到结束/02 能源探索者.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,12 +114,13 @@
   },
   "active": "5dfd2802f79b16ad",
   "lastOpenFiles": [
+    "D3 开始到结束/01 Introduction.md",
+    "vue3/admin.md",
     "开源/一些开源项目.md",
     "微前端/模块联邦.md",
     "微前端/模块联邦的原理.md",
     "未命名 6.canvas",
     "未命名 5.canvas",
-    "vue3/admin.md",
     "flutter/wend.md",
     "未命名.canvas",
     "未命名",
@@ -147,7 +147,6 @@
     "编辑器相关",
     "工作/入职指引.md",
     "D3 开始到结束/02 能源探索者.md",
-    "D3 开始到结束/01 Introduction.md",
     "fromily 的配置.md",
     "D3 开始到结束",
     "未命名 7.canvas",
