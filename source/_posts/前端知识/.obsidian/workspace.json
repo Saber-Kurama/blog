@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "D3 开始到结束/03 实用：设置.md",
+                "file": "D3 开始到结束/04 D3简介.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "D3 开始到结束/03 实用：设置.md",
+                "file": "D3 开始到结束/04 D3简介.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,8 +114,9 @@
   },
   "active": "5dfd2802f79b16ad",
   "lastOpenFiles": [
-    "D3 开始到结束/02 能源探索者.md",
     "D3 开始到结束/03 实用：设置.md",
+    "D3 开始到结束/04 D3简介.md",
+    "D3 开始到结束/02 能源探索者.md",
     "D3 开始到结束/01 Introduction.md",
     "vue3/admin.md",
     "开源/一些开源项目.md",
@@ -154,7 +155,6 @@
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "前端工程化/cli.md",
     "前端工程化/参考.md",
-    "nextjs/nest通关秘籍/07-nest 通关秘籍.md",
     "nextjs/nest通关秘籍",
     "github",
     "java",
