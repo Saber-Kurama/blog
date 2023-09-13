@@ -48,3 +48,43 @@ s.attr(name, value);
 
 ### .classed
 
+您可以使用 .classed 在选择的元素中添加和删除类属性。语法是
+
+```js
+s.classed(className, value);
+```
+
+### text
+
+.text 方法允许您设置选择中每个元素的文本内容。它是通常用于选择 HTML 元素（例如 div、p 和 span）和 SVG 文本元素。语法是
+```js
+s.text(value);
+```
+
+## 多次更新
+
+.style、.attr、.classed 和 .text 方法可以链接在一起，从而允许您可以在一条语句中设置多个样式、属性和类。例如：
+
+```js
+d3.selectAll('circle')
+.attr('cx', 100)
+.attr('cy', 100)
+.attr('r', 50)
+.style('fill', 'red')
+.classed('item', true);
+```
+
+###  .select and .selectAll
+
+style、.attr、.classed 和 .text 方法可用于使用.select 和.selectAll。上面所有的例子都使用了.selectAll。如果使用.select，则仅将选择第一个匹配的元素。尝试将 .selectAll 更改为 .select CodePen 示例，您应该看到只有页面上的第一个元素被修改。
+
+## 链式选择
+
+您可以通过链接调用来选择另一个选择中的元素.select 和.selectAll。这个概念最好通过一个例子来解释。假设你有 HTML：
+
+
+```js
+d3.select('div.first')
+
+.selectAll('p');
+```

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "D3 开始到结束/07 D3 Seletions.md",
+                "file": "D3 开始到结束/08.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "D3 开始到结束/07 D3 Seletions.md",
+                "file": "D3 开始到结束/08.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,8 +127,9 @@
   },
   "active": "7f74de74d08e136b",
   "lastOpenFiles": [
-    "D3 开始到结束/06 实用：加载数据.md",
     "D3 开始到结束/07 D3 Seletions.md",
+    "D3 开始到结束/08.md",
+    "D3 开始到结束/06 实用：加载数据.md",
     "D3 开始到结束/05 使用 D3 请求数据.md",
     "three/一些demo地址.md",
     "icon.md",
@@ -163,7 +164,6 @@
     "Pasted image 20220618180239.png",
     "未命名 4.md",
     "未命名 5.md",
-    "【前端安全】 csp-nonce.md",
     "未命名 8.canvas",
     "未命名 9.canvas",
     "编辑器相关",
