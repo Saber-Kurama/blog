@@ -37,3 +37,14 @@ d3.select('circle');
 ```js
 s.style(property, value);
 ```
+
+### attr
+
+.attr 在选择中的每个元素上设置属性。语法是：
+
+```js
+s.attr(name, value);
+```
+
+### .classed
+
