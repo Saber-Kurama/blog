@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "admin",
+                "query": "tag:#af90ca：",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -125,7 +126,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "7f74de74d08e136b",
+  "active": "12495da245cbde8b",
   "lastOpenFiles": [
     "D3 开始到结束/07 D3 Seletions.md",
     "D3 开始到结束/08 数据连接.md",
