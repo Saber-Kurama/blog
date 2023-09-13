@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "D3 开始到结束/05 使用 D3 请求数据.md",
+                "file": "three/一些demo地址.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "D3 开始到结束/05 使用 D3 请求数据.md",
+                "file": "three/一些demo地址.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,8 +127,11 @@
   },
   "active": "7f74de74d08e136b",
   "lastOpenFiles": [
-    "未命名 1.md",
+    "icon.md",
+    "three/一些demo地址.md",
+    "three",
     "D3 开始到结束/05 使用 D3 请求数据.md",
+    "未命名 1.md",
     "vue3/admin.md",
     "D3 开始到结束/04 D3简介.md",
     "D3 开始到结束/03 实用：设置.md",
@@ -164,15 +167,12 @@
     "未命名 6.md",
     "编辑器相关",
     "工作/入职指引.md",
-    "fromily 的配置.md",
     "D3 开始到结束",
     "未命名 7.canvas",
-    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "nextjs/nest通关秘籍",
     "github",
     "java",
     "开源",
-    "react",
-    "编译思想和设计模式/编译原理哈工大"
+    "react"
   ]
 }
