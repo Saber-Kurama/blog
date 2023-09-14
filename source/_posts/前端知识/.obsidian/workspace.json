@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "D3 开始到结束/10 尺度函数.md",
+                "file": "nginx.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#af90ca：",
+                "query": "nginx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "D3 开始到结束/10 尺度函数.md",
+                "file": "nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,8 +128,8 @@
   },
   "active": "7f74de74d08e136b",
   "lastOpenFiles": [
-    "D3 开始到结束/09 实用：绘制数据.md",
     "D3 开始到结束/10 尺度函数.md",
+    "D3 开始到结束/09 实用：绘制数据.md",
     "D3 开始到结束/08 数据连接.md",
     "D3 开始到结束/07 D3 Seletions.md",
     "D3 开始到结束/06 实用：加载数据.md",
