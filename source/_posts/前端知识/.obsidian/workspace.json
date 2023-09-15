@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nginx.md",
+                "file": "图形学/canvas.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nginx.md",
+                "file": "图形学/canvas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,6 +106,16 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c20586da7dcf6fe3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -128,6 +137,8 @@
   },
   "active": "7f74de74d08e136b",
   "lastOpenFiles": [
+    "图形学/可视化.md",
+    "nginx.md",
     "D3 开始到结束/10 尺度函数.md",
     "D3 开始到结束/09 实用：绘制数据.md",
     "D3 开始到结束/08 数据连接.md",
@@ -162,8 +173,6 @@
     "vue3/未命名.md",
     "未命名.md",
     "未命名 1.canvas",
-    "vite/vue  一些有趣的项目.md",
-    "编辑器相关/测试.md",
     "Pasted image 20220618180239.png",
     "未命名 8.canvas",
     "未命名 9.canvas",
