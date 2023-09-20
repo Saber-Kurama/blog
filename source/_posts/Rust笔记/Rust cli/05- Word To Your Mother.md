@@ -43,3 +43,77 @@ $ wc tests/inputs/fox.txt
 
 如第 3 章中提到的，字节可能等同于 ASCII 字符，但 Unicode 字符可以占用多个字节。
 文件tests/inputs/atlamal.txt包含来自Atlamál hin groenlenzku或古挪威诗歌《Atli的格陵兰民谣》的第一节
+
+```sh
+$ cat tests/inputs/atlamal.txt
+Frétt hefir öld óvu, þá er endr of gerðu
+seggir samkundu, sú var nýt fæstum,
+æxtu einmæli, yggr var þeim síðan
+ok it sama sonum Gjúka, er váru sannráðnir.
+```
+
+根据 wc，该文件包含 4 行、29 个字、177 个字节
+```sh
+$ wc tests/inputs/atlamal.txt
+       4      29     177 tests/inputs/atlamal.txt
+```
+
+如果我只想要行数，我可以使用 -l 标志，并且只会显示该列
+
+```sh
+$ wc -l tests/inputs/atlamal.txt
+       4 tests/inputs/atlamal.txt
+```
+
+我可以类似地仅通过 -c 请求字节数或通过 -w 请求单词数，并且仅显示这两列
+
+```sh
+$ wc -w -c tests/inputs/atlamal.txt
+      29     177 tests/inputs/atlamal.txt
+```
+
+我可以使用 -m 标志请求字符数
+
+```sh
+$ wc -m tests/inputs/atlamal.txt
+     159 tests/inputs/atlamal.txt
+```
+
+如果您同时提供标志 -m 和 -c，则 wc 的 GNU 版本将显示字符和字节计数，但 BSD 版本将仅显示其中一个，后一个标志优先：
+
+```sh
+$ wc -cm tests/inputs/atlamal.txt 
+     159 tests/inputs/atlamal.txt
+$ wc -mc tests/inputs/atlamal.txt 
+     177 tests/inputs/atlamal.txt
+```
+
+请注意，无论 -wc 或 -cw 等标志的顺序如何，输出列始终按行、字和字节/字符排序
+
+```sh
+$ wc -cw tests/inputs/atlamal.txt
+      29     177 tests/inputs/atlamal.txt
+```
+
+如果没有提供位置参数，wc 将从 STDIN 读取并且不会打印文件名：
+
+```sh
+cat tests/inputs/atlamal.txt | wc -lc
+       4     173
+```
+
+wc 的 GNU 版本将理解文件名 - 表示 STDIN，并且它还提供长标志名称以及一些其他选项
+
+
+
+如果处理多个文件，两个版本都将以一总行结束，显示所有输入的行数、字数和字节数
+
+```sh
+$ wc tests/inputs/*.txt
+       4      29     177 tests/inputs/atlamal.txt
+       0       0       0 tests/inputs/empty.txt
+       1       9      48 tests/inputs/fox.txt
+       5      38     225 total
+```
+
+在处理文件时，会注意到不存在的文件并向 STDERR 发出警告
