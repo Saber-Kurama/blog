@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
+                "file": "Rust cli/02-Test for Echo.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
+                "file": "Rust cli/02-Test for Echo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
+                "file": "Rust cli/02-Test for Echo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust cli/01 - 真实或结果 Truth Or Consequences.md"
+                "file": "Rust cli/02-Test for Echo.md"
               }
             }
           }
@@ -156,6 +156,9 @@
   },
   "active": "2c192403d078ca3e",
   "lastOpenFiles": [
+    "Rust cli/03 - On The Catwalk.md",
+    "Rust cli/02-Test for Echo.md",
+    "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
     "Rust cli/00 - 前言.md",
     "rust程序设计第二版/11-Trait和泛型-思考.md",
     "rust程序设计第二版/09-结构体-思考.md",
@@ -179,9 +182,6 @@
     "rust程序设计第二版/00-前言.md",
     "rust程序设计第二版/02- Rust 之旅.md",
     "Rust cli/04 - Head Aches.md",
-    "Rust cli/03 - On The Catwalk.md",
-    "Rust cli/02-Test for Echo.md",
-    "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
     "未命名.canvas",
     "未命名 4.canvas",
     "Pasted image 20221026204959.png",
