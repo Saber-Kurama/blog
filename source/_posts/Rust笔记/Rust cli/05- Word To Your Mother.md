@@ -117,3 +117,29 @@ $ wc tests/inputs/*.txt
 ```
 
 在处理文件时，会注意到不存在的文件并向 STDERR 发出警告
+
+```sh
+$ wc tests/inputs/fox.txt blargh tests/inputs/atlamal.txt
+       1       9      48 tests/inputs/fox.txt
+wc: blargh: open: No such file or directory
+       4      29     177 tests/inputs/atlamal.txt
+       5      38     225 total
+```
+
+我还可以在 bash 中重定向文件句柄 2，以验证 wc 是否将警告打印到 STDERR
+
+```sh
+$ wc tests/inputs/fox.txt blargh tests/inputs/atlamal.txt 2>err 
+       1       9      48 tests/inputs/fox.txt
+       4      29     177 tests/inputs/atlamal.txt
+       5      38     225 total
+$ cat err 
+wc: blargh: open: No such file or directory
+```
+
+
+述行为与挑战计划预期实施的行为一样多。有一个广泛的测试套件可以一路为您提供帮助
+
+## Getting Started 开始
+
+
