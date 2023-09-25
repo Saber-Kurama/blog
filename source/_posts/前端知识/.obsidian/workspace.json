@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue3/admin.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f74de74d08e136b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "微前端/micro-app 的vite 和 vue3.md",
+                "file": "图形学/flow 工作流.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "虚拟",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "微前端/micro-app 的vite 和 vue3.md",
+                "file": "图形学/flow 工作流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,8 +122,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "7f74de74d08e136b",
+  "active": "5dfd2802f79b16ad",
   "lastOpenFiles": [
+    "vue3/admin.md",
+    "图形学/flow 工作流.md",
+    "未命名 7.canvas",
+    "一些课程的学习/基于 Vite 的组件库工程化实战.md",
     "微前端/micro-app 的vite 和 vue3.md",
     "图形学/canvas.md",
     "图形学/可视化.md",
@@ -152,7 +142,6 @@
     "icon.md",
     "three",
     "未命名 1.md",
-    "vue3/admin.md",
     "D3 开始到结束/04 D3简介.md",
     "D3 开始到结束/03 实用：设置.md",
     "D3 开始到结束/02 能源探索者.md",
@@ -170,16 +159,13 @@
     "CSS级联层完整指南.md",
     "未命名 3.canvas",
     "未命名 2.canvas",
-    "vue3/高阶组件.md",
     "flutter",
-    "开源/未命名.md",
     "未命名 1.canvas",
     "Pasted image 20220618180239.png",
     "未命名 8.canvas",
     "未命名 9.canvas",
     "编辑器相关",
     "D3 开始到结束",
-    "未命名 7.canvas",
     "nextjs/nest通关秘籍",
     "github",
     "java",
