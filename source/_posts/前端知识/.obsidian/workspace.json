@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "D3 开始到结束/12. 基于Web的架构数据可视化.md",
+                "file": "D3 开始到结束/17. 有关 D3 选择的更多信息.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "D3 开始到结束/12. 基于Web的架构数据可视化.md",
+                "file": "D3 开始到结束/17. 有关 D3 选择的更多信息.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,8 +124,13 @@
   },
   "active": "5dfd2802f79b16ad",
   "lastOpenFiles": [
-    "D3 开始到结束/11 实用：调整圆圈大小.md",
+    "D3 开始到结束/16. 到目前为止的构建.md",
+    "D3 开始到结束/17. 有关 D3 选择的更多信息.md",
+    "D3 开始到结束/15. 实用：整理数据.md",
+    "D3 开始到结束/14. 在网格中排列项目.md",
+    "D3 开始到结束/13.实用：添加模块.md",
     "D3 开始到结束/12. 基于Web的架构数据可视化.md",
+    "D3 开始到结束/11 实用：调整圆圈大小.md",
     "D3 开始到结束/10 尺度函数.md",
     "D3 开始到结束/09 实用：绘制数据.md",
     "D3 开始到结束/08 数据连接.md",
@@ -147,11 +152,6 @@
     "icon.md",
     "three",
     "未命名 1.md",
-    "D3 开始到结束/04 D3简介.md",
-    "D3 开始到结束/03 实用：设置.md",
-    "D3 开始到结束/02 能源探索者.md",
-    "D3 开始到结束/01 Introduction.md",
-    "开源/一些开源项目.md",
     "未命名 6.canvas",
     "未命名 5.canvas",
     "未命名.canvas",
