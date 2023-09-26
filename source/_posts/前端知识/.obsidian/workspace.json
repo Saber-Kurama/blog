@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "D3 开始到结束/17. 有关 D3 选择的更多信息.md",
+                "file": "D3.js in Action/1 D3.js简介.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "D3 开始到结束/17. 有关 D3 选择的更多信息.md",
+                "file": "D3.js in Action/1 D3.js简介.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,13 +124,17 @@
   },
   "active": "5dfd2802f79b16ad",
   "lastOpenFiles": [
+    "fromily 的配置.md",
+    "D3.js in Action/1 D3.js简介.md",
+    "D3.js in Action",
+    "D3 开始到结束/18. 有关 D3 连接的更多信息.md",
+    "D3 开始到结束/17. 有关 D3 选择的更多信息.md",
     "D3 开始到结束/08 数据连接.md",
     "D3 开始到结束/07 D3 Seletions.md",
     "D3 开始到结束/05 使用 D3 请求数据.md",
     "D3 开始到结束/06 实用：加载数据.md",
     "D3 开始到结束/04 D3简介.md",
     "D3 开始到结束/03 实用：设置.md",
-    "D3 开始到结束/17. 有关 D3 选择的更多信息.md",
     "D3 开始到结束/16. 到目前为止的构建.md",
     "D3 开始到结束/15. 实用：整理数据.md",
     "D3 开始到结束/14. 在网格中排列项目.md",
@@ -148,9 +152,6 @@
     "vue3/admin.md",
     "未命名 7.canvas",
     "一些课程的学习/基于 Vite 的组件库工程化实战.md",
-    "微前端/micro-app 的vite 和 vue3.md",
-    "nginx.md",
-    "three/一些demo地址.md",
     "three",
     "未命名 6.canvas",
     "未命名 5.canvas",
@@ -169,7 +170,6 @@
     "nextjs/nest通关秘籍",
     "github",
     "java",
-    "开源",
-    "react"
+    "开源"
   ]
 }
