@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+                "file": "rui.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+                "file": "rui.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +124,9 @@
   },
   "active": "5dfd2802f79b16ad",
   "lastOpenFiles": [
+    "编辑器相关/测试.md",
+    "未命名 8.canvas",
+    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "D3.js in Action/1 D3.js简介.md",
     "fromily 的配置.md",
     "D3.js in Action",
@@ -150,9 +152,7 @@
     "图形学/flow 工作流.md",
     "编辑器相关/编辑器相关.md",
     "图形学/echart.md",
-    "vue3/admin.md",
     "未命名 7.canvas",
-    "一些课程的学习/基于 Vite 的组件库工程化实战.md",
     "three",
     "未命名 6.canvas",
     "未命名 5.canvas",
@@ -164,7 +164,6 @@
     "flutter",
     "未命名 1.canvas",
     "Pasted image 20220618180239.png",
-    "未命名 8.canvas",
     "未命名 9.canvas",
     "编辑器相关",
     "D3 开始到结束",
