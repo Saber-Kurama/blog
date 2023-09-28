@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rui.md",
+                "file": "vue3/admin.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "图书",
+                "query": "admin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rui.md",
+                "file": "vue3/admin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +125,8 @@
   },
   "active": "5dfd2802f79b16ad",
   "lastOpenFiles": [
+    "组件问题/前端基建.md",
+    "rui.md",
     "编辑器相关/测试.md",
     "未命名 8.canvas",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
@@ -150,8 +153,6 @@
     "图形学/可视化.md",
     "图形学/3d.md",
     "图形学/flow 工作流.md",
-    "编辑器相关/编辑器相关.md",
-    "图形学/echart.md",
     "未命名 7.canvas",
     "three",
     "未命名 6.canvas",
