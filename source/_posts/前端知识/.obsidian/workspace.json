@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/css 灵感.md",
+                "file": "低代码/拖拽.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/css 灵感.md",
+                "file": "低代码/拖拽.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,8 +124,9 @@
   },
   "active": "5dfd2802f79b16ad",
   "lastOpenFiles": [
-    "vue3/admin.md",
     "CSS/css 灵感.md",
+    "低代码/拖拽.md",
+    "vue3/admin.md",
     "组件问题/前端基建.md",
     "rui.md",
     "编辑器相关/测试.md",
@@ -151,7 +152,6 @@
     "D3 开始到结束/10 尺度函数.md",
     "D3 开始到结束/09 实用：绘制数据.md",
     "图形学/canvas.md",
-    "图形学/可视化.md",
     "未命名 7.canvas",
     "three",
     "未命名 6.canvas",
