@@ -338,7 +338,7 @@ pub fn get_args() -> MyResult<Config> {
         chars = false;
     }
     Ok(Config {
-        files: vec![],
+        files: matches.values_of_lossy("files").unwrap(),
         lines,
         words,
         bytes,
@@ -346,3 +346,29 @@ pub fn get_args() -> MyResult<Config> {
     })
 }
 ```
+
+我想强调的是，我创建了一个包含所有标志的切片，并调用 slice::iter 方法来创建迭代器。
+这样我就可以使用 Iterator::all 函数来查找是否所有值都为 false。
+此方法需要一个闭包，它是一个匿名函数，可以作为参数传递给另一个函数。
+在这里，闭包是一个谓词或一个测试，用于确定元素是否为假。
+我想知道是否所有标志都为 false，因此对每个标志的引用都会作为闭包的参数传递。
+这些值是引用，因此我必须将每个值与 &false 进行比较，后者是对布尔值的引用。
+如果所有评估都为 true，则 Iterator::all 将返回 true
+
+> 采用闭包的迭代器方法
+> 您应该花一些时间阅读 Iterator 文档，以注意使用闭包作为参数来选择、测试或转换元素的其他方法，包括
+> * 如果某项闭包的一次评估返回 true，则 Iterator::any 将返回 true。
+> * Iterator::filter 将查找谓词为 true 的所有元素。
+> * Iterator::map 将对每个元素应用闭包，并返回带有转换后的元素的 std::iter::Map
+> * Iterator::find 将返回满足谓词 Some(value) 的迭代器的第一个元素，如果所有元素的计算结果均为 false，则返回 None。
+> * Iterator::position 将返回满足谓词的第一个元素的索引，如 Some(value) 或 None（如果所有元素计算结果为 false）。
+> * Iterator::cmp、Iterator::min_by 和 Iterator::max_by 具有接受项目对进行比较的谓词，以分别找到最小值和最大值。
+
+## 迭代文件
+
+现在开始计数。您可以从处理每个文件、计算各个位并打印所需的列开始。我建议您再次使用第 2 章中的 open 函数来打开文件：
+
+
+
+
+
