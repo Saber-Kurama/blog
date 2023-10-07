@@ -189,3 +189,86 @@ pub struct Config {
 ```
 
 这是您开始使用时需要的两个功能。我会让你填写这个骨架的 get_args：
+
+```rust
+pub fn get_args() -> MyResult<Config> {
+  let matches = App::new("wcr").version("0.1.0").author("saber").about("这是一个wc的复制版本").get_matches();
+  Ok(Config { files: vec![], lines: false, words: false, bytes: false, chars: false })
+}
+```
+
+我建议您通过打印配置来开始运行:
+
+```rust
+pub fn run(config: Config) -> MyResult<()> {
+  println!("config: {:?}", config);
+  Ok(())
+}
+```
+
+尝试让您的程序生成如下所示的 --help 输出：
+
+```sh
+$ cargo run -- --help
+wcr 0.1.0
+Ken Youens-Clark <kyclark@gmail.com>
+Rust wc
+
+USAGE:
+    wcr [FLAGS] [FILE]...
+
+FLAGS:
+    -c, --bytes      Show byte count
+    -m, --chars      Show character count
+    -h, --help       Prints help information
+    -l, --lines      Show line count
+    -V, --version    Prints version information
+    -w, --words      Show word count
+
+ARGS:
+    <FILE>...    Input file(s) [default: -]
+```
+
+我有点担心是否要模仿 BSD 或 GNU 版本的 wc 来组合 -m（字符）和 -c（字节）标志。我决定使用 BSD 行为，因此您的程序应该禁止同时使用这两个标志：
+
+```sh
+ cargo run -- -cm tests/inputs/fox.txt
+error: The argument '--bytes' cannot be used with '--chars'
+
+USAGE:
+    wcr --bytes --chars
+```
+
+默认行为是打印行、单词和字节，这意味着当用户没有明确请求时，配置中的这些值应该为 true。确保您的程序将打印此内容：
+
+```sh
+$ cargo run -- tests/inputs/fox.txt
+Config {
+    files: [ 
+        "tests/inputs/fox.txt",
+    ],
+    lines: true,
+    words: true,
+    bytes: true,
+    chars: false, 
+}
+```
+
+如果存在任何一个标志，那么所有其他未提及的标志都应该是假的
+
+```sh
+$ cargo run -- -l tests/inputs/*.txt 
+Config {
+    files: [
+        "tests/inputs/atlamal.txt",
+        "tests/inputs/empty.txt",
+        "tests/inputs/fox.txt",
+    ],
+    lines: true, 
+    words: false,
+    bytes: false,
+    chars: false,
+}
+```
+
+停在这里并开始工作。我的狗需要洗澡，所以我马上回来。
