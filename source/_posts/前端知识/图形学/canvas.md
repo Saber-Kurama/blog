@@ -14,6 +14,8 @@ https://github.com/chinaBerg/awesome-canvas
 
 [如何自定义 drag 样式](https://segmentfault.com/a/1190000041881296)
 
+如何自定义drag的样式呢？ 隐藏原来 image ，然后创建一个clone demo
+
 ![[Pasted image 20221115113547.png]]
 
 
