@@ -171,3 +171,21 @@ fn main() {
 ```
 
 以下是 src/lib.rs 的框架，您可以复制。首先，我将如何定义 Config 来表示命令行参数：
+
+```rust
+use clap::{App, Arg};
+use std::error::Error;
+
+type MyResult<T> = Result<T, Box<dyn Error>>;
+
+#[derive(Debug)]
+pub struct Config {
+  files: Vec<String>,
+  lines: bool,
+  words: bool,
+  bytes: bool,
+  chars: bool,
+}
+```
+
+这是您开始使用时需要的两个功能。我会让你填写这个骨架的 get_args：
