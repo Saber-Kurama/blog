@@ -371,7 +371,7 @@ pub fn get_args() -> MyResult<Config> {
 ```rust
 fn open(filename: &str) -> MyResult<Box<dyn BufRead>> {
   match filename {
-      "_" => Ok(Box::new(BufReader::new(io::stdin()))),
+      "-" => Ok(Box::new(BufReader::new(io::stdin()))),
       _ => Ok(Box::new(BufReader::new(File::open(filename)?)))
   }
 }
@@ -399,6 +399,48 @@ pub fn run(config: Config) -> MyResult<()> {
 
 使用打开的文件句柄，尽可能简单地使用空文件开始，并确保您的程序为行、字和字节三列打印零：
 
+```sh 
+$ cargo run -- tests/inputs/empty.txt
+       0       0       0 tests/inputs/empty.txt
+```
 
+接下来使用tests/inputs/fox.txt并确保获得以下计数。我特地添加了各种类型和数量的空格来挑战你如何将文本拆分为单词:
 
+```sh
+$ cargo run -- tests/inputs/fox.txt
+       1       9      48 tests/inputs/fox.txt
+```
 
+确保你的程序可以正确处理tests/inputs/atlamal.txt中的Unicode
+
+```sh
+$ cargo run -- tests/inputs/atlamal.txt
+       4      29     177 tests/inputs/atlamal.txt
+```
+
+并且你正确地计算了字符：
+
+```sh
+$ cargo run -- tests/inputs/atlamal.txt -wml
+       4      29     159 tests/inputs/atlamal.txt
+
+```
+
+当您可以处理任何一个文件时，请使用多个文件来检查是否打印了正确的总列：
+
+```sh
+$ cargo run -- tests/inputs/*.txt
+       4      29     177 tests/inputs/atlamal.txt
+       0       0       0 tests/inputs/empty.txt
+       1       9      48 tests/inputs/fox.txt
+       5      38     225 total
+```
+
+当一切正常后，尝试从 STDIN 读取
+
+```sh
+$ cat tests/inputs/atlamal.txt | cargo run
+       4      29     177
+```
+
+经常进行`cargo test`，看看进展如何。在通过所有测试之前，请不要继续阅读。
