@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "CSS/css 灵感.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "16802354269226e4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.14"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "CSS/css 灵感.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,8 +122,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "16802354269226e4",
+  "active": "5dfd2802f79b16ad",
   "lastOpenFiles": [
+    "vue3/admin.md",
+    "CSS/css 灵感.md",
     "组件问题/前端基建.md",
     "rui.md",
     "编辑器相关/测试.md",
@@ -162,8 +152,6 @@
     "D3 开始到结束/09 实用：绘制数据.md",
     "图形学/canvas.md",
     "图形学/可视化.md",
-    "图形学/3d.md",
-    "图形学/flow 工作流.md",
     "未命名 7.canvas",
     "three",
     "未命名 6.canvas",
