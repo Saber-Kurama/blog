@@ -12,6 +12,8 @@ https://github.com/chinaBerg/awesome-canvas
 [## 拖拽献祭中的黑山羊-DataTransfer对象](https://www.zhangxinxu.com/wordpress/2018/09/drag-drop-datatransfer-js/)
 [## HTML5 drag & drop 拖拽与拖放简介](https://www.zhangxinxu.com/wordpress/2011/02/html5-drag-drop-%e6%8b%96%e6%8b%bd%e4%b8%8e%e6%8b%96%e6%94%be%e7%ae%80%e4%bb%8b/)
 
+[如何自定义 drag 样式](https://segmentfault.com/a/1190000041881296)
+
 ![[Pasted image 20221115113547.png]]
 
 
