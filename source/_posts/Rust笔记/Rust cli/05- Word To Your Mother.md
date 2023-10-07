@@ -463,6 +463,48 @@ pub struct  FileInfo {
 }
 ```
 
-为了表示该函数可能成功或失败，它将返回一个 MyResult<FileInfo>，这意味着成功时它将返回 Ok<FileInfo>，失败时它将返回 Err。为了启动这个函数，我将初始化一些可变变量来计算所有元素并返回一个 FileInfo 结构：
+为了表示该函数可能成功或失败，它将返回一个 `MyResult<FileInfo>`，这意味着成功时它将返回 `Ok<FileInfo>`，失败时它将返回 Err。为了启动这个函数，我将初始化一些可变变量来计算所有元素并返回一个 FileInfo 结构：
+
+``` rust 
+pub fn count(mut file: impl BufRead) -> MyResult<FileInfo> {
+  Ok(FileInfo { num_lines: 0, num_words: 0, num_bytes: 0, num_chars: 0 })
+}
+```
+
+> 我引入 impl 关键字来指示文件值必须实现 BufRead 特征。回想一下，open 返回一个满足此条件的值。您很快就会看到这如何使该功能变得灵活。
 
 
+在第 3 章中，我展示了如何编写单元测试，将其放在正在测试的函数之后。我将为 count 函数创建一个单元测试，但这一次我将把它放在一个名为测试的模块中。这是一种对单元测试进行分组的简洁方法，我可以使用一个配置选项来告诉 Rust 仅在测试期间编译模块。
+这特别有用，因为我想在测试中使用 std::io::Cursor 为 count 函数创建一个假文件句柄。
+当我在不测试的情况下构建和运行程序时，不会包含该模块。
+
+“Cursor”与内存缓冲区（任何实现 `AsRef<[u8]>` 的东西一起使用），以允许它们实现读取和/或写入，允许这些缓冲区在您可能使用执行实际操作的读取器或写入器的任何地方使用。 /O。”
+以下是我如何创建测试模块，然后导入并测试计数函数
+
+使用`cargo test test_count` 运行此测试。您将看到 Rust 编译器发出的许多关于未使用的变量或不需要可变的变量的警告。最重要的结果是测试失败：
+
+```sh
+running 1 test
+test tests::test_count ... FAILED
+
+failures:
+
+---- tests::test_count stdout ----
+thread 'tests::test_count' panicked at 'assertion failed: `(left == right)`
+  left: `FileInfo { num_lines: 0, num_words: 0, num_bytes: 0, num_chars: 0 }`,
+ right: `FileInfo { num_lines: 1, num_words: 10, num_bytes: 48, num_chars: 48 }`', src/lib.rs:124:9
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+
+failures:
+    tests::test_count
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+error: test failed, to rerun pass `--lib`
+```
+
+花一些时间编写将通过此测试的计数函数的其余部分。我会带着我那干干净净的狗去散步，也许还会喝点茶。
+
+好的，我们回来了。现在我将向您展示我是如何编写计数函数的。
+我从第 3 章知道 BufRead::lines 会删除行结尾，但我不希望这样做，因为 Windows 文件中的换行符是两个字节 (\r\n)，但 Unix 换行符只是一个字节 (\n)。我可以复制第 3 章中的一些代码，使用 BufRead::read_line 将每一行读入缓冲区。方便的是，这个函数告诉我已经从文件中读取了多少字节：
