@@ -154,4 +154,18 @@ predicates = "1"
 rand = "0.8"
 ```
 
+将我的 05_wcr/tests 目录复制到您的新项目中并运行 Cargo test 以执行初始构建并运行测试，所有这些都应该失败。有时我可能是一个相当缺乏想象力的人，所以我将继续对 src/main.rs 使用我在之前的程序中使用的相同结构：
 
+```rust
+fn main() {
+
+	if let Err(e) = wcr::get_args().and_then(wcr::run) {
+	
+	eprintln!("{}", e);
+	
+	std::process::exit(1);
+	
+	}
+
+}
+```
