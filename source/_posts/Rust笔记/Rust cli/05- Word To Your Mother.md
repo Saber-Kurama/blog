@@ -444,3 +444,25 @@ $ cat tests/inputs/atlamal.txt | cargo run
 ```
 
 经常进行`cargo test`，看看进展如何。在通过所有测试之前，请不要继续阅读。
+
+## 解决方案
+
+我想向您介绍我是如何得出解决方案的，并且我想强调的是，我的方法只是编写此程序的多种可能方法之一。只要您的代码通过测试并产生与 BSD 版本的 wc 相同的输出，那么它就可以正常工作，您应该为自己的成就感到自豪。
+
+### 计算文件或 STDIN 的元素
+
+我建议您首先迭代文件名并打印文件的计数。为此，我决定创建一个名为 count 的函数，它接受一个文件句柄，并可能返回一个名为 FileInfo 的结构，其中包含行数、单词数、字节数和字符数，每个都表示为 usize。我说该函数可能会返回这个结构体，因为该函数将涉及 IO，这可能会出现偏差。我将以下定义放在 Config 结构之后。出于我稍后将解释的原因，除了 Debug 之外，还必须派生出 PartialEq 特征：
+
+```rust
+#[derive(Debug, PartialEq)]
+pub struct  FileInfo {
+  num_lines: usize,
+  num_words: usize,
+  num_bytes: usize,
+  num_chars: usize,
+}
+```
+
+为了表示该函数可能成功或失败，它将返回一个 MyResult<FileInfo>，这意味着成功时它将返回 Ok<FileInfo>，失败时它将返回 Err。为了启动这个函数，我将初始化一些可变变量来计算所有元素并返回一个 FileInfo 结构：
+
+
