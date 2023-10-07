@@ -16,6 +16,8 @@ https://github.com/chinaBerg/awesome-canvas
 
 如何自定义drag的样式呢？ 隐藏原来 image ，然后创建一个clone demo
 
+或者模拟拖拽事件
+
 ![[Pasted image 20221115113547.png]]
 
 
