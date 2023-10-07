@@ -272,3 +272,77 @@ Config {
 ```
 
 停在这里并开始工作。我的狗需要洗澡，所以我马上回来。
+
+```rust
+pub fn get_args() -> MyResult<Config> {
+    let matches = App::new("wcr")
+        .version("0.1.0")
+        .author("saber")
+        .about("这是一个wc的复制版本")
+        .arg(
+            Arg::with_name("files")
+                .value_name("FILE")
+                .help("输入文件")
+                .default_value("-")
+                .min_values(1),
+        )
+        .arg(
+            Arg::with_name("lines")
+                .value_name("LINES")
+                .help("显示行数")
+                .takes_value(false)
+                .short("l")
+                .long("lines"),
+        )
+        .arg(
+            Arg::with_name("words")
+                .value_name("WORDS")
+                .help("显示单词数")
+                .takes_value(false)
+                .short("w")
+                .long("words"),
+        )
+        .arg(
+            Arg::with_name("bytes")
+                .value_name("BYTES")
+                .help("显示字节数")
+                .takes_value(false)
+                .short("c")
+                .long("bytes"),
+        )
+        .arg(
+            Arg::with_name("chars")
+                .value_name("CHARS")
+                .help("显示字符数")
+                .takes_value(false)
+                .short("m")
+                .long("chars")
+                .conflicts_with("bytes"),
+        )
+        .get_matches();
+    let mut lines = matches.is_present("lines");
+    let mut words = matches.is_present("words");
+    let mut bytes = matches.is_present("bytes");
+    let mut chars = matches.is_present("chars");
+    // if lines == false && words == false && bytes == false && chars == false  {
+    //   println!("lines is false");
+    //   lines = true;
+    //   words = true;
+    //   bytes = true;
+    //   chars = false;
+    // }
+    if [lines, words, bytes, chars].iter().all(|v| v == &false) {
+        lines = true;
+        words = true;
+        bytes = true;
+        chars = false;
+    }
+    Ok(Config {
+        files: vec![],
+        lines,
+        words,
+        bytes,
+        chars,
+    })
+}
+```
