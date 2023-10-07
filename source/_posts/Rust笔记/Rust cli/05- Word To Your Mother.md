@@ -368,6 +368,36 @@ pub fn get_args() -> MyResult<Config> {
 
 现在开始计数。您可以从处理每个文件、计算各个位并打印所需的列开始。我建议您再次使用第 2 章中的 open 函数来打开文件：
 
+```rust
+fn open(filename: &str) -> MyResult<Box<dyn BufRead>> {
+  match filename {
+      "_" => Ok(Box::new(BufReader::new(io::stdin()))),
+      _ => Ok(Box::new(BufReader::new(File::open(filename)?)))
+  }
+}
+```
+
+```rust
+use clap::{App, Arg};
+use std::error::Error;
+use std::fs::File;
+use std::io::{self, BufRead, BufReader};
+```
+
+```rust
+pub fn run(config: Config) -> MyResult<()> {
+    println!("config: {:?}", config);
+    for filename in &config.files  {
+        match open(filename) {
+            Err(err) => eprintln!("{}: {}", filename, err),
+            Ok(_file) => println!("Opened: {}", filename)
+        }
+    }
+    Ok(())
+}
+```
+
+使用打开的文件句柄，尽可能简单地使用空文件开始，并确保您的程序为行、字和字节三列打印零：
 
 
 
