@@ -144,3 +144,14 @@ wc: blargh: open: No such file or directory
 
 
 我们的 Rust 版本的 wc 挑战计划应该被称为 wcr（发音为 wick-er）。使用`cargo new wcr`启动，然后修改`Cargo.toml`以添加以下依赖项
+```yaml
+[dependencies]
+clap = "2.33"
+
+[dev-dependencies]
+assert_cmd = "1"
+predicates = "1"
+rand = "0.8"
+```
+
+
