@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "低代码/拖拽.md",
+                "file": "flow/教程.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "低代码/拖拽.md",
+                "file": "flow/教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,8 +124,11 @@
   },
   "active": "5dfd2802f79b16ad",
   "lastOpenFiles": [
-    "CSS/css 灵感.md",
+    "fromily 的配置.md",
+    "flow/教程.md",
+    "flow",
     "低代码/拖拽.md",
+    "CSS/css 灵感.md",
     "vue3/admin.md",
     "组件问题/前端基建.md",
     "rui.md",
@@ -133,7 +136,6 @@
     "未命名 8.canvas",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "D3.js in Action/1 D3.js简介.md",
-    "fromily 的配置.md",
     "D3.js in Action",
     "D3 开始到结束/18. 有关 D3 连接的更多信息.md",
     "D3 开始到结束/17. 有关 D3 选择的更多信息.md",
@@ -151,7 +153,6 @@
     "D3 开始到结束/11 实用：调整圆圈大小.md",
     "D3 开始到结束/10 尺度函数.md",
     "D3 开始到结束/09 实用：绘制数据.md",
-    "图形学/canvas.md",
     "未命名 7.canvas",
     "three",
     "未命名 6.canvas",
@@ -169,7 +170,6 @@
     "D3 开始到结束",
     "nextjs/nest通关秘籍",
     "github",
-    "java",
-    "开源"
+    "java"
   ]
 }
