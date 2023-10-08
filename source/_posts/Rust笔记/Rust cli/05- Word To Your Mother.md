@@ -535,5 +535,52 @@ pub fn count(mut file: impl BufRead) -> MyResult<FileInfo> {
 
 通过这些更改，test_count 通过了。我想看看它是什么样子，所以我可以更改 run 以打印成功计算文件元素的结果，或者在无法打开文件时向 STDERR 打印警告：
 
+```rust
+pub fn run(config: Config) -> MyResult<()> {
+    println!("config: {:?}", config);
+    for filename in &config.files  {
+        match open(filename) {
+            Err(err) => eprintln!("{}: {}", filename, err),
+            Ok(_file) => {
+              println!("Opened: {}", filename);
+              if let Ok(info) = count(_file) {
+                println!("{:?}", info)
+              }
+            }
+        }
+    }
+    Ok(())
+}
+```
+
+```sh
+❯ cargo run -- tests/inputs/empty.txt
+Opened: tests/inputs/one.txt
+FileInfo { num_lines: 1, num_words: 4, num_bytes: 23, num_chars: 22 }
+```
+
+### 格式化输出
+
+为了创建预期的输出，我可以首先将运行更改为始终打印行、单词和字节，后跟文件名
+
+```rust
+pub fn run(config: Config) -> MyResult<()> {
+    println!("config: {:?}", config);
+    for filename in &config.files  {
+        match open(filename) {
+            Err(err) => eprintln!("{}: {}", filename, err),
+            Ok(_file) => {
+              if let Ok(info) = count(_file) {
+                println!("{:>8}{:>8}{:>8} {}", info.num_lines, info.num_words, info.num_bytes, filename)
+              }
+            }
+        }
+    }
+    Ok(())
+}
+```
+
+If I run `cargo test fox`, I pass one out of eight tests.Huzzah!
+
 
 
