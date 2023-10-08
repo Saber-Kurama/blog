@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust cli/05- Word To Your Mother.md",
+                "file": "Rust cli/04 - Head Aches.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust cli/05- Word To Your Mother.md",
+                "file": "Rust cli/04 - Head Aches.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust cli/05- Word To Your Mother.md",
+                "file": "Rust cli/04 - Head Aches.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust cli/05- Word To Your Mother.md"
+                "file": "Rust cli/04 - Head Aches.md"
               }
             }
           }
@@ -156,12 +156,12 @@
   },
   "active": "df7379d581b395b8",
   "lastOpenFiles": [
-    "Rust cli/04 - Head Aches.md",
     "Rust cli/05- Word To Your Mother.md",
     "Rust cli/03 - On The Catwalk.md",
     "Rust cli/02-Test for Echo.md",
     "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
     "Rust cli/00 - 前言.md",
+    "Rust cli/04 - Head Aches.md",
     "rust程序设计第二版/11-Trait和泛型-思考.md",
     "rust程序设计第二版/09-结构体-思考.md",
     "rust程序设计第二版/10-枚举和模式匹配-思考.md",

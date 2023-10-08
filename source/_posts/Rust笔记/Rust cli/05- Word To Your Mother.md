@@ -717,4 +717,81 @@ fn test_all() -> TestResult {
 }
 ```
 
+如果我使用所有输入文件运行当前程序，我会发现我缺少总行
+```sh
+❯ cargo run -- tests/inputs/*.txt
+   Compiling wcr v0.1.0 (/Users/saber/coding/rust/command-line-rust/05_wcr/wcr)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.59s
+     Running `target/debug/wcr tests/inputs/atlamal.txt tests/inputs/empty.txt tests/inputs/fox.txt`
+       4      29     177 tests/inputs/atlamal.txt
+       0       0       0 tests/inputs/empty.txt
+       1       9      48 tests/inputs/fox.txt
+```
+
+这是我的最终运行函数，它会保存运行总计并在存在多个输入时打印这些值
+
+```rust
+pub fn run(config: Config) -> MyResult<()> {
+    let mut total_lines = 0;
+    let mut total_words = 0;
+    let mut total_bytes = 0;
+    let mut total_chars = 0;
+    for filename in &config.files {
+        match open(filename) {
+            Err(err) => eprintln!("{}: {}", filename, err),
+            Ok(_file) => {
+                if let Ok(info) = count(_file) {
+                    println!(
+                        "{}{}{}{}{}",
+                        format_field(info.num_lines, config.lines),
+                        format_field(info.num_words, config.words),
+                        format_field(info.num_bytes, config.bytes),
+                        format_field(info.num_chars, config.chars),
+                        if filename.as_str() == "-" {
+                            "".to_string()
+                        } else {
+                            format!(" {}", filename)
+                        }
+                    );
+                    total_lines += info.num_lines;
+                    total_words += info.num_words;
+                    total_bytes += info.num_bytes;
+                    total_chars += info.num_chars;
+                }
+            }
+        }
+    }
+    if config.files.len() > 1 {
+        println!(
+            "{}{}{}{} total",
+            format_field(total_lines, config.lines),
+            format_field(total_words, config.words),
+            format_field(total_bytes, config.bytes),
+            format_field(total_chars, config.chars)
+        )
+    }
+    Ok(())
+}
+```
+
+## 更进一步
+
+编写一个模仿 GNU wc 输出的版本，而不是 BSD 版本。如果您的系统已有 GNU 版本，请运行 mk-outs.sh 程序来生成给定输入文件的预期输出。修改程序以根据测试创建正确的输出。
+然后扩展程序以处理其他选项，例如 --files0-from 用于从文件中读取输入文件名，以及 --max-line-length 用于打印最长行的长度。添加新功能的测试。
+
+接下来，思考一下本章开头提到的 BSD 手册页中提到的 iswspace 函数的奥秘。我本来想包含第 2 章中的 Issa 俳句的测试文件，但使用的是原始日语字符
+
+我不想打开那个蠕虫罐头，但如果你要创建这个程序的一个版本并向公众发布，你会报告多少字数？
+
+## 总结
+
+反思一下你在本章中的进展
+
+*  您了解到，如果给定谓词（即接受元素的闭包）的所有元素的计算结果都为 true，则 Iterator::all 函数将返回 true。许多类似的 Iterator 方法接受闭包作为测试、选择和转换元素的参数。
+* 您使用了 str::split_whitespace 和 str::chars 方法将文本分解为单词和字符。
+* 您使用了 Iterator::count 方法来计算项目数。
+* 您编写了一个函数来有条件地格式化值或空字符串，以支持根据标志参数打印或省略信息。
+* 您将单元测试组织到一个测试模块中，并从名为 super 的父模块导入函数。
+* 您了解了如何使用 std::io::Cursor 创建一个假文件句柄来测试需要实现 BufRead 的函数。
+* 在大约 200 行 Rust 中，你为最广泛使用的 Unix 程序之一编写了一个相当不错的替代品。
 
