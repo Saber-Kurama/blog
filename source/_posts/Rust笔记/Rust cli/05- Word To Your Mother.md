@@ -637,5 +637,31 @@ fn fox() -> TestResult {
 fn fox_bytes() -> TestResult {
     run(&["--bytes", FOX], "tests/expected/fox.txt.c.out")
 }
+
 ```
+
+当使用 --bytes 运行时，我的程序应该只打印该输出列，但它总是打印行、单词和字节。
+我决定在 src/lib.rs 中编写一个名为 format_field 的函数，该函数将根据布尔值有条件地返回格式化字符串或空字符串：
+
+```rust
+fn format_field(value: usize, show: bool) -> String {
+  if show {
+    format!("{:>8}", value)
+  }else {
+    "".to_string()
+  }
+}
+```
+
+我可以扩展我的测试模块来为此添加单元测试：
+
+``` rust
+ fn test_format_field() {
+    assert_eq!(format_field(1, false), "");
+    assert_eq!(format_field(3, true), "       3");
+    assert_eq!(format_field(10, true), "      10");
+  }
+```
+
+这是我在上下文中使用它的方式，在从 STDIN 读取时我还处理打印空字符串：
 
