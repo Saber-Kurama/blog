@@ -582,5 +582,60 @@ pub fn run(config: Config) -> MyResult<()> {
 
 If I run `cargo test fox`, I pass one out of eight tests.Huzzah!
 
+```sh
+failures:
+    fox
+    fox_bytes
+    fox_bytes_lines
+    fox_chars
+    fox_lines
+    fox_words
+    fox_words_bytes
+    fox_words_lines
 
+test result: FAILED. 0 passed; 8 failed; 0 ignored; 0 measured; 18 filtered out; finished in 0.34s
+```
+
+检查tests/cli.rs以查看通过的测试是什么样的。请注意，测试引用了在模块顶部声明的常量值：
+
+```rust
+const PRG: &str = "wcr";
+const EMPTY: &str = "tests/inputs/empty.txt";
+const FOX: &str = "tests/inputs/fox.txt";
+const ATLAMAL: &str = "tests/inputs/atlamal.txt";
+```
+
+我再次有一个运行辅助函数来运行我的测试：
+
+``` rust
+fn run(args: &[&str], expected_file: &str) -> TestResult {
+    let expected = fs::read_to_string(expected_file)?;
+    Command::cargo_bin(PRG)?
+        .args(args)
+        .assert()
+        .success()
+        .stdout(expected);
+    Ok(())
+}
+```
+
+* 尝试读取`expected`此命令的输出。
+* 使用给定的参数运行` wcr` 程序。断言程序成功并且 STDOUT 与预期值匹配。
+
+fox 测试使用 FOX 输入文件运行 wcr，不带任何选项，将其与使用 05_wcr/mk-outs.sh 生成的预期输出文件的内容进行比较：
+
+``` rust
+#[test]
+fn fox() -> TestResult {
+    run(&[FOX], "tests/expected/fox.txt.out")
+}
+```
+
+查看文件中的下一个函数以查看失败的测试:
+```rust
+#[test]
+fn fox_bytes() -> TestResult {
+    run(&["--bytes", FOX], "tests/expected/fox.txt.c.out")
+}
+```
 
