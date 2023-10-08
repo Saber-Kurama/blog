@@ -509,5 +509,31 @@ error: test failed, to rerun pass `--lib`
 好的，我们回来了。现在我将向您展示我是如何编写计数函数的。
 我从第 3 章知道 `BufRead::lines` 会删除行结尾，但我不希望这样做，因为 Windows 文件中的换行符是两个字节 (\r\n)，但 Unix 换行符只是一个字节 (\n)。我可以复制第 3 章中的一些代码，使用 `BufRead::read_line` 将每一行读入缓冲区。方便的是，这个函数告诉我已经从文件中读取了多少字节：
 
+```rust
+pub fn count(mut file: impl BufRead) -> MyResult<FileInfo> {
+  let mut num_lines = 0;
+  let mut num_words = 0;
+  let mut num_bytes = 0;
+  let mut num_chars = 0;
+  let mut line = String::new();
+  loop {
+      let line_bytes = file.read_line(&mut line)?;
+      if line_bytes == 0 {
+        break;
+      }
+      num_bytes += line_bytes;
+      num_lines +=1;
+      num_words += line.split_whitespace().count();
+      num_chars += line.chars().count();
+      line.clear();
+  }
+  Ok(FileInfo { num_lines, num_words, num_bytes, num_chars})
+}
+```
+
+> 早些时候，我强调了这个输入文件是如何使用不同数量和类型的空格分隔单词的。我这样做是为了防止您选择迭代字符来查找单词边界。也就是说，您可能没有找到str::split_whitespace而是在str::字符上使用迭代器。如果您每次找到空格时都增加单词的数量，假设单词之间只有一个空格，您最终可能会过多地计算单词。相反，您需要找到空格作为单词之间的分隔符。同样，您可能会想使用正则表达式，该表达式也需要考虑一个或多个空格字符。
+
+通过这些更改，test_count 通过了。我想看看它是什么样子，所以我可以更改 run 以打印成功计算文件元素的结果，或者在无法打开文件时向 STDERR 打印警告：
+
 
 
