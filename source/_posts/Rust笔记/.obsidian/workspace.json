@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md",
+                "file": "cargo/Cargo 备忘清单.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md",
+                "file": "cargo/Cargo 备忘清单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md",
+                "file": "cargo/Cargo 备忘清单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rust cli/04 - Head Aches.md"
+                "file": "cargo/Cargo 备忘清单.md"
               }
             }
           }
@@ -156,37 +156,39 @@
   },
   "active": "df7379d581b395b8",
   "lastOpenFiles": [
+    "流程控制.md",
+    "cargo/Cargo 备忘清单.md",
+    "函数、闭包和迭代器.md",
+    "参考.md",
+    "变量与数据类型.md",
+    "模块化编程.md",
+    "图形学.md",
+    "Pasted image 20221026204959.png",
+    "未命名.canvas",
+    "未命名.md",
+    "未命名 1.md",
+    "未命名 1.canvas",
+    "未命名 2.canvas",
+    "未命名 2.md",
+    "Pasted image 20221026204213.png",
+    "未命名 3.canvas",
+    "未命名 3.md",
+    "未命名 4.canvas",
+    "未命名 4.md",
+    "未命名 5.md",
+    "未命名 6.md",
+    "cargo",
+    "Rust cli/04 - Head Aches.md",
     "Rust cli/05- Word To Your Mother.md",
     "Rust cli/03 - On The Catwalk.md",
     "Rust cli/02-Test for Echo.md",
     "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
     "Rust cli/00 - 前言.md",
-    "Rust cli/04 - Head Aches.md",
     "rust程序设计第二版/11-Trait和泛型-思考.md",
     "rust程序设计第二版/09-结构体-思考.md",
     "rust程序设计第二版/10-枚举和模式匹配-思考.md",
     "rust程序设计第二版/06-表达式-思考.md",
     "rust程序设计第二版/07-错误处理-思考.md",
-    "Rust 学习资源.md",
-    "Rust初始环境.md",
-    "rust程序设计第二版/08-Crate 和 Module.md",
-    "未命名 5.md",
-    "rust程序设计第二版/06-表达式.md",
-    "rust程序设计第二版/05-引用-思考.md",
-    "rust程序设计第二版/05-引用.md",
-    "rust程序设计第二版/04-所有权-思考.md",
-    "rust程序设计第二版/03-基本类型-思考.md",
-    "rust程序设计第二版/04-所有权.md",
-    "未命名 4.md",
-    "rust程序设计第二版/03-基本类型.md",
-    "RUST的一些资源.md",
-    "rust程序设计第二版/01-为什么是rust.md",
-    "rust程序设计第二版/00-前言.md",
-    "未命名.canvas",
-    "未命名 4.canvas",
-    "Pasted image 20221026204959.png",
-    "未命名 3.canvas",
-    "未命名 2.canvas",
-    "未命名 1.canvas"
+    "Rust 学习资源.md"
   ]
 }
