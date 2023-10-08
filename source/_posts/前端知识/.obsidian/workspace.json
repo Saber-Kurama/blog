@@ -11,8 +11,12 @@
             "id": "1853f75a7db34f8f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "前端工程化/rollup.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -61,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -82,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "前端工程化/rollup.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,48 +122,49 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "12495da245cbde8b",
+  "active": "1853f75a7db34f8f",
   "lastOpenFiles": [
+    "前端工程化/webpack.md",
+    "前端工程化/rollup.md",
+    "文章.md",
+    "未命名 1.md",
+    "未命名.md",
+    "未命名.canvas",
+    "未命名 1.canvas",
+    "未命名 4.canvas",
+    "未命名 2.canvas",
+    "未命名 7.canvas",
+    "未命名 8.canvas",
+    "element-plus.org.md",
+    "fromily 的配置.md",
+    "icon.md",
+    "lowcode 低代码.md",
+    "mock 数据接口相关.md",
+    "monaco-editor 编辑器.md",
+    "monorepo.md",
+    "nestjs.md",
+    "Pasted image 20221125181133.png",
+    "patch-package.md",
+    "rui.md",
+    "webIDE.md",
+    "Vue3 创建项目遇到的问题汇总.md",
+    "vite does not provide an export named 'default'.md",
     "图形学/canvas.md",
     "低代码/拖拽.md",
     "flow/教程.md",
-    "fromily 的配置.md",
     "flow",
     "CSS/css 灵感.md",
     "vue3/admin.md",
     "组件问题/前端基建.md",
-    "rui.md",
     "编辑器相关/测试.md",
-    "未命名 8.canvas",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
-    "D3.js in Action/1 D3.js简介.md",
     "D3.js in Action",
-    "D3 开始到结束/18. 有关 D3 连接的更多信息.md",
-    "D3 开始到结束/17. 有关 D3 选择的更多信息.md",
-    "D3 开始到结束/08 数据连接.md",
-    "D3 开始到结束/07 D3 Seletions.md",
-    "D3 开始到结束/05 使用 D3 请求数据.md",
-    "D3 开始到结束/06 实用：加载数据.md",
-    "D3 开始到结束/04 D3简介.md",
-    "D3 开始到结束/03 实用：设置.md",
-    "D3 开始到结束/16. 到目前为止的构建.md",
-    "D3 开始到结束/15. 实用：整理数据.md",
-    "D3 开始到结束/14. 在网格中排列项目.md",
-    "D3 开始到结束/13.实用：添加模块.md",
-    "D3 开始到结束/12. 基于Web的架构数据可视化.md",
-    "D3 开始到结束/11 实用：调整圆圈大小.md",
-    "D3 开始到结束/10 尺度函数.md",
-    "未命名 7.canvas",
     "three",
     "未命名 6.canvas",
     "未命名 5.canvas",
-    "未命名.canvas",
     "未命名",
-    "未命名 4.canvas",
     "未命名 3.canvas",
-    "未命名 2.canvas",
     "flutter",
-    "未命名 1.canvas",
     "Pasted image 20220618180239.png",
     "未命名 9.canvas",
     "编辑器相关",
