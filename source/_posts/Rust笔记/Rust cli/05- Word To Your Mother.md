@@ -665,3 +665,56 @@ fn format_field(value: usize, show: bool) -> String {
 
 这是我在上下文中使用它的方式，在从 STDIN 读取时我还处理打印空字符串：
 
+```rust
+pub fn run(config: Config) -> MyResult<()> {
+    println!("config: {:?}", config);
+    for filename in &config.files {
+        match open(filename) {
+            Err(err) => eprintln!("{}: {}", filename, err),
+            Ok(_file) => {
+                if let Ok(info) = count(_file) {
+                    println!(
+                        "{}{}{}{}{}",
+                        format_field(info.num_lines, config.lines),
+                        format_field(info.num_words, config.words),
+                        format_field(info.num_bytes, config.bytes),
+                        format_field(info.num_chars, config.chars),
+                        if filename.as_str() == "-" {
+                            "".to_string()
+                        } else {
+                            format!(" {}", filename)
+                        }
+                    )
+                }
+            }
+        }
+    }
+    Ok(())
+}
+```
+
+通过这些更改，`cargo test tests`的所有测试都通过了。如果我运行整个测试套件，我仍然无法通过所有测试
+
+```sh
+failures:
+    test_all
+    test_all_bytes
+    test_all_bytes_lines
+    test_all_lines
+    test_all_words
+    test_all_words_bytes
+    test_all_words_lines
+
+test result: FAILED. 19 passed; 7 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.33s
+```
+
+查看 tests/cli.rs 中的 test_all 函数，看看测试是否使用所有输入文件作为参数
+
+```rust
+#[test]
+fn test_all() -> TestResult {
+    run(&[EMPTY, FOX, ATLAMAL], "tests/expected/all.out")
+}
+```
+
+
