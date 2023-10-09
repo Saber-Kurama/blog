@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "前端工程化/rollup.md",
+                "file": "vue3/admin.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "admin",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "前端工程化/rollup.md",
+                "file": "vue3/admin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,8 +125,8 @@
   },
   "active": "1853f75a7db34f8f",
   "lastOpenFiles": [
-    "前端工程化/webpack.md",
     "前端工程化/rollup.md",
+    "前端工程化/webpack.md",
     "文章.md",
     "未命名 1.md",
     "未命名.md",
