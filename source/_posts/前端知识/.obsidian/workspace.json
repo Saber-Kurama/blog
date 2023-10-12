@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "组件问题/前端OKR4.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "组件问题/前端OKR4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,9 +124,9 @@
   },
   "active": "1853f75a7db34f8f",
   "lastOpenFiles": [
+    "vue3/admin.md",
     "组件问题/前端基建.md",
     "codingnet/一些信息.md",
-    "vue3/admin.md",
     "前端工程化/rollup.md",
     "前端工程化/webpack.md",
     "文章.md",
