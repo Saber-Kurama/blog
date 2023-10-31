@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nginx.md",
+                "file": "zustand/代码统计量.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nginx.md",
+                "file": "zustand/代码统计量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,6 +137,9 @@
   },
   "active": "cf006b0e373a25f6",
   "lastOpenFiles": [
+    "未命名.canvas",
+    "zustand/代码统计量.md",
+    "nginx.md",
     "vue3/admin.md",
     "组件问题/前端基建.md",
     "codingnet/一些信息.md",
@@ -146,7 +148,6 @@
     "文章.md",
     "未命名 1.md",
     "未命名.md",
-    "未命名.canvas",
     "未命名 1.canvas",
     "未命名 4.canvas",
     "未命名 2.canvas",
@@ -168,10 +169,7 @@
     "vite does not provide an export named 'default'.md",
     "图形学/canvas.md",
     "低代码/拖拽.md",
-    "flow/教程.md",
     "flow",
-    "CSS/css 灵感.md",
-    "编辑器相关/测试.md",
     "D3.js in Action",
     "three",
     "未命名 6.canvas",
