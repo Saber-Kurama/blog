@@ -18,19 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5bbd86b25485c523",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.16"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -165,7 +154,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "5bbd86b25485c523",
+  "active": "df7379d581b395b8",
   "lastOpenFiles": [
     "cargo/Cargo 备忘清单.md",
     "流程控制.md",
