@@ -2,6 +2,8 @@ x# admin
 
 https://feflowjs.com/zh/
 
+https://fantastic-admin.gitee.io/pro-example/#/
+
 ## 一些参考
 
 [vue-antd-admin](https://gitee.com/gx12358/vue-antd-admin)
