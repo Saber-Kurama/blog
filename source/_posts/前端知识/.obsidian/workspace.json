@@ -23,16 +23,18 @@
             "id": "cf006b0e373a25f6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "vue3/admin.md",
-                "mode": "source",
-                "source": false
+                "file": "未命名 1.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/admin.md",
+                "file": "组件问题/前端OKR4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,20 +138,20 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "cf006b0e373a25f6",
+  "active": "1853f75a7db34f8f",
   "lastOpenFiles": [
+    "未命名 1.canvas",
+    "vue3/admin.md",
     "组件问题/前端基建.md",
     "zustand/代码统计量.md",
     "未命名.canvas",
     "nginx.md",
-    "vue3/admin.md",
     "codingnet/一些信息.md",
     "前端工程化/rollup.md",
     "前端工程化/webpack.md",
     "文章.md",
     "未命名 1.md",
     "未命名.md",
-    "未命名 1.canvas",
     "未命名 4.canvas",
     "未命名 2.canvas",
     "未命名 7.canvas",
