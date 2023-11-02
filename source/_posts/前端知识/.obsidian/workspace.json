@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "组件问题/前端OKR4.md",
+                "file": "zustand/代码统计量.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,8 +80,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "组件问题/前端OKR4.md",
+                "file": "zustand/代码统计量.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,10 +139,11 @@
   },
   "active": "1853f75a7db34f8f",
   "lastOpenFiles": [
+    "组件问题/前端OKR4.md",
+    "zustand/代码统计量.md",
     "未命名 1.canvas",
     "vue3/admin.md",
     "组件问题/前端基建.md",
-    "zustand/代码统计量.md",
     "未命名.canvas",
     "nginx.md",
     "codingnet/一些信息.md",
