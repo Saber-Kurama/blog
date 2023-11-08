@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/元素设置了overflow后，内容右边不能实现边距.md",
+                "file": "mysql/mysql.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSS/元素设置了overflow后，内容右边不能实现边距.md",
+                "file": "mysql/mysql.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,8 +139,11 @@
   },
   "active": "1853f75a7db34f8f",
   "lastOpenFiles": [
-    "nginx.md",
+    "【前端安全】 csp-nonce.md",
+    "mysql/mysql.md",
+    "mysql",
     "CSS/元素设置了overflow后，内容右边不能实现边距.md",
+    "nginx.md",
     "未命名 1",
     "zustand/zustand.md",
     "zustand/代码统计量.md",
@@ -171,8 +174,6 @@
     "patch-package.md",
     "rui.md",
     "webIDE.md",
-    "Vue3 创建项目遇到的问题汇总.md",
-    "vite does not provide an export named 'default'.md",
     "flow",
     "D3.js in Action",
     "three",
@@ -185,7 +186,6 @@
     "未命名 9.canvas",
     "编辑器相关",
     "D3 开始到结束",
-    "nextjs/nest通关秘籍",
-    "github"
+    "nextjs/nest通关秘籍"
   ]
 }
