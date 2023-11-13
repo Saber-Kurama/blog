@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mysql/mysql.md",
+                "file": "组件问题/前端组件.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "admin",
+                "query": "UI",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -100,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mysql/mysql.md",
+                "file": "组件问题/前端组件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,8 +140,8 @@
   },
   "active": "1853f75a7db34f8f",
   "lastOpenFiles": [
-    "【前端安全】 csp-nonce.md",
     "mysql/mysql.md",
+    "【前端安全】 csp-nonce.md",
     "mysql",
     "CSS/元素设置了overflow后，内容右边不能实现边距.md",
     "nginx.md",
