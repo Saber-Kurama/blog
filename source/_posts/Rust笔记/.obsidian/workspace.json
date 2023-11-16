@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "786fc5b06991d9f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "参考.md",
+                "file": "未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "参考.md",
+                "file": "未命名.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "参考.md"
+                "file": "未命名.md"
               }
             }
           }
@@ -154,18 +167,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "df7379d581b395b8",
+  "active": "786fc5b06991d9f8",
   "lastOpenFiles": [
+    "参考.md",
+    "未命名.md",
     "cargo/Cargo 备忘清单.md",
     "流程控制.md",
     "函数、闭包和迭代器.md",
-    "参考.md",
     "变量与数据类型.md",
     "模块化编程.md",
     "图形学.md",
     "Pasted image 20221026204959.png",
     "未命名.canvas",
-    "未命名.md",
     "未命名 1.md",
     "未命名 1.canvas",
     "未命名 2.canvas",
