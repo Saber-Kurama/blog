@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "组件问题/前端组件.md",
+                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
                 "mode": "source",
                 "source": false
               }
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "UI",
+                "query": "图书",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "组件问题/前端组件.md",
+                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,6 +140,7 @@
   },
   "active": "1853f75a7db34f8f",
   "lastOpenFiles": [
+    "组件问题/前端组件.md",
     "mysql/mysql.md",
     "【前端安全】 csp-nonce.md",
     "mysql",
@@ -174,7 +175,6 @@
     "Pasted image 20221125181133.png",
     "patch-package.md",
     "rui.md",
-    "webIDE.md",
     "flow",
     "D3.js in Action",
     "three",
