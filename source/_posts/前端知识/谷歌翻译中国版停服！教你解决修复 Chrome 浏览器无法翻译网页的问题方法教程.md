@@ -8,6 +8,9 @@
 ## 图书
 https://zh.singlelogin.me/
 http://zh.loginzlib2vrak5zzpcocc3ouizykn6k5qecgj2tzlnab5wcbqhembyd.onion/
+http://zh.bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/?signAll=1&ts=0523
+
+
 
 
 
