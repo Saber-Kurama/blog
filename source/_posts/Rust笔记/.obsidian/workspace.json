@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "参考.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名.md",
+                "file": "参考.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名.md",
+                "file": "参考.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.md"
+                "file": "参考.md"
               }
             }
           }
@@ -169,14 +169,17 @@
   },
   "active": "786fc5b06991d9f8",
   "lastOpenFiles": [
-    "参考.md",
-    "未命名.md",
-    "cargo/Cargo 备忘清单.md",
-    "流程控制.md",
     "函数、闭包和迭代器.md",
-    "变量与数据类型.md",
+    "流程控制.md",
     "模块化编程.md",
     "图形学.md",
+    "未命名.md",
+    "Rust初始环境.md",
+    "Rust 学习资源.md",
+    "RUST的一些资源.md",
+    "变量与数据类型.md",
+    "参考.md",
+    "cargo/Cargo 备忘清单.md",
     "Pasted image 20221026204959.png",
     "未命名.canvas",
     "未命名 1.md",
@@ -199,9 +202,6 @@
     "Rust cli/00 - 前言.md",
     "rust程序设计第二版/11-Trait和泛型-思考.md",
     "rust程序设计第二版/09-结构体-思考.md",
-    "rust程序设计第二版/10-枚举和模式匹配-思考.md",
-    "rust程序设计第二版/06-表达式-思考.md",
-    "rust程序设计第二版/07-错误处理-思考.md",
-    "Rust 学习资源.md"
+    "rust程序设计第二版/10-枚举和模式匹配-思考.md"
   ]
 }
