@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "【前端安全】 csp-nonce.md",
+                "file": "lowcode 低代码.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c39a8c0a72eb08b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -34,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "【前端安全】 csp-nonce.md",
+                "file": "未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,8 +150,12 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "1853f75a7db34f8f",
+  "active": "c39a8c0a72eb08b9",
   "lastOpenFiles": [
+    "lowcode 低代码.md",
+    "未命名.md",
+    "webIDE.md",
+    "【前端安全】 csp-nonce.md",
     "21短文-手写前端框架.md",
     "文章.md",
     "一些问题.md",
@@ -147,13 +164,11 @@
     "fromily 的配置.md",
     "icon.md",
     "javascript的long类型.md",
-    "lowcode 低代码.md",
     "monorepo.md",
     "patch-package.md",
     "rui.md",
     "vite does not provide an export named 'default'.md",
     "Vue3 创建项目遇到的问题汇总.md",
-    "webIDE.md",
     "常见问题/axios 的get 数组问题.md",
     "常见问题/TypeScript 的一些问题.md",
     "工作/交接.md",
@@ -163,10 +178,8 @@
     "nginx.md",
     "Pasted image 20221125181133.png",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
-    "【前端安全】 csp-nonce.md",
     "未命名 2.canvas",
     "vite/vue  一些有趣的项目.md",
-    "组件问题/前端基建.md",
     "mysql",
     "未命名 1",
     "未命名 1.canvas",
