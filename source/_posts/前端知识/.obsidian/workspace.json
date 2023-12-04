@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "lowcode 低代码.md",
+                "file": "【前端安全】 csp-nonce.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aee946e9926752c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docker.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,8 +105,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -114,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+                "file": "docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,12 +162,15 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "c39a8c0a72eb08b9",
+  "active": "aee946e9926752c2",
   "lastOpenFiles": [
-    "未命名.md",
-    "lowcode 低代码.md",
-    "webIDE.md",
     "【前端安全】 csp-nonce.md",
+    "docker.md",
+    "docker",
+    "lowcode 低代码.md",
+    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+    "未命名.md",
+    "webIDE.md",
     "21短文-手写前端框架.md",
     "文章.md",
     "一些问题.md",
@@ -178,9 +192,7 @@
     "nestjs.md",
     "nginx.md",
     "Pasted image 20221125181133.png",
-    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "未命名 2.canvas",
-    "vite/vue  一些有趣的项目.md",
     "mysql",
     "未命名 1",
     "未命名 1.canvas",
@@ -199,7 +211,6 @@
     "Pasted image 20220618180239.png",
     "未命名 9.canvas",
     "编辑器相关",
-    "D3 开始到结束",
-    "nextjs/nest通关秘籍"
+    "D3 开始到结束"
   ]
 }
