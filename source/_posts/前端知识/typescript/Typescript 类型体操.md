@@ -237,4 +237,38 @@ type Union = 1 | 2 | 3;
 
 ``` ts
 type ObjType = {a: number } & {c: boolean};
+
 ```
+
+注意，同一类型可以合并，不同的类型没法合并，会被舍弃：
+
+### 映射类型
+
+对象、class 在 TypeScript 对应的类型是索引类型（Index Type），那么如何对索引类型作修改呢？
+
+```ts
+type MapType<T> = {
+  [Key in keyof T]?: T[Key]
+}
+```
+
+``` ts
+type MapType<T> = {
+    [Key in keyof T]: [T[Key], T[Key], T[Key]]
+}
+
+type res = MapType<{a: 1, b: 2}>;
+```
+
+
+```ts
+type MapType<T> = {
+    [
+        Key in keyof T 
+            as `${Key & string}${Key & string}${Key & string}`
+    ]: [T[Key], T[Key], T[Key]]
+}
+
+type atype = (string | number | symbol ) & number;
+```
+``
