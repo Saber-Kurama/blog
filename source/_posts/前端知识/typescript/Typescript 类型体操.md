@@ -142,3 +142,52 @@ obj.name = 'guang';
 obj.age = 18;
 
 ```
+
+### 枚举
+
+```ts 
+enum Transpiler {
+    Babel = 'babel',
+    Postcss = 'postcss',
+    Terser = 'terser',
+    Prettier = 'prettier',
+    TypeScriptCompiler = 'tsc'
+}
+
+const transpiler = Transpiler.TypeScriptCompiler;
+```
+
+### 字面量类型
+
+```ts
+'aaa', 1, {a: 1}
+//模版字面量?
+aaa${string}
+// 要求以#开头
+function fun (str: `#${string}`) {
+	console.log(str);
+}
+fun("a"); // error
+fun("#a");
+```
+
+还有四种特殊的类型：void、never、any、unknown：
+
+*  never 代表不可达，比如函数抛异常的时候，返回值就是 never。
+- void 代表空，可以是 undefined 或 never。
+- any 是任意类型，任何类型都可以赋值给它，它也可以赋值给任何类型（除了 never）。
+- unknown 是未知类型，任何类型都可以赋值给它，但是它不可以赋值给别的类型。
+
+
+### 类型的装饰
+
+除了描述类型的结构外，TypeScript 的类型系统还支持描述类型的属性，比如是否可选，是否只读等：
+
+```ts
+interface IPerson {
+    readonly name: string;
+    age?: number;
+}
+
+type tuple = [string, number?];
+```
