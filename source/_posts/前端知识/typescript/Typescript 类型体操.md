@@ -191,3 +191,32 @@ interface IPerson {
 
 type tuple = [string, number?];
 ```
+
+## TypeScript 类型系统中的类型运算
+
+我们知道了 TypeScript 类型系统里有哪些类型，那么可以对这些类型做什么类型运算呢？
+
+### 条件：extends ? :
+
+```
+type res = 1 extends 2 ? true : false;
+```
+
+```
+type isTwo<T> = T extends 2 ? true: false;
+
+type res = isTwo<1>;
+type res2 = isTwo<2>;
+```
+
+高级类型的特点是传入类型参数，经过一系列类型运算逻辑后，返回新的类型。
+
+### 推导：infer
+
+如何提取类型的一部分呢？答案是 infer。
+
+```ts
+type First<Tuple extends unknown[]> = Tuple extends [infer T,...infer R] ? T : never;
+
+type res = First<[1,2,3]>;
+```
