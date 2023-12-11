@@ -269,6 +269,6 @@ type MapType<T> = {
     ]: [T[Key], T[Key], T[Key]]
 }
 
-type atype = (string | number | symbol ) & number;
+type atype = (string | number | symbol ) & string; //atype === string
 ```
 ``
