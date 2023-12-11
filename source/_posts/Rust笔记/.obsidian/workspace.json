@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "786fc5b06991d9f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "参考.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,8 +154,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "786fc5b06991d9f8",
+  "active": "df7379d581b395b8",
   "lastOpenFiles": [
+    "基本/simpread-课程介绍 -《TypeScript 类型体操通关秘籍》 小河涟漪.md",
+    "参考.md",
     "函数、闭包和迭代器.md",
     "流程控制.md",
     "模块化编程.md",
@@ -178,7 +167,6 @@
     "Rust 学习资源.md",
     "RUST的一些资源.md",
     "变量与数据类型.md",
-    "参考.md",
     "cargo/Cargo 备忘清单.md",
     "Pasted image 20221026204959.png",
     "未命名.canvas",
@@ -201,7 +189,6 @@
     "Rust cli/01 - 真实或结果 Truth Or Consequences.md",
     "Rust cli/00 - 前言.md",
     "rust程序设计第二版/11-Trait和泛型-思考.md",
-    "rust程序设计第二版/09-结构体-思考.md",
-    "rust程序设计第二版/10-枚举和模式匹配-思考.md"
+    "rust程序设计第二版/09-结构体-思考.md"
   ]
 }
