@@ -37,3 +37,108 @@ function getPropValue<
 ```
 
 
+```ts
+type ParseParam<Param extends string> =
+
+Param extends `${infer Key}=${infer Value}`
+
+? {
+
+[K in Key]: Value
+
+} : {};
+
+  
+
+type MergeValues<One, Other> =
+
+One extends Other
+
+? One
+
+: Other extends unknown[]
+
+? [One, ...Other]
+
+: [One, Other];
+
+  
+
+type MergeParams<
+
+OneParam extends Record<string, any>,
+
+OtherParam extends Record<string, any>
+
+> = {
+
+[Key in keyof OneParam | keyof OtherParam]:
+
+Key extends keyof OneParam
+
+? Key extends keyof OtherParam
+
+? MergeValues<OneParam[Key], OtherParam[Key]>
+
+: OneParam[Key]
+
+: Key extends keyof OtherParam
+
+? OtherParam[Key]
+
+: never
+
+}
+
+type ParseQueryString<Str extends string> =
+
+Str extends `${infer Param}&${infer Rest}`
+
+? MergeParams<ParseParam<Param>, ParseQueryString<Rest>>
+
+: ParseParam<Str>;
+```
+
+
+TypeScript 的类型系统是`图灵完备`的，也就是能描述各种可计算逻辑。简单点来理解就是循环、条件等各种 JS 里面有的语法它都有，JS 能写的逻辑它都能写。
+
+对类型参数的编程是 TypeScript 类型系统最强大的部分，可以实现各种复杂的类型计算逻辑，是它的优点。但同时也被认为是它的缺点，因为除了业务逻辑外还要写很多类型逻辑。
+
+
+## TypeScript 类型系统中的类型
+
+ number、boolean、string、object、bigint、symbol、undefined、null,  Number、Boolean、String、Object、Symbol
+
+元组:  `Tuple`
+
+接口:  `Interface`
+
+``` ts
+// 对象
+interface IPerson {
+    name: string;
+    age: number;
+}
+
+// 函数
+interface SayHello {
+    (name: string): string;
+}
+
+// 构造器
+interface PersonConstructor {
+    new (name: string, age: number): IPerson;
+}
+
+function createPerson(ctor: PersonConstructor):IPerson {
+    return new ctor('guang', 18);
+}
+// 对象类型、class 类型在 TypeScript 里也叫做索引类型，也就是索引了多个元素的类型的意思。对象可以动态添加属性，如果不知道会有什么属性，可以用可索引签名：
+interface IPerson {
+    [prop: string]: string | number;
+}
+const obj:IPerson = {};
+obj.name = 'guang';
+obj.age = 18;
+
+```
