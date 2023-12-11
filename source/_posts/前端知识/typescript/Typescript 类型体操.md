@@ -215,8 +215,26 @@ type res2 = isTwo<2>;
 
 如何提取类型的一部分呢？答案是 infer。
 
+
 ```ts
+// 这里的泛型是类型的泛型？
 type First<Tuple extends unknown[]> = Tuple extends [infer T,...infer R] ? T : never;
 
 type res = First<[1,2,3]>;
+```
+
+### 联合：｜
+
+联合类型（Union）类似 js 里的或运算符 |，但是作用于类型，代表类型可以是几个类型之一。
+
+``` ts
+type Union = 1 | 2 | 3;
+```
+
+### 交叉：&
+
+交叉类型（Intersection）类似 js 中的与运算符 &，但是作用于类型，代表对类型做合并。
+
+``` ts
+type ObjType = {a: number } & {c: boolean};
 ```
