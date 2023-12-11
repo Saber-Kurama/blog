@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Strapi/Strapi 的一些记录.md",
+                "file": "typescript/Typescript 类型体操.md",
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Strapi/Strapi 的一些记录.md",
+                "file": "typescript/Typescript 类型体操.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,8 +164,10 @@
   },
   "active": "aee946e9926752c2",
   "lastOpenFiles": [
-    "nginx.md",
+    "typescript/Typescript 类型编程，从入门到念头通达.md",
+    "typescript/Typescript 类型体操.md",
     "Strapi/Strapi 的一些记录.md",
+    "nginx.md",
     "未命名 1.md",
     "Strapi",
     "docker.md",
@@ -190,8 +192,6 @@
     "Vue3 创建项目遇到的问题汇总.md",
     "常见问题/axios 的get 数组问题.md",
     "常见问题/TypeScript 的一些问题.md",
-    "工作/交接.md",
-    "工作/入职指引.md",
     "Pasted image 20221125181133.png",
     "未命名 2.canvas",
     "mysql",
