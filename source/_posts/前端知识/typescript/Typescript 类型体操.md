@@ -23,4 +23,17 @@
 
 
 
+简单类型系统 > 支持泛型的类型系统 > 支持类型编程的类型系统
+
+? 针对泛型的限定？
+
+``` ts
+function getPropValue<
+    T extends object,
+    Key extends keyof T
+>(obj: T, key: Key): T[Key] {
+    return obj[key];
+}
+```
+
 
