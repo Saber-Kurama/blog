@@ -26,4 +26,6 @@ nginx -s stop
 nginx -s reload
 ```
 
-
+```
+chown -R  nginx:nginx chat
+```

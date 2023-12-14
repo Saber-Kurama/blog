@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "typescript/Typescript 类型体操.md",
+                "file": "nginx.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "section:()trapi",
+                "query": "nginx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +105,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -125,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typescript/Typescript 类型体操.md",
+                "file": "nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,8 +163,9 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "42d03b7013090d6f",
+  "active": "aee946e9926752c2",
   "lastOpenFiles": [
+    "【前端安全】 csp-nonce.md",
     "typescript/Typescript 类型编程，从入门到念头通达.md",
     "typescript/Typescript 类型体操.md",
     "Strapi/Strapi 的一些记录.md",
@@ -171,7 +173,6 @@
     "未命名 1.md",
     "Strapi",
     "docker.md",
-    "【前端安全】 csp-nonce.md",
     "docker",
     "lowcode 低代码.md",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
