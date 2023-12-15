@@ -29,3 +29,9 @@ nginx -s reload
 ```
 chown -R  nginx:nginx chat
 ```
+
+
+1. 图片
+ 2. 视频封面
+    3.  
+   
