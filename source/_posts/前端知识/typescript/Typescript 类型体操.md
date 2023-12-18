@@ -441,3 +441,38 @@ interface PersonConstructor {
     new(name: string): Person;
 }
 ```
+
+
+``` ts
+type GetInstanceType<
+    ConstructorType extends new (...args: any) => any
+> = ConstructorType extends new (...args: any) => infer InstanceType 
+        ? InstanceType 
+        : any;
+```
+
+```ts
+
+type GetInstanceTypeRes = GetInstanceType<PersonConstructor>;
+```
+
+#### GetConstructorParameters
+
+同样也可以提取构造器的参数类型
+
+```ts
+type GetConstructorParameters<
+    ConstructorType extends new (...args: any) => any
+> = ConstructorType extends new (...args: infer ParametersType) => any
+    ? ParametersType
+    : never;
+```
+
+### 索引类型
+
+#### GetRefProps
+
+```ts
+type GetRefProps<Props> = 'ref' extends keyof Props ? Props extends {ref ?: infer Value | undefined } ? Value : never : never;
+```
+
