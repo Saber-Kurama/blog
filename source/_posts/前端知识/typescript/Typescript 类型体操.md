@@ -23,6 +23,8 @@
 
 
 
+为什么被叫做类型体操
+
 简单类型系统 > 支持泛型的类型系统 > 支持类型编程的类型系统
 
 ? 针对泛型的限定？
@@ -104,6 +106,8 @@ TypeScript 的类型系统是`图灵完备`的，也就是能描述各种可计�
 
 对类型参数的编程是 TypeScript 类型系统最强大的部分，可以实现各种复杂的类型计算逻辑，是它的优点。但同时也被认为是它的缺点，因为除了业务逻辑外还要写很多类型逻辑。
 
+
+支持哪些类型和类型运算
 
 ## TypeScript 类型系统中的类型
 
@@ -272,3 +276,19 @@ type MapType<T> = {
 type atype = (string | number | symbol ) & string; //atype === string
 ```
 ``
+
+套路一：模式匹配做提取
+
+
+## 模式匹配
+
+```ts
+type p = Promise<'guang'>;
+
+```
+
+我们想提取 value 的类型，可以这样做：
+
+```ts
+type GetValueType<P> = P extends Promise<infer value> ? Va
+```
