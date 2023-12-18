@@ -386,4 +386,58 @@ type TrimStr<Str extends string> =TrimStrRight<TrimStrLeft<Str>>;
 
 函数同样也可以做类型匹配，比如提取参数、返回值的类型。
 
-#### ### GetParameters
+#### GetParameters
+
+```ts
+type GetParameters<Func extends function> = Func extends (...args: infer Args) => unknown ? Args : never;
+```
+
+#### GetReturnType
+
+```ts
+type GetReturnType <Func extends function> = Func extends(...args: any[]) => infer ReturnType ? ReturnType : never;
+```
+
+#### GetThisParameterType
+
+可以在方法声明时指定 this 的类型：
+
+```ts
+class Dong {
+    name: string;
+
+    constructor() {
+        this.name = "dong";
+    }
+
+    hello(this: Dong) {
+        return 'hello, I\'m ' + this.name;
+    }
+}
+```
+
+这里的 this 类型同样也可以通过模式匹配提取出来：
+
+```ts
+type GetThisParameterType<T> 
+    = T extends (this: infer ThisType, ...args: any[]) => any 
+        ? ThisType 
+        : unknown;
+```
+
+### 构造器
+
+构造器和函数的区别是，构造器是用于创建对象的，所以可以被 new。
+
+
+####  GetInstanceType
+
+```ts
+interface Person {
+    name: string;
+}
+
+interface PersonConstructor {
+    new(name: string): Person;
+}
+```
