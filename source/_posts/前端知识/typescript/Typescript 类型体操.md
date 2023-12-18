@@ -316,5 +316,74 @@ type GetFirst<Arr extneds unknown[]> = Arr extends [infer Frist, ...unknown[]] ?
 #### Last
 
 ```ts
-type GetLast<Arr extends unknownp[]> = Arr extends[...unkno]
+type GetLast<Arr extends unknownp[]> = Arr extends[...unknown[], infer Last] ? Last : never;
 ```
+
+#### PopArr
+
+我们分别取了首尾元素，当然也可以取剩余的数组，比如取去掉了最后一个元素的数组
+
+``` ts
+type PopArr<Arr extends unknown[]> = Arr extends [] ? [] : Arr extends [...infer Rest, unknown] ? Rest : never;
+```
+
+#### ShiftArr
+
+```ts
+type ShiftArr<Arr extends unknown[]> = 
+    Arr extends [] ? [] 
+        : Arr extends [unknown, ...infer Rest] ? Rest : never;
+```
+
+
+### 字符串
+
+#### StartsWith
+判断字符串是否以某个前缀开头，也是通过模式匹配：
+
+```ts
+type StartsWith<Str extends string, Prefix extends string> = 
+    Str extends `${Prefix}${string}` ? true : false;
+```
+
+#### Replace
+
+``` ts
+type ReplaceStr<
+    Str extends string,
+    From extends string,
+    To extends string
+> = Str extends `${infer Prefix}${From}${infer Suffix}` 
+        ? `${Prefix}${To}${Suffix}` : Str;
+```
+
+#### Trim
+
+不过因为我们不知道有多少个空白字符，所以只能一个个匹配和去掉，需要递归。
+先实现 TrimRight:
+
+```ts
+type TrimStrRight<Str extends string> = 
+    Str extends `${infer Rest}${' ' | '\n' | '\t'}` 
+        ? TrimStrRight<Rest> : Str;
+```
+
+同理可得 TrimLeft：
+
+```ts
+type TrimStrLeft<Str extends string> = 
+    Str extends `${' ' | '\n' | '\t'}${infer Rest}` 
+        ? TrimStrLeft<Rest> : Str;
+```
+
+TrimRight 和 TrimLeft 结合就是 Trim：
+
+```ts
+type TrimStr<Str extends string> =TrimStrRight<TrimStrLeft<Str>>;
+```
+
+### 函数
+
+函数同样也可以做类型匹配，比如提取参数、返回值的类型。
+
+#### ### GetParameters
