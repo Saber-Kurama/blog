@@ -290,5 +290,31 @@ type p = Promise<'guang'>;
 我们想提取 value 的类型，可以这样做：
 
 ```ts
-type GetValueType<P> = P extends Promise<infer value> ? Va
+type GetValueType<P> = P extends Promise<infer Value> ? Value : never
+```
+
+
+```ts
+type GetValueType<P> = P extends Promise<infer Value> ? Value : never;
+type GetValueResult = GetValueType<Promise<'guang'>>;
+```
+
+###  数组类型
+
+#### First
+
+```ts
+ type arr = [1, 2, 3];
+```
+
+```ts
+type GetFirst<Arr extneds unknown[]> = Arr extends [infer Frist, ...unknown[]] ? First : never;
+```
+
+> any 和 unknown 的区别： any 和 unknown 都代表任意类型，但是 unknown 只能接收任意类型的值，而 any 除了可以接收任意类型的值，也可以赋值给任意类型（除了 never）。类型体操中经常用 unknown 接受和匹配任何类型，而很少把任何类型赋值给某个类型变量。
+
+#### Last
+
+```ts
+type GetLast<Arr extends unknownp[]> = Arr extends[...unkno]
 ```
