@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "typescript/Typescript 类型体操.md",
+                "file": "Strapi/Strapi 的一些记录.md",
                 "mode": "source",
                 "source": false
               }
@@ -88,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Strapi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +105,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -125,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typescript/Typescript 类型体操.md",
+                "file": "Strapi/Strapi 的一些记录.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,10 +165,10 @@
   },
   "active": "aee946e9926752c2",
   "lastOpenFiles": [
+    "typescript/Typescript 类型体操.md",
     "typescript/Typescript 类型编程，从入门到念头通达.md",
     "nginx.md",
     "【前端安全】 csp-nonce.md",
-    "typescript/Typescript 类型体操.md",
     "Strapi/Strapi 的一些记录.md",
     "未命名 1.md",
     "Strapi",
