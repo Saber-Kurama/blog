@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名 2.md",
+                "file": "开源/未命名.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 2.md",
+                "file": "开源/未命名.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,8 +176,9 @@
   },
   "active": "cfed3ea94ad8be09",
   "lastOpenFiles": [
-    "nginx.md",
+    "vue3/未命名.md",
     "未命名 2.md",
+    "nginx.md",
     "Strapi/Strapi 的一些记录.md",
     "typescript/Typescript 类型体操.md",
     "typescript/Typescript 类型编程，从入门到念头通达.md",
@@ -203,7 +204,6 @@
     "rui.md",
     "vite does not provide an export named 'default'.md",
     "Vue3 创建项目遇到的问题汇总.md",
-    "常见问题/axios 的get 数组问题.md",
     "Pasted image 20221125181133.png",
     "未命名 2.canvas",
     "mysql",
