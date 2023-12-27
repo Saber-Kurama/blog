@@ -277,7 +277,7 @@ type atype = (string | number | symbol ) & string; //atype === string
 ```
 ``
 
-套路一：模式匹配做提取
+# 套路一：模式匹配做提取
 
 
 ## 模式匹配
@@ -477,10 +477,46 @@ type GetRefProps<Props> = 'ref' extends keyof Props ? Props extends {ref ?: infe
 ```
 
 
-
+# 套路二：重新构造做变换
 
 
 ## 重新构造做变换
+
+TypeScript 类型系统支持 3 种可以声明任意类型的变量： type、infer、类型参数。
+
+type 叫做类型别名，其实就是声明一个变量存储某个类型：
+
+``` TS
+type ttt = Promise<number>;
+```
+
+
+infer 用于类型的提取，然后存到一个变量里，相当于局部变量：
+
+``` TS
+type GetValueType<P> = P extends Promise<infer Value> ? Value : never;
+```
+
+
+类型参数用于接受具体的类型，在类型运算中也相当于局部变量：
+
+```TS
+type isTwo<T> = T extends 2 ? true: false;
+```
+
+但是，严格来说这三种也都不叫变量，因为它们不能被重新赋值。
+
+
+###  数组类型的重新构造
+
+#### ### Push
+
+有这样一个元组类型：
+
+```ts
+type tuple = [1,2,3];
+```
+
 
 
 
