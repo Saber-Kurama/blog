@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "typescript/Typescript 类型体操.md",
+                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
                 "mode": "source",
                 "source": false
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "nginx",
+                "query": "图书",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +117,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -137,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "typescript/Typescript 类型体操.md",
+                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,13 +177,13 @@
   },
   "active": "cfed3ea94ad8be09",
   "lastOpenFiles": [
+    "typescript/Typescript 类型体操.md",
     "开源/未命名.md",
     "开源/一些开源项目.md",
     "vue3/未命名.md",
     "未命名 2.md",
     "nginx.md",
     "Strapi/Strapi 的一些记录.md",
-    "typescript/Typescript 类型体操.md",
     "typescript/Typescript 类型编程，从入门到念头通达.md",
     "【前端安全】 csp-nonce.md",
     "未命名 1.md",
