@@ -37,19 +37,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+                "file": "webIDE.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "04ede129eb06893a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.3"
               }
             }
           },
@@ -81,7 +71,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +100,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "图书",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -127,8 +117,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -148,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+                "file": "webIDE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,8 +176,10 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "04ede129eb06893a",
+  "active": "cfed3ea94ad8be09",
   "lastOpenFiles": [
+    "未命名 3.canvas",
+    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "typescript/Typescript 类型体操.md",
     "开源/未命名.md",
     "开源/一些开源项目.md",
@@ -203,7 +194,6 @@
     "docker.md",
     "docker",
     "lowcode 低代码.md",
-    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "未命名.md",
     "webIDE.md",
     "21短文-手写前端框架.md",
@@ -216,7 +206,6 @@
     "javascript的long类型.md",
     "monorepo.md",
     "patch-package.md",
-    "rui.md",
     "Pasted image 20221125181133.png",
     "未命名 2.canvas",
     "mysql",
@@ -232,7 +221,6 @@
     "未命名 6.canvas",
     "未命名 5.canvas",
     "未命名",
-    "未命名 3.canvas",
     "flutter",
     "Pasted image 20220618180239.png",
     "未命名 9.canvas",
