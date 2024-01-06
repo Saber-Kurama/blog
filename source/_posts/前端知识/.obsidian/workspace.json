@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "图形学/flow 工作流.md",
+                "file": "typescript/Typescript 类型体操.md",
                 "mode": "source",
                 "source": false
               }
@@ -112,7 +112,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "react",
+                "query": "Typescript",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "图形学/flow 工作流.md",
+                "file": "typescript/Typescript 类型体操.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -191,6 +191,7 @@
   },
   "active": "00d9032410188a2f",
   "lastOpenFiles": [
+    "图形学/flow 工作流.md",
     "react/react的一些资源.md",
     "编辑器相关/编辑器相关.md",
     "2023 个人总结.md",
@@ -219,7 +220,6 @@
     "CSS级联层完整指南.md",
     "fromily 的配置.md",
     "icon.md",
-    "javascript的long类型.md",
     "Pasted image 20221125181133.png",
     "未命名 2.canvas",
     "mysql",
