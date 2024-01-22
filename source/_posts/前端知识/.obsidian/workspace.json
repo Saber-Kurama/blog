@@ -73,14 +73,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "react/react的一些资源.md",
+                "file": "rui.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8581dc90c8119af4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "战略会.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -109,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tremor",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,8 +138,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -147,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "react/react的一些资源.md",
+                "file": "战略会.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,10 +197,13 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "12495da245cbde8b",
+  "active": "8581dc90c8119af4",
   "lastOpenFiles": [
-    "编辑器相关/测试.md",
+    "rui.md",
+    "战略会.md",
     "编辑器相关/编辑器相关.md",
+    "react/react的一些资源.md",
+    "编辑器相关/测试.md",
     "前端工程化/rollup.md",
     "前端工程化/Code Review.md",
     "前端工程化/cli.md",
@@ -211,9 +225,6 @@
     "2023 个人总结.md",
     "21短文-手写前端框架.md",
     "sss.md",
-    "typescript/Typescript 类型体操.md",
-    "typescript/Typescript 类型编程，从入门到念头通达.md",
-    "patch-package.md",
     "未命名 5.canvas",
     "未命名 4.canvas",
     "未命名 1.canvas",
