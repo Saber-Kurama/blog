@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "chart",
+                "query": "tremor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
