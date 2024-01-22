@@ -109,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "chart",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -126,7 +126,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -185,7 +186,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "cf006b0e373a25f6",
+  "active": "12495da245cbde8b",
   "lastOpenFiles": [
     "编辑器相关/测试.md",
     "编辑器相关/编辑器相关.md",
