@@ -121,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "shadcn",
+                "query": "shadcnhttps://colors.eva.design/",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -198,7 +198,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "12495da245cbde8b",
+  "active": "8581dc90c8119af4",
   "lastOpenFiles": [
     "战略会.md",
     "data-table/data-table.md",
