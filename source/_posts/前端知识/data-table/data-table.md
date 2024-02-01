@@ -20,3 +20,6 @@ https://smart-swatch.netlify.app/
 8. [ ]  --colors-border-disabled: var(--colors-gray-5);
 9. [ ]  --colors-border-outline: var(--colors-gray-a9);
 10. [ ]  --colors-border-accent: var(--colors-coral-500);
+
+
+1. 各个项目找到开发 @ 自行安排
