@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "参考.md",
+                "file": "RUST的一些资源.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "strapi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "参考.md",
+                "file": "RUST的一些资源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "参考.md",
+                "file": "RUST的一些资源.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "参考.md"
+                "file": "RUST的一些资源.md"
               }
             }
           }
@@ -157,18 +156,18 @@
   },
   "active": "5f9ad3311c2d35f4",
   "lastOpenFiles": [
-    "未命名.md",
-    "参考.md",
-    "基本/simpread-课程介绍 -《TypeScript 类型体操通关秘籍》 小河涟漪.md",
-    "函数、闭包和迭代器.md",
-    "流程控制.md",
-    "模块化编程.md",
-    "图形学.md",
     "Rust初始环境.md",
     "Rust 学习资源.md",
-    "RUST的一些资源.md",
     "变量与数据类型.md",
+    "参考.md",
+    "函数、闭包和迭代器.md",
+    "模块化编程.md",
+    "图形学.md",
+    "未命名.md",
+    "RUST的一些资源.md",
     "cargo/Cargo 备忘清单.md",
+    "基本/simpread-课程介绍 -《TypeScript 类型体操通关秘籍》 小河涟漪.md",
+    "流程控制.md",
     "Pasted image 20221026204959.png",
     "未命名.canvas",
     "未命名 1.md",
