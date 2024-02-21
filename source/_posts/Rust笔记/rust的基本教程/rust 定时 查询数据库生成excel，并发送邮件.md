@@ -18,8 +18,13 @@ tokio-cron-scheduler="0.10.0"
 
 [# rust简单操作mysql增删查改](https://juejin.cn/post/7129750847512117256)
 
+mysql 的密码特殊字符转码
+
+
 
 ## rust 生成Excel 文件
+
+`calamine` 和 `xlsxwriter`
 
 
 ## rust 发邮件
