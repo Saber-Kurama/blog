@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6e631e2b592d2de6",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -167,7 +177,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "9abbcc70edae6735",
+  "active": "6e631e2b592d2de6",
   "lastOpenFiles": [
     "Rust 学习资源.md",
     "cargo/rust交叉编译.md",
