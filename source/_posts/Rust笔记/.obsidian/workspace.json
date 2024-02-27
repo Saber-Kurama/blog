@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "rust的基本教程/rust 定时 查询数据库生成excel，并发送邮件.md",
+                "file": "cargo/rust交叉编译.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "rust的基本教程/rust 定时 查询数据库生成excel，并发送邮件.md",
+                "file": "cargo/rust交叉编译.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "rust的基本教程/rust 定时 查询数据库生成excel，并发送邮件.md",
+                "file": "cargo/rust交叉编译.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "rust的基本教程/rust 定时 查询数据库生成excel，并发送邮件.md"
+                "file": "cargo/rust交叉编译.md"
               }
             }
           }
@@ -169,11 +169,12 @@
   },
   "active": "9abbcc70edae6735",
   "lastOpenFiles": [
-    "RUST的一些资源.md",
+    "Rust 学习资源.md",
+    "cargo/rust交叉编译.md",
     "rust的基本教程/rust 定时 查询数据库生成excel，并发送邮件.md",
+    "RUST的一些资源.md",
     "未命名 1",
     "Rust初始环境.md",
-    "Rust 学习资源.md",
     "变量与数据类型.md",
     "参考.md",
     "函数、闭包和迭代器.md",
