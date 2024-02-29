@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+                "file": "react/Tailwind Variants.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "书",
+                "query": "tag:#变体",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+                "file": "react/Tailwind Variants.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,17 +125,20 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "12495da245cbde8b",
+  "active": "efdbff8fb2f6c43d",
   "lastOpenFiles": [
-    "使用 Nx 进行有效的 React 开发/介绍.md",
+    "【前端安全】 csp-nonce.md",
+    "react/Tailwind Variants.md",
+    "nextjs/nextjs antd 主题修改.md",
+    "未命名 7.canvas",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+    "使用 Nx 进行有效的 React 开发/介绍.md",
     "未命名 6.canvas",
     "Strapi/教程.md",
     "一些课程的学习/前端调试通关秘籍.md",
     "一些课程的学习/基于 Vite 的组件库工程化实战.md",
     "运维部署/使用宝塔部署docker镜像.md",
     "Strapi/Strapi 的一些记录.md",
-    "【前端安全】 csp-nonce.md",
     "运维部署",
     "rui.md",
     "未命名 2",
@@ -154,8 +157,6 @@
     "组件问题/组件库的建设.md",
     "组件问题/我的NPM最佳实践.md",
     "组件问题/替换icon的组件库.md",
-    "组件问题/使用patch-package修改Node.js依赖包内容.md",
-    "组件问题/如何在React中构建内联可编辑UI.md",
     "data-table",
     "未命名 5.canvas",
     "未命名 4.canvas",
@@ -168,7 +169,6 @@
     "mysql",
     "未命名 1",
     "未命名.canvas",
-    "未命名 7.canvas",
     "未命名 8.canvas",
     "flow",
     "D3.js in Action",
