@@ -131,7 +131,7 @@ export const SideBarMenuData: MenuItem[] = [
   },
 ];
 
-把这段代码中[https://prod.digitforce.com](https://prod.digitforce.com/) 替换成 process.env.NEXT_PUBLIC_PLATFORM_API
+把这段代码中 https://prod.digitforce.com 替换成 process.env.NEXT_PUBLIC_PLATFORM_API
 ```
 
 
@@ -296,3 +296,17 @@ export const SideBarMenuData: MenuItem[] = [
   },
 ];
 ```
+
+百度文心
+
+```
+import { Button, Menu } from "antd"; import type { MenuProps } from "antd"; import { useRouter } from 'next/navigation'; import { CaretUpOutlined, ProductOutlined } from "@ant-design/icons"; type MenuItem = Required<MenuProps>["items"][number] & { isExternal?: boolean, href?: string, children?: MenuItem[] }; // 原始数据 const rawSideBarMenuData: MenuItem[] = [ // ... (原始数据保持不变) ]; // 替换 URL 的函数 function replaceUrls(menuItems: MenuItem[]): MenuItem[] { return menuItems.map((item) => { // 如果是外部链接且提供了 href，则替换 URL if (item.isExternal && item.href) { item.href = item.href.replace('https://prod.digitforce.com', process.env.NEXT_PUBLIC_PLATFORM_API); } // 如果有子菜单，递归处理子菜单 if (item.children) { item.children = replaceUrls(item.children); } return item; }); } // 使用替换函数处理数据 export const SideBarMenuData: MenuItem[] = replaceUrls(rawSideBarMenuData);
+```
+
+明确指出是环境变量
+
+```
+import { Button, Menu } from "antd"; import type { MenuProps } from "antd"; import { useRouter } from 'next/navigation'; import { CaretUpOutlined, ProductOutlined } from "@ant-design/icons"; type MenuItem = Required<MenuProps>["items"][number] & { isExternal?: boolean, href?: string, children?: MenuItem[] }; // 原始菜单数据 const rawSideBarMenuData: MenuItem[] = [ // ... (保持原始数据不变) ]; // 函数用于替换菜单项中的 URL function replaceUrls(menuItems: MenuItem[]): MenuItem[] { return menuItems.map((item) => { // 如果是外部链接且提供了 href，则替换 URL if (item.isExternal && item.href) { item.href = item.href.replace('https://prod.digitforce.com', process.env.NEXT_PUBLIC_PLATFORM_API); } // 如果有子菜单，递归处理子菜单 if (item.children) { item.children = replaceUrls(item.children); } return item; }); } // 导出处理后的菜单数据 export const SideBarMenuData: MenuItem[] = replaceUrls(rawSideBarMenuData);
+```
+
+依然不是想要的
