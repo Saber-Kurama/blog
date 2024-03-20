@@ -54,9 +54,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4bba3ec7d972f604",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.11"
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -161,7 +171,7 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "2243d39508d0e89a",
+  "active": "4bba3ec7d972f604",
   "lastOpenFiles": [
     "patch-package.md",
     "rui.md",
