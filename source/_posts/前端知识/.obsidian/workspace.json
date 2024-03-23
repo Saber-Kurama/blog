@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "githubcopilot/copilot 前端课程.md",
+                "file": "vscode/开发一个VSCODE 插件.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#变体",
+                "query": "markdown",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +102,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -122,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "githubcopilot/copilot 前端课程.md",
+                "file": "vscode/开发一个VSCODE 插件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,8 +164,8 @@
   },
   "active": "2243d39508d0e89a",
   "lastOpenFiles": [
-    "githubcopilot/copilot.md",
     "githubcopilot/copilot 前端课程.md",
+    "githubcopilot/copilot.md",
     "lottie.md",
     "patch-package.md",
     "rui.md",
