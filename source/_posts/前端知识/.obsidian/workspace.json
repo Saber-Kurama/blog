@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "githubcopilot/copilot 前端课程.md",
+                "file": "githubcopilot/Copilot 提升前端编程效率：未来编码之道.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "githubcopilot/copilot 前端课程.md",
+                "file": "githubcopilot/Copilot 提升前端编程效率：未来编码之道.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,12 +126,13 @@
   },
   "active": "60ae4624af7e1c8b",
   "lastOpenFiles": [
+    "githubcopilot/copilot.md",
+    "githubcopilot/Copilot 提升前端编程效率：未来编码之道.md",
+    "githubcopilot/copilot 前端课程.md",
     "未命名 8.canvas",
     "运维部署/使用宝塔部署docker镜像.md",
     "Strapi/教程.md",
     "Strapi/Strapi 的一些记录.md",
-    "githubcopilot/copilot.md",
-    "githubcopilot/copilot 前端课程.md",
     "chatgpt/一些资源.md",
     "vscode/开发一个VSCODE 插件.md",
     "lottie.md",
