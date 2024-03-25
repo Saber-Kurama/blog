@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "运维部署/使用宝塔部署docker镜像.md",
+                "file": "githubcopilot/copilot 前端课程.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "运维部署/使用宝塔部署docker镜像.md",
+                "file": "githubcopilot/copilot 前端课程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,6 +126,8 @@
   },
   "active": "60ae4624af7e1c8b",
   "lastOpenFiles": [
+    "未命名 8.canvas",
+    "运维部署/使用宝塔部署docker镜像.md",
     "Strapi/教程.md",
     "Strapi/Strapi 的一些记录.md",
     "githubcopilot/copilot.md",
@@ -148,7 +149,6 @@
     "未命名 6.canvas",
     "一些课程的学习/前端调试通关秘籍.md",
     "一些课程的学习/基于 Vite 的组件库工程化实战.md",
-    "运维部署/使用宝塔部署docker镜像.md",
     "运维部署",
     "未命名 2",
     "开源/未命名.md",
@@ -157,7 +157,6 @@
     "工作/交接.md",
     "监控/前端监控.md",
     "开源/一些开源项目.md",
-    "前端工程化/参考.md",
     "data-table",
     "未命名 5.canvas",
     "未命名 4.canvas",
@@ -170,7 +169,6 @@
     "mysql",
     "未命名 1",
     "未命名.canvas",
-    "未命名 8.canvas",
     "flow",
     "D3.js in Action",
     "Pasted image 20220618180239.png",
