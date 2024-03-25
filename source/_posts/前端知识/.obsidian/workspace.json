@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "githubcopilot/copilot 前端课程.md",
+                "file": "githubcopilot/copilot.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "githubcopilot/copilot 前端课程.md",
+                "file": "githubcopilot/copilot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,12 +126,12 @@
   },
   "active": "60ae4624af7e1c8b",
   "lastOpenFiles": [
+    "githubcopilot/copilot 前端课程.md",
     "chatgpt/一些资源.md",
     "vscode/开发一个VSCODE 插件.md",
     "lottie.md",
     "未命名 4.md",
     "react/Tailwind Variants.md",
-    "githubcopilot/copilot 前端课程.md",
     "githubcopilot/copilot.md",
     "patch-package.md",
     "rui.md",
