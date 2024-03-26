@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "参考.md",
+                "file": "cargo/Cargo 备忘清单.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,8 +98,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "参考.md",
+                "file": "cargo/Cargo 备忘清单.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "参考.md",
+                "file": "cargo/Cargo 备忘清单.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "参考.md"
+                "file": "cargo/Cargo 备忘清单.md"
               }
             }
           }
@@ -182,14 +181,14 @@
   },
   "active": "6e631e2b592d2de6",
   "lastOpenFiles": [
-    "Rust 学习资源.md",
+    "参考.md",
     "cargo/rust交叉编译.md",
-    "rust的基本教程/rust 定时 查询数据库生成excel，并发送邮件.md",
     "RUST的一些资源.md",
+    "Rust 学习资源.md",
+    "rust的基本教程/rust 定时 查询数据库生成excel，并发送邮件.md",
     "未命名 1",
     "Rust初始环境.md",
     "变量与数据类型.md",
-    "参考.md",
     "函数、闭包和迭代器.md",
     "模块化编程.md",
     "图形学.md",
