@@ -8,6 +8,9 @@ GitHub Copilot 是一个 AI 编程助手，使用 OpenAI 的 Codex 模型来预�
 
 GitHub Copilot 可以作为 Visual Studio Code 的插件安装，开发者可以通过简单的命令或某些触发器激活它的功能，立即获得代码建议。
 
+#### Copilot 能力
+
+
 #### Copilot 在前端项目中的应用场景
 
 **样板代码的快速生成**
