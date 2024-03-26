@@ -10,6 +10,7 @@ GitHub Copilot 可以作为 Visual Studio Code 的插件安装，开发者可以
 
 ## Copilot 能力
 
+基本copilot的基本能力
 
 #### 行/函数级实时续写
 #### 注释生成代码
