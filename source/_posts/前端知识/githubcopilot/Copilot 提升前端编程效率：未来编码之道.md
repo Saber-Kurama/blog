@@ -82,3 +82,7 @@ https://blog.csdn.net/ymzhaobth/article/details/130119363
 
 
 https://www.rtcdeveloper.cn/cn/community/blog/26205
+
+[# Copilot 结对编程指南](https://www.v2think.com/copilot-cheat-sheet)
+
+[# 如何使用 copilot 完成 50% 的日常工作](https://mp.weixin.qq.com/s/dpfGh7AzfCRn1zrYgsl_pQ)
