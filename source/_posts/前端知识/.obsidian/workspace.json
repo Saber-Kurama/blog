@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "githubcopilot/Copilot 提升前端编程效率：未来编码之道.md",
+                "file": "githubcopilot/个人述职.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "githubcopilot/Copilot 提升前端编程效率：未来编码之道.md",
+                "file": "githubcopilot/个人述职.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,8 +126,9 @@
   },
   "active": "60ae4624af7e1c8b",
   "lastOpenFiles": [
-    "githubcopilot/copilot 前端课程.md",
     "githubcopilot/Copilot 提升前端编程效率：未来编码之道.md",
+    "githubcopilot/个人述职.md",
+    "githubcopilot/copilot 前端课程.md",
     "githubcopilot/copilot.md",
     "未命名 8.canvas",
     "运维部署/使用宝塔部署docker镜像.md",
@@ -157,7 +158,6 @@
     "常见问题/TypeScript 的一些问题.md",
     "工作/交接.md",
     "监控/前端监控.md",
-    "开源/一些开源项目.md",
     "data-table",
     "未命名 5.canvas",
     "未命名 4.canvas",
