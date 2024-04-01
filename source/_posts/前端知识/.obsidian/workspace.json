@@ -18,6 +18,16 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6f74be629c9a8e9d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "企业微信截图_ca11fa7a-e8fe-4e5d-b4c2-ece0ee56bc80.png"
+              }
+            }
           }
         ]
       }
@@ -126,12 +136,12 @@
   },
   "active": "60ae4624af7e1c8b",
   "lastOpenFiles": [
+    "企业微信截图_ca11fa7a-e8fe-4e5d-b4c2-ece0ee56bc80.png",
+    "githubcopilot/未命名.md",
     "157c7d8a-5206-4fca-9b02-21a00e3e22db.gif",
     "企业微信截图_1238ff2b-d535-4a27-ba2a-168404b0dca6.png",
-    "企业微信截图_ca11fa7a-e8fe-4e5d-b4c2-ece0ee56bc80.png",
     "企业微信截图_312b06a3-8722-4b09-85f5-05620db4854f.png",
     "githubcopilot/个人述职.md",
-    "githubcopilot/未命名.md",
     "githubcopilot/Copilot 提升前端编程效率：未来编码之道.md",
     "Pasted image 20240327175031.png",
     "企业微信截图_89fa9d55-efd6-41a7-8399-04bceb9574eb.png",
