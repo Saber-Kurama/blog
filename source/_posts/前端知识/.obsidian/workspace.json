@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "githubcopilot/未命名.md",
+                "file": "python/python.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "githubcopilot/未命名.md",
+                "file": "python/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,8 +136,11 @@
   },
   "active": "60ae4624af7e1c8b",
   "lastOpenFiles": [
-    "企业微信截图_ca11fa7a-e8fe-4e5d-b4c2-ece0ee56bc80.png",
+    "nginx.md",
+    "python/python.md",
+    "python",
     "githubcopilot/未命名.md",
+    "企业微信截图_ca11fa7a-e8fe-4e5d-b4c2-ece0ee56bc80.png",
     "157c7d8a-5206-4fca-9b02-21a00e3e22db.gif",
     "企业微信截图_1238ff2b-d535-4a27-ba2a-168404b0dca6.png",
     "企业微信截图_312b06a3-8722-4b09-85f5-05620db4854f.png",
@@ -172,7 +175,6 @@
     "未命名 2",
     "开源/未命名.md",
     "编辑器相关/测试.md",
-    "常见问题/TypeScript 的一些问题.md",
     "data-table",
     "未命名 5.canvas",
     "未命名 4.canvas",
@@ -186,7 +188,6 @@
     "未命名 1",
     "未命名.canvas",
     "flow",
-    "D3.js in Action",
     "Pasted image 20220618180239.png",
     "未命名 9.canvas"
   ]
