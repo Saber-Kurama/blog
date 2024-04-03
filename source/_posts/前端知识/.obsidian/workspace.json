@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+                "file": "githubcopilot/个人述职.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "80936f879dea3b5c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "企业微信截图_89fa9d55-efd6-41a7-8399-04bceb9574eb.png"
               }
             }
           },
@@ -75,8 +85,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -96,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+                "file": "githubcopilot/个人述职.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,6 +146,9 @@
   },
   "active": "60ae4624af7e1c8b",
   "lastOpenFiles": [
+    "企业微信截图_89fa9d55-efd6-41a7-8399-04bceb9574eb.png",
+    "githubcopilot/个人述职.md",
+    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "python/python.md",
     "nginx.md",
     "python",
@@ -145,10 +157,8 @@
     "157c7d8a-5206-4fca-9b02-21a00e3e22db.gif",
     "企业微信截图_1238ff2b-d535-4a27-ba2a-168404b0dca6.png",
     "企业微信截图_312b06a3-8722-4b09-85f5-05620db4854f.png",
-    "githubcopilot/个人述职.md",
     "githubcopilot/Copilot 提升前端编程效率：未来编码之道.md",
     "Pasted image 20240327175031.png",
-    "企业微信截图_89fa9d55-efd6-41a7-8399-04bceb9574eb.png",
     "githubcopilot/copilot 前端课程.md",
     "githubcopilot/copilot.md",
     "未命名 8.canvas",
@@ -167,7 +177,6 @@
     "【前端安全】 csp-nonce.md",
     "nextjs/nextjs antd 主题修改.md",
     "未命名 7.canvas",
-    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "使用 Nx 进行有效的 React 开发/介绍.md",
     "未命名 6.canvas",
     "一些课程的学习/前端调试通关秘籍.md",
@@ -175,7 +184,6 @@
     "运维部署",
     "未命名 2",
     "开源/未命名.md",
-    "编辑器相关/测试.md",
     "data-table",
     "未命名 5.canvas",
     "未命名 4.canvas",
