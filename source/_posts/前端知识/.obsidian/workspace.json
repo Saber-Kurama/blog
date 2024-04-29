@@ -23,14 +23,11 @@
             "id": "7bc0b64be9753b1b",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "未命名 9.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
+                "file": "企业微信/企微机器人.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -101,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 9.canvas",
+                "file": "企业微信/企微机器人.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,11 +137,13 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "42d03b7013090d6f",
+  "active": "7bc0b64be9753b1b",
   "lastOpenFiles": [
+    "Pasted image 20240429104757.png",
+    "未命名 9.canvas",
+    "企业微信/企微机器人.md",
     "企业微信",
     "webIDE.md",
-    "未命名 9.canvas",
     "githubcopilot/未命名 1.md",
     "githubcopilot/未命名.md",
     "Pasted image 20240327175031.png",
@@ -179,7 +178,6 @@
     "未命名 7.canvas",
     "使用 Nx 进行有效的 React 开发/介绍.md",
     "未命名 6.canvas",
-    "一些课程的学习/前端调试通关秘籍.md",
     "运维部署",
     "未命名 2",
     "data-table",
@@ -194,7 +192,6 @@
     "mysql",
     "未命名 1",
     "未命名.canvas",
-    "flow",
     "Pasted image 20220618180239.png"
   ]
 }
