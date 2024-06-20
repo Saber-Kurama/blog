@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vue3/mobile table.md",
+                "file": "nginx.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "nginx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "vue3/mobile table.md",
+                "file": "nginx.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,8 +152,8 @@
   },
   "active": "31b8a0693ca206b2",
   "lastOpenFiles": [
-    "未命名 14.canvas",
     "vue3/mobile table.md",
+    "未命名 14.canvas",
     "chatgpt/一些资源.md",
     "githubcopilot/copilot 前端课程.md",
     "chart/未命名.md",
