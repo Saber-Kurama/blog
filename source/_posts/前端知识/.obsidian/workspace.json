@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nginx.md",
+                "file": "react/react的一些资源.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "react",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "nginx.md",
+                "file": "react/react的一些资源.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,8 +150,11 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "12495da245cbde8b",
+  "active": "31b8a0693ca206b2",
   "lastOpenFiles": [
+    "zustand/zustand.md",
+    "组件问题/前端组件.md",
+    "nginx.md",
     "vue3/mobile table.md",
     "未命名 14.canvas",
     "chatgpt/一些资源.md",
@@ -170,7 +173,6 @@
     "Strapi/教程.md",
     "githubcopilot/个人述职.md",
     "Strapi/Strapi 的一些记录.md",
-    "zustand/zustand.md",
     "vue3/vue-设计与实现----响应式系统.md",
     "vue3/vue3 和 typescript 的问题.md",
     "three/一些demo地址.md",
@@ -179,7 +181,6 @@
     "react/react的一些资源.md",
     "nextjs/Angular之父为什么怼React？.md",
     "nextjs/nextjs 官方文档.md",
-    "CSS/css 灵感.md",
     "未命名 11.canvas",
     "未命名 8.canvas",
     "未命名 10.canvas",
