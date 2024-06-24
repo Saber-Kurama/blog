@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "node 版本",
+                "query": "nginxnginx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
