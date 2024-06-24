@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "46e7472c2a3a7b88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "未命名 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Python编程：从入门到实践/08 - 函数.md",
+                "file": "未命名 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python编程：从入门到实践/08 - 函数.md",
+                "file": "未命名 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Python编程：从入门到实践/08 - 函数.md"
+                "file": "未命名 1.md"
               }
             }
           }
@@ -171,10 +183,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "445836a1f2bad51b",
+  "active": "46e7472c2a3a7b88",
   "lastOpenFiles": [
-    "Python编程：从入门到实践/06 字典.md",
+    "未命名.md",
+    "Python编程：从入门到实践/09 - 类.md",
+    "未命名 2.md",
     "Python编程：从入门到实践/08 - 函数.md",
+    "Python编程：从入门到实践/06 字典.md",
     "Python编程：从入门到实践/05- if语句.md",
     "Python编程：从入门到实践/04-操作列表.md",
     "Python编程：从入门到实践/03-列表简介.md",
@@ -182,7 +197,6 @@
     "未命名 1.md",
     "Python编程：从入门到实践/01-安装Python.md",
     "Welcome.md",
-    "未命名.md",
     "Python编程：从入门到实践"
   ]
 }
