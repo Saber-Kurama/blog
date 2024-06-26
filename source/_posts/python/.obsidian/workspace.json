@@ -8,55 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "388257d68af941e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28b4fd58b45f13da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python编程：从入门到实践/01-安装Python.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "445836a1f2bad51b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python编程：从入门到实践/08 - 函数.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "46e7472c2a3a7b88",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名 1.md",
+                "file": "述职报告.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "未命名 1.md",
+                "file": "述职报告.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "未命名 1.md",
+                "file": "述职报告.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名 1.md"
+                "file": "述职报告.md"
               }
             }
           }
@@ -185,6 +148,7 @@
   },
   "active": "46e7472c2a3a7b88",
   "lastOpenFiles": [
+    "未命名 1.md",
     "未命名.md",
     "Python编程：从入门到实践/09 - 类.md",
     "未命名 2.md",
@@ -194,9 +158,8 @@
     "Python编程：从入门到实践/04-操作列表.md",
     "Python编程：从入门到实践/03-列表简介.md",
     "Python编程：从入门到实践/02-变量和简单的数据类型.md",
-    "未命名 1.md",
     "Python编程：从入门到实践/01-安装Python.md",
-    "Welcome.md",
+    "述职报告.md",
     "Python编程：从入门到实践"
   ]
 }
