@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f2f1284414a6b4a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "prompt 工程/吴恩达的prompt教程/prompt 工程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "一些资源.md",
+                "file": "prompt 工程/吴恩达的prompt教程/prompt 工程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "一些资源.md",
+                "file": "prompt 工程/吴恩达的prompt教程/prompt 工程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "一些资源.md"
+                "file": "prompt 工程/吴恩达的prompt教程/prompt 工程.md"
               }
             }
           }
@@ -159,9 +171,12 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "7e64eeb1b322217d",
+  "active": "f2f1284414a6b4a9",
   "lastOpenFiles": [
-    "prompt 工程/未命名",
+    "未命名 2.md",
+    "prompt 工程/吴恩达的prompt教程/prompt 工程.md",
+    "一些资源.md",
+    "prompt 工程/吴恩达的prompt教程",
     "未命名 1",
     "prompt 工程",
     "未命名 1.md",
@@ -177,7 +192,6 @@
     "Python编程：从入门到实践/06 - 字典.md",
     "Python编程：从入门到实践/09 - 类.md",
     "Python编程：从入门到实践/10 - 文件和异常.md",
-    "一些资源.md",
     "Python编程：从入门到实践/08 - 函数.md",
     "Python编程：从入门到实践"
   ]
