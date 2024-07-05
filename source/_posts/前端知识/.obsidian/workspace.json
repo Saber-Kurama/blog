@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+                "file": "编辑器相关/编辑器相关.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,8 +90,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
+                "file": "编辑器相关/编辑器相关.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,6 +151,7 @@
   },
   "active": "31b8a0693ca206b2",
   "lastOpenFiles": [
+    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "githubcopilot/个人述职.md",
     "zustand/zustand.md",
     "组件问题/前端组件.md",
@@ -162,7 +162,6 @@
     "githubcopilot/copilot 前端课程.md",
     "chart/未命名.md",
     "运维部署/使用宝塔部署docker镜像.md",
-    "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "编译思想和设计模式/aop和ioc.md",
     "githubcopilot/copilot.md",
     "nextjs/nextjs antd 主题修改.md",
