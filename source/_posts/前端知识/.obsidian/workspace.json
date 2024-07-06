@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编辑器相关/prosemirror 教程.md",
+                "file": "编辑器相关/编辑器相关.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编辑器相关/prosemirror 教程.md",
+                "file": "编辑器相关/编辑器相关.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,8 +151,8 @@
   },
   "active": "31b8a0693ca206b2",
   "lastOpenFiles": [
-    "编辑器相关/测试.md",
     "编辑器相关/prosemirror 教程.md",
+    "编辑器相关/测试.md",
     "编辑器相关/未命名 2.md",
     "编辑器相关/未命名 1.md",
     "编辑器相关/编辑器相关.md",
