@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "编辑器相关/编辑器相关.md",
+                "file": "编辑器相关/prosemirror 教程.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "编辑器相关/编辑器相关.md",
+                "file": "编辑器相关/prosemirror 教程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,6 +151,11 @@
   },
   "active": "31b8a0693ca206b2",
   "lastOpenFiles": [
+    "编辑器相关/测试.md",
+    "编辑器相关/prosemirror 教程.md",
+    "编辑器相关/未命名 2.md",
+    "编辑器相关/未命名 1.md",
+    "编辑器相关/编辑器相关.md",
     "谷歌翻译中国版停服！教你解决修复 Chrome 浏览器无法翻译网页的问题方法教程.md",
     "githubcopilot/个人述职.md",
     "zustand/zustand.md",
@@ -175,11 +180,6 @@
     "vue3/vue-设计与实现----响应式系统.md",
     "vue3/vue3 和 typescript 的问题.md",
     "three/一些demo地址.md",
-    "sketch/一些资料.md",
-    "react/Tailwind Variants.md",
-    "react/react的一些资源.md",
-    "nextjs/Angular之父为什么怼React？.md",
-    "nextjs/nextjs 官方文档.md",
     "未命名 11.canvas",
     "未命名 8.canvas",
     "未命名 10.canvas",
